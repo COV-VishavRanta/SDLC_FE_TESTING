@@ -1,0 +1,35 @@
+name: Stage Deployment
+
+on:
+  push:
+    branches:
+      - 'stage'
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    uses: ./.github/workflows/build.yml
+    with:
+      checkout-branch : ${{ github.ref }}
+      environment: stage
+    secrets: inherit
+
+  deploy-stage:
+    name: Deploy frontend Stage
+    needs: build
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      id-token: write
+    with:
+      task-definition-path: ecs/stage/frontend.json
+      service: pop-stage-frontend-service
+      version: ${{ needs.build.outputs.image-tag }}
+      checkout-branch : ${{ github.ref }}
+      img_replacement_string: '#latest#'
+      environment: stage
+    secrets: inherit

@@ -1,0 +1,843 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --breakpoint-wide: 1200px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-page-control: var(--page-control);
+  --color-table-link: var(--table-link);
+  --color-neutral-400: var(--neutral-400);
+  --color-error: var(--error);
+  --color-warning: var(--warning-color);
+  --color-warning-light: var(--warning-light);
+  --color-warning-darker: var(--warning-darker);
+  --color-archive-icon-bg: var(--archive-icon-bg);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-profile-badge: var(--profile-badge);
+  --color-profile-badge-foreground: var(--profile-badge-foreground);
+  --color-success: var(--success-color);
+  --color-success-bg: var(--success-bg);
+
+  /* PSP Management Page */
+  --color-page-bg: var(--page-bg);
+  --color-text-heading: var(--text-heading);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-stat-icon-blue: var(--stat-icon-blue);
+  --color-stat-icon-green: var(--stat-icon-green);
+  --color-stat-icon-gray: var(--stat-icon-gray);
+  --color-stat-icon-purple: var(--stat-icon-purple);
+  --color-stat-icon-amber: var(--stat-icon-amber);
+  --color-stat-icon-amber-text: var(--stat-icon-amber-text);
+  --color-stat-icon-inactive: var(--stat-icon-inactive-color);
+  --color-btn-primary-from: var(--btn-primary-from);
+  --color-btn-primary-to: var(--btn-primary-to);
+  --color-badge-active-bg: var(--badge-active-bg);
+  --color-badge-active-text: var(--badge-active-text);
+  --color-badge-inactive-bg: var(--badge-inactive-bg);
+  --color-badge-inactive-text: var(--badge-inactive-text);
+  --color-badge-draft-bg: var(--badge-draft-bg);
+  --color-badge-draft-text: var(--badge-draft-text);
+  --color-badge-draft-border: var(--badge-draft-border);
+  --color-badge-closed-bg: var(--badge-closed-bg);
+  --color-badge-closed-text: var(--badge-closed-text);
+  --color-badge-closed-border: var(--badge-closed-border);
+  --color-badge-pending-bg: var(--badge-pending-bg);
+  --color-badge-pending-text: var(--badge-pending-text);
+  --color-badge-warning-bg: var(--badge-warning-bg);
+  --color-badge-warning-text: var(--badge-warning-text);
+  --color-badge-info-bg: var(--badge-info-bg);
+  --color-badge-info-text: var(--badge-info-text);
+  --color-badge-error-bg: var(--badge-error-bg);
+  --color-badge-error-text: var(--badge-error-text);
+  --color-badge-purple-bg: var(--badge-purple-bg);
+  --color-badge-purple-text: var(--badge-purple-text);
+  --color-admin-tag-bg: var(--admin-tag-bg);
+  --color-admin-avatar-bg: var(--admin-avatar-bg);
+
+  /* Form / Input */
+  --color-input-bg: var(--input-bg);
+  --color-input-placeholder: var(--input-placeholder);
+  --color-disabled-text: var(--disabled-text);
+
+  /* Dialog Colors */
+  --color-dialog-bg: var(--dialog-bg);
+  --color-dialog-info-bg: var(--dialog-info-bg);
+  --color-dialog-info-border: var(--dialog-info-border);
+  --color-dialog-info-icon-bg: var(--dialog-info-icon-bg);
+  --color-dialog-warning-text: var(--dialog-warning-text);
+  --color-dialog-delete-bg: var(--dialog-delete-bg);
+
+  /* Activate / Delete Dialog */
+  --color-activate-icon-bg: var(--activate-icon-bg);
+  --color-activate-green-from: var(--activate-green-from);
+  --color-activate-green-to: var(--activate-green-to);
+  --color-delete-icon-bg: var(--delete-icon-bg);
+
+  /* Action Icon Colors */
+  --color-icon-purple: var(--purple-500);
+  --color-icon-red: var(--red-500);
+
+  /* Audit Logs */
+  --color-audit-card-bg: var(--audit-card-bg);
+  --color-audit-icon-bg-blue: var(--audit-icon-bg-blue);
+  --color-audit-icon-bg-green: var(--audit-icon-bg-green);
+  --color-audit-icon-bg-yellow: var(--audit-icon-bg-yellow);
+  --color-audit-icon-bg-gray: var(--audit-icon-bg-gray);
+  --color-badge-platform-admin-bg: var(--badge-platform-admin-bg);
+  --color-badge-platform-admin-text: var(--badge-platform-admin-text);
+  --color-badge-platform-admin-border: var(--badge-platform-admin-border);
+  --color-badge-psp-admin-bg: var(--badge-psp-admin-bg);
+  --color-badge-psp-admin-text: var(--badge-psp-admin-text);
+  --color-badge-psp-admin-border: var(--badge-psp-admin-border);
+  --color-badge-brand-admin-bg: var(--badge-brand-admin-bg);
+  --color-badge-brand-admin-text: var(--badge-brand-admin-text);
+  --color-badge-brand-admin-border: var(--badge-brand-admin-border);
+  --color-badge-store-admin-bg: var(--badge-store-admin-bg);
+  --color-badge-store-admin-text: var(--badge-store-admin-text);
+  --color-badge-store-admin-border: var(--badge-store-admin-border);
+  --color-badge-store-operator-bg: var(--badge-store-operator-bg);
+  --color-badge-store-operator-text: var(--badge-store-operator-text);
+  --color-badge-store-operator-border: var(--badge-store-operator-border);
+  --color-badge-module-bg: var(--badge-module-bg);
+  --color-badge-module-text: var(--badge-module-text);
+  --color-badge-module-border: var(--badge-module-border);
+  --color-badge-regional-manager-bg: var(--badge-regional-manager-bg);
+  --color-badge-regional-manager-text: var(--badge-regional-manager-text);
+  --color-badge-regional-manager-border: var(--badge-regional-manager-border);
+
+  /* Change Details Dialog */
+  --color-change-previous-bg: var(--change-previous-bg);
+  --color-change-previous-text: var(--change-previous-text);
+  --color-change-previous-border: var(--change-previous-border);
+  --color-change-updated-bg: var(--change-updated-bg);
+  --color-change-updated-text: var(--change-updated-text);
+  --color-change-updated-border: var(--change-updated-border);
+
+  /* Shipments Page */
+  --color-shipment-stat-amber-bg: var(--shipment-stat-amber-bg);
+  --color-badge-shipped-bg: var(--badge-shipped-bg);
+  --color-badge-shipped-text: var(--badge-shipped-text);
+  --color-badge-shipped-border: var(--badge-shipped-border);
+  --color-badge-delivered-bg: var(--badge-delivered-bg);
+  --color-badge-delivered-text: var(--badge-delivered-text);
+  --color-badge-delivered-border: var(--badge-delivered-border);
+  --color-shipment-items-text: var(--shipment-items-text);
+  --color-badge-partially-received-bg: var(--badge-partially-received-bg);
+  --color-badge-partially-received-text: var(--badge-partially-received-text);
+  --color-badge-partially-received-border: var(--badge-partially-received-border);
+  --color-badge-received-bg: var(--badge-received-bg);
+  --color-badge-received-text: var(--badge-received-text);
+  --color-badge-received-border: var(--badge-received-border);
+  --color-badge-completed-bg: var(--badge-completed-bg);
+  --color-badge-completed-text: var(--badge-completed-text);
+  --color-badge-completed-border: var(--badge-completed-border);
+
+  /* Installation Status Badge Colors */
+  --color-badge-installed-bg: var(--badge-installed-bg);
+  --color-badge-installed-text: var(--badge-installed-text);
+  --color-badge-installed-border: var(--badge-installed-border);
+  --color-badge-pending-approval-bg: var(--badge-pending-approval-bg);
+  --color-badge-pending-approval-text: var(--badge-pending-approval-text);
+  --color-badge-pending-approval-border: var(--badge-pending-approval-border);
+  --color-badge-rejected-bg: var(--badge-rejected-bg);
+  --color-badge-rejected-text: var(--badge-rejected-text);
+  --color-badge-rejected-border: var(--badge-rejected-border);
+
+  /* Order Status Badge Colors */
+  --color-badge-pending-installation-approval-bg: var(--badge-pending-installation-approval-bg);
+  --color-badge-pending-installation-approval-text: var(--badge-pending-installation-approval-text);
+  --color-badge-pending-installation-approval-border: var(
+    --badge-pending-installation-approval-border
+  );
+  --color-badge-installation-rejected-bg: var(--badge-installation-rejected-bg);
+  --color-badge-installation-rejected-text: var(--badge-installation-rejected-text);
+  --color-badge-installation-rejected-border: var(--badge-installation-rejected-border);
+  --color-badge-triaged-bg: var(--badge-triaged-bg);
+  --color-badge-triaged-text: var(--badge-triaged-text);
+  --color-badge-triaged-border: var(--badge-triaged-border);
+  --color-badge-received-with-exception-bg: var(--badge-received-with-exception-bg);
+  --color-badge-received-with-exception-text: var(--badge-received-with-exception-text);
+  --color-badge-received-with-exception-border: var(--badge-received-with-exception-border);
+  --color-badge-submitted-bg: var(--badge-submitted-bg);
+  --color-badge-submitted-text: var(--badge-submitted-text);
+  --color-badge-submitted-border: var(--badge-submitted-border);
+  --color-badge-approved-bg: var(--badge-approved-bg);
+  --color-badge-approved-text: var(--badge-approved-text);
+  --color-badge-approved-border: var(--badge-approved-border);
+  --color-badge-cancelled-bg: var(--badge-cancelled-bg);
+  --color-badge-cancelled-text: var(--badge-cancelled-text);
+  --color-badge-cancelled-border: var(--badge-cancelled-border);
+  /* Alerts Page */
+  --color-alert-error-bg: var(--alert-error-bg);
+  --color-alert-error-icon: var(--alert-error-icon);
+  --color-alert-error-title: var(--alert-error-title);
+  --color-alert-error-subtitle: var(--alert-error-subtitle);
+  --color-alert-warning-bg: var(--alert-warning-bg);
+  --color-alert-warning-icon: var(--alert-warning-icon);
+  --color-alert-warning-title: var(--alert-warning-title);
+  --color-alert-warning-subtitle: var(--alert-warning-subtitle);
+  --color-alert-success-bg: var(--alert-success-bg);
+  --color-alert-success-icon: var(--alert-success-icon);
+  --color-alert-success-title: var(--alert-success-title);
+  --color-alert-success-subtitle: var(--alert-success-subtitle);
+  --color-alert-info-bg: var(--alert-info-bg);
+  --color-alert-info-icon: var(--alert-info-icon);
+  --color-alert-info-title: var(--alert-info-title);
+  --color-alert-info-subtitle: var(--alert-info-subtitle);
+}
+
+:root {
+  /* ===== Style Guide Colors ===== */
+  /* Primary Blue */
+  --blue-light: #005c8a;
+  --blue-medium: #0077b3;
+  --blue-dark: #005f8c;
+
+  /* Grays */
+  --gray-50: #f7f9fb;
+  --gray-100: #eef2f5;
+  --gray-200: #e1e6eb;
+  --gray-300: #ced5db;
+  --gray-500: #5a6570;
+  --gray-700: #3b424a;
+  --gray-900: #111316;
+  --gray-hover: #f3f4f6;
+
+  /* Feedback Colors */
+  --error: #a71816;
+  --warning: #5c4800;
+  --success: #2d7a2f;
+  --success-bg: #e8f5e9;
+  --info: #0077b3;
+  --green-500: #0e8a60; /* 508: darkened from #10b981 → 4.7:1 on white */
+
+  /* Neutral */
+  --gray-400: #6b7280; /* 508: darkened from #9ca3af → 4.6:1 on white */
+  --gray-600: #576068; /* 508: darkened from #6b7280 → 4.6:1 on white */
+
+  /* Accent Colors */
+  --purple-500: #7c3aed; /* 508: darkened from #8b5cf6 → 5.0:1 on white */
+  --red-500: #a80000;
+
+  /* Primary Extended (from Figma design tokens) */
+  --primary-300: #e6f4fa;
+  --primary-400: #0077b3; /* 508: darkened from #4db7ff → 4.6:1 on white */
+  --primary-500: #005c8a;
+  --primary-600: #0077b3;
+  --primary-700: #005f8c;
+
+  /* Primary Button Gradient (Figma: primary500=#005f8c top → primary600=#0077b3 bottom) */
+  --btn-primary-from: var(--primary-700);
+  --btn-primary-to: var(--primary-600);
+
+  /* Neutral Extended (from Figma design tokens) */
+  --neutral-100: #ffffff;
+  --neutral-200: #f7f9fb;
+  --neutral-300: #e1e6eb;
+  --neutral-400: #ced5db;
+  --neutral-500: #5c6670; /* 508: darkened from #7a848f → 4.6:1 on white */
+  --neutral-600: #5a6570;
+  --neutral-700: #3b424a;
+  --neutral-800: #111316;
+  --neutral-900: #0a0a0a;
+  --neutral-1000: #4d5151; /* Placeholder text color */
+
+  /* System Area Badge (Figma) */
+  --system-area-badge-bg: #e8f5e9;
+  --system-area-badge-text: #2d7a2f; /* 508: darkened from #43a047 → 5.0:1 on white */
+  --system-area-badge-border: #43a047;
+
+  /* ===== Semantic Tokens (from Style Guide) ===== */
+  /* Backgrounds */
+  --background: var(--gray-50);
+  --card: #fff;
+  --popover: var(--gray-100);
+  --page-control: #fff;
+  /* Text */
+  --foreground: var(--gray-700);
+  --muted-foreground: var(--gray-500);
+
+  /* Borders */
+  --border: var(--gray-200);
+  --input: var(--gray-200);
+  --ring: var(--blue-dark);
+
+  /* Primary */
+  --primary: var(--blue-light);
+  --primary-foreground: #ffffff;
+
+  /* Secondary */
+  --secondary: var(--gray-100);
+  --secondary-foreground: var(--gray-700);
+
+  /* Muted */
+  --muted: var(--gray-100);
+
+  /* Destructive */
+  --destructive: var(--error);
+  --destructive-foreground: #ffffff;
+
+  /* Success */
+  --success-color: var(--success);
+  --success-foreground: #ffffff;
+
+  /* Warning */
+  --warning-color: var(--warning);
+  --warning-foreground: #ffffff;
+
+  /* Info */
+  --info-color: var(--info);
+  --info-foreground: #ffffff;
+
+  /* Links */
+  --table-link: var(
+    --primary-500
+  ); /* 508: darkened from --primary-600 (#0077b3 → 4.45:1 on #f7f9fb) to #005C8A → 7.0:1 */
+
+  /* Archive */
+  --warning-light: #a07e00;
+  --warning-darker: #6d5400;
+  --archive-icon-bg: var(--warning);
+
+  /* ===== Typography ===== */
+  /* Heading Sizes */
+  --font-size-h1: 2rem; /* 32px */
+  --font-size-h1-sm: 1.75rem; /* 28px */
+  --font-size-h2: 1.5rem; /* 24px */
+  --font-size-h3: 1.25rem; /* 20px */
+  --font-size-h4: 1.125rem; /* 18px */
+  --font-size-stat: 2rem; /* 32px */
+
+  /* Body Sizes */
+  --font-size-body: 1rem; /* 16px */
+  --font-size-body-small: 0.875rem; /* 14px */
+  --font-size-caption: 0.75rem; /* 12px */
+  --font-size-button: 1rem; /* 16px */
+
+  /* Font Weights */
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* ===== Shadows ===== */
+  /* Elevation shadows for cards and modals */
+  --shadow-small: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-medium: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-large: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* ! ===== Not Yet Defined in Style Guide ===== */
+  --card-foreground: var(--gray-700); /* TODO: Add from style guide */
+  --popover-foreground: var(--gray-700); /* TODO: Add from style guide */
+  --accent: var(--gray-100); /* TODO: Add from style guide */
+  --accent-foreground: var(--gray-700); /* TODO: Add from style guide */
+
+  /* ! Chart Colors - Not in style guide */
+  --chart-1: #005c8a; /* TODO: Add from style guide */
+  --chart-2: #0077b3; /* TODO: Add from style guide */
+  --chart-3: #005f8c; /* TODO: Add from style guide */
+  --chart-4: #5a6570; /* TODO: Add from style guide */
+  --chart-5: #3b424a; /* TODO: Add from style guide */
+
+  /* ! Border Radius - From Style Guide */
+  --radius: 0.625rem; /* 10px - matches button border radius from design */
+  --radius-button: 0.625rem; /* 10px - specific button radius */
+
+  /* ! Sidebar Colors - Not in style guide */
+  --sidebar: #ffffff; /* TODO: Add from style guide */
+  --sidebar-foreground: var(--gray-500); /* Inactive text color #6b7280 mapped to gray-500 */
+  --sidebar-primary: var(--blue-light); /* Active item text #005C8A */
+  --sidebar-primary-foreground: #ffffff; /* TODO: Add from style guide */
+  --sidebar-accent: #005c8a1a; /* Active item background */
+  --sidebar-accent-foreground: var(--blue-light); /* Active item text */
+  --sidebar-border: var(--gray-200); /* TODO: Add from style guide */
+  --sidebar-ring: var(--blue-dark); /* 508 focus ring */
+
+  /* Profile Badge */
+  --profile-badge: linear-gradient(180deg, var(--blue-light) 0%, var(--blue-medium) 100%);
+  --profile-badge-foreground: #ffffff;
+
+  /* Page Background */
+  --page-bg: #f5f7fa;
+
+  /* Text Colors */
+  --text-heading: #1a1d21;
+  --text-secondary: var(--gray-600);
+  --text-muted: rgba(26, 29, 33, 0.5);
+
+  /* Stat Card Icon Backgrounds */
+  --stat-icon-blue: rgba(0, 136, 204, 0.1);
+  --stat-icon-blue-solid: #e6f4fa;
+  --stat-icon-green: rgba(16, 185, 129, 0.1);
+  --stat-icon-gray: rgba(107, 114, 128, 0.1);
+  --stat-icon-purple: #ebe6f6;
+  --stat-icon-amber: #fff9e5;
+  --stat-icon-amber-text: #856900;
+  --stat-icon-inactive-color: var(--gray-500); /* #5a6570 */
+
+  /* Status Badge Colors — Figma node-id: 5978-38182 / 5978-38126 / 5978-38240 / 5978-38276 / 5978-38294 / 5995-35747 / 5995-35769 */
+  /* Green — Active / Completed */
+  --badge-active-bg: #e8f5e9;
+  --badge-active-border: #2d7a2f;
+  --badge-active-text: #2d7a2f;
+
+  /* Gray — Inactive (User) */
+  --badge-inactive-bg: #e1e6eb;
+  --badge-inactive-border: #5c6670;
+  --badge-inactive-text: #5c6670;
+
+  /* Gray — Draft (Campaign/Order/Survey) */
+  --badge-draft-bg: #e1e6eb;
+  --badge-draft-border: #5c6670;
+  --badge-draft-text: #5c6670;
+
+  /* Gray/Dark — Closed (Survey) */
+  --badge-closed-bg: #f3f4f6;
+  --badge-closed-border: #374151;
+  --badge-closed-text: #374151;
+
+  /* Orange — Pending (User/Installation Proof) */
+  --badge-pending-bg: #fff7ed;
+  --badge-pending-border: #c2410c;
+  --badge-pending-text: #c2410c;
+
+  /* Amber — Warning / Not Submitted (Survey) */
+  --badge-warning-bg: #fefce8;
+  --badge-warning-border: #a16207;
+  --badge-warning-text: #a16207;
+
+  /* Primary Blue — New (Campaign/Order) */
+  --badge-new-bg: #e6f4fa;
+  --badge-new-border: #005f8c;
+  --badge-new-text: #005f8c;
+
+  /* Green — Accepted (Campaign/Order) */
+  --badge-acknowledged-bg: #ecfdf3;
+  --badge-acknowledged-border: #065f46;
+  --badge-acknowledged-text: #065f46;
+
+  /* Dark Blue — In Review (Campaign/Order) */
+  --badge-inreview-bg: #eef6ff;
+  --badge-inreview-border: #1e3a8a;
+  --badge-inreview-text: #1e3a8a;
+
+  /* Purple — On Hold (Campaign/Order) */
+  --badge-onhold-bg: #fdf4ff;
+  --badge-onhold-border: #86198f;
+  --badge-onhold-text: #86198f;
+
+  /* Yellow/Amber — In Production (Campaign/Order) */
+  --badge-inproduction-bg: #fff9e5;
+  --badge-inproduction-border: #8f6f00;
+  --badge-inproduction-text: #8f6f00;
+
+  /* Pastel Blue — Partially Shipped (Campaign/Order) */
+  --badge-partially-shipped-bg: #e3eaf6;
+  --badge-partially-shipped-border: #1d4ed8;
+  --badge-partially-shipped-text: #1d4ed8;
+
+  /* Blue — Shipped (Campaign/Order/Shipment) */
+  --badge-shipped-bg: #eff6ff;
+  --badge-shipped-border: #1e40af;
+  --badge-shipped-text: #1e40af;
+
+  /* Light Blue — Partially Received (Campaign/Order) */
+  --badge-partially-received-bg: #f0f9ff;
+  --badge-partially-received-border: #0c4a6e;
+  --badge-partially-received-text: #0c4a6e;
+
+  /* Purple — Received (Campaign/Order/Shipment) */
+  --badge-received-bg: #ebe6f6;
+  --badge-received-border: #7c3aed;
+  --badge-received-text: #7c3aed;
+
+  /* Green — Completed */
+  --badge-completed-bg: #e8f5e9;
+  --badge-completed-border: #2d7a2f;
+  --badge-completed-text: #2d7a2f;
+
+  /* Teal — Received with Exception (Order/Shipment) */
+  --badge-received-with-exception-bg: #f0fdfa;
+  --badge-received-with-exception-border: #115e59;
+  --badge-received-with-exception-text: #115e59;
+
+  /* Brown — Pending Installation Approval (Order/Installation) */
+  --badge-pending-installation-approval-bg: #f7f4f1;
+  --badge-pending-installation-approval-border: #6b4f3a;
+  --badge-pending-installation-approval-text: #6b4f3a;
+
+  /* Red — Installation Rejected / Rejected */
+  --badge-installation-rejected-bg: #f8d7da;
+  --badge-installation-rejected-border: #e53935;
+  --badge-installation-rejected-text: #e53935;
+
+  /* Deep Purple — Triaged (Order) */
+  --badge-triaged-bg: #f5f3ff;
+  --badge-triaged-border: #4c1d95;
+  --badge-triaged-text: #4c1d95;
+
+  /* Pink — Installed (Installation Proof) */
+  --badge-installed-bg: #fdf2f8;
+  --badge-installed-border: #9d174d;
+  --badge-installed-text: #9d174d;
+
+  /* Red — Rejected (Installation Proof/Exception Request) */
+  --badge-rejected-bg: #f8d7da;
+  --badge-rejected-border: #e53935;
+  --badge-rejected-text: #e53935;
+
+  /* Dark Blue — Submitted (Survey) */
+  --badge-submitted-bg: #eef4ff;
+  --badge-submitted-border: #172554;
+  --badge-submitted-text: #172554;
+
+  /* Dark Green — Approved (Exception Request) */
+  --badge-approved-bg: #f0fdf4;
+  --badge-approved-border: #052e16;
+  --badge-approved-text: #052e16;
+
+  /* Rose — Cancelled (Exception Request) */
+  --badge-cancelled-bg: #fff1f2;
+  --badge-cancelled-border: #be123c;
+  --badge-cancelled-text: #be123c;
+
+  /* Pastel Blue — Info */
+  --badge-info-bg: rgba(0, 119, 179, 0.1);
+  --badge-info-border: rgba(0, 119, 179, 0.3);
+  --badge-info-text: #005f8c;
+
+  /* Red — Error / Missing */
+  --badge-error-bg: #f8d7da;
+  --badge-error-border: #e53935;
+  --badge-error-text: #e53935;
+  /* Purple — Defective */
+  --badge-purple-bg: #ebe6f6;
+  --badge-purple-border: #7c3aed;
+  --badge-purple-text: #7c3aed;
+
+  /* Admin Tag Colors */
+  --admin-tag-bg: #f9fafb;
+
+  /* Admin Avatar */
+  --admin-avatar-bg: #e0f2fe;
+
+  /* Table */
+  --table-header-bg: var(--neutral-200); /* #f7f9fb */
+  --table-header-text: var(--neutral-600); /* #5a6570 */
+  --table-row-bg: var(--neutral-100); /* #ffffff */
+  --table-row-hover-bg: var(--gray-50); /* subtle hover */
+  --table-border-color: var(--neutral-300); /* #e1e6eb */
+  --table-cell-text: var(--neutral-700); /* #3b424a */
+  --table-tracking: -0.15px;
+  --table-cell-py: 0.75rem; /* 12px */
+  --table-cell-px: 2rem; /* 32px */
+
+  /* Pagination — Figma node-id: 3945:26456 */
+  --pagination-btn-size: 32px;
+  --pagination-btn-radius: 4px;
+  --pagination-gap: 8px;
+  --pagination-border: var(--neutral-400); /* #ced5db — inactive page border */
+  --pagination-active-border: var(--primary-500); /* #005C8A — active page border */
+  --pagination-active-text: var(--primary-500); /* #005C8A — active page text */
+  --pagination-disabled-bg: var(--neutral-400); /* #ced5db — disabled nav button bg */
+  --pagination-select-height: 36px;
+  --pagination-select-radius: 8px;
+  --pagination-section-gap: 32px; /* gap between rows-per-page and page numbers */
+
+  /* Form / Input Colors */
+  --input-bg: var(--neutral-200); /* #f7f9fb */
+  --input-text: var(--gray-700);
+  --input-placeholder: var(--neutral-500); /* #7a848f */
+  --disabled-text: #6a6a6a; /* Disabled element text color — replaces 0.5 opacity */
+  --input-height: 40px;
+  --input-border: var(--gray-200);
+  --input-border-focus: var(--blue-dark);
+  --input-ring-focus: rgba(0, 95, 140, 0.2);
+
+  /* 508 Compliance — Focus */
+  --focus-border: var(--blue-dark);
+  --focus-ring: rgba(0, 95, 140, 0.2);
+  --input-radius: 8px;
+
+  /* Button Heights */
+  --button-height-lg: 47px;
+  --button-height-md: 45px;
+  --button-height-sm: 43px;
+  --button-height-xs: 39px;
+
+  /* Form Label */
+  --label-color: #1a1d21;
+  --label-size: 14px;
+  --label-required: #a80000;
+  --helper-text-color: var(--gray-600);
+
+  /* Dialog Colors */
+  --dialog-bg: #ffffff;
+  --dialog-info-bg: rgba(0, 136, 204, 0.1);
+  --dialog-info-border: rgba(0, 136, 204, 0.3);
+  --dialog-info-icon-bg: rgba(0, 136, 204, 0.2);
+  --dialog-warning-text: #a80000;
+  --dialog-delete-bg: #a80000;
+
+  /* Activate User Dialog */
+  --activate-icon-bg: rgba(16, 185, 129, 0.1);
+  --activate-green-from: #43a047;
+  --activate-green-to: #2d7a2f;
+
+  /* Exception Request Action Buttons */
+  --exception-btn-cancel-from: #5c6670;
+  --exception-btn-cancel-to: #536069;
+  --exception-btn-reject-from: #a71816;
+  --exception-btn-reject-to: #c03e4a;
+  --exception-btn-approve-from: #2d7a2f;
+  --exception-btn-approve-to: #2d7a2f;
+
+  /* Delete User Dialog */
+  --delete-icon-bg: rgba(255, 82, 82, 0.1);
+
+  /* Delete / Danger Button Gradient */
+  --delete-btn-from: #a71816;
+  --delete-btn-to: #c03e4a;
+
+  /* Deactivate Button Gradient */
+  --deactivate-btn-from: #7a848f;
+  --deactivate-btn-to: #5a6570;
+  --deactivate-btn-hover-from: #5a6570;
+  --deactivate-btn-hover-to: #3b424a;
+  --delete-btn-hover-from: #c03e4a;
+  --delete-btn-hover-to: #a33338;
+
+  /* Audit Logs */
+  --audit-card-bg: #ffffff;
+  --audit-icon-bg-blue: rgba(0, 136, 204, 0.1);
+  --audit-icon-bg-green: rgba(16, 185, 129, 0.1);
+  --audit-icon-bg-yellow: rgba(245, 158, 11, 0.1);
+  --audit-icon-bg-gray: rgba(107, 114, 128, 0.1);
+
+  /* Role Badge Colors */
+  --badge-platform-admin-bg: rgba(139, 92, 246, 0.1);
+  --badge-platform-admin-text: #7c3aed; /* 508: darkened from #8b5cf6 → 5.0:1 */
+  --badge-platform-admin-border: rgba(139, 92, 246, 0.3);
+
+  --badge-psp-admin-bg: rgba(0, 136, 204, 0.1);
+  --badge-psp-admin-text: #005f8c; /* 508: darkened for 6.3:1 on light blue bg */
+  --badge-psp-admin-border: rgba(0, 136, 204, 0.3);
+
+  --badge-brand-admin-bg: rgba(16, 185, 129, 0.1);
+  --badge-brand-admin-text: #0e8a60; /* 508: darkened from #10b981 → 4.7:1 */
+  --badge-brand-admin-border: rgba(16, 185, 129, 0.3);
+
+  --badge-store-admin-bg: rgba(245, 158, 11, 0.1);
+  --badge-store-admin-text: #8a6500; /* 508: darkened for 4.8:1 on light amber bg */
+  --badge-store-admin-border: rgba(245, 158, 11, 0.3);
+
+  --badge-store-operator-bg: rgba(107, 114, 128, 0.1);
+  --badge-store-operator-text: #576068; /* 508: darkened from #6b7280 → 4.6:1 */
+  --badge-store-operator-border: rgba(107, 114, 128, 0.3);
+
+  /* Module Badge Colors */
+  --badge-module-bg: #f9fafb;
+  --badge-module-text: #1a1d21;
+  --badge-module-border: #e5e7eb;
+
+  /* Regional Manager / Shipped Badge Colors — Teal */
+  --badge-regional-manager-bg: rgba(20, 184, 166, 0.1);
+  --badge-regional-manager-text: #0b6b62; /* 508: darkened for 5.5:1 on light teal bg */
+  --badge-regional-manager-border: rgba(20, 184, 166, 0.3);
+
+  /* Select Dropdown Colors */
+  --select-content-bg: #ffffff;
+  --select-item-hover-bg: var(--sidebar-accent);
+
+  /* Change Details Dialog */
+  --change-previous-bg: #f8d7da;
+  --change-previous-text: #a71816;
+  --change-previous-border: #f8d7da;
+
+  --change-updated-bg: #e8f5e9;
+  --change-updated-text: #2d7a2f; /* 508: darkened for 4.8:1 on #e8f5e9 */
+  --change-updated-border: #e8f5e9;
+
+  /* Shipments Page */
+  --shipment-stat-amber-bg: #fff9e5;
+  --badge-delivered-bg: #e8f5e9;
+  --badge-delivered-text: #2d7a2f; /* 508: darkened from #43a047 → 5.0:1 */
+  --badge-delivered-border: #2d7a2f;
+  --shipment-items-text: #2d7a2f; /* 508: darkened from #43a047 → 5.0:1 */
+
+  --badge-pending-approval-bg: #f7f4f1;
+  --badge-pending-approval-text: #6b4f3a;
+  --badge-pending-approval-border: #6b4f3a;
+  --badge-rejected-bg: #f8d7da;
+  --badge-rejected-text: #e53935;
+  --badge-rejected-border: #e53935;
+
+  /* Order Status Badge Colors */
+  --badge-pending-installation-approval-bg: #f7f4f1;
+  --badge-pending-installation-approval-text: #6b4f3a;
+  --badge-pending-installation-approval-border: #6b4f3a;
+  --badge-installation-rejected-bg: #f8d7da;
+  --badge-installation-rejected-text: #e53935;
+  --badge-installation-rejected-border: #e53935;
+  --badge-triaged-bg: #f5f3ff;
+  --badge-triaged-text: #4c1d95;
+  --badge-triaged-border: #4c1d95;
+  /* Alerts Page Colors — Figma node-id: 3660-25358
+     All alert rows share the same neutral background (#f7f9fb).
+     Only the icon bg and text colors vary per type. */
+  --alert-row-bg: var(--neutral-200); /* #f7f9fb */
+  --alert-error-bg: var(--alert-row-bg);
+  --alert-error-icon: #a71816;
+  --alert-error-title: #a71816;
+  --alert-error-subtitle: #721c24;
+  --alert-warning-bg: var(--alert-row-bg);
+  --alert-warning-icon: #5c4800;
+  --alert-warning-title: #5c4800;
+  --alert-warning-subtitle: #6d5400;
+  --alert-success-bg: var(--alert-row-bg);
+  --alert-success-icon: #2d7a2f; /* 508: darkened from #43a047 */
+  --alert-success-title: #2d7a2f; /* 508: darkened from #43a047 */
+  --alert-success-subtitle: #155724;
+  --alert-info-bg: var(--alert-row-bg);
+  --alert-info-icon: #005c8a; /* 508: darkened from #0077b3 → 4.45:1 on #f7f9fb to #005C8A → 7.0:1 */
+  --alert-info-title: #005c8a; /* 508: darkened from #0077b3 → 4.45:1 on #f7f9fb to #005C8A → 7.0:1 */
+  --alert-info-subtitle: #005f8c;
+}
+.text-destructive {
+  svg {
+    position: relative;
+    top: -1px;
+  }
+}
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button,
+  a,
+  [role='button'] {
+    cursor: pointer;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:focus-visible,
+  a:active {
+    outline: none !important;
+  }
+  a:hover {
+    outline: none !important;
+    text-decoration: none !important;
+  }
+}
+
+/* ── Mobile font scaling ──────────────────────────────────────────────
+   Reduces the rem base from 16px → 14px on screens narrower than the
+   sm breakpoint (640px). Every rem-based Tailwind text utility scales
+   down automatically:
+     text-xs   0.75rem  12px → 10.5px  (−1.5px)
+     text-sm   0.875rem 14px → 12.25px (−1.75px)
+     text-base 1rem     16px → 14px    (−2px)
+     text-lg   1.125rem 18px → 15.75px (−2.25px)
+     text-xl   1.25rem  20px → 17.5px  (−2.5px)
+     text-2xl  1.5rem   24px → 21px    (−3px)
+   ──────────────────────────────────────────────────────────────────── */
+@media (max-width: 639px) {
+  html {
+    font-size: 87.5%; /* 14px base instead of default 16px */
+  }
+}
+
+/* ── Table column min-width: 768px–1200px ─────────────────────────────────
+   Prevents column headers and cells from wrapping at mid-range viewports.
+   Below 768px the table scrolls horizontally. Above 1200px there is
+   enough horizontal space. ────────────────────────────────────────────── */
+@media (min-width: 768px) {
+  :root {
+    --input-height: 47px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  [data-slot='table-head'],
+  [data-slot='table-cell'] {
+    min-width: 130px;
+  }
+}
+
+/* ── Read-only field opacity ──────────────────────────────────────────
+   Visually distinguishes read-only inputs and textareas from editable
+   ones without disabling them. Applies site-wide automatically via the
+   CSS :read-only pseudo-class. ──────────────────────────────────────── */
+input:read-only,
+textarea:read-only {
+  opacity: 0.6;
+  background-color: transparent !important;
+}
+
+/* SelectTrigger (Base UI renders as <button>) opt-in via data-readonly */
+[data-slot='select-trigger'][data-readonly='true'] {
+  opacity: 0.6;
+  pointer-events: none;
+  background-color: transparent !important;
+}
+
+/* Datepicker / Combobox / generic read-only wrappers opt-in via data-readonly */
+[data-readonly='true'] {
+  background-color: transparent !important;
+}
+
+/* React-select / custom dropdown wrappers rendered as divs with aria-readonly */
+[aria-readonly='true'] {
+  background-color: transparent !important;
+}

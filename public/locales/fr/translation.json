@@ -1,0 +1,3779 @@
+{
+  "surveyPreview": {
+    "questionsLabel": "Questions",
+    "noQuestions": "Aucune question trouvée",
+    "typeYourAnswer": "Tapez votre réponse...",
+    "selectOption": "Sélectionnez une option...",
+    "pickDate": "Choisir une date",
+    "backToSurveyEditor": "Retour à la gestion des sondages",
+    "surveyPreview": "Aperçu du sondage",
+    "backToEditor": "Retour à l'éditeur"
+  },
+  "app": {
+    "name": "Bienvenue dans l'application"
+  },
+  "topbar": {
+    "entities": {
+      "psp": "PSP",
+      "brand": "Marque",
+      "store": "Magasin"
+    },
+    "notifications": {
+      "title": "Alertes",
+      "empty": "Aucune nouvelle alerte",
+      "viewAll": "Voir toutes les alertes"
+    },
+    "profile": {
+      "profileSettings": "Paramètres du profil",
+      "accountSettings": "Paramètres du compte",
+      "logout": "Déconnexion"
+    }
+  },
+  "sidebar": {
+    "navigation": {
+      "dashboard": "Tableau de bord",
+      "brandAdmin": "Administrateur de Marque",
+      "storeManagement": "Gestion des magasins",
+      "userManagement": "Gestion des utilisateurs",
+      "pspManagement": "Gestion des PSP",
+      "auditLogs": "Journaux d'audit",
+      "alerts": "Alertes",
+      "brandManagement": "Gestion des marques",
+      "campaignManagement": "Gestion des campagnes",
+      "campaigns": "Campagnes",
+      "shipments": "Expéditions",
+      "inventoryManagement": "Gestion des inventaires",
+      "surveyManagement": "Gestion des enquêtes",
+      "exceptionRequests": "Demandes d'Exception",
+      "reports": "Rapports"
+    }
+  },
+  "table": {
+    "columns": {
+      "andMore": "Plus"
+    },
+    "statusBadge": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "pagination": {
+      "showing": "Affichage <bold>{start}-{end}</bold> sur <bold>{total}</bold> {entity}",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "previousAriaLabel": "Aller à la page précédente",
+      "nextAriaLabel": "Aller à la page suivante",
+      "rowsPerPage": "Lignes par page",
+      "rowsPerPageAria": "Sélectionner les lignes par page",
+      "pageAria": "Aller à la page {page}",
+      "navigationAriaLabel": "Navigation par page"
+    }
+  },
+  "detail-page": {
+    "userStatus": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "pending": "En attente"
+    },
+    "noUsers": "Aucun utilisateur trouvé"
+  },
+  "auth": {
+    "layout": {
+      "heading1": "Gérer les promotions multi-magasins",
+      "heading2": "exécution des campagnes",
+      "footer": "© 2026 POPLogic – Tous droits réservés",
+      "skipToContent": "Aller au contenu principal",
+      "loginForm": {
+        "title": "Bon retour",
+        "subTitle": "Entrez votre e-mail pour recevoir un code de vérification",
+        "emailLabel": "Adresse e-mail",
+        "emailPlaceholder": "Saisir votre e-mail",
+        "infoBox": "Nous enverrons un code de vérification à 8 chiffres à votre e-mail. Aucun mot de passe requis",
+        "sendCodeButton": "Envoyer le code de vérification",
+        "sendingCode": "Envoi du code de vérification…",
+        "emailVerified": "Votre adresse e-mail a été vérifiée avec succès.",
+        "reasons": {
+          "session_expired": "Session expirée. Veuillez vous reconnecter.",
+          "authentication_failed": "Authentification échouée. Veuillez réessayer.",
+          "INV_TOKEN": "Format de jeton invalide. Veuillez contacter le support.",
+          "INV_TOKEN_INVALID": "Ce lien de vérification a déjà été utilisé ou est invalide. Veuillez contacter le support.",
+          "INV_TOKEN_EXPIRED": "Votre lien de vérification a expiré. Veuillez contacter le support.",
+          "INV_USER_INACTIVE": "Votre compte a été désactivé. Veuillez contacter le support.",
+          "INV_USER_DELETED": "Votre compte a été supprimé. Veuillez contacter le support.",
+          "USER_NOT_FOUND": "Compte introuvable. Veuillez vérifier votre e-mail ou contacter le support.",
+          "idle_timeout": "Vous avez été déconnecté en raison d'inactivité."
+        }
+      },
+      "verificationForm": {
+        "title": "Vérifiez votre identité",
+        "subTitle": "Nous avons envoyé un code de vérification à votre e-mail",
+        "codeSentTo": "Code envoyé à",
+        "verificationCodeLabel": "Entrez le code de vérification",
+        "verifyCodeButton": "Vérifier le code",
+        "sendingCode": "Envoi en cours...",
+        "resendCode": "Vous n'avez pas reçu le code ?",
+        "resendCodeButton": "Renvoyer le code",
+        "backToLogin": "Retour à la connexion"
+      },
+      "success": {
+        "resend_success": "Code de vérification renvoyé avec succès"
+      },
+      "errors": {
+        "email-required": "L'e-mail est requis",
+        "email-invalid": "Veuillez entrer une adresse e-mail valide",
+        "email_not_registered": "L'e-mail n'est pas enregistré",
+        "too_many_attempts": "Trop de tentatives. L’utilisateur est temporairement bloqué. Veuillez réessayer dans quelques secondes.",
+        "unexpected_error": "Une erreur inattendue s'est produite",
+        "invalid_code": "Code de vérification invalide. Veuillez vérifier et réessayer",
+        "code_expired": "Le code de vérification a expiré. Veuillez en demander un nouveau",
+        "verification_failed": "La vérification a échoué. Veuillez réessayer",
+        "login_exchange_failed": "Impossible de finaliser la connexion. Veuillez vous reconnecter.",
+        "session_retrieval_failed": "Impossible de récupérer les jetons d'authentification",
+        "resend_failed": "Échec de renvoi du code. Veuillez réessayer",
+        "resend_limit_exceeded": "Trop de tentatives de renvoi. Veuillez attendre avant de réessayer",
+        "signout_failed": "Échec de déconnexion. Veuillez réessayer",
+        "incomplete_code": "Veuillez entrer le code de vérification complet",
+        "user_disabled": "Cet utilisateur est désactivé, contactez l'administrateur pour obtenir de l'aide"
+      }
+    }
+  },
+  "auditLogs": {
+    "page": {
+      "title": "Journaux d'Audit",
+      "description": "Suivre toutes les activités du système et les actions des utilisateurs pour la transparence et la conformité",
+      "viewingAs": "Visualisation en tant que",
+      "platformAdmin": "Administrateur de Plateforme"
+    },
+    "filters": {
+      "searchPlaceholder": "Rechercher...",
+      "allRoles": "Tous les Rôles",
+      "allTime": "Tout le Temps",
+      "today": "Aujourd'hui",
+      "last7Days": "7 Derniers Jours",
+      "last30Days": "30 Derniers Jours",
+      "last90Days": "90 Derniers Jours"
+    },
+    "listing": {
+      "empty": "Aucun journal d'audit trouvé.",
+      "caption": "Entrées du journal d'audit montrant les activités, rôles, horodatages et zones système",
+      "loadingState": "Chargement des journaux d'audit, veuillez patienter."
+    },
+    "table": {
+      "paginationLabel": "Journaux",
+      "columns": {
+        "user": "Utilisateur",
+        "role": "Rôle",
+        "action": "Action",
+        "entityName": "Nom de l'entité",
+        "timestamp": "Horodatage",
+        "systemArea": "Zone système",
+        "type": "Type",
+        "details": "Détails"
+      },
+      "actions": {
+        "viewDetails": "Voir les détails"
+      }
+    },
+    "actorTypeLabels": {
+      "SELF": "Soi-même",
+      "IMPERSONATED": "Emprunté",
+      "WEBHOOK": "Webhook"
+    },
+    "changeDetails": {
+      "title": "Détails du Changement",
+      "description": "Voir les valeurs précédentes et mises à jour",
+      "changeDetailsFor": "Détails du changement pour {entityId}",
+      "previousValue": "Valeur Précédente",
+      "updatedValue": "Valeur Mise à Jour",
+      "closeButton": "Fermer"
+    },
+    "actionLabels": {
+      "BRAND_ACTIVATED": "Marque Activée",
+      "BRAND_COGNITO_SYNC_FAILED": "Échec de Synchronisation Cognito de la Marque",
+      "BRAND_CREATED": "Marque Créée",
+      "BRAND_DEACTIVATED": "Marque Désactivée",
+      "BRAND_DELETED": "Marque Supprimée",
+      "BRAND_UPDATED": "Marque Mise à Jour",
+      "CAMPAIGN_ARCHIVED": "Campagne Archivée",
+      "CAMPAIGN_CREATED": "Campagne Créée",
+      "CAMPAIGN_DELETED": "Campagne Supprimée",
+      "CAMPAIGN_MANAGER_ASSIGNED": "Responsable de Campagne Assigné",
+      "CAMPAIGN_STATUS_CHANGED": "Statut de la Campagne Changé",
+      "CAMPAIGN_SUBMITTED": "Campagne Soumise",
+      "CAMPAIGN_UNARCHIVED": "Campagne Désarchivée",
+      "CAMPAIGN_UPDATED": "Campagne Mise à Jour",
+      "INSTALLATION_PROOF_APPROVED": "Preuve d'Installation Approuvée",
+      "INSTALLATION_PROOF_REJECTED": "Preuve d'Installation Rejetée",
+      "INSTALLATION_PROOF_SUBMITTED": "Preuve d'Installation Soumise",
+      "INVENTORY_CREATED": "Inventaire Créé",
+      "INVENTORY_DELETED": "Inventaire Supprimé",
+      "INVENTORY_UPDATED": "Inventaire Mis à Jour",
+      "INVITATION_ACCEPTED": "Invitation Acceptée",
+      "INVITATION_RESENT": "Invitation renvoyée",
+      "INVITATION_SENT": "Invitation envoyée",
+      "ORDER_DELETED": "Commande supprimée",
+      "ORDER_ITEM_DELETED": "Article de Commande Supprimé",
+      "ORDER_STATUS_CHANGED": "Statut de la Commande Changé",
+      "PROMOTIONS_CREATED_FROM_INVENTORY": "Promotions Créées depuis l'Inventaire",
+      "PROMOTIONS_IMPORTED": "Promotions Importées",
+      "PROMOTION_CREATED": "Promotion Créée",
+      "PROMOTION_DELETED": "Promotion Supprimée",
+      "PROMOTION_DISTRIBUTED_TO_STORES": "Promotion Distribuée aux Magasins",
+      "PROMOTION_UPDATED": "Promotion Mise à Jour",
+      "PSP_ACTIVATED": "PSP Activé",
+      "PSP_COGNITO_SYNC_FAILED": "Échec de Synchronisation Cognito du PSP",
+      "PSP_CREATED": "PSP Créé",
+      "PSP_DEACTIVATED": "PSP Désactivé",
+      "PSP_DELETED": "PSP Supprimé",
+      "PSP_UPDATED": "PSP Mis à Jour",
+      "REORDER_APPROVED": "Réapprovisionnement Approuvé",
+      "REORDER_CANCELLED": "Réapprovisionnement Annulé",
+      "REORDER_CREATED": "Réapprovisionnement Créé",
+      "REORDER_ORDER_CREATED": "Commande de Réapprovisionnement Créée",
+      "REORDER_REJECTED": "Réapprovisionnement Rejeté",
+      "REORDER_UPDATED": "Réapprovisionnement Mis à Jour",
+      "EXCEPTION_REQUEST_SUBMITTED": "Demande d’Exception Soumise",
+      "EXCEPTION_REQUEST_APPROVED": "Demande d’Exception Approuvée",
+      "EXCEPTION_REQUEST_REJECTED": "Demande d’Exception Rejetée",
+      "EXCEPTION_REQUEST_CANCELLED": "Demande d’Exception Annulée",
+      "EXCEPTION_REQUEST_UPDATED": "Demande d’Exception Mise à Jour",
+      "REUSABLE_PROMOTIONS_ADDED": "Promotions Réutilisables Ajoutées",
+      "SHIPMENT_CREATED": "Expédition Créée",
+      "SHIPMENT_RECEIVED": "Expédition Reçue",
+      "SHIPMENT_REORDER_CREATED": "Réexpédition Créée",
+      "IMPERSONATION_STARTED": "Usurpation d'identité Initiée",
+      "IMPERSONATION_STOPPED": "Usurpation d'identité Arrêtée",
+      "STORE_ACTIVATED": "Magasin Activé",
+      "STORE_COGNITO_SYNC_FAILED": "Échec de Synchronisation Cognito du Magasin",
+      "STORE_CREATED": "Magasin Créé",
+      "STORE_DEACTIVATED": "Magasin Désactivé",
+      "STORE_DELETED": "Magasin Supprimé",
+      "STORE_UPDATED": "Magasin Mis à Jour",
+      "SURVEY_BRANDS_ASSIGNED": "Marques Enquête Assignées",
+      "SURVEY_CLOSED": "Enquête Fermée",
+      "SURVEY_CREATED": "Enquête Créée",
+      "SURVEY_DELETED": "Enquête Supprimée",
+      "SURVEY_RESPONSE_SUBMITTED": "Réponse d'Enquête Soumise",
+      "SURVEY_STORES_ASSIGNED": "Magasins Enquête Assignés",
+      "SURVEY_TEMPLATE_ACTIVATED": "Modèle d'Enquête Activé",
+      "SURVEY_TEMPLATE_CREATED": "Modèle d'Enquête Créé",
+      "SURVEY_TEMPLATE_DEACTIVATED": "Modèle d'Enquête Désactivé",
+      "SURVEY_TEMPLATE_DELETED": "Modèle d'Enquête Supprimé",
+      "SURVEY_TEMPLATE_UPDATED": "Modèle d'Enquête Mis à Jour",
+      "SURVEY_UPDATED": "Enquête Mise à Jour",
+      "USER_ACTIVATED": "Utilisateur Activé",
+      "USER_CREATED": "Utilisateur Créé",
+      "USER_DEACTIVATED": "Utilisateur Désactivé",
+      "USER_DELETED": "Utilisateur Supprimé",
+      "USER_UPDATED": "Utilisateur Mis à Jour",
+      "WEBHOOK_CREDENTIAL_ACTIVATED": "Accréditation Webhook Activée",
+      "WEBHOOK_CREDENTIAL_CREATED": "Accréditation Webhook Créée",
+      "WEBHOOK_CREDENTIAL_REVOKED": "Accréditation Webhook Révoquée",
+      "WEBHOOK_CREDENTIAL_UPDATED": "Accréditation Webhook Mise à Jour",
+      "WEBHOOK_SECRET_ROTATED": "Secret Webhook Renouvelé",
+      "EXCEPTION_REQUEST_RESUBMITTED": "Demande d'Exception Resoumise"
+    },
+    "entityTypeLabels": {
+      "BRAND": "Marque",
+      "CAMPAIGN": "Campagne",
+      "CAMPAIGN_PROMOTION": "Promotion de Campagne",
+      "IMPERSONATION": "Usurpation d'identité",
+      "INSTALLATION_PROOF": "Preuve d'Installation",
+      "INVENTORY": "Inventaire",
+      "ORDER": "Commande",
+      "ORDER_ITEM": "Article de Commande",
+      "PROMOTION": "Promotion",
+      "PSP": "PSP",
+      "SHIPMENT": "Expédition",
+      "SHIPMENT_REORDER": "Réexpédition",
+      "EXCEPTION_REQUEST": "Demande d’Exception",
+      "STORE": "Magasin",
+      "SURVEY": "Enquête",
+      "SURVEY_TEMPLATE": "Modèle d'Enquête",
+      "USER": "Utilisateur",
+      "WEBHOOK_CREDENTIAL": "Accréditation Webhook"
+    },
+    "errors": {
+      "logListing": {
+        "title": "Échec du Chargement des Journaux d'Audit",
+        "description": "Nous n'avons pas pu récupérer les entrées du journal d'audit. Veuillez réessayer."
+      }
+    }
+  },
+  "dashboard": {
+    "brand-title": "Tableau de bord Administrateur de marque",
+    "brand-description": "Aperçu de l'activité des campagnes de votre marque et des performances des magasins",
+    "psp-title": "Tableau de bord Administrateur PSP",
+    "production-operator-title": "Tableau de bord Opérateur de production",
+    "production-operator-description": "Surveiller les flux de production, suivre les campagnes en cours et gérer les alertes opérationnelles",
+    "campaign-admin-title": "Tableau de bord Administrateur de campagne",
+    "campaign-admin-description": "Aperçu de l'activité des campagnes de votre marque",
+    "platform-title": "Tableau de bord Administrateur de plateforme",
+    "store-title": "Tableau de bord Administrateur de magasin",
+    "store-description": "Gérer les campagnes, les tâches et surveiller les performances de l'équipe",
+    "store-operator-title": "Tableau de bord Opérateur de magasin",
+    "store-operator-description": "Surveiller les campagnes en cours et suivre les tâches opérationnelles du magasin",
+    "regional-manager-title": "Tableau de bord Responsable régional",
+    "regional-manager-description": "Superviser les performances des magasins régionaux, les campagnes et les indicateurs opérationnels",
+    "description": "Surveiller les indicateurs à l'échelle du système et gérer les opérations de la plateforme",
+    "user-overview": {
+      "title": "Aperçu des Utilisateurs",
+      "stat-card": {
+        "total-users": "Utilisateurs Totaux",
+        "active-users": "Utilisateurs Actifs",
+        "inactive-users": "Utilisateurs Inactifs",
+        "pending-users": "Utilisateurs en Attente",
+        "new-users": "Nouveaux Utilisateurs"
+      }
+    },
+    "quick-action": {
+      "title": "Actions Rapides",
+      "buttons": {
+        "create-user": "Créer un Utilisateur",
+        "create-psp": "Créer un PSP",
+        "create-store": "Créer un Magasin",
+        "add-brand": "Ajouter une Marque",
+        "create-inventory-item": "Créer un Article d'Inventaire"
+      }
+    },
+    "psp-admin-overview": {
+      "title": "Résumé des Campagnes en Cours",
+      "ongoing-campaigns": "Campagnes en Cours",
+      "loading": "Chargement du résumé des campagnes"
+    },
+    "store-admin-overview": {
+      "section-label": "Métriques de Vue d'Ensemble du Magasin",
+      "ongoing-campaigns": "Campagnes en Cours",
+      "pending-surveys": "Enquêtes en Attente",
+      "pending-installations": "Installations en Attente",
+      "loading": "Chargement des métriques de vue d'ensemble du magasin"
+    },
+    "psp-overview": {
+      "title": "Aperçu des PSP",
+      "link-text": "Gérer les PSP",
+      "psp-card": {
+        "total-psps": "PSP Totaux",
+        "onboarded-text": "Intégrés",
+        "active-psps": "PSP Actifs",
+        "inactive-psps": "PSP Inactifs",
+        "status-badge": {
+          "active": "Actif",
+          "inactive": "Inactif"
+        }
+      }
+    },
+    "audit-logs": {
+      "title": "Activité du Système et Journal d’Audit",
+      "link-text": "Voir Tout",
+      "table-caption": "Tableau du journal d’audit affichant les activités des utilisateurs, les rôles, les horodatages et les zones du système",
+      "empty-state": "Aucune activité récente du système trouvée.",
+      "table": {
+        "tableHeader": {
+          "user": "Utilisateur",
+          "role": "Rôle",
+          "action": "Action",
+          "entityName": "Nom de l'Entité",
+          "timestamp": "Horodatage",
+          "systemArea": "Zone du Système",
+          "type": "Type",
+          "details": "Détails"
+        }
+      }
+    },
+    "sections": {
+      "core-overview": "Actions Rapides et Aperçu des PSP",
+      "psp-admin-core-overview": "Actions Rapides et Résumé des Campagnes",
+      "production-operator-core-overview": "Résumé des Campagnes"
+    },
+    "alerts-section": {
+      "title": "Alertes",
+      "view-all": "Voir Tout",
+      "view": "Voir",
+      "empty": "Aucune alerte trouvée."
+    },
+    "brand-overview": {
+      "title": "Aperçu de la Marque",
+      "stat-card": {
+        "active-stores": "Magasins Actifs",
+        "ongoing-campaigns": "Campagnes en Cours"
+      }
+    },
+    "campaigns-progress": {
+      "title": "Progression des Campagnes",
+      "no-campaigns": "Aucune campagne.",
+      "view-more": "Voir Plus",
+      "view-more-aria": "Voir plus de campagnes avec le statut {status}",
+      "status-count-aria": "{count} campagnes avec le statut {status}",
+      "promos": "{count} promos",
+      "stores": "{count} magasins",
+      "brand-name-aria": "Marque : {name}",
+      "end-date-aria": "Date de fin : {date}",
+      "loading": "Chargement de la progression des campagnes",
+      "scroll-region-aria": "Progression des campagnes par statut",
+      "statuses": {
+        "DRAFT": "Brouillon",
+        "NEW": "Nouveau",
+        "ACCEPTED": "Accepté",
+        "IN_REVIEW": "En Révision",
+        "ON_HOLD": "En Attente",
+        "IN_PRODUCTION": "En Production",
+        "PARTIALLY_SHIPPED": "Partiellement Expédié",
+        "SHIPPED": "Expédié",
+        "PARTIALLY_RECEIVED": "Partiellement Reçu",
+        "RECEIVED": "Reçu",
+        "COMPLETED": "Complété"
+      }
+    },
+    "errors": {
+      "userOverview": {
+        "title": "Échec du Chargement de l'Aperçu Utilisateurs",
+        "description": "Nous n'avons pas pu charger les statistiques utilisateurs. Veuillez réessayer."
+      },
+      "pspOverview": {
+        "title": "Échec du Chargement de l'Aperçu PSP",
+        "description": "Nous n'avons pas pu charger les statistiques PSP. Veuillez réessayer."
+      },
+      "auditLog": {
+        "title": "Échec du Chargement du Journal d'Activité",
+        "description": "Nous n'avons pas pu charger l'activité système récente. Veuillez réessayer."
+      },
+      "brandOverview": {
+        "title": "Échec du Chargement de l'Aperçu Marque",
+        "description": "Nous n'avons pas pu charger les statistiques de la marque. Veuillez réessayer."
+      },
+      "pspAdminOverview": {
+        "title": "Échec du Chargement du Résumé des Campagnes",
+        "description": "Nous n'avons pas pu charger les statistiques des campagnes. Veuillez réessayer."
+      },
+      "overviewCards": {
+        "title": "Échec du chargement des cartes de présentation",
+        "description": "Impossible de charger les statistiques de présentation."
+      },
+      "campaignsProgress": {
+        "title": "Échec du chargement de la progression des campagnes",
+        "description": "Impossible de charger le statut des campagnes."
+      },
+      "storeCompliance": {
+        "title": "Échec du chargement de la conformité des magasins",
+        "description": "Impossible de charger les données de conformité."
+      },
+      "alerts": {
+        "title": "Échec du chargement des alertes",
+        "description": "Impossible de charger les alertes."
+      },
+      "exceptionRequests": {
+        "title": "Échec du chargement des demandes d'exception",
+        "description": "Impossible de charger les demandes d'exception."
+      }
+    }
+  },
+  "pspManagement": {
+    "page": {
+      "title": "Gestion des PSP",
+      "description": "Gérer les fournisseurs de services d'impression et leurs administrateurs"
+    },
+    "stats": {
+      "totalPsps": "PSP Totaux",
+      "activePsps": "PSP Actifs",
+      "inactivePsps": "PSP Inactifs"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "statusPlaceholder": "Sélectionner le statut",
+      "createButton": "Créer un PSP"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "card": {
+      "statusBadge": {
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "primaryContact": "Contact Principal",
+      "administrators": "Administrateurs PSP",
+      "administratorsCount": "Administrateurs PSP ({count})",
+      "operatorsCount": "Opérateurs PSP ({count})",
+      "created": "Créé",
+      "website": "Site Web",
+      "editButton": "Modifier PSP",
+      "activateButton": "Activer PSP",
+      "deactivateButton": "Désactiver PSP"
+    },
+    "details": {
+      "title": "Détails du PSP",
+      "backLink": "Retour aux PSPs",
+      "pspInfo": "Informations du PSP",
+      "pspAdmins": "Administrateurs du PSP",
+      "pspPersonnel": "Personnel du PSP",
+      "pspAdminsSection": "Administrateurs du PSP",
+      "productionOperatorsSection": "Opérateurs de Production",
+      "pspAdminsListLabel": "Administrateurs du PSP",
+      "productionOperatorsListLabel": "Opérateurs de production",
+      "noUsers": "Aucun utilisateur trouvé",
+      "fields": {
+        "pspName": "Nom du PSP",
+        "country": "Pays",
+        "state": "État/Région",
+        "city": "Ville",
+        "address": "Adresse",
+        "zipCode": "Code Postal",
+        "website": "Site Web"
+      },
+      "noAdmins": "Aucun administrateur trouvé",
+      "adminsListLabel": "Administrateurs du PSP",
+      "loadingLabel": "Chargement des détails du PSP, veuillez patienter.",
+      "error": {
+        "title": "Impossible de charger les détails du PSP",
+        "description": "Une erreur s'est produite lors de la récupération des détails du PSP. Veuillez réessayer plus tard ou contacter le support si le problème persiste."
+      }
+    },
+    "table": {
+      "caption": "Tableau de gestion PSP affichant le nom du PSP, les coordonnées, les admins, le statut et les actions",
+      "emptyState": "Aucun PSP trouvé.",
+      "loadingState": "Chargement des PSPs, veuillez patienter.",
+      "paginationLabel": "PSPs",
+      "columns": {
+        "name": "Nom du PSP",
+        "contactInfo": "Coordonnées",
+        "admins": "Admins",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "users": "Utilisateurs",
+        "status": "Statut",
+        "createdDate": "Créé",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "editPsp": "Modifier PSP",
+      "deactivatePsp": "Désactiver PSP",
+      "activatePsp": "Activer PSP",
+      "deletePsp": "Supprimer PSP"
+    },
+    "dialog": {
+      "create": {
+        "title": "Créer un Nouveau PSP",
+        "description": "Remplissez les détails pour créer un nouveau PSP",
+        "submitButton": "Créer PSP"
+      },
+      "createSuccess": {
+        "title": "PSP Créé avec Succès",
+        "description": "Votre PSP a été créé avec succès.",
+        "subtitle": "Vous pouvez maintenant créer un utilisateur administrateur PSP pour gérer ce PSP.",
+        "createUserButton": "Créer un Administrateur PSP"
+      },
+      "edit": {
+        "title": "Modifier PSP",
+        "description": "Remplissez les détails pour modifier le PSP",
+        "submitButton": "Enregistrer les Modifications"
+      },
+      "fields": {
+        "primaryContactName": {
+          "label": "Nom du Contact Principal",
+          "placeholder": "Jean Anderson"
+        },
+        "name": {
+          "label": "Nom du PSP",
+          "placeholder": "Solutions Globales PSP"
+        },
+        "email": {
+          "label": "Adresse E-mail",
+          "placeholder": "jean@globalpsp.com"
+        },
+        "phone": {
+          "label": "Numéro de Téléphone",
+          "placeholder": "+33 (5) 55 12 34 56"
+        },
+        "country": {
+          "label": "Pays",
+          "placeholder": "Rechercher des pays...",
+          "emptyText": "Aucun pays trouvé"
+        },
+        "state": {
+          "label": "État/Région",
+          "placeholder": "Rechercher des états...",
+          "emptyText": "Aucun état trouvé"
+        },
+        "city": {
+          "label": "Ville",
+          "placeholder": "Entrez la ville"
+        },
+        "streetAddress": {
+          "label": "Adresse",
+          "placeholder": "123 Rue des Affaires"
+        },
+        "zipCode": {
+          "label": "Code Postal",
+          "placeholder": "75001"
+        },
+        "website": {
+          "label": "Site Web",
+          "placeholder": "Saisir le site web"
+        }
+      },
+      "cancelButton": "Annuler",
+      "validation": {
+        "primaryContactNameRequired": "Le nom du contact principal est requis",
+        "primaryContactNameMinLength": "Le nom du contact principal doit contenir au moins 2 caractères",
+        "primaryContactNameMaxLength": "Le nom du contact principal ne doit pas dépasser 100 caractères",
+        "primaryContactNameInvalid": "Le nom du contact principal ne peut contenir que des lettres, des espaces, des traits d'union et des apostrophes",
+        "companyNameRequired": "Le nom du PSP est requis",
+        "companyNameMinLength": "Le nom du PSP doit contenir au moins 2 caractères",
+        "companyNameMaxLength": "Le nom du PSP ne doit pas dépasser 200 caractères",
+        "emailRequired": "L'e-mail est requis",
+        "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+        "emailMaxLength": "L'e-mail ne doit pas dépasser 255 caractères",
+        "phoneRequired": "Le numéro de téléphone est requis",
+        "phoneInvalid": "Le numéro de téléphone ne peut contenir que des chiffres",
+        "phoneLength": "Le numéro de téléphone doit contenir 10 caractères",
+        "streetAddressRequired": "L'adresse est requise",
+        "streetAddressMinLength": "L'adresse doit contenir au moins 5 caractères",
+        "streetAddressMaxLength": "L'adresse ne doit pas dépasser 200 caractères",
+        "cityRequired": "La ville est requise",
+        "cityMinLength": "La ville doit contenir au moins 2 caractères",
+        "cityMaxLength": "La ville ne doit pas dépasser 100 caractères",
+        "stateRequired": "L'état est requis",
+        "stateMinLength": "L'état doit contenir au moins 2 caractères",
+        "stateMaxLength": "L'état ne doit pas dépasser 50 caractères",
+        "zipCodeRequired": "Le code postal est requis",
+        "zipCodeInvalid": "Le code postal ne peut contenir que des chiffres",
+        "zipCodeLength": "Le code postal doit contenir 5 caractères",
+        "countryRequired": "Le pays est requis",
+        "countryMinLength": "Le pays doit contenir au moins 2 caractères",
+        "countryMaxLength": "Le pays ne doit pas dépasser 100 caractères",
+        "websiteInvalid": "Veuillez entrer une URL valide",
+        "websiteMaxLength": "Le site web ne doit pas dépasser 255 caractères"
+      }
+    },
+    "activateDialog": {
+      "title": "Activer PSP",
+      "description": "Êtes-vous sûr de vouloir activer ce PSP ?",
+      "adminNote": "L’activation de ce PSP ne restaurera pas automatiquement l’accès des utilisateurs. Vous devrez activer manuellement tous les utilisateurs associés.",
+      "cancelButton": "Annuler",
+      "submitButton": "Activer PSP"
+    },
+    "deactivateDialog": {
+      "title": "Désactiver PSP",
+      "description": "Êtes-vous sûr de vouloir désactiver ce PSP ?",
+      "adminNote": "La désactivation de ce PSP désactivera tous ses utilisateurs et propagera la désactivation à toutes les entités enfants associées et leurs utilisateurs respectifs.",
+      "cancelButton": "Annuler",
+      "submitButton": "Désactiver PSP",
+      "incompleteCampaignsError": {
+        "title": "Erreur",
+        "description": "Ce PSP ne peut pas être désactivé car il est associé à des campagnes actives :",
+        "campaignsListLabel": "Campagnes avec des commandes actives"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "PSP créé avec succès",
+        "updated": "PSP mis à jour avec succès",
+        "activated": "PSP activé avec succès",
+        "deactivated": "PSP désactivé avec succès",
+        "deleted": "PSP supprimé avec succès"
+      },
+      "error": {
+        "createFailed": "Échec de création du PSP",
+        "updateFailed": "Échec de mise à jour du PSP",
+        "activateFailed": "Échec d'activation du PSP",
+        "deactivateFailed": "Échec de désactivation du PSP",
+        "deleteFailed": "Échec de suppression du PSP",
+        "genericError": "Une erreur s'est produite"
+      }
+    },
+    "emptyState": {
+      "title": "Aucun PSP trouvé",
+      "description": "Vous n’avez pas encore ajouté de fournisseur de services d’impression. Créez-en un pour commencer.",
+      "createButton": "Créer un PSP"
+    },
+    "errors": {
+      "pspListing": {
+        "title": "Échec du Chargement des PSP",
+        "description": "Nous n'avons pas pu charger la liste des PSP. Veuillez réessayer."
+      }
+    }
+  },
+  "storeManagement": {
+    "page": {
+      "title": "Gestion des Magasins",
+      "description": "Gérez les magasins qui participent aux campagnes"
+    },
+    "stats": {
+      "totalStores": "Total des Magasins",
+      "activeStores": "Magasins Actifs",
+      "inactiveStores": "Magasins Inactifs"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "statusPlaceholder": "Sélectionner le statut",
+      "statusAriaLabel": "Filtrer par statut",
+      "createButton": "Créer un Magasin"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "table": {
+      "caption": "Tableau de gestion des magasins",
+      "emptyState": "Aucun magasin trouvé.",
+      "loadingState": "Chargement des magasins, veuillez patienter.",
+      "paginationLabel": "Magasins",
+      "columns": {
+        "name": "Nom du Magasin",
+        "storeNumber": "Numéro de Magasin",
+        "admins": "Administrateurs du Magasin",
+        "users": "Utilisateurs",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "status": "Statut",
+        "createdDate": "Créé",
+        "actions": "Actions",
+        "noValue": "—"
+      }
+    },
+    "actions": {
+      "editStore": "Modifier le Magasin",
+      "deactivateStore": "Désactiver le Magasin",
+      "activateStore": "Activer le Magasin"
+    },
+    "dialog": {
+      "create": {
+        "title": "Créer un Nouveau Magasin",
+        "description": "Remplissez les détails pour créer un nouveau magasin",
+        "submitButton": "Créer le Magasin"
+      },
+      "createSuccess": {
+        "title": "Magasin Créé avec Succès",
+        "description": "Votre magasin a été créé avec succès.",
+        "subtitle": "Vous pouvez maintenant créer un utilisateur Administrateur de Magasin pour gérer ce magasin.",
+        "createUserButton": "Créer un Utilisateur Administrateur de Magasin"
+      },
+      "edit": {
+        "title": "Modifier le Magasin",
+        "description": "Remplissez les détails pour modifier le magasin",
+        "submitButton": "Enregistrer les Modifications"
+      },
+      "fields": {
+        "storeName": {
+          "label": "Nom du Magasin",
+          "placeholder": "Entrez le nom du magasin"
+        },
+        "storeNumber": {
+          "label": "Numéro de Magasin",
+          "placeholder": "Entrez le numéro du magasin"
+        },
+        "phoneNumber": {
+          "label": "Numéro de Téléphone",
+          "placeholder": "Entrez le numéro de téléphone"
+        },
+        "country": {
+          "label": "Pays",
+          "placeholder": "Rechercher des pays...",
+          "emptyText": "Aucun pays trouvé"
+        },
+        "state": {
+          "label": "État",
+          "placeholder": "Rechercher des états...",
+          "emptyText": "Aucun état trouvé"
+        },
+        "city": {
+          "label": "Ville",
+          "placeholder": "Entrez la ville"
+        },
+        "streetAddress": {
+          "label": "Adresse",
+          "placeholder": "123 Rue Principale"
+        },
+        "zipCode": {
+          "label": "Code Postal",
+          "placeholder": "Saisir le code postal"
+        }
+      },
+      "cancelButton": "Annuler",
+      "validation": {
+        "storeNameRequired": "Le nom du magasin est obligatoire",
+        "storeNameMinLength": "Le nom du magasin doit comporter au moins 2 caractères",
+        "storeNameMaxLength": "Le nom du magasin ne doit pas dépasser 200 caractères",
+        "storeNumberMaxLength": "Le numéro de magasin ne doit pas dépasser 50 caractères",
+        "phoneNumberRequired": "Le numéro de téléphone est obligatoire",
+        "phoneNumberInvalid": "Le numéro de téléphone ne peut contenir que des chiffres",
+        "phoneNumberLength": "Le numéro de téléphone doit comporter 10 caractères",
+        "streetAddressRequired": "L'adresse est obligatoire",
+        "streetAddressMinLength": "L'adresse doit comporter au moins 5 caractères",
+        "streetAddressMaxLength": "L'adresse ne doit pas dépasser 200 caractères",
+        "cityRequired": "La ville est obligatoire",
+        "cityMinLength": "La ville doit comporter au moins 2 caractères",
+        "cityMaxLength": "La ville ne doit pas dépasser 100 caractères",
+        "stateRequired": "L'état est obligatoire",
+        "stateMinLength": "L'état doit comporter au moins 2 caractères",
+        "stateMaxLength": "L'état ne doit pas dépasser 50 caractères",
+        "zipCodeRequired": "Le code postal est obligatoire",
+        "zipCodeInvalid": "Le code postal ne peut contenir que des chiffres",
+        "zipCodeLength": "Le code postal doit comporter 5 caractères",
+        "countryRequired": "Le pays est obligatoire",
+        "countryMinLength": "Le pays doit comporter au moins 2 caractères",
+        "countryMaxLength": "Le pays ne doit pas dépasser 100 caractères"
+      }
+    },
+    "activateDialog": {
+      "title": "Activer le Magasin",
+      "description": "Êtes-vous sûr de vouloir activer ce magasin ?",
+      "adminNote": "L’activation de ce magasin ne restaurera pas automatiquement l’accès des utilisateurs. Vous devrez activer manuellement tous les utilisateurs associés.",
+      "cancelButton": "Annuler",
+      "submitButton": "Activer le Magasin"
+    },
+    "deactivateDialog": {
+      "title": "Désactiver le Magasin",
+      "description": "Êtes-vous sûr de vouloir désactiver ce magasin ?",
+      "adminNote": "La désactivation de ce magasin désactivera tous ses utilisateurs et propagera la désactivation à toutes les entités enfants associées et leurs utilisateurs respectifs.",
+      "cancelButton": "Annuler",
+      "submitButton": "Désactiver le Magasin",
+      "incompleteOrdersError": {
+        "title": "Erreur",
+        "description": "Ce Magasin ne peut pas être désactivé car il est associé à des campagnes avec des commandes incomplètes :",
+        "ordersListLabel": "Commandes incomplètes",
+        "orderItem": "#{orderNumber} — {status}"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Magasin créé avec succès",
+        "updated": "Magasin mis à jour avec succès",
+        "activated": "Magasin activé avec succès",
+        "deactivated": "Magasin désactivé avec succès"
+      },
+      "error": {
+        "createFailed": "Échec de la création du magasin",
+        "updateFailed": "Échec de la mise à jour du magasin",
+        "activateFailed": "Échec de l'activation du magasin",
+        "deactivateFailed": "Échec de la désactivation du magasin"
+      }
+    },
+    "emptyState": {
+      "title": "Aucun Magasin Trouvé",
+      "description": "Vous n'avez pas encore ajouté de magasins. Créez-en un pour commencer.",
+      "createButton": "Créer un Magasin"
+    },
+    "errors": {
+      "storeListing": {
+        "title": "Erreur de Chargement des Magasins",
+        "description": "Nous n'avons pas pu charger la liste des magasins. Veuillez réessayer."
+      }
+    },
+    "details": {
+      "title": "Détails du Magasin",
+      "backLink": "Retour aux Magasins",
+      "storeInfo": "Informations du Magasin",
+      "storeAdmins": "Administrateurs du Magasin",
+      "storePersonnel": "Personnel du Magasin",
+      "storeAdminsSection": "Administrateurs",
+      "storeOperatorsSection": "Opérateurs",
+      "regionalManagersSection": "Responsables Régionaux",
+      "storeAdminsListLabel": "Administrateurs du magasin",
+      "storeOperatorsListLabel": "Opérateurs du magasin",
+      "regionalManagersListLabel": "Responsables régionaux",
+      "noUsers": "Aucun utilisateur trouvé",
+      "fields": {
+        "storeName": "Nom du Magasin",
+        "storeNumber": "Numéro du Magasin",
+        "phoneNumber": "Numéro de Téléphone",
+        "country": "Pays",
+        "state": "État",
+        "city": "Ville",
+        "address": "Adresse",
+        "zipCode": "Code Postal"
+      },
+      "noAdmins": "Aucun administrateur trouvé",
+      "adminsListLabel": "Administrateurs du magasin",
+      "loadingLabel": "Chargement des détails du magasin, veuillez patienter.",
+      "error": {
+        "title": "Impossible de charger les détails du magasin",
+        "description": "Une erreur s'est produite lors de la récupération des détails du magasin. Veuillez réessayer plus tard ou contacter le support si le problème persiste."
+      }
+    }
+  },
+  "userManagement": {
+    "page": {
+      "title": "Gestion des Utilisateurs",
+      "description": "Créez et gérez les utilisateurs sur toute la plateforme avec un contrôle d'accès basé sur les rôles"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "statusPlaceholder": "Sélectionner le statut",
+      "rolePlaceholder": "Sélectionner le rôle",
+      "pspPlaceholder": "Sélectionner le PSP",
+      "allPsps": "Tous les PSPs",
+      "allRoles": "Tous les Rôles",
+      "brandPlaceholder": "Sélectionner la marque",
+      "allBrands": "Toutes les Marques",
+      "storePlaceholder": "Sélectionner le magasin",
+      "allStores": "Tous les Magasins"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "pending": "En Attente"
+    },
+    "table": {
+      "caption": "Tableau de gestion des utilisateurs avec nom, e-mail, rôle, statut et actions",
+      "emptyState": "Aucun utilisateur trouvé.",
+      "loadingState": "Chargement des utilisateurs, veuillez patienter.",
+      "paginationLabel": "Utilisateurs",
+      "columns": {
+        "user": "Utilisateur",
+        "email": "E-mail",
+        "userRole": "Rôle d'Utilisateur",
+        "status": "Statut",
+        "created": "Créé",
+        "actions": "Actions"
+      },
+      "statusBadge": {
+        "active": "Actif",
+        "inactive": "Inactif",
+        "pending": "En Attente"
+      }
+    },
+    "actions": {
+      "editUser": "Modifier l'Utilisateur",
+      "deactivateUser": "Désactiver l'Utilisateur",
+      "activateUser": "Activer l'Utilisateur",
+      "impersonateUser": "Emprunter l'Identité",
+      "resendInvitation": "Renvoyer l'Invitation",
+      "createUser": "Créer un Utilisateur"
+    },
+    "activateDialog": {
+      "title": "Activer l'Utilisateur",
+      "description": "Êtes-vous sûr de vouloir activer cet utilisateur ? Il retrouvera un accès complet à la plateforme.",
+      "cancelButton": "Annuler",
+      "submitButton": "Activer l'Utilisateur",
+      "entityNamesError": {
+        "description": "Cet utilisateur ne peut pas être activé car il est associé à des entités inactives :",
+        "entityNamesListLabel": "Entités inactives"
+      }
+    },
+    "deactivateDialog": {
+      "title": "Désactiver l'Utilisateur",
+      "description": "Êtes-vous sûr de vouloir désactiver cet utilisateur ? Il perdra l'accès à la plateforme.",
+      "cancelButton": "Annuler",
+      "submitButton": "Désactiver l'Utilisateur",
+      "campaignNamesError": {
+        "description": "Cet utilisateur ne peut pas être désactivé car il est associé à des campagnes actives :",
+        "campaignsListLabel": "Campagnes actives"
+      }
+    },
+    "deleteDialog": {
+      "title": "Supprimer l'Utilisateur",
+      "description": "La suppression d'un utilisateur est permanente et irréversible. Envisagez plutôt de le désactiver.",
+      "recommendedTitle": "Recommandé : Désactiver Plutôt que Supprimer",
+      "recommendedDescription": "La désactivation préserve toutes les données et peut être annulée. L'utilisateur perdra l'accès mais ses informations resteront intactes.",
+      "permanentDeleteWarning": "Si vous êtes absolument certain de vouloir supprimer définitivement cet utilisateur :",
+      "cancelButton": "Annuler",
+      "deactivateButton": "Désactiver l'Utilisateur",
+      "deleteButton": "Supprimer Définitivement"
+    },
+    "impersonateDialog": {
+      "title": "Emprunter l'Identité",
+      "description": "Basculer vers le compte de cet utilisateur",
+      "fullNameLabel": "Nom Complet",
+      "emailLabel": "Adresse E-mail",
+      "roleLabel": "Rôle Utilisateur",
+      "cancelButton": "Annuler",
+      "submitButton": "Emprunter l'Identité"
+    },
+    "resendInvitationDialog": {
+      "title": "Renvoyer l'Invitation",
+      "description": "Envoyez un e-mail d'invitation à cet utilisateur pour configurer son compte.",
+      "invitationEmailTitle": "E-mail d'Invitation",
+      "invitationEmailDescription": "Un code de vérification sera envoyé à {email} pour compléter le processus de connexion.",
+      "cancelButton": "Annuler",
+      "submitButton": "Envoyer l'Invitation"
+    },
+    "userDialog": {
+      "create": {
+        "title": "Créer un Nouvel Utilisateur",
+        "description": "Ajoutez un nouvel utilisateur et assignez-le à l'entité appropriée",
+        "submitButton": "Créer l'Utilisateur et Envoyer l'Invitation"
+      },
+      "edit": {
+        "title": "Modifier l'Utilisateur",
+        "selfEditTitle": "Modifier Votre Profil",
+        "description": "Mettre à jour les informations de l'utilisateur et les attributions d'entité",
+        "selfEditDescription": "Mettez à jour vos informations",
+        "submitButton": "Enregistrer les Modifications"
+      },
+      "fields": {
+        "fullName": {
+          "label": "Nom Complet",
+          "placeholder": "Jean Dupont"
+        },
+        "email": {
+          "label": "Adresse E-mail",
+          "placeholder": "Saisir l'adresse e-mail"
+        },
+        "userRole": {
+          "label": "Rôle Utilisateur",
+          "placeholder": "Sélectionner le rôle utilisateur",
+          "emptyText": "Aucun rôle utilisateur disponible"
+        },
+        "assignedPsp": {
+          "label": "PSP Assigné",
+          "placeholder": "Sélectionner un PSP",
+          "loadingPlaceholder": "Chargement des PSPs...",
+          "emptyText": "Aucun PSP disponible"
+        },
+        "assignedBrand": {
+          "label": "Marque Assignée",
+          "placeholder": "Sélectionner une marque",
+          "loadingPlaceholder": "Chargement des marques...",
+          "emptyText": "Aucune marque disponible"
+        },
+        "assignedStore": {
+          "label": "Magasin Assigné",
+          "placeholder": "Sélectionner un magasin",
+          "loadingPlaceholder": "Chargement des magasins...",
+          "emptyText": "Aucun magasin disponible"
+        },
+        "assignedStores": {
+          "label": "Magasins Assignés",
+          "placeholder": "Sélectionner des magasins",
+          "loadingPlaceholder": "Chargement des magasins...",
+          "emptyText": "Aucun magasin disponible"
+        }
+      },
+      "cancelButton": "Annuler",
+      "submitting": "Envoi en cours...",
+      "campaignNamesError": {
+        "description": "Cet utilisateur ne peut pas être mis à jour. Il est associé à des campagnes actives :",
+        "campaignsListLabel": "Campagnes actives"
+      }
+    },
+    "validation": {
+      "fullNameRequired": "Le nom complet est requis",
+      "fullNameMinLength": "Le nom complet doit comporter au moins 2 caractères",
+      "fullNameMaxLength": "Le nom complet ne doit pas dépasser 100 caractères",
+      "fullNameInvalid": "Le nom complet ne peut contenir que des lettres, des espaces, des traits d'union et des apostrophes",
+      "emailRequired": "L'adresse e-mail est requise",
+      "emailInvalid": "Veuillez saisir une adresse e-mail valide",
+      "emailMaxLength": "L'e-mail ne doit pas dépasser 255 caractères",
+      "roleRequired": "Veuillez sélectionner un rôle utilisateur valide",
+      "pspRequired": "L'attribution PSP est requise pour le rôle Administrateur PSP",
+      "brandRequired": "L'attribution de marque est requise pour le rôle Administrateur de Marque",
+      "storeRequired": "L'attribution de magasin est requise pour ce rôle"
+    },
+    "messages": {
+      "success": {
+        "userActivated": "Utilisateur activé avec succès",
+        "userDeactivated": "Utilisateur désactivé avec succès",
+        "userDeleted": "Utilisateur supprimé avec succès",
+        "userCreated": "Utilisateur créé avec succès",
+        "invitationSent": "Invitation envoyée à {email}",
+        "userUpdated": "Utilisateur mis à jour avec succès",
+        "changesSaved": "Modifications enregistrées pour {email}"
+      },
+      "error": {
+        "activateFailed": "Échec de l'activation de l'utilisateur",
+        "deactivateFailed": "Échec de la désactivation de l'utilisateur",
+        "deleteFailed": "Échec de la suppression de l'utilisateur",
+        "createFailed": "Échec de la création de l'utilisateur",
+        "updateFailed": "Échec de la mise à jour de l'utilisateur",
+        "unexpectedError": "Une erreur inattendue s'est produite",
+        "pspRequired": "L'attribution PSP est requise",
+        "pleaseSelectPsp": "Veuillez sélectionner un PSP pour le rôle Administrateur PSP"
+      }
+    }
+  },
+  "brandManagement": {
+    "page": {
+      "title": "Gestion des Marques",
+      "description": "Créer et gérer les marques pour votre PSP"
+    },
+    "stats": {
+      "totalBrands": "Marques Totales",
+      "activeBrands": "Marques Actives",
+      "inactiveBrands": "Marques Inactives"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des marques",
+      "statusAriaLabel": "Filtre de Statut",
+      "statusPlaceholder": "Sélectionner le statut",
+      "createButton": "Créer une Marque"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "table": {
+      "caption": "Tableau de gestion des marques affichant le nom, les informations de contact, les admins, les campagnes, le statut et les actions",
+      "emptyState": "Aucune marque trouvée.",
+      "paginationLabel": "Marques",
+      "websiteLinkAriaLabel": "Visiter {website} (s'ouvre dans un nouvel onglet)",
+      "campaignsAriaLabel": "Voir {count} campagnes pour {name}",
+      "adminsCount": "{count} Admins",
+      "adminCount": "{count} Admin",
+      "columns": {
+        "brandName": "Nom",
+        "brandAdmins": "Admins de la Marque",
+        "users": "Utilisateurs",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "campaigns": "Campagnes",
+        "status": "Statut",
+        "createdDate": "Créé",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "editBrand": "Modifier la Marque",
+      "deactivateBrand": "Désactiver la Marque",
+      "activateBrand": "Activer la Marque"
+    },
+    "activateDialog": {
+      "title": "Activer la Marque",
+      "description": "Êtes-vous sûr de vouloir activer cette marque ?",
+      "adminNote": "L’activation de cette marque ne restaurera pas automatiquement l’accès des utilisateurs. Vous devrez activer manuellement tous les utilisateurs associés.",
+      "brandInfoAriaLabel": "Marque en cours d’activation",
+      "cancelButton": "Annuler",
+      "submitButton": "Activer la Marque"
+    },
+    "deactivateDialog": {
+      "title": "Désactiver la Marque",
+      "description": "Êtes-vous sûr de vouloir désactiver cette marque ? ",
+      "adminNote": "La désactivation de cette marque désactivera tous ses utilisateurs et propagera la désactivation à toutes les entités enfants associées et leurs utilisateurs respectifs.",
+      "brandInfoAriaLabel": "Marque en cours de désactivation",
+      "confirmAriaLabel": "Confirmer la désactivation de cette marque",
+      "cancelButton": "Annuler",
+      "submitButton": "Désactiver la Marque",
+      "incompleteCampaignsError": {
+        "title": "Erreur",
+        "description": "Cette Marque ne peut pas être désactivée car elle est associée à des campagnes actives :",
+        "campaignsListLabel": "Campagnes avec des commandes actives"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Marque créée avec succès",
+        "updated": "Marque mise à jour avec succès",
+        "activated": "Marque activée avec succès",
+        "deactivated": "Marque désactivée avec succès"
+      },
+      "error": {
+        "createFailed": "Échec de la création de la marque",
+        "updateFailed": "Échec de la mise à jour de la marque",
+        "activateFailed": "Échec de l'activation de la marque",
+        "deactivateFailed": "Échec de la désactivation de la marque"
+      }
+    },
+    "dialog": {
+      "create": {
+        "title": "Créer une Nouvelle Marque",
+        "description": "Remplissez les détails pour créer une nouvelle marque",
+        "submitButton": "Créer la Marque"
+      },
+      "createSuccess": {
+        "title": "Marque Créée avec Succès",
+        "description": "Votre marque a été créée avec succès.",
+        "subtitle": "Vous pouvez maintenant créer un utilisateur Administrateur de Marque pour gérer cette marque.",
+        "createUserButton": "Créer un Utilisateur Administrateur de Marque"
+      },
+      "edit": {
+        "title": "Modifier la Marque",
+        "description": "Mettez à jour les détails de la marque ci-dessous",
+        "submitButton": "Enregistrer les Modifications"
+      },
+      "fields": {
+        "name": {
+          "label": "Nom de la Marque",
+          "placeholder": "Entrez le nom de la marque"
+        },
+        "country": {
+          "label": "Pays",
+          "placeholder": "Rechercher des pays...",
+          "emptyText": "Aucun pays trouvé"
+        },
+        "state": {
+          "label": "État",
+          "placeholder": "Rechercher des états...",
+          "emptyText": "Aucun état trouvé"
+        },
+        "city": {
+          "label": "Ville",
+          "placeholder": "Entrez la ville"
+        },
+        "streetAddress": {
+          "label": "Adresse",
+          "placeholder": "123 Rue Principale"
+        },
+        "zipCode": {
+          "label": "Code Postal",
+          "placeholder": "Saisir le code postal"
+        },
+        "website": {
+          "label": "Site Web",
+          "placeholder": "Saisir le site web"
+        }
+      },
+      "cancelButton": "Annuler",
+      "validation": {
+        "brandNameRequired": "Le nom de la marque est obligatoire",
+        "brandNameMinLength": "Le nom de la marque doit comporter au moins 2 caractères",
+        "brandNameMaxLength": "Le nom de la marque ne doit pas dépasser 200 caractères",
+        "countryRequired": "Le pays est obligatoire",
+        "countryMinLength": "Le pays doit comporter au moins 2 caractères",
+        "countryMaxLength": "Le pays ne doit pas dépasser 100 caractères",
+        "stateRequired": "L'état est obligatoire",
+        "stateMinLength": "L'état doit comporter au moins 2 caractères",
+        "stateMaxLength": "L'état ne doit pas dépasser 50 caractères",
+        "cityRequired": "La ville est obligatoire",
+        "cityMinLength": "La ville doit comporter au moins 2 caractères",
+        "cityMaxLength": "La ville ne doit pas dépasser 100 caractères",
+        "streetAddressRequired": "L'adresse est obligatoire",
+        "streetAddressMinLength": "L'adresse doit comporter au moins 5 caractères",
+        "streetAddressMaxLength": "L'adresse ne doit pas dépasser 200 caractères",
+        "zipCodeRequired": "Le code postal est obligatoire",
+        "zipCodeInvalid": "Le code postal ne peut contenir que des chiffres",
+        "zipCodeLength": "Le code postal doit comporter 5 caractères",
+        "websiteInvalid": "Veuillez entrer une URL valide",
+        "websiteMaxLength": "Le site web ne doit pas dépasser 255 caractères"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du Chargement des Statistiques",
+        "description": "Nous n'avons pas pu charger les statistiques des marques. Veuillez réessayer."
+      },
+      "brandTable": {
+        "title": "Échec du Chargement des Marques",
+        "description": "Nous n'avons pas pu charger la liste des marques. Veuillez réessayer."
+      }
+    },
+    "details": {
+      "title": "Détails de la Marque",
+      "backLink": "Retour aux Marques",
+      "brandInfo": "Informations de la Marque",
+      "brandAdmins": "Administrateurs de la Marque",
+      "brandPersonnel": "Personnel de la Marque",
+      "brandAdminsSection": "Administrateurs",
+      "campaignManagersSection": "Responsables de Campagne",
+      "brandAdminsListLabel": "Administrateurs de la marque",
+      "campaignManagersListLabel": "Responsables de campagne",
+      "noUsers": "Aucun utilisateur trouvé",
+      "fields": {
+        "brandName": "Nom de la Marque",
+        "country": "Pays",
+        "state": "État",
+        "city": "Ville",
+        "address": "Adresse",
+        "zipCode": "Code Postal",
+        "website": "Site Web"
+      },
+      "noAdmins": "Aucun administrateur trouvé",
+      "adminsListLabel": "Administrateurs de la marque",
+      "loadingLabel": "Chargement des détails de la marque, veuillez patienter.",
+      "error": {
+        "title": "Impossible de charger les détails de la marque",
+        "description": "Une erreur s'est produite lors de la récupération des détails de la marque. Veuillez réessayer plus tard ou contacter le support si le problème persiste."
+      }
+    }
+  },
+  "inventoryManagement": {
+    "page": {
+      "title": "Gestion des stocks",
+      "description": "Afficher et gérer les articles en stock pour votre PSP"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des articles",
+      "statusAriaLabel": "Filtre de statut",
+      "brandAriaLabel": "Filtre de marque",
+      "createButton": "Ajouter un article d'inventaire"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "brandOptions": {
+      "all": "Toutes les marques"
+    },
+    "table": {
+      "caption": "Tableau de gestion des stocks affichant le nom de l'article, la marque, la quantité disponible et les actions",
+      "emptyState": "Aucun article en stock trouvé.",
+      "loadingState": "Chargement de l'inventaire...",
+      "paginationLabel": "Articles",
+      "columns": {
+        "itemName": "Nom de l'article",
+        "brand": "Marque",
+        "availableQuantity": "Quantité disponible",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "viewItem": "Voir l'article",
+      "editItem": "Modifier l'article",
+      "deleteItem": "Supprimer l'article",
+      "inventoryReadOnly": "Les propriétés de l'inventaire ne peuvent pas être mises à jour",
+      "activeCampaignReadOnly": "Cet inventaire est assigné à des campagnes actives et ne peut pas être mis à jour"
+    },
+    "errors": {
+      "inventoryTable": {
+        "title": "Échec du chargement de l'inventaire",
+        "description": "Nous n'avons pas pu charger la liste des stocks. Veuillez réessayer."
+      }
+    },
+    "inventoryDialog": {
+      "create": {
+        "title": "Ajouter un article d'inventaire",
+        "description": "Remplissez les détails pour créer un nouvel article d'inventaire",
+        "submitButton": "Ajouter l'article"
+      },
+      "edit": {
+        "title": "Modifier l'article d'inventaire",
+        "description": "Mettez à jour les détails de l'article d'inventaire",
+        "submitButton": "Enregistrer les modifications"
+      },
+      "cancelButton": "Annuler",
+      "fields": {
+        "name": {
+          "label": "Nom de l'article",
+          "placeholder": "Entrez le nom de l'article"
+        },
+        "width": {
+          "label": "Largeur",
+          "placeholder": "Entrez la largeur",
+          "dimensionHint": "(en pouces)"
+        },
+        "height": {
+          "label": "Hauteur",
+          "placeholder": "Entrez la hauteur",
+          "dimensionHint": "(en pouces)"
+        },
+        "availableQuantity": {
+          "label": "Quantité disponible",
+          "placeholder": "Entrez la quantité disponible"
+        },
+        "brand": {
+          "label": "Marque",
+          "placeholder": "Sélectionnez une marque",
+          "emptyText": "Aucune marque trouvée"
+        },
+        "material": {
+          "label": "Matériau",
+          "placeholder": "Entrez le matériau"
+        },
+        "specifications": {
+          "label": "Spécification de finition",
+          "placeholder": "Entrez la spécification de finition"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Entrez la description"
+        },
+        "photoUpload": {
+          "label": "Télécharger une photo",
+          "dropHint": "Sélectionner un fichier",
+          "typeHint": "Fichier JPG, JPEG, PNG ou WEBP de moins de 10 Mo",
+          "selectButton": "Choisir un fichier",
+          "removeFile": "Supprimer le fichier"
+        }
+      },
+      "validation": {
+        "nameRequired": "Le nom de l'article est requis",
+        "nameMinLength": "Le nom de l'article doit comporter au moins 2 caractères",
+        "nameMaxLength": "Le nom de l'article ne doit pas dépasser 100 caractères",
+        "widthRequired": "La largeur est requise",
+        "widthPositive": "La largeur doit être supérieure à 0",
+        "widthMaxDigits": "La largeur ne peut pas dépasser 16 chiffres",
+        "widthMaxDecimals": "La largeur peut avoir au plus 2 décimales",
+        "heightRequired": "La hauteur est requise",
+        "heightPositive": "La hauteur doit être supérieure à 0",
+        "heightMaxDigits": "La hauteur ne peut pas dépasser 16 chiffres",
+        "heightMaxDecimals": "La hauteur peut avoir au plus 2 décimales",
+        "brandRequired": "La marque est requise",
+        "availableQuantityInvalid": "La quantité disponible doit être un nombre",
+        "availableQuantityWholeNumber": "La quantité disponible doit être un nombre entier",
+        "availableQuantityNonNegative": "La quantité disponible ne peut pas être négative",
+        "availableQuantityMaxDigits": "La quantité disponible ne peut pas dépasser 16 chiffres",
+        "materialMaxLength": "Le matériau ne doit pas dépasser 100 caractères",
+        "specificationsMaxLength": "La spécification de finition ne doit pas dépasser 200 caractères",
+        "descriptionMaxLength": "La description ne doit pas dépasser 200 caractères",
+        "fileTypeInvalid": "Seuls les fichiers JPG, JPEG, PNG ou WEBP sont autorisés",
+        "fileSizeExceeded": "La taille du fichier ne doit pas dépasser 10 Mo",
+        "imageRequired": "Veuillez télécharger une image pour cet article",
+        "imageUploadFailed": "Échec du téléchargement de l'image. Veuillez réessayer."
+      },
+      "messages": {
+        "created": "Article d'inventaire créé avec succès",
+        "updated": "Article d'inventaire mis à jour avec succès"
+      }
+    },
+    "viewInventoryDialog": {
+      "dialogTitle": "Détails de l'article d'inventaire",
+      "title": "Informations de base",
+      "createdOn": "Créé le {date}",
+      "fields": {
+        "itemName": "Nom de l'article",
+        "width": "Largeur (en pouces)",
+        "height": "Hauteur (en pouces)",
+        "material": "Matériau",
+        "availableQuantity": "Quantité disponible",
+        "brand": "Marque assignée",
+        "photos": "Photos",
+        "photosViewLabel": "Voir",
+        "finishingSpec": "Spécification de finition",
+        "description": "Description"
+      },
+      "closeButton": "Fermer"
+    },
+    "deleteDialog": {
+      "title": "Supprimer l'article d'inventaire",
+      "confirmTitle": "Êtes-vous sûr de vouloir supprimer cet article ?",
+      "confirmDescription": "Cette action est irréversible et supprimera définitivement l'article de la plateforme.",
+      "cancelButton": "Annuler",
+      "deleteButton": "Supprimer l'article",
+      "successMessage": "{name} a été supprimé avec succès",
+      "errorMessage": "Échec de la suppression. Veuillez réessayer."
+    }
+  },
+  "shipments": {
+    "page": {
+      "title": "Expéditions",
+      "description": "Consulter et suivre les expéditions de votre PSP"
+    },
+    "stats": {
+      "totalShipments": "Total des Expéditions",
+      "shipped": "Expédié",
+      "received": "Reçu",
+      "receivedWithException": "Reçu avec Exception"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des expéditions",
+      "campaignAriaLabel": "Filtrer par campagne",
+      "storeAriaLabel": "Filtrer par magasin",
+      "statusAriaLabel": "Filtrer par statut"
+    },
+    "filterOptions": {
+      "allCampaigns": "Toutes les Campagnes",
+      "allStores": "Tous les Magasins",
+      "allStatuses": "Tous les Statuts",
+      "statusPending": "En attente",
+      "statusShipped": "Expédié",
+      "statusDelivered": "Livré",
+      "statusReceived": "Reçu",
+      "statusReceivedWithException": "Reçu avec Exception"
+    },
+    "table": {
+      "caption": "Tableau des expéditions affichant le numéro de commande, la campagne, le magasin, l'ETA, le numéro de suivi, le statut et les articles",
+      "emptyState": "Aucune expédition trouvée.",
+      "loadingState": "Chargement des expéditions...",
+      "paginationLabel": "Expéditions",
+      "columns": {
+        "shipmentNo": "N° d'Expédition",
+        "campaignName": "Campagne",
+        "orderNumber": "N° de Commande",
+        "store": "Magasin",
+        "shipmentEta": "ETA",
+        "trackingNumber": "Numéro de Suivi",
+        "status": "Statut"
+      },
+      "units": "unités",
+      "statusLabels": {
+        "SHIPPED": "Expédié",
+        "RECEIVED": "Reçu",
+        "RECEIVED_WITH_EXCEPTION": "Reçu avec Exception"
+      },
+      "statusAriaLabel": "Statut d’expédition : {status}"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du chargement des statistiques d'expédition",
+        "description": "Impossible de charger les statistiques d'expédition. Veuillez réessayer."
+      },
+      "shipmentsTable": {
+        "title": "Échec du chargement des expéditions",
+        "description": "Impossible de charger la liste des expéditions. Veuillez réessayer."
+      }
+    }
+  },
+  "shipmentDetails": {
+    "page": {
+      "title": "Détails de l'Expédition",
+      "description": "Afficher les informations détaillées sur une expédition"
+    },
+    "header": {
+      "backLink": "Retour aux Expéditions",
+      "title": "Détails de l'Expédition",
+      "orderNumber": "Numéro de Commande :"
+    },
+    "info": {
+      "campaign": "Campagne",
+      "store": "Magasin",
+      "shipmentDate": "Date d'Expédition",
+      "estimatedDelivery": "Livraison Estimée",
+      "trackingNumber": "Numéro de Suivi",
+      "carrierName": "Nom du Transporteur",
+      "status": "Statut",
+      "notes": "Notes",
+      "statusLabels": {
+        "SHIPPED": "Expédié",
+        "RECEIVED": "Reçu",
+        "RECEIVED_WITH_EXCEPTION": "Reçu avec Exception"
+      },
+      "statusAriaLabel": "Statut d’expédition : {status}"
+    },
+    "promotions": {
+      "title": "Promotions dans l'Expédition",
+      "badge": "{count} Promotions",
+      "columns": {
+        "promotionName": "Nom de la Promotion",
+        "sortByPromotionName": "Trier par nom de promotion",
+        "quantity": "Quantité"
+      },
+      "totalItems": "Total des Articles"
+    },
+    "receiveTable": {
+      "title": "Promotions dans l'Expédition",
+      "receiveAll": "Tout Recevoir",
+      "clearAll": "Tout Effacer",
+      "cancel": "Annuler",
+      "raiseException": "Soumettre une Demande d'Exception",
+      "submitting": "Envoi en cours...",
+      "noItems": "Aucune promotion trouvée.",
+      "receiveAllSuccess": "Expédition reçue avec succès.",
+      "raiseExceptionSuccess": "Demande d'exception soumise avec succès.",
+      "receiveFailed": "Échec du traitement de l'expédition. Veuillez réessayer.",
+      "exceptionTypeRequired": "Veuillez sélectionner un type d'exception pour toutes les lignes avec des écarts.",
+      "allRowsRequired": "Veuillez renseigner les quantités reçues valides et les écarts pour toutes les lignes.",
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des promotions par nom",
+      "clearSearchAriaLabel": "Effacer la recherche",
+      "entityLabel": "Promotions",
+      "columns": {
+        "promotionName": "Nom de la Promotion",
+        "shippedQuantity": "Quantité Expédiée",
+        "validReceivedQty": "Qté Reçue Valide",
+        "exceptionType": "Type d'Exception",
+        "discrepancyQty": "Qté d'Écart",
+        "validReceivedQtyAriaLabel": "Quantité reçue valide pour {promotionName}",
+        "exceptionTypeAriaLabel": "Type d'exception pour {promotionName}",
+        "discrepancyQtyAriaLabel": "Quantité d'écart pour {promotionName}",
+        "exceptionMissing": "Manquant",
+        "exceptionIncorrect": "Incorrect",
+        "exceptionDamaged": "Endommagé",
+        "exceptionTypePlaceholder": "Sélectionner le type",
+        "exceptionTypeRequired": "Veuillez sélectionner un type d'exception pour toutes les lignes avec des écarts."
+      }
+    },
+    "errors": {
+      "header": {
+        "title": "Échec du chargement de l'en-tête",
+        "description": "Impossible de charger l'en-tête de l'expédition."
+      },
+      "info": {
+        "title": "Échec du chargement des informations",
+        "description": "Impossible de charger les détails de l'expédition."
+      },
+      "promotions": {
+        "title": "Échec du chargement des promotions",
+        "description": "Impossible de charger les promotions."
+      }
+    },
+    "loading": {
+      "header": "Chargement de l’en-tête d’expédition",
+      "info": "Chargement des informations d’expédition"
+    },
+    "exceptionDialog": {
+      "title": "Demande d'Exception",
+      "description": "Signalez des articles manquants, endommagés ou incorrects de cette expédition.",
+      "cancelButton": "Annuler",
+      "submitButton": "Soumettre",
+      "fields": {
+        "reason": {
+          "label": "Raison",
+          "placeholder": "Raison"
+        },
+        "photoUpload": {
+          "label": "Téléchargement de Photos",
+          "dropHint": "Sélectionnez un fichier ici",
+          "typeHint": "JPG, JPEG, PNG ou WEBP; la taille du fichier doit être inférieure à 10 Mo",
+          "selectButton": "Sélectionner un Fichier",
+          "removeFile": "Supprimer {fileName}",
+          "dropZoneAriaLabel": "Zone de dépôt pour le téléchargement de photos. Cliquez pour sélectionner des fichiers."
+        }
+      },
+      "validation": {
+        "reasonRequired": "La raison est obligatoire.",
+        "reasonMax": "La raison ne doit pas dépasser 500 caractères",
+        "imagesRequired": "Au moins une photo est requise.",
+        "fileTypeInvalid": "Seuls les fichiers JPG, JPEG, PNG ou WEBP sont autorisés.",
+        "fileSizeExceeded": "La taille du fichier doit être inférieure à 10 Mo.",
+        "uploadFailed": "Échec du téléchargement des images. Veuillez réessayer."
+      }
+    }
+  },
+  "campaignManagement": {
+    "dialog": {
+      "create": {
+        "title": "Créer une Nouvelle Campagne",
+        "description": "Remplissez les détails pour créer une nouvelle campagne",
+        "submitButton": "Créer la Campagne",
+        "triggerButton": "Créer une Nouvelle Campagne"
+      },
+      "edit": {
+        "title": "Modifier la Campagne",
+        "description": "Mettez à jour les détails de la campagne",
+        "submitButton": "Enregistrer les Modifications"
+      },
+      "cancelButton": "Annuler",
+      "fields": {
+        "campaignName": {
+          "label": "Nom de la Campagne",
+          "placeholder": "p. ex., Collection Printemps 2026"
+        },
+        "campaignObjective": {
+          "label": "Objectif de la Campagne",
+          "placeholder": "p. ex., Augmenter les ventes saisonnières de 25%"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Saisissez la description de la campagne"
+        },
+        "isPermanent": {
+          "label": "Campagne Permanente ?",
+          "description": "Activer pour les campagnes permanentes, désactiver pour les ponctuelles"
+        },
+        "startDate": {
+          "label": "Date de Début",
+          "placeholder": "Choisir une date"
+        },
+        "endDate": {
+          "label": "Date de Fin",
+          "placeholder": "Choisir une date"
+        },
+        "shipByDate": {
+          "label": "Date d'Expédition Prévue",
+          "placeholder": "Choisir une date"
+        },
+        "campaignManager": {
+          "label": "Responsable de Campagne",
+          "placeholder": "Sélectionner un Responsable de Campagne",
+          "emptyText": "Aucun responsable trouvé",
+          "addButton": "Ajouter un Responsable de Campagne"
+        }
+      },
+      "validation": {
+        "campaignNameRequired": "Le nom de la campagne est requis",
+        "campaignNameMinLength": "Le nom doit comporter au moins 3 caractères",
+        "campaignNameMaxLength": "Le nom ne doit pas dépasser 100 caractères",
+        "campaignObjectiveRequired": "L'objectif de la campagne est requis",
+        "campaignObjectiveMinLength": "L'objectif doit comporter au moins 3 caractères",
+        "campaignObjectiveMaxLength": "L'objectif ne doit pas dépasser 200 caractères",
+        "descriptionRequired": "La description est requise",
+        "descriptionMinLength": "La description doit comporter au moins 3 caractères",
+        "descriptionMaxLength": "La description ne doit pas dépasser 500 caractères",
+        "startDateRequired": "La date de début est requise",
+        "startDateFuture": "La date de début doit être dans le futur",
+        "endDateRequired": "La date de fin est requise",
+        "shipByDateRequired": "La date d'expédition est requise",
+        "shipByDateFuture": "La date d'expédition prévue doit être dans le futur",
+        "endDateAfterStartDate": "La date de fin doit être postérieure à la date de début",
+        "shipByDateBeforeStartDate": "La date d'expédition doit être antérieure à la date de début"
+      }
+    },
+    "page": {
+      "title": "Gestion des Campagnes",
+      "description": "Créez et gérez vos campagnes marketing",
+      "pspAdmin": {
+        "title": "Campagnes",
+        "description": "Consultez et gérez les campagnes de toutes les marques"
+      }
+    },
+    "loading": {
+      "title": "Gestion des Campagnes",
+      "description": "Créez et gérez vos campagnes marketing",
+      "pspAdmin": {
+        "title": "Campagnes",
+        "description": "Consultez et gérez les campagnes de toutes les marques"
+      }
+    },
+    "stats": {
+      "totalCampaigns": "Total des Campagnes",
+      "newCampaigns": "Nouvelles",
+      "inReview": "En Révision",
+      "inProduction": "En Production"
+    },
+    "table": {
+      "status": {
+        "DRAFT": "Brouillon",
+        "NEW": "Nouvelle",
+        "ACCEPTED": "Accepté",
+        "IN_REVIEW": "En Révision",
+        "ON_HOLD": "En Attente",
+        "IN_PRODUCTION": "En Production",
+        "PARTIALLY_SHIPPED": "Partiellement Expédiée",
+        "SHIPPED": "Expédiée",
+        "PARTIALLY_RECEIVED": "Partiellement Reçue",
+        "RECEIVED": "Reçue",
+        "COMPLETED": "Terminée"
+      },
+      "type": {
+        "ONE_OFF": "Ponctuelle",
+        "PERMANENT": "Permanente"
+      },
+      "columns": {
+        "campaignName": "Nom de la Campagne",
+        "type": "Type",
+        "status": "Statut",
+        "stores": "Magasins",
+        "promotions": "Promotions",
+        "createdDate": "Créé",
+        "expectedShipDate": "Date d'Expédition Prévue",
+        "actions": "Actions",
+        "brand": "Marque",
+        "quantity": "Quantité"
+      },
+      "loadingMessage": "Chargement des campagnes, veuillez patienter.",
+      "caption": "Tableau de gestion des campagnes affichant le nom, le type, le statut, les magasins, les dates et les actions",
+      "noCampaigns": "Aucune campagne trouvée.",
+      "entityLabel": "campagnes"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des campagnes",
+      "typeAriaLabel": "Filtre par type",
+      "statusAriaLabel": "Filtre par statut",
+      "archivedAriaLabel": "Filtre d'archive",
+      "brandAriaLabel": "Filtrer par marque",
+      "storeAriaLabel": "Filtrer par magasin",
+      "typeOptions": {
+        "all": "Tous les types",
+        "ONE_OFF": "Ponctuelle",
+        "PERMANENT": "Permanente"
+      },
+      "statusOptions": {
+        "all": "Tous les statuts",
+        "DRAFT": "Brouillon",
+        "NEW": "Nouvelle",
+        "ACCEPTED": "Accepté",
+        "IN_REVIEW": "En Révision",
+        "ON_HOLD": "En Attente",
+        "IN_PRODUCTION": "En Production",
+        "PARTIALLY_SHIPPED": "Partiellement Expédiée",
+        "SHIPPED": "Expédiée",
+        "PARTIALLY_RECEIVED": "Partiellement Reçue",
+        "RECEIVED": "Reçue",
+        "COMPLETED": "Terminée"
+      },
+      "archivedOptions": {
+        "archived": "Archivée",
+        "unarchived": "Non archivée"
+      },
+      "brandOptions": {
+        "all": "Toutes les marques"
+      },
+      "storeOptions": {
+        "all": "Tous les magasins"
+      }
+    },
+    "actions": {
+      "editCampaign": "Modifier la Campagne",
+      "updateStatus": "Mettre à Jour le Statut",
+      "assignToSelf": "M'assigner",
+      "deleteCampaign": "Supprimer la Campagne",
+      "archiveCampaign": "Archiver la Campagne",
+      "unarchiveCampaign": "Désarchiver la Campagne"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du chargement des statistiques",
+        "description": "Nous n'avons pas pu charger les statistiques des campagnes. Veuillez réessayer."
+      },
+      "campaignListing": {
+        "title": "Échec du chargement des campagnes",
+        "description": "Nous n'avons pas pu charger la liste des campagnes. Veuillez réessayer."
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Campagne créée avec succès",
+        "updated": "Campagne mise à jour avec succès",
+        "archived": "Campagne archivée avec succès",
+        "unarchived": "Campagne désarchivée avec succès",
+        "deleted": "Campagne supprimée avec succès",
+        "assigned": "Campagne assignée avec succès"
+      },
+      "error": {
+        "createFailed": "Échec de la création de la campagne",
+        "updateFailed": "Échec de la mise à jour de la campagne",
+        "archiveFailed": "Échec de l'archivage de la campagne",
+        "deleteFailed": "Échec de la suppression de la campagne"
+      }
+    },
+    "promotionDialog": {
+      "create": {
+        "title": "Ajouter une Promotion",
+        "description": "Remplissez les détails pour créer une nouvelle promotion",
+        "submitButton": "Ajouter la Promotion"
+      },
+      "edit": {
+        "title": "Modifier la Promotion",
+        "description": "Mettez à jour les détails de la promotion",
+        "submitButton": "Enregistrer"
+      },
+      "cancelButton": "Annuler",
+      "fields": {
+        "name": {
+          "label": "Nom de la Promotion",
+          "placeholder": "Entrez le nom de la promotion"
+        },
+        "width": {
+          "label": "Largeur",
+          "placeholder": "Entrez la largeur",
+          "dimensionHint": "(en pouces)"
+        },
+        "height": {
+          "label": "Hauteur",
+          "placeholder": "Entrez la hauteur",
+          "dimensionHint": "(en pouces)"
+        },
+        "material": {
+          "label": "Matériau",
+          "placeholder": "Entrez le matériau"
+        },
+        "specifications": {
+          "label": "Spécification de Finition",
+          "placeholder": "Entrez la spécification de finition"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Entrez la description"
+        },
+        "needDesign": {
+          "label": "Besoin de Design"
+        },
+        "isReusable": {
+          "label": "Est-ce un article réutilisable ?",
+          "description": "Cochez si cet article peut être réutilisé"
+        },
+        "photoUpload": {
+          "label": "Téléchargement Photo",
+          "dropHint": "Sélectionnez un fichier",
+          "typeHint": "JPG, JPEG, PNG ou WEBP, la taille du fichier doit être inférieure à 10MB",
+          "selectButton": "Sélectionner un Fichier",
+          "removeFile": "Supprimer le fichier"
+        }
+      },
+      "validation": {
+        "nameRequired": "Le nom de la promotion est obligatoire",
+        "nameMinLength": "Le nom doit comporter au moins 2 caractères",
+        "nameMaxLength": "Le nom ne doit pas dépasser 100 caractères",
+        "widthRequired": "La largeur est obligatoire",
+        "widthPositive": "La largeur doit être supérieure à 0",
+        "widthMaxDigits": "La largeur ne peut pas dépasser 16 chiffres",
+        "widthMaxDecimals": "La largeur peut avoir au plus 2 décimales",
+        "heightRequired": "La hauteur est obligatoire",
+        "heightPositive": "La hauteur doit être supérieure à 0",
+        "heightMaxDigits": "La hauteur ne peut pas dépasser 16 chiffres",
+        "heightMaxDecimals": "La hauteur peut avoir au plus 2 décimales",
+        "materialMaxLength": "Le matériau ne doit pas dépasser 100 caractères",
+        "specificationsMaxLength": "La spécification ne doit pas dépasser 200 caractères",
+        "descriptionMaxLength": "La description ne doit pas dépasser 200 caractères",
+        "fileTypeInvalid": "Seuls les fichiers JPG, JPEG, PNG ou WEBP sont autorisés",
+        "fileSizeExceeded": "La taille du fichier ne doit pas dépasser 10MB",
+        "imageRequired": "Veuillez télécharger une image pour cette promotion",
+        "imageUploadFailed": "Échec du téléchargement de l'image. Veuillez réessayer."
+      },
+      "messages": {
+        "created": "Promotion créée avec succès",
+        "updated": "Promotion mise à jour avec succès"
+      }
+    },
+    "details": {
+      "pageTitle": "Détails de la Campagne",
+      "pageDescription": "Voir et gérer les détails de la campagne, les promotions et les informations de commande",
+      "backToCampaigns": "Retour aux Campagnes",
+      "updateStatus": "Mettre à jour le statut",
+      "editButton": "Modifier",
+      "deleteButton": "Supprimer",
+      "permanentCampaign": "Campagne Permanente",
+      "oneOffCampaign": "Campagne Ponctuelle",
+      "campaignDetailsSection": "Détails de la Campagne",
+      "tabs": {
+        "details": "Détails",
+        "order": "Commande",
+        "reorder": "Récommandes",
+        "installationProof": "Preuve d'Installation"
+      },
+      "infoCards": {
+        "brandName": "Nom de Marque",
+        "campaignManager": "Responsable de Campagne",
+        "startDate": "Date de Début",
+        "endDate": "Date de Fin",
+        "expectedShipBy": "Date d'Expédition Prévue"
+      },
+      "overview": {
+        "objective": "Objectif",
+        "description": "Description"
+      },
+      "ordersTab": {
+        "title": "Commandes de Magasin",
+        "description": "Voir les promotions et quantités attribuées à chaque magasin",
+        "promotions": "Promotions Totales",
+        "totalQty": "Quantité Totale",
+        "shipped": "Quantité Expédiée",
+        "remaining": "Qté Restante",
+        "status": "Statut",
+        "ship": "Expédier",
+        "shipAriaLabel": "Expédier {storeName}",
+        "discrepancyQuantity": "Qté de Discrépance",
+        "promotionShipped": "Quantité Expédiée",
+        "promotionRemaining": "Qté Restante",
+        "specifications": "Spécifications",
+        "dimensions": "Dimensions (L x H) en pouces",
+        "sizeFormat": "Taille: {width}x{height} pouces",
+        "location": "Emplacement",
+        "promotionsFor": "Promotions pour {storeName}",
+        "size": "Taille : {width}x{height} pouces",
+        "viewPromotion": "Voir la Promotion",
+        "viewDetailsAriaLabel": "Voir les détails de {name}",
+        "uploadProofAriaLabel": "Télécharger la preuve d'installation pour {name}",
+        "imageUploaded": "Image Téléchargée: {count}",
+        "viewInstallationProof": "Voir la Preuve d'Installation",
+        "submitInstallationProof": "Soumettre la Preuve d'Installation",
+        "installationProofMissingImages": "Veuillez télécharger au moins une photo par promotion avant de soumettre.",
+        "installationProofSuccess": "Preuve d'installation soumise avec succès.",
+        "installationProofUploadFailed": "Échec de la soumission de la preuve d'installation. Veuillez réessayer.",
+        "uploadProofDialog": {
+          "title": "Télécharger les Preuves d'Installation",
+          "description": "Ajouter des preuves promotionnelles pour {promotionName}",
+          "cancelButton": "Annuler",
+          "saveButton": "Enregistrer",
+          "fields": {
+            "photoUpload": {
+              "label": "Téléchargement Photo",
+              "dropHint": "Sélectionnez un fichier ici",
+              "typeHint": "JPG, JPEG, PNG ou WEBP, taille maximale 10 Mo",
+              "selectButton": "Sélectionner un Fichier",
+              "removeFile": "Supprimer {fileName}"
+            },
+            "notes": {
+              "label": "Notes",
+              "placeholder": "Ajoutez des notes sur l'installation...",
+              "ariaLabel": "Notes pour {name}"
+            }
+          },
+          "validation": {
+            "notesMaxLength": "Les notes ne doivent pas dépasser 500 caractères",
+            "imagesRequired": "Veuillez télécharger au moins une photo.",
+            "fileTypeInvalid": "Seuls les fichiers JPG, JPEG, PNG ou WEBP sont autorisés.",
+            "fileSizeExceeded": "La taille du fichier doit être inférieure à 10 Mo."
+          }
+        },
+        "noOrders": "Aucune commande de magasin trouvée.",
+        "noReorders": "Aucune récommande de magasin trouvée.",
+        "search": {
+          "placeholder": "Rechercher par nom de magasin ou numéro de commande...",
+          "clearAriaLabel": "Effacer la recherche"
+        },
+        "list": {
+          "loadingState": "Chargement des commandes de magasin",
+          "paginationAriaLabel": "Pagination des commandes de magasin",
+          "paginationLabel": "magasins"
+        },
+        "orderNumber": "Numéro de Commande",
+        "parentOrderNumber": "Numéro de Commande Parent",
+        "parentOrderNumberLink": "Aller à la commande parente {orderNumber}",
+        "loading": "Chargement des commandes de magasin",
+        "errorTitle": "Échec du Chargement des Commandes",
+        "errorDescription": "Nous n'avons pas pu charger les commandes de magasin pour cette campagne. Veuillez réessayer.",
+        "rejectionReasonLabel": "Raison",
+        "rejectionReasonClose": "Fermer",
+        "viewRejectionReasonAriaLabel": "Voir le motif de rejet pour {name}"
+      },
+      "reordersTab": {
+        "title": "Récommandes de Magasin",
+        "description": "Voir les promotions récommandées et les quantités attribuées à chaque magasin",
+        "errorTitle": "Échec du Chargement des Récommandes",
+        "errorDescription": "Nous n'avons pas pu charger les récommandes de magasin pour cette campagne. Veuillez réessayer."
+      },
+      "installationProofTab": {
+        "title": "Preuve d'Installation",
+        "description": "Examinez la preuve d'installation fournie par l'utilisateur du magasin.",
+        "orderNumber": "Numéro de Commande",
+        "promotions": "Total des Promotions",
+        "totalQty": "Quantité Totale",
+        "status": "Statut d'Installation",
+        "promotionTotalQty": "Qté Totale",
+        "promotionShipped": "Qté Expédiée",
+        "unshippedQuantity": "Non Expédié",
+        "specifications": "Spécifications",
+        "size": "Taille : {width}x{height} pouces",
+        "promotionsFor": "Promotions pour {storeName}",
+        "viewInstallationProof": "Images de Preuve d'Installation",
+        "noRecords": "Aucune preuve d'installation trouvée.",
+        "loading": "Chargement des preuves d'installation",
+        "search": {
+          "placeholder": "Rechercher par nom de magasin ou numéro de commande...",
+          "clearAriaLabel": "Effacer la recherche"
+        },
+        "list": {
+          "loadingState": "Chargement des preuves d'installation",
+          "paginationAriaLabel": "Pagination des preuves d'installation",
+          "paginationLabel": "magasins"
+        },
+        "errorTitle": "Échec du Chargement des Preuves d'Installation",
+        "errorDescription": "Nous n'avons pas pu charger les preuves d'installation pour cette campagne. Veuillez réessayer.",
+        "verify": "Vérifier",
+        "verifyAriaLabel": "Vérifier la preuve d'installation pour {storeName}",
+        "rejectionReasonLabel": "Raison",
+        "rejectionReasonClose": "Fermer",
+        "viewRejectionReasonAriaLabel": "Voir le motif de rejet pour {name}"
+      },
+      "verifyInstallationProof": {
+        "backLink": "Retour à {campaignName}",
+        "pageTitle": "Vérifier la Preuve d'Installation",
+        "searchPlaceholder": "Rechercher des promotions...",
+        "acceptSelected": "Accepter la sélection",
+        "rejectSelected": "Rejeter la sélection",
+        "submitButton": "Soumettre",
+        "submitAriaLabel": "Soumettre toutes les décisions de preuve d'installation",
+        "successMessage": "Décisions de preuve d'installation soumises avec succès.",
+        "errorMessage": "Échec de la soumission des décisions. Veuillez réessayer.",
+        "validationMessage": "Veuillez traiter tous les éléments en attente et rejetés avant de soumettre.",
+        "noRecords": "Aucune preuve d'installation trouvée pour ce magasin.",
+        "entityLabel": "Promotions",
+        "columns": {
+          "selectAll": "Tout sélectionner",
+          "selectRow": "Sélectionner {name}",
+          "promotionName": "Nom de la Promotion",
+          "totalQuantity": "Qté Totale",
+          "status": "Statut",
+          "actions": "Actions"
+        },
+        "actions": {
+          "viewProof": "Voir la Preuve d'Installation",
+          "viewProofAriaLabel": "Voir les images de preuve pour {name}",
+          "accept": "Accepter",
+          "acceptAriaLabel": "Accepter la preuve d'installation pour {name}",
+          "reject": "Rejeter",
+          "rejectAriaLabel": "Rejeter la preuve d'installation pour {name}"
+        },
+        "localStatus": {
+          "accepted": "Accepté",
+          "rejected": "Rejeté"
+        },
+        "rejectDialog": {
+          "title": "Motif du Rejet",
+          "description": "Ajoutez une brève explication pour rejeter cette promotion.",
+          "promotionListLabel": "Liste des Promotions Rejetées",
+          "reasonLabel": "Motif",
+          "reasonPlaceholder": "Ajouter des notes",
+          "cancelButton": "Annuler",
+          "saveButton": "Enregistrer",
+          "validation": {
+            "reasonRequired": "Le motif de rejet est obligatoire.",
+            "reasonMaxLength": "Le motif de rejet ne doit pas dépasser 500 caractères"
+          }
+        }
+      },
+      "promotionsTable": {
+        "title": "Promotions",
+        "searchPlaceholder": "Rechercher...",
+        "importButton": "Importer depuis la Campagne",
+        "addButton": "Ajouter une Promotion",
+        "noPromotions": "Aucune promotion trouvée.",
+        "loadingMessage": "Chargement des promotions, veuillez patienter.",
+        "caption": "Tableau des promotions affichant le nom, les magasins, le statut réutilisable et les actions",
+        "entityLabel": "promotions",
+        "columns": {
+          "name": "Nom de la Promotion",
+          "stores": "Magasins",
+          "distributedQty": "Qté Distribuée",
+          "reusable": "Réutilisable",
+          "actions": "Actions"
+        },
+        "reusableValues": {
+          "yes": "Oui",
+          "no": "Non"
+        }
+      },
+      "errors": {
+        "promotionListing": {
+          "title": "Échec du Chargement des Promotions",
+          "description": "Nous n'avons pas pu charger les promotions de cette campagne. Veuillez réessayer."
+        }
+      },
+      "deletePromotion": {
+        "title": "Supprimer la Promotion",
+        "confirmTitle": "Êtes-vous sûr de vouloir supprimer cette promotion ?",
+        "confirmDescription": "Cette action est irréversible. La promotion {name} et toutes ses données associées seront définitivement supprimées de la campagne.",
+        "cancelButton": "Annuler",
+        "deleteButton": "Supprimer la Promotion",
+        "successMessage": "Promotion supprimée avec succès"
+      },
+      "viewPromotion": {
+        "dialogTitle": "Détails de la Promotion",
+        "title": "Informations de Base",
+        "createdOn": "Créé le {date}",
+        "fields": {
+          "promotionName": "Nom de la Promotion",
+          "width": "Largeur (en pouces)",
+          "height": "Hauteur (en pouces)",
+          "material": "Matériau",
+          "needDesign": "Besoin de Conception",
+          "needDesignYes": "Oui",
+          "needDesignNo": "Non",
+          "isReusable": "Est Réutilisable",
+          "isReusableYes": "Oui",
+          "isReusableNo": "Non",
+          "photos": "Photos",
+          "photosViewLabel": "Voir",
+          "finishingSpec": "Spécification de Finition",
+          "description": "Description"
+        },
+        "participatingStores": {
+          "title": "Magasins Participants",
+          "storesBadge": "{count} Magasins",
+          "columns": {
+            "storeName": "Nom du Magasin",
+            "quantity": "Quantité"
+          },
+          "totalDistributed": "Total Distribué",
+          "noStores": "Aucun magasin assigné pour l'instant."
+        },
+        "closeButton": "Fermer"
+      },
+      "submitToPsp": "Soumettre au PSP",
+      "submitting": "Envoi en cours...",
+      "submitSuccess": "Campagne soumise au PSP avec succès",
+      "submitFailed": "Échec de la soumission de la campagne au PSP",
+      "markOnHold": "Mettre en attente",
+      "markingOnHold": "Mise en attente...",
+      "markOnHoldSuccess": "Campagne mise en attente avec succès",
+      "markOnHoldFailed": "Échec de la mise en attente de la campagne",
+      "markComplete": "Marquer comme terminée",
+      "markingComplete": "Marquage en cours...",
+      "markCompleteSuccess": "Campagne marquée comme terminée avec succès",
+      "markCompleteFailed": "Échec du marquage de la campagne comme terminée",
+      "deletedSuccess": "Campagne supprimée avec succès",
+      "deleteFailed": "Échec de la suppression de la campagne"
+    },
+    "archiveDialog": {
+      "title": "Archiver la Campagne",
+      "confirmMessage": "Êtes-vous sûr de vouloir archiver <strong>{name}</strong> ?",
+      "description": "Les campagnes archivées seront déplacées dans la section des archives et pourront être consultées ultérieurement. Cette action peut être annulée si nécessaire.",
+      "cancelButton": "Annuler",
+      "archiveButton": "Archiver la Campagne"
+    },
+    "unarchiveDialog": {
+      "title": "Désarchiver la Campagne",
+      "confirmMessage": "Êtes-vous sûr de vouloir désarchiver <strong>{name}</strong> ?",
+      "description": "Les campagnes désarchivées seront restaurées dans la section active et pourront à nouveau être gérées.",
+      "cancelButton": "Annuler",
+      "unarchiveButton": "Désarchiver la Campagne"
+    },
+    "deleteDialog": {
+      "title": "Supprimer la Campagne",
+      "confirmTitle": "Êtes-vous sûr de vouloir supprimer cette campagne ?",
+      "confirmDescription": "Cette action est irréversible et supprimera définitivement toutes les données de la campagne, y compris les promotions et les distributions en magasin.",
+      "cancelButton": "Annuler",
+      "deleteButton": "Supprimer la Campagne"
+    },
+    "updateStatusDialog": {
+      "title": "Mettre à Jour le Statut de la Campagne",
+      "subtitle": "Modifiez le statut de cette campagne pour suivre sa progression en production",
+      "closeButton": "Fermer la boîte de dialogue",
+      "infoLabels": {
+        "campaign": "Campagne",
+        "currentStatus": "Statut Actuel",
+        "brand": "Marque"
+      },
+      "fields": {
+        "newStatus": {
+          "label": "Nouveau Statut",
+          "placeholder": "Sélectionnez un statut",
+          "required": "requis"
+        }
+      },
+      "notification": {
+        "ariaLabel": "Notification de mise à jour du statut",
+        "title": "Notification de Mise à Jour du Statut",
+        "description": "La mise à jour du statut enverra des notifications par e-mail à l'administrateur de la marque et à tous les magasins assignés pour les informer de l'avancement.",
+        "boldText": "Une fois le statut mis à jour sur \"En Production\", vous ne pouvez qu'avancer vers le statut suivant. Le retour à un statut précédent n'est pas autorisé."
+      },
+      "cancelButton": "Annuler",
+      "submitButton": "Mettre à Jour le Statut",
+      "submitting": "Mise à jour...",
+      "successMessage": "Statut de la campagne mis à jour avec succès",
+      "errorMessage": "Échec de la mise à jour du statut de la campagne"
+    },
+    "promotionActions": {
+      "view": "Voir la Promotion",
+      "edit": "Modifier la Promotion",
+      "duplicate": "Dupliquer la Promotion",
+      "storeDistribution": "Distribution en Magasin",
+      "delete": "Supprimer la Promotion",
+      "inventoryReadOnly": "Cette promotion a été créée depuis l'inventaire et ses propriétés ne peuvent pas être mises à jour"
+    },
+    "storeDistribution": {
+      "backLink": "Retour au Détail de la Campagne",
+      "title": "Distribution en Magasin",
+      "entityLabel": "Magasins",
+      "instruction": "Spécifiez la quantité requise pour chaque magasin. Laissez vide ou mettez 0 si le magasin n'a pas besoin de cette promotion.",
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des magasins",
+      "clearSearchAriaLabel": "Effacer la recherche",
+      "savingMessage": "Enregistrement de la distribution, veuillez patienter.",
+      "tableCaption": "Tableau de distribution en magasin affichant les noms des magasins et les quantités modifiables",
+      "noStores": "Aucun magasin trouvé.",
+      "totalQuantity": "Quantité Totale",
+      "clearAll": "Tout Effacer",
+      "saveButton": "Enregistrer la Distribution",
+      "savingButton": "Enregistrement...",
+      "noChanges": "Aucune modification à enregistrer",
+      "saveSuccess": "Distribution en magasin enregistrée avec succès",
+      "saveFailed": "Échec de l'enregistrement de la distribution",
+      "columns": {
+        "storeName": "Nom du Magasin",
+        "quantity": "Quantité",
+        "quantityAriaLabel": "Quantité pour {storeName}"
+      }
+    },
+    "promotionsReuse": {
+      "backLink": "Retour aux Détails de la Campagne",
+      "title": "Promotions Réutilisables",
+      "entityLabel": "Promotions",
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des promotions par nom",
+      "clearSearchAriaLabel": "Effacer la recherche",
+      "creatingMessage": "Création des promotions…",
+      "noPromotions": "Aucune promotion trouvée.",
+      "clearButton": "Effacer la Sélection",
+      "addButton": "Ajouter à la Campagne",
+      "addingButton": "Ajout en cours…",
+      "addSuccess": "Promotions ajoutées à la campagne avec succès",
+      "addFailed": "Échec de l'ajout des promotions",
+      "columns": {
+        "selectAll": "Sélectionner toutes les lignes",
+        "selectRow": "Sélectionner {name}",
+        "promotionName": "Nom de la Promotion",
+        "height": "Hauteur",
+        "width": "Largeur",
+        "material": "Matériau",
+        "needDesign": "Besoin de Design",
+        "photo": "Photo",
+        "viewPhoto": "Voir",
+        "viewPhotoAriaLabel": "Voir la photo",
+        "actions": "Actions",
+        "viewDetailsAriaLabel": "Voir les détails de {name}"
+      }
+    },
+    "reuseButton": "Réutiliser la Promotion",
+    "createShipment": {
+      "pageTitle": "Créer une Expédition",
+      "backLink": "Retour à {campaignName}",
+      "pageDescription": "Créer une nouvelle expédition pour les commandes de boutiques",
+      "shipmentDetails": {
+        "title": "Détails de l'Expédition",
+        "trackingNumber": "Numéro de Suivi",
+        "trackingNumberRequired": "Numéro de Suivi *",
+        "trackingNumberPlaceholder": "Entrez le numéro de suivi",
+        "trackingNumberError": "Le numéro de suivi est obligatoire",
+        "trackingNumberMaxError": "Le numéro de suivi ne doit pas dépasser 50 caractères",
+        "notesMaxError": "Les notes ne doivent pas dépasser 500 caractères",
+        "estimatedDeliveryDate": "Date de Livraison Estimée",
+        "estimatedDeliveryDateRequiredError": "La date de livraison estimée est obligatoire",
+        "estimatedDeliveryDateError": "La date de livraison estimée doit être postérieure à aujourd'hui",
+        "pickDate": "Sélectionner une date",
+        "shipmentNotes": "Notes d'Expédition (Optionnel)",
+        "shipmentNotesPlaceholder": "Entrez les notes d'expédition"
+      },
+      "pendingShipment": {
+        "title": "Promotions en Attente d'Expédition",
+        "clearAll": "Tout Effacer",
+        "clearAllAriaLabel": "Effacer toutes les quantités d'expédition",
+        "shipAll": "Tout Expédier",
+        "shipAllAriaLabel": "Expédier toutes les quantités restantes et confirmer",
+        "tableCaption": "Tableau des promotions en attente d'expédition pour {storeName}",
+        "sortAscAriaLabel": "Trier le nom de promotion par ordre croissant",
+        "sortDescAriaLabel": "Trier le nom de promotion par ordre décroissant",
+        "columns": {
+          "promotionName": "Nom de la Promotion",
+          "totalQuantity": "Quantité Totale",
+          "shippedQuantity": "Quantité Expédiée",
+          "remainingQuantity": "Quantité Restante",
+          "shipQuantity": "Quantité à Expédier",
+          "shipQuantityAriaLabel": "Quantité à expédier pour {promotionName}"
+        },
+        "noPromotions": "Aucune promotion en attente d'expédition.",
+        "searchPlaceholder": "Rechercher...",
+        "searchAriaLabel": "Rechercher des promotions par nom",
+        "clearSearchAriaLabel": "Effacer la recherche",
+        "entityLabel": "Promotions"
+      },
+      "cancelButton": "Annuler",
+      "createButton": "Créer l'Expédition",
+      "creatingButton": "Création...",
+      "successMessage": "L'expédition #{shipmentNumber} a été créée avec succès. Vous pouvez consulter ses détails sur la page des Expéditions.",
+      "errorMessage": "Échec de la création de l'expédition. Veuillez réessayer.",
+      "loadErrorTitle": "Échec du Chargement",
+      "loadErrorDescription": "Nous n'avons pas pu charger les détails de l'expédition. Veuillez réessayer."
+    },
+    "importPromotions": {
+      "backLink": "Retour aux Campagnes",
+      "title": "Importer des Promotions",
+      "destinationCampaignLabel": "Campagne de Destination",
+      "importActionLabel": "Action d'Importation",
+      "importActionCopyTitle": "Copier",
+      "importActionCopyDescription": "Dupliquer les promotions vers la campagne de destination sélectionnée. Les promotions existantes dans la campagne de destination resteront inchangées et les promotions dupliquées seront ajoutées à côté d'elles.",
+      "importActionReplaceTitle": "Remplacer",
+      "importActionReplaceDescription": "Transférer les promotions vers la campagne de destination sélectionnée. Veuillez noter que toutes les promotions existantes dans la campagne de destination seront définitivement supprimées et ne pourront pas être récupérées.",
+      "sourceCampaignLabel": "Campagne Source",
+      "sourceCampaignPlaceholder": "Sélectionner une campagne",
+      "sourceCampaignAriaLabel": "Sélectionner la campagne source",
+      "noCampaignFound": "Aucune campagne trouvée",
+      "promotionsListTitle": "Liste des Promotions",
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des promotions par nom",
+      "clearSearchAriaLabel": "Effacer la recherche",
+      "noCampaignSelectedTitle": "Campagne",
+      "noCampaignSelectedMessage": "Campagne: Veuillez sélectionner la campagne source pour voir la liste des promotions.",
+      "noPromotions": "Aucune promotion trouvée.",
+      "entityLabel": "Promotions",
+      "loadingMessage": "Chargement des promotions…",
+      "clearButton": "Effacer la Sélection",
+      "addButton": "Ajouter à la Campagne",
+      "addingButton": "Ajout en cours…",
+      "addSuccess": "Promotions importées avec succès",
+      "addFailed": "Échec de l'importation des promotions",
+      "replaceConfirmDialog": {
+        "title": "Remplacer les Promotions",
+        "confirmTitle": "Êtes-vous sûr de vouloir remplacer toutes les promotions ?",
+        "confirmDescription": "Toutes les promotions existantes dans la campagne de destination seront définitivement supprimées et remplacées par les promotions sélectionnées. Cette action est irréversible.",
+        "cancelButton": "Annuler",
+        "confirmButton": "Remplacer les Promotions"
+      },
+      "columns": {
+        "selectAll": "Sélectionner toutes les lignes",
+        "selectRow": "Sélectionner {name}",
+        "promotionName": "Nom de la Promotion",
+        "height": "Hauteur",
+        "width": "Largeur",
+        "material": "Matériau",
+        "needDesign": "Besoin de Design",
+        "needDesignYes": "Oui",
+        "needDesignNo": "Non",
+        "photo": "Photo",
+        "viewPhoto": "Voir",
+        "reusable": "Réutilisable",
+        "reusableYes": "Oui",
+        "reusableNo": "Non",
+        "actions": "Actions",
+        "viewDetailsAriaLabel": "Voir les détails de {name}"
+      }
+    }
+  },
+  "orderManagement": {
+    "table": {
+      "status": {
+        "DRAFT": "Brouillon",
+        "NEW": "Nouvelle",
+        "ACCEPTED": "Accepté",
+        "IN_REVIEW": "En Révision",
+        "ON_HOLD": "En Attente",
+        "IN_PRODUCTION": "En Production",
+        "PARTIALLY_SHIPPED": "Partiellement Expédiée",
+        "SHIPPED": "Expédiée",
+        "PARTIALLY_RECEIVED": "Partiellement Reçue",
+        "RECEIVED": "Reçue",
+        "RECEIVED_WITH_EXCEPTION": "Reçue avec Exception",
+        "PENDING_INSTALLATION_APPROVAL": "Approbation d'Installation en Attente",
+        "INSTALLATION_REJECTED": "Installation Rejetée",
+        "TRIAGED": "Triée",
+        "COMPLETED": "Terminée"
+      }
+    }
+  },
+  "surveyManagement": {
+    "page": {
+      "title": "Gestion des enquêtes",
+      "description": "Créer et gérer des enquêtes pour votre organisation",
+      "createButton": "Créer une enquête",
+      "createTemplateButton": "Créer un modèle",
+      "tabs": {
+        "templates": "Modèles",
+        "surveys": "Enquêtes"
+      }
+    },
+    "createSurveyDialog": {
+      "title": "Choisir un modèle pour créer une enquête",
+      "nameLabel": "Nom de l'enquête",
+      "namePlaceholder": "Ex. Enquête de satisfaction T2",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Saisissez une brève description de cette enquête (optionnel)",
+      "templateLabel": "Modèles",
+      "templatePlaceholder": "Sélectionner un modèle",
+      "templateNoOptions": "Aucun modèle trouvé",
+      "cancelButton": "Annuler",
+      "createButton": "Créer une enquête",
+      "submitting": "Création en cours...",
+      "successToast": "Enquête créée avec succès",
+      "validation": {
+        "nameRequired": "Le nom de l'enquête est obligatoire",
+        "nameMinLength": "Le nom doit comporter au moins 2 caractères",
+        "nameMaxLength": "Le nom ne doit pas dépasser 100 caractères",
+        "templateRequired": "Veuillez sélectionner un modèle",
+        "descriptionRequired": "La description est requise",
+        "descriptionMaxLength": "La description ne doit pas dépasser 500 caractères"
+      }
+    },
+    "stats": {
+      "totalSurveys": "Total des enquêtes",
+      "activeSurveys": "Enquêtes actives",
+      "closedSurveys": "Enquêtes fermées"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher",
+      "statusAriaLabel": "Filtre de statut",
+      "statusPlaceholder": "Sélectionner un statut",
+      "brandPlaceholder": "Sélectionner une marque",
+      "brandAriaLabel": "Filtre de marque",
+      "allBrands": "Toutes les marques"
+    },
+    "statusOptions": {
+      "all": "Tous",
+      "draft": "Brouillon",
+      "active": "Actif",
+      "closed": "Fermé"
+    },
+    "table": {
+      "caption": "Tableau de gestion des enquêtes affichant le nom, le nombre de réponses, la marque assignée, le statut et les actions",
+      "emptyState": "Aucune enquête trouvée.",
+      "loadingState": "Chargement des enquêtes...",
+      "paginationLabel": "enquêtes",
+      "columns": {
+        "surveyName": "Nom de l'enquête",
+        "responseCount": "Réponses",
+        "brandAssigned": "Marque assignée",
+        "storeAssigned": "Magasins assignés",
+        "status": "Statut",
+        "actions": "Actions"
+      },
+      "statusLabels": {
+        "DRAFT": "Brouillon",
+        "ACTIVE": "Actif",
+        "CLOSED": "Fermé",
+        "SUBMITTED": "Soumis",
+        "NOT_SUBMITTED": "Non Soumis"
+      }
+    },
+    "actions": {
+      "deleteSurvey": "Supprimer l'enquête",
+      "editSurvey": "Modifier l'enquête",
+      "viewSurvey": "Aperçu de l'enquête",
+      "markAsClosed": "Marquer comme fermé",
+      "markAsClosedSuccess": "Enquête fermée avec succès",
+      "assignToBrand": "Assigner à une marque",
+      "assignToStore": "Assigner aux magasins",
+      "viewResponse": "Voir les réponses",
+      "addResponse": "Ajouter une réponse"
+    },
+    "viewResponseDialog": {
+      "title": "Détails de l'enquête",
+      "surveyResponses": "Réponses à l'enquête",
+      "followUp": "Suivi",
+      "noResponsesMessage": "Aucune réponse n'a encore été soumise pour cette enquête.",
+      "submittedAt": "Soumis le",
+      "noAnswer": "Aucune réponse fournie",
+      "closeButton": "Fermer"
+    },
+    "assignStore": {
+      "pageTitle": "Assigner aux magasins",
+      "backLink": "Retour à la gestion des enquêtes"
+    },
+    "addResponse": {
+      "pageTitle": "Ajouter une réponse",
+      "backLink": "Retour à la gestion des enquêtes",
+      "submitResponse": "Soumettre la réponse",
+      "submitting": "Soumission en cours...",
+      "requiredField": "Ce champ est obligatoire",
+      "submitSuccess": "Réponse à l'enquête soumise avec succès",
+      "surveyClosed": "Cette enquête a été fermée et n'accepte plus de réponses."
+    },
+    "deleteDialog": {
+      "title": "Supprimer l'enquête",
+      "confirmTitle": "Êtes-vous sûr de vouloir supprimer cette enquête ?",
+      "confirmDescription": "\"{name}\" sera définitivement supprimée et ne pourra pas être récupérée.",
+      "cancelButton": "Annuler",
+      "deleteButton": "Supprimer l'enquête"
+    },
+    "closeDialog": {
+      "title": "Fermer l'enquête",
+      "confirmTitle": "Êtes-vous sûr de vouloir fermer cette enquête ?",
+      "confirmDescription": "\"{name}\" sera marquée comme fermée et n'acceptera plus de réponses.",
+      "cancelButton": "Annuler",
+      "closeButton": "Fermer l'enquête",
+      "closingButton": "Fermeture..."
+    },
+    "template": {
+      "table": {
+        "caption": "Liste des modèles affichant le nom, le nombre d'enquêtes et les actions",
+        "emptyState": "Aucun modèle trouvé.",
+        "loadingState": "Chargement des modèles...",
+        "searchPlaceholder": "Rechercher...",
+        "searchAriaLabel": "Rechercher des modèles",
+        "paginationLabel": "modèles",
+        "columns": {
+          "templateName": "Nom du modèle",
+          "surveyCount": "Nombre d'enquêtes",
+          "createdDate": "Date de création",
+          "actions": "Actions"
+        }
+      },
+      "actions": {
+        "view": "Aperçu du modèle",
+        "edit": "Modifier le modèle",
+        "delete": "Supprimer le modèle"
+      },
+      "deleteDialog": {
+        "title": "Supprimer le modèle",
+        "confirmTitle": "Êtes-vous sûr de vouloir supprimer ce modèle ?",
+        "confirmDescription": "\"{name}\" sera définitivement supprimé et ne pourra pas être récupéré.",
+        "cancelButton": "Annuler",
+        "deleteButton": "Supprimer le modèle"
+      },
+      "common-template": {
+        "backLink": "Retour à la gestion des modèles",
+        "saveButton": "Enregistrer le modèle",
+        "savingButton": "Enregistrement...",
+        "details": {
+          "sectionTitle": "Détails du modèle",
+          "nameLabelRequired": "Nom du modèle",
+          "namePlaceholder": "Ajouter un nom",
+          "nameRequiredError": "Le nom du modèle est obligatoire",
+          "nameMaxLengthError": "Le nom du modèle ne peut pas dépasser 100 caractères"
+        },
+        "questions": {
+          "sectionTitle": "Questions",
+          "dragShuffle": "Utilisez les points dans le coin supérieur gauche de la carte pour faire glisser et réorganiser",
+          "addQuestion": "Ajouter une question",
+          "untitledQuestion": "Question sans titre...",
+          "untitledSubQuestion": "Sous-question sans titre...",
+          "required": "Obligatoire",
+          "selectDate": "Sélectionner une date",
+          "typeHere": "Tapez ici",
+          "selectOption": "Sélectionner une option",
+          "dragToReorder": "Faites glisser pour réorganiser",
+          "deleteQuestion": "Supprimer la question",
+          "deleteSubQuestion": "Supprimer la sous-question",
+          "questionPrefix": "Q",
+          "ifPrefix": "SI",
+          "yes": "Oui",
+          "no": "Non",
+          "questionTypeLabel": "Type de question",
+          "questionTypes": {
+            "text_input": "Champ de texte",
+            "text_area": "Zone de texte",
+            "multiple_choice": "Choix multiple",
+            "checkbox": "Case à cocher",
+            "dropdown": "Liste déroulante",
+            "date": "Date",
+            "conditional_multiple_choice": "Choix multiple conditionnel"
+          },
+          "questionTypeDescriptions": {
+            "text_input": "Réponse texte sur une ligne",
+            "text_area": "Réponse texte sur plusieurs lignes",
+            "multiple_choice": "Le répondant sélectionne une réponse",
+            "checkbox": "Cocher tout ce qui s'applique",
+            "dropdown": "Liste déroulante avec une sélection",
+            "date": "Sélecteur de date",
+            "conditional_multiple_choice": "Oui/Non avec des questions de suivi conditionnelles"
+          },
+          "errors": {
+            "labelRequired": "L'étiquette de la question est obligatoire",
+            "optionsRequired": "Au moins 2 options sont requises"
+          }
+        },
+        "settings": {
+          "sectionTitle": "Paramètres des questions",
+          "noSelection": {
+            "title": "Aucune question sélectionnée",
+            "description": "Cliquez sur une carte de question pour configurer ses paramètres ici"
+          },
+          "subQuestionBadge": "SOUS-QUESTION",
+          "questionLabel": "Étiquette de la question",
+          "optionsLabel": "Options",
+          "placeholderLabel": "Texte d'espace réservé",
+          "placeholderInput": "Tapez ici",
+          "addOption": "Ajouter une option",
+          "removeOption": "Supprimer l'option {index}",
+          "required": "Obligatoire",
+          "toggleRequired": "Basculer obligatoire",
+          "conditionalFollowUp": "Questions de suivi conditionnelles",
+          "conditionalDescription": "Ajoutez des questions de suivi qui apparaissent selon la réponse du répondant.",
+          "whenYes": "Quand : OUI",
+          "whenNo": "Quand : NON",
+          "noYesFollowUp": "Pas encore de questions de suivi pour « Oui ».",
+          "noNoFollowUp": "Pas encore de questions de suivi pour « Non »."
+        }
+      },
+      "create": {
+        "pageTitle": "Créer un modèle",
+        "success": "Modèle créé avec succès"
+      },
+      "edit": {
+        "backLink": "Retour à la Gestion des Modèles",
+        "pageTitle": "Modifier le Modèle",
+        "saveButton": "Mettre à jour le Modèle",
+        "savingButton": "Enregistrement...",
+        "success": "Modèle mis à jour avec succès"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du chargement des statistiques d'enquêtes",
+        "description": "Une erreur s'est produite lors du chargement des statistiques des enquêtes."
+      },
+      "surveyTable": {
+        "title": "Échec du chargement des enquêtes",
+        "description": "Une erreur s'est produite lors du chargement du tableau des enquêtes."
+      }
+    },
+    "details": {
+      "backLink": "Retour à la Gestion des Enquêtes",
+      "storesAssignedByBrands": "Magasins assignés par Marques",
+      "storesOf": "Magasins de {brandName}",
+      "loadingLabel": "Chargement des détails de l'enquête",
+      "editButton": "Modifier l'enquête",
+      "infoCard": {
+        "title": "Informations sur l'enquête",
+        "fields": {
+          "surveyName": "Nom de l'enquête",
+          "purpose": "Objectif",
+          "endDate": "Date de fin"
+        }
+      },
+      "responses": {
+        "title": "Réponses des magasins",
+        "submittedCount": "{completed} sur {total} soumises",
+        "empty": "Aucune réponse de magasin pour l'instant.",
+        "columns": {
+          "storeName": "Nom du magasin",
+          "submittedDate": "Date de soumission",
+          "status": "Statut",
+          "actions": "Actions"
+        },
+        "statusOptions": {
+          "completed": "Terminé",
+          "notSubmitted": "Non soumis"
+        },
+        "viewResponse": "Voir la réponse",
+        "paginationLabel": "magasins"
+      },
+      "responseDialog": {
+        "title": "Réponse à l'enquête",
+        "followUp": "Suivi",
+        "noResponses": "Aucune réponse enregistrée.",
+        "closeButton": "Fermer"
+      }
+    },
+    "edit": {
+      "backLink": "Retour à la Gestion des Enquêtes",
+      "pageTitle": "Modifier l'Enquête",
+      "selectTemplateButton": "Sélectionner un Modèle",
+      "templatePlaceholder": "Sélectionner un modèle...",
+      "templateNoOptions": "Aucun modèle trouvé",
+      "saveButton": "Enregistrer l'Enquête",
+      "savingButton": "Enregistrement...",
+      "success": "Enquête mise à jour avec succès",
+      "details": {
+        "sectionTitle": "Détails de l'Enquête",
+        "nameLabelRequired": "Nom de l'Enquête",
+        "namePlaceholder": "Ajouter un Nom",
+        "nameRequiredError": "Le nom de l'enquête est obligatoire",
+        "nameMaxLengthError": "Le nom de l'enquête ne doit pas dépasser 100 caractères",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Entrez une brève description de cette enquête",
+        "descriptionRequiredError": "La description est obligatoire",
+        "descriptionMaxLengthError": "La description ne doit pas dépasser 500 caractères"
+      }
+    },
+    "preview": {
+      "pageTitle": "Aperçu du modèle",
+      "backToManagement": "Retour à la gestion des modèles",
+      "backToEditor": "Retour à l'éditeur",
+      "title": "Aperçu du modèle"
+    }
+  },
+  "assignStore": {
+    "backLink": "Retour à la gestion des enquêtes",
+    "pageTitle": "Assigner l'enquête aux magasins",
+    "searchPlaceholder": "Rechercher des magasins...",
+    "searchAriaLabel": "Rechercher des magasins par nom",
+    "tableCaption": "Liste des magasins actifs à assigner à cette enquête",
+    "tableAriaLabel": "Tableau de sélection des magasins",
+    "loadingStores": "Chargement des magasins...",
+    "emptyMessage": "Aucun magasin actif trouvé.",
+    "paginationLabel": "magasins",
+    "cancelButton": "Annuler",
+    "saveButton": "Assigner",
+    "savingButton": "Assignation...",
+    "successMessage": "Magasins assignés avec succès",
+    "columns": {
+      "storeName": "Nom du Magasin",
+      "storeNumber": "Numéro du Magasin",
+      "selectAll": "Tout sélectionner",
+      "selectRow": "Sélectionner {name}"
+    }
+  },
+  "assignBrand": {
+    "backLink": "Retour à la gestion des enquêtes",
+    "pageTitle": "Assigner l'enquête aux marques",
+    "searchPlaceholder": "Rechercher...",
+    "searchAriaLabel": "Rechercher des marques par nom",
+    "tableCaption": "Liste des marques actives à assigner à cette enquête",
+    "tableAriaLabel": "Tableau de sélection des marques",
+    "loadingBrands": "Chargement des marques...",
+    "emptyMessage": "Aucune marque active trouvée.",
+    "paginationLabel": "marques",
+    "cancelButton": "Annuler",
+    "saveButton": "Enregistrer",
+    "savingButton": "Enregistrement...",
+    "successMessage": "Marques assignées avec succès",
+    "columns": {
+      "brandName": "Nom de la Marque",
+      "selectAll": "Tout sélectionner",
+      "selectRow": "Sélectionner {name}"
+    }
+  },
+  "roles": {
+    "PLATFORM_ADMIN": "Administrateur de Plateforme",
+    "PSP_ADMIN": "Administrateur PSP",
+    "BRAND_ADMIN": "Administrateur de Marque",
+    "STORE_ADMIN": "Administrateur de Magasin",
+    "REGIONAL_MANAGER": "Responsable Régional",
+    "CAMPAIGN_MANAGER": "Responsable Campagne",
+    "PRODUCTION_OPERATOR": "Opérateur de Production",
+    "STORE_OPERATOR": "Opérateur de Magasin"
+  },
+  "installationManagement": {
+    "table": {
+      "statusLabels": {
+        "PENDING": "En attente",
+        "INSTALLED": "Installé",
+        "PENDING_APPROVAL": "En attente d'approbation",
+        "REJECTED": "Rejeté",
+        "COMPLETED": "Terminé"
+      }
+    }
+  },
+  "exceptionRequest": {
+    "page": {
+      "title": "Demandes d'Exception",
+      "description": "Afficher et gérer les demandes d'exception",
+      "view-all": "Voir Tout"
+    },
+    "stats": {
+      "totalRequests": "Total des Demandes",
+      "pendingApproval": "En Attente d'Approbation",
+      "approved": "Approuvée",
+      "rejected": "Rejetées",
+      "cancelled": "Annulées"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des demandes d'exception",
+      "campaignAriaLabel": "Filtre de Campagne",
+      "storeAriaLabel": "Filtre de Magasin",
+      "statusAriaLabel": "Filtre de Statut"
+    },
+    "filterOptions": {
+      "allCampaigns": "Toutes les Campagnes",
+      "allStores": "Tous les Magasins",
+      "allStatuses": "Tous les Statuts",
+      "pendingApproval": "En Attente d'Approbation",
+      "approved": "Approuvée",
+      "rejected": "Rejetée",
+      "cancelled": "Annulée"
+    },
+    "table": {
+      "caption": "Tableau des demandes d'exception avec numéro de commande, campagne, magasin, quantité totale et statut",
+      "emptyState": "Aucune demande d'exception trouvée.",
+      "loadingState": "Chargement des demandes d'exception...",
+      "paginationLabel": "Demandes d'Exception",
+      "columns": {
+        "shipmentNo": "N° d'Expédition",
+        "orderNumber": "Numéro de Commande",
+        "issueNumber": "Numéro d'Incidence",
+        "campaignName": "Campagne",
+        "storeName": "Magasin",
+        "status": "Statut"
+      },
+      "units": "unités",
+      "statusLabels": {
+        "PENDING_APPROVAL": "En Attente d'Approbation",
+        "APPROVED": "Approuvée",
+        "REJECTED": "Rejetée",
+        "CANCELLED": "Annulée"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du Chargement des Statistiques",
+        "description": "Nous n'avons pas pu charger les statistiques des demandes d'exception. Veuillez réessayer."
+      },
+      "table": {
+        "title": "Échec du Chargement des Demandes",
+        "description": "Nous n'avons pas pu charger la liste des demandes d'exception. Veuillez réessayer."
+      }
+    }
+  },
+  "reorderDetails": {
+    "page": {
+      "title": "Détails de la Récommande",
+      "description": "Afficher les détails d'une demande d'exception"
+    },
+    "header": {
+      "backLink": "Retour aux Demandes d'Exception",
+      "backLinkAriaLabel": "Retourner à la liste des demandes d'exception",
+      "title": "Détails de la Demande d'Exception",
+      "shipmentNumber": "Numéro d'Expédition :",
+      "reUploadPhotos": "Retélécharger les Photos",
+      "approve": "Approuver",
+      "reject": "Rejeter",
+      "cancel": "Annuler la Demande"
+    },
+    "info": {
+      "campaign": "Campagne",
+      "store": "Magasin",
+      "status": "Statut",
+      "reasonForException": "Motif de la Demande d'Exception",
+      "reasonForRejection": "Motif du Rejet",
+      "reasonForCancellation": "Motif de l'Annulation"
+    },
+    "table": {
+      "title": "Promotions dans l'Expédition",
+      "searchPlaceholder": "Rechercher...",
+      "searchAriaLabel": "Rechercher des promotions par nom",
+      "clearSearchAriaLabel": "Effacer la recherche",
+      "badge": "{count} Promotions",
+      "viewPhotos": "Voir les Photos",
+      "viewPhotosTitle": "Photos de la Demande d'Exception",
+      "noItems": "Aucune promotion trouvée.",
+      "entityLabel": "Promotions",
+      "totalItems": "Qté Totale d'Écart",
+      "columns": {
+        "promotionName": "Nom de la Promotion",
+        "shippedQty": "Qté Expédiée",
+        "validReceivedQty": "Qté Reçue Valide",
+        "exceptionType": "Type d'Exception",
+        "discrepancyQty": "Qté d'Écart",
+        "exceptionMissing": "Manquant",
+        "exceptionIncorrect": "Incorrect",
+        "exceptionDamaged": "Endommagé"
+      }
+    },
+    "actionDialog": {
+      "reject": {
+        "title": "Rejeter la Demande",
+        "description": "Veuillez fournir une raison pour rejeter cette demande. Elle sera partagée avec l'utilisateur du magasin.",
+        "reasonLabel": "Motif du Rejet",
+        "submitButton": "Rejeter la Demande"
+      },
+      "cancel": {
+        "title": "Annuler la Demande",
+        "description": "Veuillez fournir une raison pour annuler cette demande. Elle sera partagée avec l'utilisateur du magasin.",
+        "reasonLabel": "Motif de l'Annulation",
+        "submitButton": "Annuler la Demande"
+      },
+      "cancelButton": "Annuler",
+      "reasonPlaceholder": "Tapez ici",
+      "validation": {
+        "reasonRequired": "Le motif est requis.",
+        "reasonMax": "Le motif ne doit pas dépasser 500 caractères"
+      }
+    },
+    "toasts": {
+      "approveSuccess": "Demande approuvée avec succès.",
+      "approveFailed": "Échec de l'approbation. Veuillez réessayer.",
+      "rejectSuccess": "Demande rejetée avec succès.",
+      "rejectFailed": "Échec du rejet. Veuillez réessayer.",
+      "cancelSuccess": "Demande annulée avec succès.",
+      "cancelFailed": "Échec de l'annulation. Veuillez réessayer.",
+      "reUploadSuccess": "Photos retéléchargées avec succès.",
+      "reUploadFailed": "Échec du retéléchargement des photos. Veuillez réessayer."
+    },
+    "errors": {
+      "header": {
+        "title": "Échec du Chargement de l'En-tête",
+        "description": "Impossible de charger l'en-tête de la récommande."
+      },
+      "info": {
+        "title": "Échec du Chargement des Infos",
+        "description": "Impossible de charger les détails de la récommande."
+      },
+      "promotions": {
+        "title": "Échec du Chargement des Promotions",
+        "description": "Impossible de charger les promotions."
+      }
+    }
+  },
+  "reports": {
+    "page": {
+      "title": "Rapports",
+      "description": "Sélectionnez un rapport pour voir les détails spécifiques"
+    },
+    "selector": {
+      "label": "Sélectionner un rapport",
+      "placeholder": "Sélectionnez un rapport"
+    },
+    "export": {
+      "toExcel": "Exporter vers Excel",
+      "toPdf": "Exporter en PDF",
+      "exporting": "Exportation en cours..."
+    },
+    "reportLabels": {
+      "storeOrders": "Rapport des commandes en magasin",
+      "shipmentsTracking": "Rapport des expéditions et du suivi",
+      "issuesReorders": "Rapport des incidents et réapprovisionnements",
+      "opsDashboardMetrics": "Rapport des métriques du tableau de bord des opérations",
+      "campaignSummary": "Rapport récapitulatif des campagnes",
+      "executionProof": "Rapport d'exécution et de preuve",
+      "exceptionQueue": "Rapport de la file des exceptions",
+      "proofReview": "Rapport de révision des preuves",
+      "surveyResponse": "Rapport des réponses aux enquêtes"
+    },
+    "table": {
+      "emptyState": "Aucune donnée disponible pour ce rapport.",
+      "loadingState": "Chargement des données du rapport...",
+      "paginationLabel": "enregistrements",
+      "caption": "Tableau des données du rapport",
+      "noReportSelected": "Sélectionnez un rapport dans le menu déroulant ci-dessus pour voir les données.",
+      "noEntitySelected": "Veuillez sélectionner un {entity} dans la navigation supérieure pour voir ce rapport."
+    },
+    "errors": {
+      "loadFailed": {
+        "title": "Échec du chargement du rapport",
+        "description": "Une erreur s'est produite lors du chargement des données du rapport. Veuillez réessayer."
+      }
+    }
+  },
+  "errors": {
+    "retryButton": "Réessayer",
+    "pageError": {
+      "title": "Une erreur est survenue",
+      "description": "Nous n'avons pas pu charger cette page correctement. Veuillez réessayer.",
+      "refreshButton": "Actualiser la page"
+    }
+  },
+  "common": {
+    "resetFilters": "Réinitialiser",
+    "resetFiltersAriaLabel": "Réinitialiser les filtres",
+    "impersonation": {
+      "bannerMessage": "Vous usurpez l'identité de <b>{role}</b> pour <b>{entity}</b>.",
+      "endButton": "Terminer l'usurpation",
+      "startSuccess": "Usurpation d'identité démarrée avec succès.",
+      "stopSuccess": "Usurpation d'identité arrêtée avec succès."
+    },
+    "viewImagesDialog": {
+      "closeButton": "Fermer",
+      "closeDialogAriaLabel": "Fermer le dialogue",
+      "noImages": "Aucune image disponible",
+      "previousSlideAriaLabel": "Image précédente",
+      "nextSlideAriaLabel": "Image suivante",
+      "imageCounter": "Image {current} sur {total}",
+      "thumbnailAriaLabel": "Voir l'image {index}",
+      "thumbnailCarouselAriaLabel": "Miniatures des images"
+    }
+  },
+  "apiMessages": {
+    "fallback": {
+      "genericError": "Une erreur s'est produite. Veuillez réessayer.",
+      "serverError": "Une erreur inattendue du serveur s'est produite. Veuillez réessayer plus tard.",
+      "xssDetected": "Une entrée potentiellement dangereuse a été détectée. Veuillez supprimer tout contenu HTML ou script."
+    },
+    "errors": {
+      "AUTH_FAILED_LOGIN": "Échec de connexion. Veuillez vérifier vos identifiants.",
+      "AUTH_FAILED_REFRESH_TOKEN": "Échec du renouvellement de session. Veuillez vous reconnecter.",
+      "AUTH_INSUFFICIENT_PERMISSIONS": "Vous n'avez pas le rôle requis pour effectuer cette action.",
+      "AUTH_MISSING_ACCESS_TOKEN": "Votre session a expiré. Veuillez vous reconnecter.",
+      "BRAND_ADMIN_NOT_FOUND": "L'administrateur de marque spécifié n'existe pas.",
+      "BRAND_ALREADY_ACTIVE": "Cette marque est déjà active.",
+      "BRAND_ALREADY_DELETED": "Cette marque a déjà été supprimée.",
+      "BRAND_ALREADY_INACTIVE": "Cette marque est déjà inactive.",
+      "BRAND_DELETED": "Cette marque a été supprimée.",
+      "BRAND_DUPLICATE_NAME": "Une marque avec ce nom existe déjà dans le PSP.",
+      "BRAND_FAILED_ACTIVATE": "Échec de l'activation de la marque. Veuillez réessayer.",
+      "BRAND_FAILED_CREATE": "Échec de la création de la marque. Veuillez réessayer.",
+      "BRAND_FAILED_DEACTIVATE": "Échec de la désactivation de la marque. Veuillez réessayer.",
+      "BRAND_FAILED_DELETE": "Échec de la suppression de la marque. Veuillez réessayer.",
+      "BRAND_FAILED_FETCH": "Échec de la récupération des données de la marque. Veuillez réessayer.",
+      "BRAND_FAILED_UPDATE": "Échec de la mise à jour de la marque. Veuillez réessayer.",
+      "BRAND_HAS_INCOMPLETE_CAMPAIGNS": "Cette marque ne peut pas être désactivée car elle a des campagnes qui ne sont pas encore terminées.",
+      "BRAND_INACTIVE": "Cette marque est actuellement inactive.",
+      "BRAND_IN_USE": "Cette marque ne peut pas être supprimée car elle possède des enregistrements dépendants.",
+      "BRAND_NOT_ASSOCIATED_WITH_USER": "La marque demandée n'est pas associée à votre compte.",
+      "BRAND_NOT_FOUND": "Marque introuvable.",
+      "BRAND_OVERVIEW_RETRIEVAL_FAILED": "Échec de la récupération des statistiques générales de la marque.",
+      "BRAND_OVERVIEW_UNAUTHORIZED": "Vous n'êtes pas autorisé à accéder aux statistiques générales de cette marque.",
+      "BRAND_RETRIEVED_FAILED": "Échec de la récupération des marques pour le PSP spécifié.",
+      "BRAND_USER_NOT_ASSIGNED": "Vous n'êtes pas assigné à la marque demandée.",
+      "BRAND_USER_NOT_ASSIGNED_TO_PSP": "Vous n'êtes pas assigné au PSP propriétaire de cette marque.",
+      "CAMPAIGN_ALREADY_ARCHIVED": "Cette campagne est déjà archivée.",
+      "CAMPAIGN_ALREADY_ASSIGNED": "Cette campagne a déjà un responsable de campagne assigné.",
+      "CAMPAIGN_ARCHIVED": "Impossible d'effectuer cette action car la campagne est archivée.",
+      "CAMPAIGN_BRAND_INACTIVE": "La marque spécifiée est inactive ou supprimée.",
+      "CAMPAIGN_BRAND_NOT_ASSOCIATED": "La marque spécifiée n'est pas associée à votre compte.",
+      "CAMPAIGN_BRAND_REQUIRED": "La marque est requise.",
+      "CAMPAIGN_CANNOT_UPDATE_STATUS": "La campagne ne peut pas être mise à jour dans son état actuel.",
+      "CAMPAIGN_COMPLETED_CANNOT_ASSIGN": "Impossible d'assigner un responsable de campagne à une campagne terminée.",
+      "CAMPAIGN_DESCRIPTION_REQUIRED": "La description de la campagne est requise.",
+      "CAMPAIGN_DUPLICATE_NAME": "Une campagne avec ce nom existe déjà.",
+      "CAMPAIGN_END_DATE_BEFORE_START": "La date de fin doit être égale ou postérieure à la date de début.",
+      "CAMPAIGN_END_DATE_REQUIRED": "La date de fin est requise.",
+      "CAMPAIGN_FAILED_ARCHIVE": "Échec de l'archivage/désarchivage de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_ASSIGN_MANAGER": "Échec de l'assignation du responsable de campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_CREATE": "Échec de la création de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_DELETE": "Échec de la suppression de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_GET": "Échec de la récupération des détails de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_LIST": "Échec du listage des campagnes. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_STATUS_CHANGE": "Erreur inattendue lors de la modification du statut de la campagne.",
+      "CAMPAIGN_FAILED_SUBMIT": "Échec de la soumission de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FAILED_UPDATE": "Échec de la mise à jour de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_FORBIDDEN": "Vous n'êtes pas autorisé à consulter cette campagne.",
+      "CAMPAIGN_HAS_NON_REUSABLE_PROMOTIONS": "Impossible de marquer la campagne comme permanente : elle contient des promotions non réutilisables.",
+      "CAMPAIGN_ID_REQUIRED": "L'identifiant de la campagne est requis pour cette opération.",
+      "CAMPAIGN_MANAGER_BRAND_MISMATCH": "Le responsable de campagne spécifié n'est pas associé à la marque de la campagne.",
+      "CAMPAIGN_MANAGER_INVALID": "Le responsable de campagne spécifié n'est pas un Responsable de Campagne pour cette marque.",
+      "CAMPAIGN_MANAGER_NOT_ASSIGNED": "Vous n'êtes pas le responsable de campagne assigné pour cette campagne.",
+      "CAMPAIGN_MANAGER_NOT_FOR_BRAND": "Vous n'êtes pas un Responsable de Campagne actif pour la marque de cette campagne.",
+      "CAMPAIGN_MANAGER_NOT_FOUND": "Le responsable de campagne spécifié n'existe pas.",
+      "CAMPAIGN_MISSING_FILTER_ID": "L'identifiant de marque ou l'identifiant PSP doit être fourni.",
+      "CAMPAIGN_NAME_REQUIRED": "Le nom de la campagne est requis.",
+      "CAMPAIGN_NOT_ARCHIVED": "Cette campagne n'est pas archivée.",
+      "CAMPAIGN_NOT_COMPLETED": "La campagne doit être au statut Terminé pour être archivée.",
+      "CAMPAIGN_NOT_DRAFT": "La campagne ne peut être supprimée que lorsqu'elle est au statut Brouillon.",
+      "CAMPAIGN_NOT_FOUND": "Campagne introuvable.",
+      "CAMPAIGN_NOT_IN_DRAFT_OR_ON_HOLD": "La campagne ne peut être supprimée que lorsqu'elle est en statut BROUILLON ou EN ATTENTE.",
+      "SUBMITTED_CAMPAIGN_NOT_IN_DRAFT_OR_ON_HOLD": "Seules les campagnes en statut BROUILLON ou EN ATTENTE peuvent être soumises au PSP.",
+      "CAMPAIGN_NOT_IN_PRODUCTION": "L'action ne peut pas être effectuée car la campagne n'est pas en production.",
+      "CAMPAIGN_NO_ORDERS": "La campagne doit avoir au moins une distribution en magasin avant de pouvoir être soumise.",
+      "CAMPAIGN_OBJECTIVE_REQUIRED": "L'objectif de la campagne est requis.",
+      "CAMPAIGN_ON_HOLD_PSP_RESTRICTED": "La campagne est mise en attente par la marque; le PSP ne peut pas modifier le statut.",
+      "CAMPAIGN_ORDERS_FAILED_FETCH": "Échec de la récupération des commandes de magasin de la campagne. Veuillez réessayer.",
+      "CAMPAIGN_PSP_MISMATCH": "Le PSP fourni n'est pas associé à la marque spécifiée.",
+      "CAMPAIGN_PSP_REQUIRED": "Le PSP est requis.",
+      "CAMPAIGN_REQUIRED": "La campagne est requise.",
+      "CAMPAIGN_SHIP_BY_DATE_REQUIRED": "La date d'expédition est requise.",
+      "CAMPAIGN_SHIP_DATE_AFTER_END": "La date d'expédition prévue doit être antérieure à la date de fin.",
+      "CAMPAIGN_SHIP_DATE_AFTER_START": "La date d'expédition prévue doit être antérieure à la date de début.",
+      "CAMPAIGN_SHIP_DATE_BEFORE_START": "La date d'expédition prévue doit être antérieure à la date de début.",
+      "CAMPAIGN_SHIP_DATE_INVALID": "La date d'expédition est invalide.",
+      "CAMPAIGN_START_DATE_IN_PAST": "La date de début doit être postérieure à la date d'aujourd'hui.",
+      "CAMPAIGN_START_DATE_REQUIRED": "La date de début est requise.",
+      "CAMPAIGN_STATUS_ALREADY_SET": "La campagne est déjà dans le statut demandé.",
+      "CAMPAIGN_STATUS_CHANGE_NOT_ALLOWED": "Vous n'êtes pas autorisé à modifier le statut de cette campagne.",
+      "CAMPAIGN_STATUS_INVALID_TRANSITION": "Transition de statut invalide pour le rôle donné.",
+      "CAMPAIGN_STATUS_IRREVERSIBLE": "La campagne a atteint un statut irréversible et ne peut pas être annulée.",
+      "COGNITO_DISABLE_FAILED": "Échec de la désactivation de l'utilisateur dans le système d'authentification.",
+      "COGNITO_DISABLE_UNEXPECTED_ERROR": "Une erreur inattendue s'est produite lors de la désactivation du compte d'authentification.",
+      "COGNITO_EMAIL_ALREADY_EXISTS": "Un utilisateur avec cet e-mail existe déjà dans le système d'authentification.",
+      "COGNITO_ENABLE_FAILED": "Échec de l'activation de l'utilisateur dans le système d'authentification.",
+      "COGNITO_ENABLE_UNEXPECTED_ERROR": "Une erreur inattendue s'est produite lors de l'activation du compte d'authentification.",
+      "COGNITO_UPDATE_EMAIL_FAILED": "Échec de la mise à jour de l'e-mail de l'utilisateur dans le système d'authentification.",
+      "COGNITO_UPDATE_EMAIL_UNEXPECTED_ERROR": "Une erreur inattendue s'est produite lors de la mise à jour de l'e-mail dans le système d'authentification.",
+      "COGNITO_USER_NOT_FOUND": "Utilisateur introuvable dans le système d'authentification.",
+      "DISTRIBUTE_DUPLICATE_STORE": "Des identifiants de magasin en double ont été trouvés dans la liste de distribution.",
+      "DISTRIBUTE_FAILED": "Échec de la distribution des promotions aux magasins. Veuillez réessayer.",
+      "DISTRIBUTE_FAILED_CONCURRENT_MODIFICATION": "Échec de la mise à jour de la distribution en raison d'une modification simultanée. Veuillez actualiser la page et réessayer.",
+      "DISTRIBUTE_FAILED_GET": "Échec de la récupération de la distribution des magasins. Veuillez réessayer.",
+      "DISTRIBUTE_NO_STORES": "Au moins une distribution de magasin est requise.",
+      "DISTRIBUTE_PROMOTION_NOT_IN_CAMPAIGN": "La promotion spécifiée n'appartient pas à cette campagne.",
+      "DISTRIBUTE_QTY_EXCEEDED": "La quantité totale de distribution dépasse la quantité disponible de la promotion.",
+      "DISTRIBUTE_QTY_INVALID": "La quantité de chaque magasin doit être supérieure à 0.",
+      "DISTRIBUTE_STORE_NOT_IN_BRAND": "Un ou plusieurs magasins n'appartiennent pas à la marque spécifiée.",
+      "FORBIDDEN": "Vous n'avez pas la permission d'effectuer cette action.",
+      "IMAGE_NOT_FOUND": "Image introuvable.",
+      "IMAGE_URL_GENERATION_FAILED": "Échec de la génération de l'URL de chargement de l'image. Veuillez réessayer.",
+      "IMPERSONATION_ALREADY_ACTIVE": "Une session d'usurpation d'identité est déjà active.",
+      "IMPERSONATION_CHAIN_NOT_ALLOWED": "L'chaînage de sessions d'usurpation d'identité n'est pas autorisé.",
+      "IMPERSONATION_DISABLED": "L'usurpation d'identité est actuellement désactivée.",
+      "IMPERSONATION_ENTITY_SCOPE_MISMATCH": "La portée d'entité de l'utilisateur cible ne correspond pas à la portée requise.",
+      "IMPERSONATION_FAILED_START": "Échec du démarrage de la session d'usurpation d'identité. Veuillez réessayer.",
+      "IMPERSONATION_FAILED_STOP": "Échec de l'arrêt de la session d'usurpation d'identité. Veuillez réessayer.",
+      "IMPERSONATION_INVALID_TARGET": "La cible d'usurpation d'identité spécifiée est invalide.",
+      "IMPERSONATION_NOT_ACTIVE": "Aucune session d'usurpation d'identité n'est actuellement active.",
+      "IMPERSONATION_NOT_ALLOWED": "Vous n'êtes pas autorisé à usurper l'identité de cet utilisateur.",
+      "IMPERSONATION_TARGET_INACTIVE": "Impossible d'usurper l'identité d'un utilisateur inactif.",
+      "IMPERSONATION_TARGET_NOT_FOUND": "L'utilisateur cible de l'usurpation d'identité est introuvable.",
+      "IMPERSONATION_TOKEN_MISSING": "Le jeton d'usurpation d'identité est manquant.",
+      "INVALID_TARGET_USER_ID": "Format d'identifiant d'utilisateur cible invalide.",
+      "TARGET_USER_ID_REQUIRED": "L'identifiant de l'utilisateur cible est requis.",
+      "IMPORT_PROMOTION_BRAND_MISMATCH": "Les campagnes source et cible doivent appartenir à la même marque.",
+      "IMPORT_PROMOTION_FAILED": "Échec de l'importation des promotions. Veuillez réessayer.",
+      "IMPORT_PROMOTION_IDS_NOT_IN_SOURCE": "Un ou plusieurs identifiants de promotion spécifiés n'appartiennent pas à la campagne source.",
+      "IMPORT_PROMOTION_NO_PROMOTIONS": "Aucune promotion trouvée dans la campagne source à importer.",
+      "IMPORT_PROMOTION_SAME_CAMPAIGN": "Les campagnes source et cible doivent être différentes.",
+      "IMPORT_PROMOTION_SOURCE_NOT_FOUND": "Campagne source introuvable.",
+      "INSTALLATION_PROOF_DUPLICATE_ORDER_ITEM": "L'article de commande possède déjà une preuve d'installation enregistrée.",
+      "INSTALLATION_PROOF_IMAGES_REQUIRED": "Au moins une image est requise.",
+      "INSTALLATION_PROOF_INVALID_ORDER_STATUS": "Le statut de la commande ne permet pas de soumettre une preuve d'installation.",
+      "INSTALLATION_PROOF_INVALID_STATUS_FOR_REVIEW": "L'article doit être en statut En attente d'approbation pour être examiné.",
+      "INSTALLATION_PROOF_INVALID_STATUS_FOR_SUBMIT": "L'article doit être en statut En attente ou Rejeté pour soumettre une preuve.",
+      "INSTALLATION_PROOF_ITEMS_REQUIRED": "Des articles sont requis pour la preuve d'installation.",
+      "INSTALLATION_PROOF_ITEM_NOT_RECEIVED": "L'article d'expédition doit être réceptionné avant de soumettre la preuve d'installation.",
+      "INSTALLATION_PROOF_NOTES_REQUIRED": "Les notes sont obligatoires.",
+      "INSTALLATION_PROOF_NO_ITEMS_PENDING": "Aucun article en attente pour la preuve d'installation.",
+      "INSTALLATION_PROOF_ORDER_ITEM_NOT_FOUND": "Article de commande introuvable.",
+      "INSTALLATION_PROOF_ORDER_NOT_FOUND": "Commande de la preuve d'installation introuvable.",
+      "INSTALLATION_PROOF_REVIEW_FAILED": "Échec de l'examen de la preuve d'installation. Veuillez réessayer.",
+      "INSTALLATION_PROOF_REVIEW_MODE_REQUIRED": "Le mode de révision est requis pour la preuve d'installation.",
+      "INSTALLATION_PROOF_SUBMIT_FAILED": "Échec de la soumission de la preuve d'installation. Veuillez réessayer.",
+      "INSTALLATION_PROOF_UNAUTHORIZED": "Vous n'avez pas la permission de gérer cette preuve d'installation.",
+      "INSTALLATION_PROOF_UPLOAD_URL_FAILED": "Échec de la génération de l'URL de chargement. Veuillez réessayer.",
+      "INVENTORY_BRAND_PSP_MISMATCH": "La marque spécifiée n'appartient pas au PSP spécifié.",
+      "INVENTORY_FAILED_CREATE": "Échec de la création de l'article d'inventaire. Veuillez réessayer.",
+      "INVENTORY_FAILED_DELETE": "Échec de la suppression de l'article d'inventaire. Veuillez réessayer.",
+      "INVENTORY_FAILED_LIST": "Échec du listage des articles d'inventaire. Veuillez réessayer.",
+      "INVENTORY_FAILED_UPDATE": "Échec de la mise à jour de l'article d'inventaire. Veuillez réessayer.",
+      "INVENTORY_FILENAME_INVALID_EXTENSION": "Extension de fichier invalide pour l'image d'inventaire.",
+      "INVENTORY_HEIGHT_INVALID": "La hauteur doit être supérieure à zéro.",
+      "INVENTORY_IDS_REQUIRED": "Au moins un identifiant d'inventaire est requis.",
+      "INVENTORY_IMAGES_REQUIRED": "Au moins une image est requise pour l'inventaire.",
+      "INVENTORY_IN_ACTIVE_CAMPAIGNS": "L'inventaire ne peut pas être mis à jour ou supprimé car il est lié à une ou plusieurs campagnes actives.",
+      "INVENTORY_IN_USE": "Cet article d'inventaire ne peut pas être supprimé car il est lié à une ou plusieurs promotions.",
+      "INVENTORY_NOT_FOUND": "Article d'inventaire introuvable.",
+      "INVENTORY_PSP_NOT_ASSIGNED": "Vous n'êtes pas assigné au PSP spécifié.",
+      "INVENTORY_QUANTITY_INVALID": "La quantité doit être zéro ou supérieure.",
+      "INVENTORY_UPLOAD_URL_FAILED": "Échec de la génération de l'URL de chargement de l'image d'inventaire. Veuillez réessayer.",
+      "INVENTORY_WIDTH_INVALID": "La largeur doit être supérieure à zéro.",
+      "INV_RESEND_ALREADY_ACTIVE": "Impossible de renvoyer l'invitation à un utilisateur actif ou vérifié.",
+      "INV_RESEND_EMAIL_FAILED": "Le jeton d'invitation a été régénéré, mais l'e-mail n'a pas pu être envoyé.",
+      "INV_TOKEN": "Format de jeton d'invitation invalide.",
+      "INV_TOKEN_EXPIRED": "Ce lien d'invitation a expiré.",
+      "INV_TOKEN_INVALID": "Ce lien d'invitation est invalide ou a déjà été utilisé.",
+      "INV_USER_DELETED": "Ce compte utilisateur a été supprimé.",
+      "INV_USER_INACTIVE": "Ce compte utilisateur a été désactivé.",
+      "NOTIFICATION_BRAND_NOT_ASSIGNED": "Vous n'êtes pas assigné à la marque spécifiée.",
+      "NOTIFICATION_FAILED_FETCH": "Échec de la récupération des notifications. Veuillez réessayer.",
+      "NOTIFICATION_PSP_NOT_ASSIGNED": "Vous n'êtes pas assigné au PSP spécifié.",
+      "NOTIFICATION_STORE_NOT_ASSIGNED": "Vous n'êtes pas assigné au magasin spécifié.",
+      "PROMOTION_CAMPAIGN_INVALID_STATUS": "Des promotions ne peuvent pas être ajoutées à une campagne dans son statut actuel.",
+      "PROMOTION_CAMPAIGN_NOT_FOUND": "La campagne spécifiée n'existe pas.",
+      "PROMOTION_CANNOT_DELETE_LAST": "Impossible de supprimer la dernière promotion d'une campagne.",
+      "PROMOTION_DETAIL_FAILED_GET": "Échec de la récupération des détails de la promotion. Veuillez réessayer.",
+      "PROMOTION_FAILED_CREATE": "Échec de la création de la promotion. Veuillez réessayer.",
+      "PROMOTION_FAILED_CREATE_FROM_INVENTORY": "Échec de la création de promotions depuis l'inventaire. Veuillez réessayer.",
+      "PROMOTION_FAILED_DELETE": "Échec de la suppression de la promotion. Veuillez réessayer.",
+      "PROMOTION_FAILED_DELETE_IMAGE": "Échec de la suppression de l'image de promotion. Veuillez réessayer.",
+      "PROMOTION_FAILED_GET": "Échec de la récupération des promotions. Veuillez réessayer.",
+      "PROMOTION_FAILED_UPDATE": "Échec de la mise à jour de la promotion. Veuillez réessayer.",
+      "PROMOTION_FILENAME_INVALID_EXTENSION": "Le nom de fichier doit avoir une extension d'image valide (jpg, jpeg, png, gif, webp).",
+      "PROMOTION_FILENAME_REQUIRED": "Le nom de fichier est requis.",
+      "PROMOTION_FORBIDDEN": "Vous n'êtes pas autorisé à gérer les promotions de cette campagne.",
+      "PROMOTION_FROM_INVENTORY_NO_UPDATE": "Les promotions créées depuis l'inventaire ne peuvent pas être mises à jour.",
+      "PROMOTION_HEIGHT_INVALID": "La hauteur doit être supérieure à zéro.",
+      "PROMOTION_ID_REQUIRED": "L'identifiant de la promotion est requis.",
+      "PROMOTION_IMAGES_REQUIRED": "Au moins une image est requise lorsque need_design est false.",
+      "PROMOTION_IMAGE_NOT_FOUND": "Image de promotion introuvable ou n'appartenant pas à cette promotion.",
+      "PROMOTION_INVENTORY_NOT_FOUND": "Article d'inventaire introuvable ou n'appartenant pas à cette marque.",
+      "PROMOTION_NAME_DUPLICATE": "Une promotion avec ce nom existe déjà dans la campagne.",
+      "PROMOTION_NAME_REQUIRED": "Le nom de la promotion est requis.",
+      "PROMOTION_NEED_DESIGN_NO_IMAGES": "Impossible d'ajouter des images à une promotion qui nécessite une conception graphique.",
+      "PROMOTION_NOT_FOUND": "Promotion introuvable.",
+      "PROMOTION_PERMANENT_MUST_BE_REUSABLE": "Les promotions permanentes doivent être réutilisables.",
+      "PROMOTION_QUANTITY_INVALID": "La quantité doit être supérieure à zéro.",
+      "PROMOTION_REQUIRED": "La promotion est requise.",
+      "PROMOTION_UPLOAD_URL_FAILED": "Échec de la génération de l'URL de chargement de l'image de promotion. Veuillez réessayer.",
+      "PROMOTION_WIDTH_INVALID": "La largeur doit être supérieure à zéro.",
+      "PSP_ADMIN_NOT_FOUND": "L'administrateur PSP spécifié n'existe pas.",
+      "PSP_DUPLICATE_NAME": "Un PSP avec ce nom existe déjà.",
+      "PSP_FAILED_ACTIVATE": "Échec de l'activation du PSP. Veuillez réessayer.",
+      "PSP_FAILED_CREATE": "Échec de la création du PSP. Veuillez réessayer.",
+      "PSP_FAILED_DEACTIVATE": "Échec de la désactivation du PSP. Veuillez réessayer.",
+      "PSP_FAILED_DELETE": "Échec de la suppression du PSP. Veuillez réessayer.",
+      "PSP_FAILED_FETCH": "Échec de la récupération des données PSP. Veuillez réessayer.",
+      "PSP_FAILED_UPDATE": "Échec de la mise à jour du PSP. Veuillez réessayer.",
+      "PSP_HAS_INCOMPLETE_ORDERS": "Ce PSP ne peut pas être désactivé car il a des campagnes avec des commandes incomplètes.",
+      "PSP_INACTIVE": "Le PSP est actuellement inactif.",
+      "PSP_IN_USE": "Ce PSP ne peut pas être modifié car il est actuellement utilisé.",
+      "PSP_NOT_FOUND": "PSP introuvable.",
+      "PSP_OVERVIEW_RETRIEVAL_FAILED": "Échec de la récupération des statistiques globales du PSP pour le tableau de bord.",
+      "PSP_OVERVIEW_UNAUTHORIZED": "Non autorisé à accéder aux statistiques globales de ce PSP.",
+      "PSP_USER_NOT_ASSIGNED": "Vous n'êtes pas assigné au PSP demandé.",
+      "REGIONAL_MANAGER_NOT_FOUND": "Le gestionnaire régional spécifié n'existe pas.",
+      "REORDER_ACTION_REASON_REQUIRED": "Le motif de l'action de réapprovisionnement est requis.",
+      "REORDER_ALREADY_ACTIONED": "Ce réapprovisionnement a déjà été traité.",
+      "REORDER_CANNOT_APPROVE": "Impossible d'approuver ce réapprovisionnement dans son état actuel.",
+      "REORDER_CANNOT_CANCEL": "Impossible d'annuler ce réapprovisionnement dans son état actuel.",
+      "REORDER_CANNOT_REJECT": "Impossible de rejeter ce réapprovisionnement dans son état actuel.",
+      "REORDER_CANNOT_UPDATE": "Impossible de mettre à jour ce réapprovisionnement dans son état actuel.",
+      "REORDER_DETAIL_FAILED": "Échec de la récupération des détails du réapprovisionnement. Veuillez réessayer.",
+      "REORDER_IMAGES_REQUIRED": "Des images sont requises pour le réapprovisionnement.",
+      "REORDER_LIST_FAILED": "Échec du listage des réapprovisionnements. Veuillez réessayer.",
+      "REORDER_NOT_CREATOR": "Vous n'êtes pas le créateur de ce réapprovisionnement.",
+      "REORDER_NOT_FOUND": "Réapprovisionnement introuvable.",
+      "REORDER_NOT_REJECTED": "Le réapprovisionnement n'est pas en statut rejeté.",
+      "REORDER_ORDER_CREATION_FAILED": "Échec de la création de la commande de réapprovisionnement. Veuillez réessayer.",
+      "REORDER_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer ce réapprovisionnement.",
+      "REPORT_BRAND_ID_REQUIRED": "L'identifiant de marque est requis pour exécuter ce rapport.",
+      "REPORT_EXPORT_FAILED": "Échec de l'exportation du rapport. Veuillez réessayer.",
+      "REPORT_FETCH_FAILED": "Échec de la récupération des données du rapport. Veuillez réessayer.",
+      "REPORT_NO_STORES_ASSIGNED": "Aucun magasin n'est assigné pour ce rapport.",
+      "REPORT_PSP_ID_REQUIRED": "L'identifiant PSP est requis pour exécuter ce rapport.",
+      "REPORT_UNAUTHORIZED": "Vous n'êtes pas autorisé à accéder à ce rapport.",
+      "SHIPMENT_ALREADY_RECEIVED": "Cette expédition a déjà été reçue.",
+      "SHIPMENT_DISCREPANCY_QTY_EXCEEDS_SHIPPED": "La quantité d'écart dépasse la quantité expédiée pour un ou plusieurs articles.",
+      "SHIPMENT_DUPLICATE_ORDER_ITEM": "Les identifiants d'articles de commande dupliqués ne sont pas autorisés dans une seule expédition.",
+      "SHIPMENT_ETA_IN_PAST": "La date de livraison estimée doit être dans le futur.",
+      "SHIPMENT_ETA_REQUIRED": "La date de livraison estimée est obligatoire.",
+      "SHIPMENT_FAILED_CREATE": "Impossible de créer l'expédition. Veuillez réessayer.",
+      "SHIPMENT_FAILED_GET": "Erreur inattendue lors de la récupération des détails de l'expédition.",
+      "SHIPMENT_FAILED_LIST": "Échec de la récupération des expéditions depuis la base de données.",
+      "SHIPMENT_ITEM_DUPLICATE": "Les identifiants d'articles d'expédition dupliqués ne sont pas autorisés.",
+      "SHIPMENT_ITEM_NOT_FOUND": "Un ou plusieurs articles de l'expédition sont introuvables.",
+      "SHIPMENT_ITEM_QTY_EXCEEDS_REMAINING": "La quantité expédiée dépasse la quantité restante pour un ou plusieurs articles de la commande.",
+      "SHIPMENT_LIST_INVALID_PARAMS": "Paramètres invalides pour lister les expéditions.",
+      "SHIPMENT_NOT_FOUND": "L'enregistrement de l'expédition n'existe pas.",
+      "SHIPMENT_NO_VALID_ITEMS": "Aucun article valide à expédier.",
+      "SHIPMENT_ORDER_COMPLETED": "Impossible de créer une expédition pour une commande déjà terminée.",
+      "SHIPMENT_ORDER_INVALID_STATUS": "Les expéditions ne peuvent être créées que pour des commandes en statut En Production ou Partiellement Expédié.",
+      "SHIPMENT_ORDER_ITEM_NOT_FOUND": "Un ou plusieurs articles de la commande sont introuvables ou n'appartiennent pas à cette commande.",
+      "SHIPMENT_ORDER_NOT_FOUND": "La commande spécifiée n'existe pas.",
+      "SHIPMENT_ORDER_NO_REMAINING_QTY": "Impossible de créer une expédition pour une commande reçue avec exception sans quantité restante.",
+      "SHIPMENT_PSP_ID_REQUIRED": "L'ID du PSP est requis pour lister les expéditions.",
+      "SHIPMENT_PSP_UNAUTHORIZED": "Vous n'êtes pas autorisé à créer des expéditions pour cette commande.",
+      "SHIPMENT_RECEIVE_FAILED": "Échec de la réception de l'expédition. Veuillez réessayer.",
+      "SHIPMENT_RECEIVE_INVALID_EXCEPTION": "Le type d'exception est requis pour les articles présentant des écarts.",
+      "SHIPMENT_RECEIVE_ITEMS_PENDING": "Impossible de réceptionner l'expédition car un ou plusieurs articles sont encore en attente de réception.",
+      "SHIPMENT_RECEIVE_NO_ITEMS": "Aucun article fourni pour la réception.",
+      "SHIPMENT_RECEIVE_QTY_EXCEEDS_SHIPPED": "La quantité reçue dépasse la quantité expédiée pour un ou plusieurs articles.",
+      "SHIPMENT_RECEIVE_QTY_NEGATIVE": "La quantité reçue et la quantité d'écart doivent être non négatives.",
+      "SHIPMENT_RECEIVE_STORE_UNAUTHORIZED": "Vous n'êtes pas autorisé à recevoir des expéditions pour ce magasin.",
+      "SHIPMENT_REORDER_IMAGE_INVALID": "Métadonnées d'image invalides pour la réexpédition.",
+      "SHIPMENT_REORDER_REASON_REQUIRED": "La raison est requise lorsque des écarts existent.",
+      "SHIPMENT_REORDER_UPLOAD_URL_FAILED": "Échec de la génération de l'URL de chargement de l'image de réexpédition. Veuillez réessayer.",
+      "SHIPMENT_TRACKING_NUMBER_DUPLICATE": "Une expédition avec ce numéro de suivi existe déjà.",
+      "SHIPMENT_TRACKING_NUMBER_REQUIRED": "Le numéro de suivi est obligatoire.",
+      "SOMETHING_WENT_WRONG": "Une erreur s'est produite. Veuillez réessayer.",
+      "STORE_ADMIN_NOT_FOUND": "L'administrateur de magasin spécifié n'existe pas.",
+      "STORE_ADMIN_OVERVIEW_RETRIEVAL_FAILED": "Échec de la récupération des statistiques administratives du magasin.",
+      "STORE_DELETED": "Ce magasin a été supprimé.",
+      "STORE_DUPLICATE_NAME": "Un magasin avec ce nom existe déjà dans la marque.",
+      "STORE_DUPLICATE_NUMBER": "Un magasin avec ce numéro existe déjà.",
+      "STORE_FAILED_ACTIVATE": "Échec de l'activation du magasin. Veuillez réessayer.",
+      "STORE_FAILED_CREATE": "Échec de la création du magasin. Veuillez réessayer.",
+      "STORE_FAILED_DEACTIVATE": "Échec de la désactivation du magasin. Veuillez réessayer.",
+      "STORE_FAILED_DELETE": "Échec de la suppression du magasin. Veuillez réessayer.",
+      "STORE_FAILED_FETCH": "Échec de la récupération des données du magasin. Veuillez réessayer.",
+      "STORE_FAILED_UPDATE": "Échec de la mise à jour du magasin. Veuillez réessayer.",
+      "STORE_HAS_INCOMPLETE_ORDERS": "Ce magasin ne peut pas être désactivé car il a des commandes incomplètes.",
+      "STORE_INACTIVE": "Ce magasin est actuellement inactif.",
+      "STORE_IN_USE": "Ce magasin ne peut pas être supprimé car il possède des enregistrements dépendants.",
+      "STORE_NOT_ASSOCIATED_WITH_CAMPAIGN_BRAND": "Ce magasin n'est pas associé à la marque spécifiée.",
+      "STORE_NOT_FOUND": "Magasin introuvable.",
+      "STORE_NOT_FOUND_FOR_CAMPAIGN": "Magasin introuvable ou non associé à la marque de cette campagne.",
+      "STORE_OVERVIEW_RETRIEVAL_FAILED": "Échec de la récupération des statistiques générales du magasin.",
+      "STORE_USER_NOT_ASSIGNED": "Vous n'êtes pas assigné au magasin demandé.",
+      "SURVEY_ALREADY_CLOSED": "Cette enquête est déjà fermée.",
+      "SURVEY_BRAND_IDS_REQUIRED": "Les identifiants de marque sont requis pour l'enquête.",
+      "SURVEY_BRAND_ID_REQUIRED": "L'identifiant de marque est requis pour l'enquête.",
+      "SURVEY_BRAND_NOT_FOUND": "Marque de l'enquête introuvable.",
+      "SURVEY_BRAND_PSP_MISMATCH": "La marque spécifiée n'appartient pas au PSP de l'enquête.",
+      "SURVEY_BRAND_REQUIRED_FOR_NON_DRAFT": "La marque est requise pour les enquêtes qui ne sont pas en brouillon.",
+      "SURVEY_BRAND_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer cette marque d'enquête.",
+      "SURVEY_DESCRIPTION_REQUIRED": "La description de l'enquête est requise.",
+      "SURVEY_DUPLICATE_NAME": "Une enquête avec ce nom existe déjà.",
+      "SURVEY_FAILED_ASSIGN_BRANDS": "Échec de l'assignation des marques à l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_ASSIGN_STORES": "Échec de l'assignation des magasins à l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_CLOSE": "Échec de la fermeture de l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_CREATE": "Échec de la création de l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_DELETE": "Échec de la suppression de l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_DETAIL": "Échec de la récupération des détails de l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_GET_RESPONSE": "Échec de la récupération de la réponse à l'enquête. Veuillez réessayer.",
+      "SURVEY_FAILED_LIST": "Échec du listage des enquêtes. Veuillez réessayer.",
+      "SURVEY_FAILED_LIST_UNASSIGNED_BRANDS": "Échec du listage des marques non assignées. Veuillez réessayer.",
+      "SURVEY_FAILED_LIST_UNASSIGNED_STORES": "Échec du listage des magasins non assignés. Veuillez réessayer.",
+      "SURVEY_FAILED_UPDATE": "Échec de la mise à jour de l'enquête. Veuillez réessayer.",
+      "SURVEY_ID_REQUIRED": "L'identifiant de l'enquête est requis.",
+      "SURVEY_INVALID_STATUS": "Le statut de l'enquête n'est pas valide.",
+      "SURVEY_NAME_REQUIRED": "Le nom de l'enquête est requis.",
+      "SURVEY_NOT_ACTIVE": "L'enquête n'est pas active.",
+      "SURVEY_NOT_ASSIGNED_TO_BRAND": "L'enquête n'est pas assignée à cette marque.",
+      "SURVEY_NOT_DRAFT": "L'enquête n'est pas en statut brouillon.",
+      "SURVEY_NOT_FOUND": "Enquête introuvable.",
+      "SURVEY_NO_BRANDS_ASSIGNED": "Aucune marque n'est assignée à cette enquête.",
+      "SURVEY_PSP_ID_REQUIRED": "L'identifiant du PSP est requis pour l'enquête.",
+      "SURVEY_PSP_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer les enquêtes de ce PSP.",
+      "SURVEY_RESPONSE_ALREADY_SUBMITTED": "Vous avez déjà soumis une réponse à cette enquête.",
+      "SURVEY_RESPONSE_FAILED_SAVE": "Échec de l'enregistrement de la réponse à l'enquête. Veuillez réessayer.",
+      "SURVEY_RESPONSE_JSON_REQUIRED": "Le format JSON de la réponse est requis.",
+      "SURVEY_RESPONSE_NOT_FOUND": "Réponse à l'enquête introuvable.",
+      "SURVEY_SCHEMA_REQUIRED": "Le schéma de l'enquête est requis.",
+      "SURVEY_STORE_BRAND_MISMATCH": "Le magasin spécifié n'appartient pas à la marque de l'enquête.",
+      "SURVEY_STORE_IDS_REQUIRED": "Les identifiants de magasin sont requis pour l'enquête.",
+      "SURVEY_STORE_ID_REQUIRED": "L'identifiant de magasin est requis pour l'enquête.",
+      "SURVEY_STORE_NOT_ASSIGNED_TO_SURVEY": "Le magasin n'est pas assigné à cette enquête.",
+      "SURVEY_STORE_NOT_FOUND": "Magasin de l'enquête introuvable.",
+      "SURVEY_STORE_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer ce magasin d'enquête.",
+      "SURVEY_TEMPLATE_ALREADY_ACTIVE": "Le modèle d'enquête est déjà actif.",
+      "SURVEY_TEMPLATE_ALREADY_INACTIVE": "Le modèle d'enquête est déjà inactif.",
+      "SURVEY_TEMPLATE_DUPLICATE_NAME": "Un modèle d'enquête avec ce nom existe déjà.",
+      "SURVEY_TEMPLATE_FAILED_ACTIVATE": "Échec de l'activation du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_CREATE": "Échec de la création du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_DEACTIVATE": "Échec de la désactivation du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_DELETE": "Échec de la suppression du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_FETCH": "Échec de la récupération du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_LIST": "Échec du listage des modèles d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_SET_STATUS": "Échec du changement de statut du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_FAILED_UPDATE": "Échec de la mise à jour du modèle d'enquête. Veuillez réessayer.",
+      "SURVEY_TEMPLATE_ID_REQUIRED": "L'identifiant du modèle d'enquête est requis.",
+      "SURVEY_TEMPLATE_INACTIVE": "Le modèle d'enquête est inactif.",
+      "SURVEY_TEMPLATE_IS_ACTIVE_REQUIRED": "Le statut actif du modèle d'enquête est requis.",
+      "SURVEY_TEMPLATE_NAME_REQUIRED": "Le nom du modèle d'enquête est requis.",
+      "SURVEY_TEMPLATE_NOT_FOUND": "Modèle d'enquête introuvable.",
+      "SURVEY_TEMPLATE_PSP_ID_REQUIRED": "L'identifiant du PSP est requis pour le modèle d'enquête.",
+      "SURVEY_TEMPLATE_PSP_MISMATCH": "Le modèle d'enquête n'appartient pas au PSP spécifié.",
+      "SURVEY_TEMPLATE_PSP_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer les modèles d'enquête de ce PSP.",
+      "SURVEY_TEMPLATE_SCHEMA_REQUIRED": "Le schéma du modèle d'enquête est requis.",
+      "SURVEY_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer cette enquête.",
+      "UNAUTHENTICATED": "Votre session a expiré. Veuillez vous reconnecter.",
+      "UNEXPECTED_ERROR": "Une erreur inattendue s'est produite. Veuillez réessayer plus tard.",
+      "USER_ACTIVATE_BRAND_INACTIVE": "Cet utilisateur ne peut pas être activé car sa marque associée est inactive.",
+      "USER_ACTIVATE_PSP_INACTIVE": "Cet utilisateur ne peut pas être activé car son PSP associé est inactif.",
+      "USER_ACTIVATE_STORE_INACTIVE": "Cet utilisateur ne peut pas être activé car son magasin associé est inactif.",
+      "USER_ALREADY_ACTIVE": "Cet utilisateur est déjà actif.",
+      "USER_ALREADY_INACTIVE": "Cet utilisateur est déjà inactif.",
+      "USER_BRAND_VALIDATION_FAILED": "La validation de la marque a échoué.",
+      "USER_CAMPAIGN_MANAGER_HAS_ACTIVE_CAMPAIGNS": "Impossible de désactiver cet utilisateur : il a une ou plusieurs campagnes actives ou en cours. Veuillez les terminer ou les réattribuer en premier.",
+      "USER_CAMPAIGN_MANAGER_ROLE_CHANGE_HAS_ACTIVE_CAMPAIGNS": "Impossible de changer le rôle : cet utilisateur est le Responsable de Campagne pour des campagnes actives. Veuillez les terminer ou les réattribuer en premier.",
+      "USER_CANNOT_DEACTIVATE_SUPER_ADMIN": "Impossible de désactiver le Super Admin. Veuillez attribuer le rôle de Super Admin à un autre utilisateur en premier.",
+      "USER_CANNOT_TOGGLE_OWN_STATUS": "Vous ne pouvez pas modifier votre propre statut actif.",
+      "USER_CANNOT_UPDATE_INACTIVE": "Impossible de mettre à jour un utilisateur inactif.",
+      "USER_CANNOT_UPDATE_SELF": "Vous ne pouvez pas vous mettre à jour vous-même.",
+      "USER_DEACTIVATE_PLATFORM_ADMIN_FORBIDDEN": "Seul le Super Admin peut désactiver un Administrateur de Plateforme.",
+      "USER_DELETED": "Ce compte utilisateur a été supprimé.",
+      "USER_EMAIL_ALREADY_EXISTS": "Un utilisateur avec cette adresse e-mail existe déjà.",
+      "USER_FAILED_CREATE": "Échec de la création de l'utilisateur. Veuillez réessayer.",
+      "USER_FAILED_DELETE": "Échec de la suppression de l'utilisateur. Veuillez réessayer.",
+      "USER_FAILED_TOGGLE_STATUS": "Échec du changement de statut de l'utilisateur. Veuillez réessayer.",
+      "USER_FAILED_UPDATE": "Échec de la mise à jour de l'utilisateur. Veuillez réessayer.",
+      "USER_INACTIVE": "Ce compte utilisateur est inactif.",
+      "USER_NOT_ASSIGNED_TO_BRAND": "Vous n'êtes pas assigné à la marque spécifiée.",
+      "USER_NOT_ASSIGNED_TO_PSP": "Vous n'êtes pas assigné au PSP spécifié.",
+      "USER_NOT_ASSIGNED_TO_STORE": "Vous n'êtes pas assigné au magasin spécifié.",
+      "USER_NOT_FOUND": "Utilisateur introuvable.",
+      "USER_NOT_VERIFIED": "Votre compte n'a pas été vérifié.",
+      "USER_ONLY_BRAND_ADMIN": "Impossible de désactiver cet utilisateur : il est le seul Administrateur de Marque pour la Marque assignée. Veuillez attribuer un autre Administrateur de Marque en premier.",
+      "USER_ONLY_PSP_ADMIN": "Impossible de désactiver cet utilisateur : il est le seul Administrateur PSP du PSP assigné. Veuillez en attribuer un autre en premier.",
+      "USER_ONLY_STORE_ADMIN": "Impossible de désactiver cet utilisateur : il est le seul Administrateur de Magasin pour le magasin assigné. Veuillez attribuer un autre Administrateur de Magasin en premier.",
+      "USER_PSP_VALIDATION_FAILED": "La validation du PSP a échoué.",
+      "USER_PSP_VALIDATION_FAILED_FOR_BRAND": "La validation du PSP a échoué pour la marque spécifiée.",
+      "USER_ROLE_NOT_ASSIGNED": "Le rôle spécifié n'est pas attribué à cet utilisateur.",
+      "USER_STORE_ADMIN_HAS_PENDING_REQUESTS": "Impossible de désactiver cet utilisateur : il a une ou plusieurs demandes en attente qui lui sont assignées. Veuillez les réattribuer en premier.",
+      "USER_TOGGLE_STATUS_DELETED": "Impossible de modifier le statut actif d'un utilisateur supprimé.",
+      "VALIDATION_EMAIL_INVALID": "Veuillez saisir une adresse e-mail valide.",
+      "VALIDATION_EMAIL_EMPTY": "L'adresse e-mail ne peut pas être vide.",
+      "VALIDATION_EMAIL_REQUIRED": "L'adresse e-mail est requise.",
+      "VALIDATION_FAILED": "Échec de la validation. Veuillez vérifier votre saisie.",
+      "VALIDATION_FIELD_REQUIRED": "Ce champ est requis.",
+      "VALIDATION_FULL_NAME_EMPTY": "Le nom complet ne peut pas être vide.",
+      "VALIDATION_FULL_NAME_REQUIRED": "Le nom complet est requis.",
+      "VALIDATION_FULL_NAME_TOO_SHORT": "Le nom complet doit comporter au moins 2 caractères.",
+      "VALIDATION_ROLE_IDS_EMPTY": "Au moins un rôle doit être fourni si les rôles sont mis à jour.",
+      "VALIDATION_ROLE_IDS_REQUIRED": "Au moins un rôle utilisateur doit être sélectionné.",
+      "CAMPAIGN_STORE_ORDER_NOT_FOUND": "Commande de magasin introuvable pour le numéro de commande spécifié.",
+      "INSTALLATION_PROOF_ORDER_NOT_RECEIVED": "La commande doit être en statut Reçu ou Reçu avec Exception avant de soumettre la preuve d'installation.",
+      "INVENTORY_BRAND_REQUIRED": "L'ID de marque est requis pour les administrateurs PSP lors de la mise à jour de l'inventaire.",
+      "INVENTORY_QUANTITY_ONLY_FOR_OPERATOR": "Les Opérateurs de Production ne peuvent mettre à jour que la quantité de l'inventaire.",
+      "SHIPMENT_CARRIER_NAME_REQUIRED": "Le nom du transporteur est requis.",
+      "WEBHOOK_ALREADY_ACTIVE": "Cette accréditation webhook est déjà active.",
+      "WEBHOOK_ALREADY_INACTIVE": "Cette accréditation webhook est déjà inactive.",
+      "WEBHOOK_ALREADY_REVOKED": "Cette accréditation webhook a déjà été révoquée.",
+      "WEBHOOK_CREDENTIAL_ID_REQUIRED": "L'ID de l'accréditation webhook est requis pour cette opération.",
+      "WEBHOOK_FAILED_CREATE": "Échec de la création de l'accréditation webhook. Veuillez réessayer.",
+      "WEBHOOK_FAILED_REVOKE": "Échec de la révocation de l'accréditation webhook. Veuillez réessayer.",
+      "WEBHOOK_FAILED_ROTATE": "Échec de la rotation du secret de l'accréditation webhook. Veuillez réessayer.",
+      "WEBHOOK_FAILED_UPDATE": "Échec de la mise à jour de l'accréditation webhook. Veuillez réessayer.",
+      "WEBHOOK_FETCH_FAILED": "Échec de la récupération des accréditations webhook. Veuillez réessayer.",
+      "WEBHOOK_INVALID_TOKEN_EXPIRY": "Les heures d'expiration du token doivent être supérieures à 0.",
+      "WEBHOOK_IP_UNAUTHORIZED": "Les requêtes depuis cette adresse IP ne sont pas autorisées.",
+      "WEBHOOK_LABEL_REQUIRED": "L'étiquette de l'accréditation webhook est requise.",
+      "WEBHOOK_LABEL_TOO_LONG": "L'étiquette de l'accréditation webhook ne doit pas dépasser 255 caractères",
+      "WEBHOOK_NO_CHANGES": "Aucune modification fournie pour la mise à jour de l'accréditation webhook.",
+      "WEBHOOK_NOT_FOUND": "Accréditation webhook introuvable.",
+      "WEBHOOK_OPERATION_BLOCKED": "Cette opération n'est pas autorisée via l'authentification webhook.",
+      "WEBHOOK_UNAUTHORIZED": "Vous n'êtes pas autorisé à gérer les accréditations webhook de ce PSP.",
+      "EXCEPTION_REQUEST_ACTION_REASON_REQUIRED": "Un motif est requis pour cette action.",
+      "EXCEPTION_REQUEST_ALREADY_ACTIONED": "Cette demande d'exception a déjà été traitée.",
+      "EXCEPTION_REQUEST_CANNOT_APPROVE": "Impossible d'approuver cette demande d'exception.",
+      "EXCEPTION_REQUEST_CANNOT_CANCEL": "Impossible d'annuler cette demande d'exception.",
+      "EXCEPTION_REQUEST_CANNOT_REJECT": "Impossible de rejeter cette demande d'exception.",
+      "EXCEPTION_REQUEST_CANNOT_UPDATE": "Impossible de mettre à jour cette demande d'exception.",
+      "EXCEPTION_REQUEST_DETAIL_FAILED": "Échec de la récupération des détails de la demande d'exception.",
+      "EXCEPTION_REQUEST_IMAGES_REQUIRED": "Au moins une image de preuve est requise.",
+      "EXCEPTION_REQUEST_LIST_FAILED": "Échec de la liste des demandes d'exception.",
+      "EXCEPTION_REQUEST_NOT_CREATOR": "Seul le créateur original peut mettre à jour cette demande.",
+      "EXCEPTION_REQUEST_NOT_FOUND": "Demande d'exception introuvable.",
+      "EXCEPTION_REQUEST_NOT_REJECTED": "La demande d'exception n'est pas en statut rejeté.",
+      "EXCEPTION_REQUEST_UNAUTHORIZED": "Vous n'avez pas la permission de gérer cette demande d'exception.",
+      "REORDER_CREATION_FAILED": "Échec de la création de la nouvelle commande."
+    },
+    "success": {
+      "AUTH_LOGIN_SUCCESS": "Connexion réussie.",
+      "AUTH_LOGOUT_SUCCESS": "Déconnexion réussie.",
+      "AUTH_TOKEN_REFRESHED": "Session renouvelée avec succès.",
+      "BRAND_ACTIVATED": "Marque activée avec succès.",
+      "BRAND_CREATED": "Marque créée avec succès.",
+      "BRAND_DEACTIVATED": "Marque désactivée avec succès.",
+      "BRAND_DELETED": "Marque supprimée avec succès.",
+      "BRAND_RETRIEVED": "Détails de la marque récupérés avec succès.",
+      "BRAND_UPDATED": "Marque mise à jour avec succès.",
+      "CAMPAIGN_ARCHIVED": "Campagne archivée avec succès.",
+      "CAMPAIGN_CREATED": "Campagne créée avec succès.",
+      "CAMPAIGN_DELETED": "Campagne supprimée avec succès.",
+      "CAMPAIGN_LIST_SUCCESS": "Campagnes listées avec succès.",
+      "CAMPAIGN_MANAGER_ASSIGNED": "Responsable de campagne assigné avec succès.",
+      "CAMPAIGN_ORDERS_FETCH_SUCCESS": "Commandes de magasin de la campagne récupérées avec succès.",
+      "CAMPAIGN_STORE_ORDER_FETCH_SUCCESS": "Commande de magasin de la campagne récupérée avec succès.",
+      "CAMPAIGN_SHIP_DATE_APPROACHING": "La date d'expédition de la campagne approche.",
+      "CAMPAIGN_SHIP_DATE_CHECK_COMPLETED": "Vérification de la date d'expédition de la campagne terminée.",
+      "CAMPAIGN_SHIP_DATE_OVERDUE": "La date d'expédition de la campagne est dépassée.",
+      "CAMPAIGN_STATUS_CHANGED": "Statut de la campagne modifié avec succès.",
+      "CAMPAIGN_SUBMITTED": "Campagne soumise avec succès.",
+      "CAMPAIGN_UNARCHIVED": "Campagne désarchivée avec succès.",
+      "CAMPAIGN_UPDATED": "Campagne mise à jour avec succès.",
+      "DISTRIBUTION_FETCHED": "Distribution des magasins récupérée avec succès.",
+      "INSTALLATION_PROOF_APPROVED": "Preuve d'installation approuvée.",
+      "INSTALLATION_PROOF_REJECTED": "Preuve d'installation rejetée.",
+      "INSTALLATION_PROOF_SUBMITTED": "Preuve d'installation soumise pour approbation.",
+      "INSTALLATION_PROOF_UPLOAD_URL_GENERATED": "URL de chargement de la preuve d'installation générée avec succès.",
+      "INVENTORY_CREATED": "Article d'inventaire créé avec succès.",
+      "INVENTORY_DELETED": "Article d'inventaire supprimé avec succès.",
+      "INVENTORY_LIST_SUCCESS": "Articles d'inventaire listés avec succès.",
+      "INVENTORY_UPDATED": "Article d'inventaire mis à jour avec succès.",
+      "INVENTORY_UPLOAD_URL_GENERATED": "URL de chargement de l'image d'inventaire générée avec succès.",
+      "INVITATION_ACCEPTED": "Invitation acceptée avec succès.",
+      "INVITATION_RESENT": "Invitation renvoyée avec succès.",
+      "INVITATION_SENT": "Invitation envoyée avec succès.",
+      "NOTIFICATIONS_FETCHED": "Notifications récupérées avec succès.",
+      "PROMOTIONS_CREATED_FROM_INVENTORY": "Promotions créées depuis l'inventaire avec succès.",
+      "PROMOTIONS_DISTRIBUTED": "Promotions distribuées aux magasins avec succès.",
+      "PROMOTIONS_IMPORTED": "Promotions importées avec succès.",
+      "PROMOTION_CREATED": "Promotion créée avec succès.",
+      "PROMOTION_DELETED": "Promotion supprimée avec succès.",
+      "PROMOTION_DETAIL_FETCHED": "Détails de la promotion récupérés avec succès.",
+      "PROMOTION_IMAGE_DELETED": "Image de promotion supprimée avec succès.",
+      "PROMOTION_UPDATED": "Promotion mise à jour avec succès.",
+      "PROMOTION_UPLOAD_URL_GENERATED": "URL de chargement de l'image de promotion générée avec succès.",
+      "PSP_ACTIVATED": "PSP activé avec succès.",
+      "PSP_CREATED": "PSP créé avec succès.",
+      "PSP_DEACTIVATED": "PSP désactivé avec succès.",
+      "PSP_DELETED": "PSP supprimé avec succès.",
+      "PSP_RETRIEVED": "Détails du PSP récupérés avec succès.",
+      "PSP_UPDATED": "PSP mis à jour avec succès.",
+      "EXCEPTION_REQUEST_APPROVED": "Demande d'exception approuvée avec succès.",
+      "EXCEPTION_REQUEST_CANCELLED": "Demande d'exception annulée avec succès.",
+      "EXCEPTION_REQUEST_REJECTED": "Demande d'exception rejetée avec succès.",
+      "EXCEPTION_REQUEST_UPDATED": "Demande d'exception mise à jour avec succès.",
+      "REORDER_APPROVED": "Réapprovisionnement approuvé avec succès.",
+      "REORDER_CANCELLED": "Réapprovisionnement annulé avec succès.",
+      "REORDER_DETAIL_SUCCESS": "Détails du réapprovisionnement récupérés avec succès.",
+      "REORDER_LIST_SUCCESS": "Réapprovisionnements listés avec succès.",
+      "REORDER_REJECTED": "Réapprovisionnement rejeté avec succès.",
+      "REORDER_UPDATED": "Réapprovisionnement mis à jour avec succès.",
+      "SHIPMENT_CREATED": "Expédition créée avec succès.",
+      "SHIPMENT_GET_SUCCESS": "Détails de l'expédition récupérés avec succès.",
+      "SHIPMENT_LIST_SUCCESS": "Expéditions listées avec succès.",
+      "SHIPMENT_RECEIVED": "Expédition reçue avec succès.",
+      "SHIPMENT_RECEIVED_WITH_REORDER": "Expédition reçue avec réexpédition créée avec succès.",
+      "SHIPMENT_REORDER_UPLOAD_URL_GENERATED": "URL de chargement de l'image de réexpédition générée avec succès.",
+      "STORES_BY_BRAND_RETRIEVED": "Magasins actifs de la marque récupérés avec succès.",
+      "STORE_ACTIVATED": "Magasin activé avec succès.",
+      "STORE_CREATED": "Magasin créé avec succès.",
+      "STORE_DEACTIVATED": "Magasin désactivé avec succès.",
+      "STORE_DELETED": "Magasin supprimé avec succès.",
+      "STORE_RETRIEVED": "Détails du magasin récupérés avec succès.",
+      "STORE_UPDATED": "Magasin mis à jour avec succès.",
+      "SURVEY_BRANDS_ASSIGNED": "Marques assignées à l'enquête avec succès.",
+      "SURVEY_CREATED": "Enquête créée avec succès.",
+      "SURVEY_DELETED": "Enquête supprimée avec succès.",
+      "SURVEY_DETAIL_SUCCESS": "Détails de l'enquête récupérés avec succès.",
+      "SURVEY_LIST_SUCCESS": "Enquêtes listées avec succès.",
+      "SURVEY_RESPONSE_FETCH_SUCCESS": "Réponse à l'enquête récupérée avec succès.",
+      "SURVEY_RESPONSE_SUBMITTED": "Réponse à l'enquête soumise avec succès.",
+      "SURVEY_STORES_ASSIGNED": "Magasins assignés à l'enquête avec succès.",
+      "SURVEY_TEMPLATE_ACTIVATED": "Modèle d'enquête activé avec succès.",
+      "SURVEY_TEMPLATE_CREATED": "Modèle d'enquête créé avec succès.",
+      "SURVEY_TEMPLATE_DEACTIVATED": "Modèle d'enquête désactivé avec succès.",
+      "SURVEY_TEMPLATE_DELETED": "Modèle d'enquête supprimé avec succès.",
+      "SURVEY_TEMPLATE_FETCHED": "Modèle d'enquête récupéré avec succès.",
+      "SURVEY_TEMPLATE_LIST_SUCCESS": "Modèles d'enquête listés avec succès.",
+      "SURVEY_TEMPLATE_UPDATED": "Modèle d'enquête mis à jour avec succès.",
+      "SURVEY_UNASSIGNED_BRANDS_LIST_SUCCESS": "Marques non assignées listées avec succès.",
+      "SURVEY_UNASSIGNED_STORES_LIST_SUCCESS": "Magasins non assignés listés avec succès.",
+      "SURVEY_UPDATED": "Enquête mise à jour avec succès.",
+      "SURVEY_CLOSED": "Enquête fermée avec succès.",
+      "IMPERSONATION_STARTED": "Session d'usurpation d'identité initiée avec succès.",
+      "IMPERSONATION_STOPPED": "Session d'usurpation d'identité arrêtée avec succès.",
+      "REPORT_FETCH_SUCCESS": "Données du rapport récupérées avec succès.",
+      "REPORT_EXPORT_SUCCESS": "Rapport exporté avec succès.",
+      "USER_ACTIVATED": "Utilisateur activé avec succès.",
+      "USER_CREATED": "Utilisateur créé avec succès.",
+      "USER_DEACTIVATED": "Utilisateur désactivé avec succès.",
+      "USER_DELETED": "Utilisateur supprimé avec succès.",
+      "USER_UPDATED": "Utilisateur mis à jour avec succès.",
+      "WEBHOOK_CREDENTIAL_ACTIVATED": "Accréditation webhook activée avec succès.",
+      "WEBHOOK_CREDENTIAL_CREATED": "Accréditation webhook créée avec succès.",
+      "WEBHOOK_CREDENTIAL_RETRIEVED": "Détail de l'accréditation webhook récupéré avec succès.",
+      "WEBHOOK_CREDENTIAL_REVOKED": "Accréditation webhook révoquée avec succès.",
+      "WEBHOOK_CREDENTIAL_UPDATED": "Accréditation webhook mise à jour avec succès.",
+      "WEBHOOK_CREDENTIALS_RETRIEVED": "Accréditations webhook récupérées avec succès.",
+      "WEBHOOK_SECRET_ROTATED": "Secret de l'accréditation webhook renouvelé avec succès.",
+      "EXCEPTION_REQUEST_DETAIL_SUCCESS": "Détails de la demande d'exception récupérés avec succès.",
+      "EXCEPTION_REQUEST_LIST_SUCCESS": "Demandes d'exception listées avec succès."
+    }
+  },
+  "alerts": {
+    "page": {
+      "title": "Alertes",
+      "description": "Restez informé des alertes importantes et des notifications système"
+    },
+    "search": {
+      "placeholder": "Rechercher des alertes...",
+      "clearAriaLabel": "Effacer la recherche"
+    },
+    "list": {
+      "empty": "Aucune alerte trouvée.",
+      "viewButton": "Voir",
+      "caption": "Liste des alertes",
+      "loadingState": "Chargement des alertes...",
+      "paginationAriaLabel": "Pagination des alertes",
+      "paginationLabel": "alertes"
+    },
+    "errors": {
+      "listing": {
+        "title": "Échec du chargement des alertes",
+        "description": "Une erreur s'est produite lors du chargement des alertes. Veuillez réessayer."
+      }
+    },
+    "types": {
+      "error": "Erreur",
+      "warning": "Avertissement",
+      "success": "Succès",
+      "info": "Info"
+    },
+    "notificationTypes": {
+      "CAMPAIGN_MANAGER_SELF_ASSIGNED": "Responsable de Campagne Auto-Assigné",
+      "CAMPAIGN_MANAGER_UPDATED": "Responsable de Campagne Mis à Jour",
+      "CAMPAIGN_SHIP_DATE_APPROACHING": "Date d'expédition de la campagne imminente",
+      "CAMPAIGN_SHIP_DATE_OVERDUE": "Date d'expédition de la campagne dépassée",
+      "CAMPAIGN_STATUS_UPDATED": "Statut de la Campagne Mis à Jour",
+      "NEW_CAMPAIGN_SUBMITTED": "Nouvelle Campagne Soumise",
+      "INSTALLATION_PROOF_APPROVED": "Preuve d'Installation Approuvée",
+      "INSTALLATION_PROOF_REJECTED": "Preuve d'Installation Rejetée",
+      "INSTALLATION_PROOF_SUBMITTED": "Preuve d'Installation Soumise",
+      "ORDER_STATUS_UPDATED": "Statut de la Commande Mis à Jour",
+      "REORDER_APPROVED": "Réapprovisionnement Approuvé",
+      "REORDER_CANCELLED": "Réapprovisionnement Annulé",
+      "REORDER_CREATED": "Réapprovisionnement Créé",
+      "REORDER_ORDER_CREATED": "Commande de Réapprovisionnement Créée",
+      "REORDER_REJECTED": "Réapprovisionnement Rejeté",
+      "REORDER_UPDATED": "Réapprovisionnement Mis à Jour",
+      "EXCEPTION_REQUEST_SUBMITTED": "Demande d’Exception Soumise",
+      "EXCEPTION_REQUEST_APPROVED": "Demande d’Exception Approuvée",
+      "EXCEPTION_REQUEST_REJECTED": "Demande d’Exception Rejetée",
+      "EXCEPTION_REQUEST_CANCELLED": "Demande d’Exception Annulée",
+      "EXCEPTION_REQUEST_UPDATED": "Demande d’Exception Mise à Jour",
+      "SHIPMENT_CREATED": "Expédition Créée",
+      "SHIPMENT_RECEIVED": "Expédition Reçue",
+      "SHIPMENT_REORDER_CREATED": "Réexpédition Créée",
+      "SURVEY_ASSIGNED": "Enquête Assignée",
+      "SURVEY_CLOSED": "Enquête Fermée",
+      "SURVEY_RESPONSE_SUBMITTED": "Réponse à l'Enquête Soumise",
+      "CAMPAIGN_CREATED": "Campagne Créée",
+      "EXCEPTION_REQUEST_RESUBMITTED": "Demande d'Exception Resoumise",
+      "INVITATION_ACCEPTED": "Invitation Acceptée",
+      "USER_ACTIVATED": "Utilisateur Activé",
+      "USER_DEACTIVATED": "Utilisateur Désactivé",
+      "WEBHOOK_CREDENTIAL_REVOKED_BY_PLATFORM": "Accréditation Webhook Révoquée par la Plateforme"
+    }
+  },
+  "webhooks": {
+    "page": {
+      "title": "Webhooks",
+      "description": "Voir et gérer les intégrations tierces"
+    },
+    "stats": {
+      "total": "Total",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "filter": {
+      "searchPlaceholder": "Rechercher..",
+      "searchAriaLabel": "Rechercher des webhooks",
+      "statusAriaLabel": "Filtre de statut",
+      "pspAriaLabel": "Filtre PSP"
+    },
+    "filterOptions": {
+      "allStatuses": "Statut",
+      "allPsps": "Tous les PSPs",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "table": {
+      "title": "Configuration des Webhooks",
+      "caption": "Tableau de configuration des webhooks affichant le nom, le statut, la date de création, l'expiration du jeton, les IP autorisées et les actions",
+      "emptyState": "Aucune credential webhook trouvée.",
+      "loadingState": "Chargement des credentials webhook...",
+      "paginationLabel": "webhooks",
+      "columns": {
+        "name": "Nom",
+        "psp": "PSP",
+        "status": "Statut",
+        "createdAt": "Créé le",
+        "tokenExpiration": "Expiration du Jeton",
+        "allowedIps": "IP Autorisées",
+        "actions": "Actions"
+      },
+      "andMore": "et plus",
+      "statusLabels": {
+        "active": "Actif",
+        "inactive": "Inactif"
+      }
+    },
+    "actions": {
+      "deactivateCredential": "Désactiver",
+      "activateCredential": "Activer",
+      "editCredential": "Modifier"
+    },
+    "dialog": {
+      "create": {
+        "title": "Créer des Identifiants",
+        "description": "Ajouter une nouvelle credential webhook pour votre PSP"
+      },
+      "edit": {
+        "title": "Modifier le Webhook",
+        "description": "Mettre à jour les détails de votre credential webhook"
+      },
+      "fields": {
+        "name": {
+          "label": "Nom du Webhook",
+          "placeholder": "Nom du Webhook"
+        },
+        "tokenExpiration": {
+          "label": "Expiration du Jeton",
+          "placeholder": "ex. 6",
+          "suffix": "Heures"
+        },
+        "allowedIps": {
+          "label": "IP Autorisées",
+          "placeholder": "IP Autorisées",
+          "addButton": "Ajouter une adresse IP",
+          "removeButton": "Supprimer l'adresse IP"
+        }
+      },
+      "credentials": {
+        "title": "Identifiants Client",
+        "warning": "Vous ne pourrez plus voir cette clé après avoir quitté cette page. Veuillez la copier et la stocker en lieu sûr.",
+        "copyButton": "Copier dans le presse-papiers",
+        "copied": "Copié dans le presse-papiers avec succès"
+      },
+      "buttons": {
+        "cancel": "Annuler",
+        "create": "Créer des Identifiants",
+        "save": "Enregistrer les modifications",
+        "creating": "Création en cours...",
+        "saving": "Enregistrement..."
+      },
+      "validation": {
+        "nameRequired": "Le nom du webhook est obligatoire",
+        "nameMaxLength": "Le nom du webhook ne doit pas dépasser 100 caractères",
+        "tokenRequired": "L'expiration du jeton est obligatoire",
+        "tokenMin": "L'expiration du jeton doit être d'au moins 1 heure",
+        "tokenInteger": "L'expiration du jeton doit être un nombre entier",
+        "ipInvalid": "Veuillez saisir une adresse IP valide (IPv4, IPv6 ou notation CIDR)"
+      },
+      "success": {
+        "created": "Credential de webhook créée avec succès. Veuillez copier le secret du client affiché dans le modal et le stocker en lieu sûr.",
+        "updated": "Credential webhook mise à jour avec succès",
+        "activated": "Credential webhook activée avec succès",
+        "deactivated": "Credential webhook désactivée avec succès"
+      },
+      "errors": {
+        "createFailed": "Échec de la création de la credential webhook. Veuillez réessayer.",
+        "updateFailed": "Échec de la mise à jour de la credential webhook. Veuillez réessayer."
+      }
+    },
+    "activateDialog": {
+      "title": "Activer le Webhook",
+      "description": "Êtes-vous sûr de vouloir activer cette credential de webhook ?",
+      "adminNote": "Activer ce webhook lui permettra de recevoir et de traiter les requêtes entrantes.",
+      "cancelButton": "Annuler",
+      "submitButton": "Activer le Webhook"
+    },
+    "deactivateDialog": {
+      "title": "Désactiver le Webhook",
+      "description": "Êtes-vous sûr de vouloir désactiver cette credential de webhook ?",
+      "adminNote": "Désactiver ce webhook l'empêchera immédiatement de recevoir et de traiter toute requête entrante.",
+      "cancelButton": "Annuler",
+      "submitButton": "Désactiver le Webhook"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Échec du chargement des statistiques Webhooks",
+        "description": "Nous n'avons pas pu charger les statistiques des webhooks. Veuillez réessayer."
+      },
+      "webhooksTable": {
+        "title": "Échec du chargement des Webhooks",
+        "description": "Nous n'avons pas pu charger la liste des webhooks. Veuillez réessayer."
+      }
+    },
+    "details": {
+      "title": "Détails du Webhook",
+      "backLink": "Retour aux Webhooks",
+      "loadingLabel": "Chargement des détails du webhook",
+      "webhookInfo": "Informations du Webhook",
+      "allowedIps": "IP Autorisées",
+      "allIpsAllowed": "Toutes les adresses IP sont autorisées. Aucune restriction IP configurée.",
+      "copySuccess": "Copié dans le presse-papiers",
+      "copyButton": "Copier dans le presse-papiers",
+      "fields": {
+        "name": "Nom du Webhook",
+        "clientId": "ID Client",
+        "tokenExpiration": "Expiration du Jeton",
+        "createdAt": "Créé Le",
+        "lastUsedAt": "Dernière Utilisation",
+        "revokedAt": "Révoqué Le",
+        "clientSecret": "Secret Client",
+        "hour": "Heure",
+        "hours": "Heures"
+      },
+      "actions": {
+        "editCredential": "Modifier les Identifiants"
+      },
+      "error": {
+        "title": "Erreur de Chargement du Webhook",
+        "description": "Nous n'avons pas pu charger les détails du webhook. Veuillez réessayer."
+      },
+      "rotateDialog": {
+        "title": "Faire Pivoter le Secret Client",
+        "description": "Êtes-vous sûr de vouloir faire pivoter le secret de cette credential ?",
+        "warning": "La rotation du secret invalidera immédiatement le jeton actuel. Toute intégration utilisant le secret existant cessera de fonctionner. Cette action est irréversible.",
+        "cancelButton": "Annuler",
+        "confirmButton": "Faire Pivoter le Secret",
+        "rotateButton": "Faire pivoter le secret client",
+        "rotating": "Rotation en cours...",
+        "success": "Secret pivoté avec succès",
+        "error": "Impossible de faire pivoter le secret. Veuillez réessayer."
+      }
+    }
+  }
+}

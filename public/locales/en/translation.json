@@ -1,0 +1,3783 @@
+{
+  "surveyPreview": {
+    "questionsLabel": "Questions",
+    "noQuestions": "No Questions Found",
+    "typeYourAnswer": "Type your answer...",
+    "selectOption": "Select an option...",
+    "pickDate": "Pick a date",
+    "backToSurveyEditor": "Back to Survey Management",
+    "surveyPreview": "Survey Preview",
+    "backToEditor": "Back to Editor"
+  },
+  "topbar": {
+    "entities": {
+      "psp": "PSP",
+      "brand": "Brand",
+      "store": "Store"
+    },
+    "notifications": {
+      "title": "Alerts",
+      "empty": "No new alerts",
+      "viewAll": "View all alerts"
+    },
+    "profile": {
+      "profileSettings": "Profile Settings",
+      "accountSettings": "Account Settings",
+      "logout": "Logout"
+    }
+  },
+  "sidebar": {
+    "navigation": {
+      "dashboard": "Dashboard",
+      "brandAdmin": "Brand Admin",
+      "storeManagement": "Store Management",
+      "userManagement": "User Management",
+      "pspManagement": "PSP Management",
+      "auditLogs": "Audit Logs",
+      "alerts": "Alerts",
+      "brandManagement": "Brand Management",
+      "campaignManagement": "Campaign Management",
+      "campaigns": "Campaigns",
+      "shipments": "Shipments",
+      "inventoryManagement": "Inventory Management",
+      "surveyManagement": "Survey Management",
+      "exceptionRequests": "Exception Requests",
+      "reports": "Reports"
+    }
+  },
+  "table": {
+    "columns": {
+      "andMore": "More"
+    },
+    "statusBadge": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "pagination": {
+      "showing": "Showing <bold>{start}-{end}</bold> of <bold>{total}</bold> {entity}",
+      "previous": "Previous",
+      "next": "Next",
+      "previousAriaLabel": "Go to previous page",
+      "nextAriaLabel": "Go to next page",
+      "rowsPerPage": "Rows per page",
+      "rowsPerPageAria": "Select rows per page",
+      "pageAria": "Go to page {page}",
+      "navigationAriaLabel": "Page navigation"
+    }
+  },
+  "detail-page": {
+    "userStatus": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending"
+    },
+    "noUsers": "No users found"
+  },
+  "auth": {
+    "layout": {
+      "heading1": "Manage multi‑store promotional",
+      "heading2": "campaign execution",
+      "footer": "© 2026 POPLogic – All rights reserved",
+      "skipToContent": "Skip to main content",
+      "loginForm": {
+        "title": "Welcome Back",
+        "subTitle": "Enter your email to receive a verification code",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "Enter email",
+        "infoBox": "We'll send a 8-digit verification code to your email. No password required",
+        "sendCodeButton": "Send Verification Code",
+        "sendingCode": "Sending verification code…",
+        "emailVerified": "Your email has been verified successfully.",
+        "reasons": {
+          "session_expired": "Session expired. Please login again.",
+          "authentication_failed": "Authentication failed. Please try again.",
+          "INV_TOKEN": "Invalid token format. Please contact support.",
+          "INV_TOKEN_INVALID": "This verification link has already been used or is invalid. Please contact support.",
+          "INV_TOKEN_EXPIRED": "Your verification link has expired. Please contact support.",
+          "INV_USER_INACTIVE": "Your account has been deactivated. Please contact support.",
+          "INV_USER_DELETED": "Your account has been deleted. Please contact support.",
+          "USER_NOT_FOUND": "Account not found. Please check your email or contact support.",
+          "idle_timeout": "You have been logged out due to inactivity."
+        }
+      },
+      "verificationForm": {
+        "title": "Verify Your Identity",
+        "subTitle": "We've sent a verification code to your email",
+        "codeSentTo": "Code sent to",
+        "verificationCodeLabel": "Enter Verification Code",
+        "verifyCodeButton": "Verify Code",
+        "sendingCode": "Sending...",
+        "resendCode": "Didn't receive the code?",
+        "resendCodeButton": "Resend Code",
+        "backToLogin": "Back to Login"
+      },
+      "success": {
+        "resend_success": "Verification code resent successfully"
+      },
+      "errors": {
+        "email-required": "Email is required",
+        "email-invalid": "Please enter a valid email address",
+        "email_not_registered": "Email is not registered",
+        "too_many_attempts": "Too many attempts. User temporarily locked. Please try again after few seconds.",
+        "unexpected_error": "An unexpected error occurred",
+        "invalid_code": "Invalid verification code. Please check and try again",
+        "code_expired": "Verification code has expired. Please request a new one",
+        "verification_failed": "Verification failed. Please try again",
+        "login_exchange_failed": "We couldn’t complete your sign-in. Please try signing in again.",
+        "session_retrieval_failed": "Failed to retrieve authentication tokens",
+        "resend_failed": "Failed to resend code. Please try again",
+        "resend_limit_exceeded": "Too many resend attempts. Please wait before trying again",
+        "signout_failed": "Failed to sign out. Please try again",
+        "incomplete_code": "Please enter the complete verification code",
+        "user_disabled": "This user is disabled, contact admin for support"
+      }
+    }
+  },
+  "auditLogs": {
+    "page": {
+      "title": "Audit Logs",
+      "description": "Track all system activities and user actions for transparency and compliance",
+      "viewingAs": "Viewing as",
+      "platformAdmin": "Platform Admin"
+    },
+    "filters": {
+      "searchPlaceholder": "Search...",
+      "allRoles": "All Roles",
+      "allTime": "All Time",
+      "today": "Today",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "last90Days": "Last 90 Days"
+    },
+    "listing": {
+      "empty": "No audit logs found.",
+      "caption": "Audit log entries showing user activities, roles, timestamps, and system areas",
+      "loadingState": "Loading audit logs, please wait."
+    },
+    "table": {
+      "paginationLabel": "Logs",
+      "columns": {
+        "user": "User",
+        "role": "Role",
+        "action": "Action",
+        "entityName": "Entity Name",
+        "timestamp": "Timestamp",
+        "systemArea": "System Area",
+        "type": "Type",
+        "details": "Details"
+      },
+      "actions": {
+        "viewDetails": "View Details"
+      }
+    },
+    "actorTypeLabels": {
+      "SELF": "Self",
+      "IMPERSONATED": "Impersonated",
+      "WEBHOOK": "Webhook"
+    },
+    "changeDetails": {
+      "title": "Change Details",
+      "description": "View previous and updated values",
+      "changeDetailsFor": "Change details for {entityId}",
+      "previousValue": "Previous Value",
+      "updatedValue": "Updated Value",
+      "closeButton": "Close"
+    },
+    "actionLabels": {
+      "BRAND_ACTIVATED": "Brand Activated",
+      "BRAND_COGNITO_SYNC_FAILED": "Brand Cognito Sync Failed",
+      "BRAND_CREATED": "Brand Created",
+      "BRAND_DEACTIVATED": "Brand Deactivated",
+      "BRAND_DELETED": "Brand Deleted",
+      "BRAND_UPDATED": "Brand Updated",
+      "CAMPAIGN_ARCHIVED": "Campaign Archived",
+      "CAMPAIGN_CREATED": "Campaign Created",
+      "CAMPAIGN_DELETED": "Campaign Deleted",
+      "CAMPAIGN_MANAGER_ASSIGNED": "Campaign Manager Assigned",
+      "CAMPAIGN_STATUS_CHANGED": "Campaign Status Changed",
+      "CAMPAIGN_SUBMITTED": "Campaign Submitted",
+      "CAMPAIGN_UNARCHIVED": "Campaign Unarchived",
+      "CAMPAIGN_UPDATED": "Campaign Updated",
+      "INSTALLATION_PROOF_APPROVED": "Installation Proof Approved",
+      "INSTALLATION_PROOF_REJECTED": "Installation Proof Rejected",
+      "INSTALLATION_PROOF_SUBMITTED": "Installation Proof Submitted",
+      "INVENTORY_CREATED": "Inventory Created",
+      "INVENTORY_DELETED": "Inventory Deleted",
+      "INVENTORY_UPDATED": "Inventory Updated",
+      "INVITATION_ACCEPTED": "Invitation Accepted",
+      "INVITATION_RESENT": "Invitation Resent",
+      "INVITATION_SENT": "Invitation Sent",
+      "ORDER_DELETED": "Order Deleted",
+      "ORDER_ITEM_DELETED": "Order Item Deleted",
+      "ORDER_STATUS_CHANGED": "Order Status Changed",
+      "PROMOTIONS_CREATED_FROM_INVENTORY": "Promotions Created from Inventory",
+      "PROMOTIONS_IMPORTED": "Promotions Imported",
+      "PROMOTION_CREATED": "Promotion Created",
+      "PROMOTION_DELETED": "Promotion Deleted",
+      "PROMOTION_DISTRIBUTED_TO_STORES": "Promotion Distributed to Stores",
+      "PROMOTION_UPDATED": "Promotion Updated",
+      "PSP_ACTIVATED": "PSP Activated",
+      "PSP_COGNITO_SYNC_FAILED": "PSP Cognito Sync Failed",
+      "PSP_CREATED": "PSP Created",
+      "PSP_DEACTIVATED": "PSP Deactivated",
+      "PSP_DELETED": "PSP Deleted",
+      "PSP_UPDATED": "PSP Updated",
+      "REORDER_APPROVED": "Reorder Approved",
+      "REORDER_CANCELLED": "Reorder Cancelled",
+      "REORDER_CREATED": "Reorder Created",
+      "REORDER_ORDER_CREATED": "Reorder Order Created",
+      "REORDER_REJECTED": "Reorder Rejected",
+      "REORDER_UPDATED": "Reorder Updated",
+      "EXCEPTION_REQUEST_SUBMITTED": "Exception Request Submitted",
+      "EXCEPTION_REQUEST_APPROVED": "Exception Request Approved",
+      "EXCEPTION_REQUEST_REJECTED": "Exception Request Rejected",
+      "EXCEPTION_REQUEST_CANCELLED": "Exception Request Cancelled",
+      "EXCEPTION_REQUEST_UPDATED": "Exception Request Updated",
+      "REUSABLE_PROMOTIONS_ADDED": "Reusable Promotions Added",
+      "SHIPMENT_CREATED": "Shipment Created",
+      "SHIPMENT_RECEIVED": "Shipment Received",
+      "SHIPMENT_REORDER_CREATED": "Shipment Reorder Created",
+      "IMPERSONATION_STARTED": "Impersonation Started",
+      "IMPERSONATION_STOPPED": "Impersonation Stopped",
+      "WEBHOOK_CREDENTIAL_ACTIVATED": "Webhook Credential Activated",
+      "WEBHOOK_CREDENTIAL_CREATED": "Webhook Credential Created",
+      "WEBHOOK_CREDENTIAL_REVOKED": "Webhook Credential Revoked",
+      "WEBHOOK_CREDENTIAL_UPDATED": "Webhook Credential Updated",
+      "WEBHOOK_SECRET_ROTATED": "Webhook Secret Rotated",
+      "STORE_ACTIVATED": "Store Activated",
+      "STORE_COGNITO_SYNC_FAILED": "Store Cognito Sync Failed",
+      "STORE_CREATED": "Store Created",
+      "STORE_DEACTIVATED": "Store Deactivated",
+      "STORE_DELETED": "Store Deleted",
+      "STORE_UPDATED": "Store Updated",
+      "SURVEY_BRANDS_ASSIGNED": "Survey Brands Assigned",
+      "SURVEY_CLOSED": "Survey Closed",
+      "SURVEY_CREATED": "Survey Created",
+      "SURVEY_DELETED": "Survey Deleted",
+      "SURVEY_RESPONSE_SUBMITTED": "Survey Response Submitted",
+      "SURVEY_STORES_ASSIGNED": "Survey Stores Assigned",
+      "SURVEY_TEMPLATE_ACTIVATED": "Survey Template Activated",
+      "SURVEY_TEMPLATE_CREATED": "Survey Template Created",
+      "SURVEY_TEMPLATE_DEACTIVATED": "Survey Template Deactivated",
+      "SURVEY_TEMPLATE_DELETED": "Survey Template Deleted",
+      "SURVEY_TEMPLATE_UPDATED": "Survey Template Updated",
+      "SURVEY_UPDATED": "Survey Updated",
+      "USER_ACTIVATED": "User Activated",
+      "USER_CREATED": "User Created",
+      "USER_DEACTIVATED": "User Deactivated",
+      "USER_DELETED": "User Deleted",
+      "USER_UPDATED": "User Updated",
+      "EXCEPTION_REQUEST_RESUBMITTED": "Exception Request Resubmitted"
+    },
+    "entityTypeLabels": {
+      "BRAND": "Brand",
+      "CAMPAIGN": "Campaign",
+      "CAMPAIGN_PROMOTION": "Campaign Promotion",
+      "EXCEPTION_REQUEST": "Exception Request",
+      "IMPERSONATION": "Impersonation",
+      "INSTALLATION_PROOF": "Installation Proof",
+      "INVENTORY": "Inventory",
+      "ORDER": "Order",
+      "ORDER_ITEM": "Order Item",
+      "PROMOTION": "Promotion",
+      "PSP": "PSP",
+      "SHIPMENT": "Shipment",
+      "SHIPMENT_REORDER": "Shipment Reorder",
+      "STORE": "Store",
+      "SURVEY": "Survey",
+      "SURVEY_TEMPLATE": "Survey Template",
+      "USER": "User",
+      "WEBHOOK_CREDENTIAL": "Webhook Credential"
+    },
+    "errors": {
+      "logListing": {
+        "title": "Failed to Load Audit Logs",
+        "description": "We couldn't retrieve the audit log entries. Please try again."
+      }
+    }
+  },
+  "dashboard": {
+    "brand-title": "Brand Admin Dashboard",
+    "brand-description": "Overview of your brand's campaign activity and store performance",
+    "psp-title": "PSP Admin Dashboard",
+    "production-operator-title": "Production Operator Dashboard",
+    "production-operator-description": "Monitor production workflows, track ongoing campaigns, and manage operational alerts",
+    "campaign-admin-title": "Campaign Manager Dashboard",
+    "campaign-admin-description": "Overview of your brand's campaign activity",
+    "platform-title": "Platform Admin Dashboard",
+    "store-title": "Store Admin Dashboard",
+    "store-description": "Manage campaigns, tasks, and monitor team performance",
+    "store-operator-title": "Store Operator Dashboard",
+    "store-operator-description": "Monitor ongoing campaigns and track store operational tasks",
+    "regional-manager-title": "Regional Manager Dashboard",
+    "regional-manager-description": "Oversee regional store performance and campaigns",
+    "description": "Monitor system-wide metrics and manage platform operations",
+    "user-overview": {
+      "title": "User Overview",
+      "stat-card": {
+        "total-users": "Total Users",
+        "active-users": "Active Users",
+        "inactive-users": "Inactive Users",
+        "pending-users": "Pending Users",
+        "new-users": "New Users"
+      }
+    },
+    "quick-action": {
+      "title": "Quick Actions",
+      "buttons": {
+        "create-user": "Create User",
+        "create-psp": "Create PSP",
+        "create-store": "Create Store",
+        "add-brand": "Add Brand",
+        "create-inventory-item": "Create Inventory Item"
+      }
+    },
+    "psp-admin-overview": {
+      "title": "Ongoing Campaigns Summary",
+      "ongoing-campaigns": "Ongoing Campaigns",
+      "loading": "Loading campaigns summary"
+    },
+    "store-admin-overview": {
+      "section-label": "Store Overview Metrics",
+      "ongoing-campaigns": "Ongoing Campaigns",
+      "pending-surveys": "Pending Surveys",
+      "pending-installations": "Pending Installations",
+      "loading": "Loading store overview metrics"
+    },
+    "psp-overview": {
+      "title": "PSP Overview",
+      "link-text": "Manage PSPs",
+      "psp-card": {
+        "total-psps": "Total PSPs",
+        "onboarded-text": "Onboarded",
+        "active-psps": "Active PSPs",
+        "inactive-psps": "Inactive PSPs",
+        "status-badge": {
+          "active": "Active",
+          "inactive": "Inactive"
+        }
+      }
+    },
+    "audit-logs": {
+      "title": "System Activity & Audit Log",
+      "link-text": "View All",
+      "table-caption": "Audit log table showing user activities, roles, timestamps, and system areas",
+      "empty-state": "No recent system activity found.",
+      "table": {
+        "tableHeader": {
+          "user": "User",
+          "role": "Role",
+          "action": "Action",
+          "entityName": "Entity Name",
+          "timestamp": "Timestamp",
+          "systemArea": "System Area",
+          "type": "Type",
+          "details": "Details"
+        }
+      }
+    },
+    "sections": {
+      "core-overview": "Quick Actions and PSP Overview",
+      "psp-admin-core-overview": "Quick Actions and Campaigns Summary",
+      "production-operator-core-overview": "Campaigns Summary"
+    },
+    "alerts-section": {
+      "title": "Alerts",
+      "view-all": "View All",
+      "view": "View",
+      "empty": "No alerts found."
+    },
+    "brand-overview": {
+      "title": "Brand Overview",
+      "stat-card": {
+        "active-stores": "Active Stores",
+        "ongoing-campaigns": "Ongoing Campaigns"
+      }
+    },
+    "campaigns-progress": {
+      "title": "Campaigns Progress",
+      "no-campaigns": "No campaigns",
+      "view-more": "View More",
+      "view-more-aria": "View more {status} campaigns",
+      "status-count-aria": "{count} {status} campaigns",
+      "promos": "{count} promos",
+      "stores": "{count} stores",
+      "brand-name-aria": "Brand: {name}",
+      "end-date-aria": "End date: {date}",
+      "loading": "Loading campaigns progress",
+      "scroll-region-aria": "Campaigns progress by status",
+      "statuses": {
+        "DRAFT": "Draft",
+        "NEW": "New",
+        "ACCEPTED": "Accepted",
+        "IN_REVIEW": "In Review",
+        "ON_HOLD": "On Hold",
+        "IN_PRODUCTION": "In Production",
+        "PARTIALLY_SHIPPED": "Partially Shipped",
+        "SHIPPED": "Shipped",
+        "PARTIALLY_RECEIVED": "Partially Received",
+        "RECEIVED": "Received",
+        "COMPLETED": "Completed"
+      }
+    },
+    "errors": {
+      "userOverview": {
+        "title": "Failed to Load User Overview",
+        "description": "We couldn't load user statistics. Please try again."
+      },
+      "pspOverview": {
+        "title": "Failed to Load PSP Overview",
+        "description": "We couldn't load PSP statistics. Please try again."
+      },
+      "auditLog": {
+        "title": "Failed to Load Activity Log",
+        "description": "We couldn't load recent system activity. Please try again."
+      },
+      "brandOverview": {
+        "title": "Failed to Load Brand Overview",
+        "description": "We couldn't load brand statistics. Please try again."
+      },
+      "pspAdminOverview": {
+        "title": "Failed to Load Campaigns Summary",
+        "description": "We couldn't load campaign statistics. Please try again."
+      },
+      "overviewCards": {
+        "title": "Overview cards failed to load",
+        "description": "Unable to load overview statistics."
+      },
+      "campaignsProgress": {
+        "title": "Campaigns progress failed to load",
+        "description": "Unable to load campaign status."
+      },
+      "storeCompliance": {
+        "title": "Store compliance failed to load",
+        "description": "Unable to load compliance data."
+      },
+      "alerts": {
+        "title": "Alerts failed to load",
+        "description": "Unable to load alerts."
+      },
+      "exceptionRequests": {
+        "title": "Exception requests failed to load",
+        "description": "Unable to load exception requests."
+      }
+    }
+  },
+  "pspManagement": {
+    "page": {
+      "title": "PSP Management",
+      "description": "Manage Print Service Providers and their administrators"
+    },
+    "stats": {
+      "totalPsps": "Total PSPs",
+      "activePsps": "Active PSPs",
+      "inactivePsps": "Inactive PSPs"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "statusPlaceholder": "Select status",
+      "createButton": "Create PSP"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "card": {
+      "statusBadge": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "primaryContact": "Primary Contact",
+      "administrators": "PSP Administrators",
+      "administratorsCount": "PSP Administrators ({count})",
+      "operatorsCount": "PSP Operators ({count})",
+      "created": "Created",
+      "website": "Website",
+      "editButton": "Edit PSP",
+      "activateButton": "Activate PSP",
+      "deactivateButton": "Deactivate PSP"
+    },
+    "details": {
+      "title": "PSP Details",
+      "backLink": "Back to PSPs",
+      "editButton": "Edit PSP",
+      "deactivateButton": "Deactivate",
+      "activateButton": "Activate",
+      "pspInfo": "PSP Information",
+      "pspAdmins": "PSP Administrators",
+      "pspPersonnel": "PSP Personnel",
+      "pspAdminsSection": "PSP Admins",
+      "productionOperatorsSection": "Production Operators",
+      "pspAdminsListLabel": "PSP administrators",
+      "productionOperatorsListLabel": "Production operators",
+      "noUsers": "No users found",
+      "fields": {
+        "pspName": "PSP Name",
+        "country": "Country",
+        "state": "State",
+        "city": "City",
+        "address": "Street Address",
+        "streetAddress": "Street Address",
+        "zipCode": "ZIP Code",
+        "website": "Website"
+      },
+      "noAdmins": "No administrators found",
+      "adminsListLabel": "PSP administrators",
+      "loadingLabel": "Loading PSP details, please wait.",
+      "error": {
+        "title": "Unable to load PSP details",
+        "description": "An error occurred while fetching the PSP details. Please try again later or contact support if the issue persists."
+      }
+    },
+    "table": {
+      "caption": "PSP management table showing PSP name, contact info, admins, status, and actions",
+      "emptyState": "No PSPs found.",
+      "loadingState": "Loading PSPs, please wait.",
+      "paginationLabel": "PSPs",
+      "columns": {
+        "name": "PSP Name",
+        "contactInfo": "Contact Info",
+        "admins": "Admins",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "users": "Users",
+        "status": "Status",
+        "createdDate": "Created",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "editPsp": "Edit PSP",
+      "deactivatePsp": "Deactivate PSP",
+      "activatePsp": "Activate PSP",
+      "deletePsp": "Delete PSP"
+    },
+    "dialog": {
+      "create": {
+        "title": "Create PSP",
+        "description": "Fill in the details to create new PSP",
+        "submitButton": "Create PSP"
+      },
+      "createSuccess": {
+        "title": "PSP Created Successfully",
+        "description": "Your PSP has been created successfully.",
+        "subtitle": "You can now create a PSP Admin user to manage this PSP.",
+        "createUserButton": "Create PSP Admin User"
+      },
+      "edit": {
+        "title": "Edit PSP",
+        "description": "Fill in the details to edit PSP",
+        "submitButton": "Save Changes"
+      },
+      "fields": {
+        "primaryContactName": {
+          "label": "Primary Contact Name",
+          "placeholder": "Enter name"
+        },
+        "name": {
+          "label": "PSP Name",
+          "placeholder": "Enter PSP name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter email"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter phone"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Search...",
+          "emptyText": "No countries found"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "Search...",
+          "emptyText": "No states found"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Enter city"
+        },
+        "streetAddress": {
+          "label": "Street Address",
+          "placeholder": "Enter street address"
+        },
+        "zipCode": {
+          "label": "Zip Code",
+          "placeholder": "Enter zip code"
+        },
+        "website": {
+          "label": "Website",
+          "placeholder": "Enter website"
+        }
+      },
+      "cancelButton": "Cancel",
+      "validation": {
+        "primaryContactNameRequired": "Primary contact name is required",
+        "primaryContactNameMinLength": "Primary contact name must be at least 2 characters",
+        "primaryContactNameMaxLength": "Primary contact name must not exceed 100 characters",
+        "primaryContactNameInvalid": "Primary contact name can only contain letters, spaces, hyphens, and apostrophes",
+        "companyNameRequired": "PSP name is required",
+        "companyNameMinLength": "PSP name must be at least 2 characters",
+        "companyNameMaxLength": "PSP name must not exceed 200 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "emailMaxLength": "Email must not exceed 255 characters",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Phone number can only contain numbers",
+        "phoneLength": "Phone number must be 10 characters",
+        "streetAddressRequired": "Street address is required",
+        "streetAddressMinLength": "Street address must be at least 5 characters",
+        "streetAddressMaxLength": "Street address must not exceed 200 characters",
+        "cityRequired": "City is required",
+        "cityMinLength": "City must be at least 2 characters",
+        "cityMaxLength": "City must not exceed 100 characters",
+        "stateRequired": "State is required",
+        "stateMinLength": "State must be at least 2 characters",
+        "stateMaxLength": "State must not exceed 50 characters",
+        "zipCodeRequired": "Zip code is required",
+        "zipCodeInvalid": "Zip code can only contain numbers",
+        "zipCodeLength": "Zip code must be 5 characters",
+        "countryRequired": "Country is required",
+        "countryMinLength": "Country must be at least 2 characters",
+        "countryMaxLength": "Country must not exceed 100 characters",
+        "websiteInvalid": "Please enter a valid URL",
+        "websiteMaxLength": "Website must not exceed 255 characters"
+      }
+    },
+    "activateDialog": {
+      "title": "Activate PSP",
+      "description": "Are you sure you want to activate this PSP?",
+      "adminNote": "Activating this PSP will not automatically restore user access. You will need to manually activate all associated users.",
+      "cancelButton": "Cancel",
+      "submitButton": "Activate PSP"
+    },
+    "deactivateDialog": {
+      "title": "Deactivate PSP",
+      "description": "Are you sure you want to deactivate this PSP?",
+      "adminNote": "Deactivating this PSP will deactivate all its users and cascade the deactivation to all associated child entities and their respective users.",
+      "cancelButton": "Cancel",
+      "submitButton": "Deactivate PSP",
+      "incompleteCampaignsError": {
+        "title": "Error",
+        "description": "This PSP cannot be deactivated because it is associated with active campaigns:",
+        "campaignsListLabel": "Campaigns with active orders"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "PSP created successfully",
+        "updated": "PSP updated successfully",
+        "activated": "PSP activated successfully",
+        "deactivated": "PSP deactivated successfully",
+        "deleted": "PSP deleted successfully"
+      },
+      "error": {
+        "createFailed": "Failed to create PSP",
+        "updateFailed": "Failed to update PSP",
+        "activateFailed": "Failed to activate PSP",
+        "deactivateFailed": "Failed to deactivate PSP",
+        "deleteFailed": "Failed to delete PSP",
+        "genericError": "An error occurred"
+      }
+    },
+    "emptyState": {
+      "title": "No PSPs Found",
+      "description": "You haven’t added any Print Service Providers yet. Create one to get started.",
+      "createButton": "Create PSP"
+    },
+    "errors": {
+      "pspListing": {
+        "title": "Failed to Load PSPs",
+        "description": "We couldn't load the PSP list. Please try again."
+      }
+    }
+  },
+  "storeManagement": {
+    "page": {
+      "title": "Store Management",
+      "description": "Manage stores that participate in campaigns"
+    },
+    "stats": {
+      "totalStores": "Total Stores",
+      "activeStores": "Active Stores",
+      "inactiveStores": "Inactive Stores"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "statusPlaceholder": "Select status",
+      "statusAriaLabel": "Filter by status",
+      "createButton": "Create Store"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "caption": "Store management table showing store name, number, admins, status, created date, and actions",
+      "emptyState": "No stores found.",
+      "loadingState": "Loading stores, please wait.",
+      "paginationLabel": "Stores",
+      "columns": {
+        "name": "Store Name",
+        "storeNumber": "Store Number",
+        "users": "Users",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "status": "Status",
+        "createdDate": "Created",
+        "actions": "Actions",
+        "noValue": "—"
+      }
+    },
+    "actions": {
+      "editStore": "Edit Store",
+      "deactivateStore": "Deactivate Store",
+      "activateStore": "Activate Store"
+    },
+    "dialog": {
+      "create": {
+        "title": "Create Store",
+        "description": "Fill in the details to create a new store",
+        "submitButton": "Create Store"
+      },
+      "createSuccess": {
+        "title": "Store Created Successfully",
+        "description": "Your store has been created successfully.",
+        "subtitle": "You can now create a Store Admin user to manage this store.",
+        "createUserButton": "Create Store Admin User"
+      },
+      "edit": {
+        "title": "Edit Store",
+        "description": "Fill in the details to edit store",
+        "submitButton": "Save Changes"
+      },
+      "fields": {
+        "storeName": {
+          "label": "Store Name",
+          "placeholder": "Enter store name"
+        },
+        "storeNumber": {
+          "label": "Store Number",
+          "placeholder": "Enter store number"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Enter phone"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Search...",
+          "emptyText": "No countries found"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "Search...",
+          "emptyText": "No states found"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Enter city"
+        },
+        "streetAddress": {
+          "label": "Street Address",
+          "placeholder": "Enter street address"
+        },
+        "zipCode": {
+          "label": "Zip Code",
+          "placeholder": "Enter zip code"
+        }
+      },
+      "cancelButton": "Cancel",
+      "validation": {
+        "storeNameRequired": "Store name is required",
+        "storeNameMinLength": "Store name must be at least 2 characters",
+        "storeNameMaxLength": "Store name must not exceed 200 characters",
+        "storeNumberMaxLength": "Store number must not exceed 50 characters",
+        "phoneNumberRequired": "Phone number is required",
+        "phoneNumberInvalid": "Phone number can only contain numbers",
+        "phoneNumberLength": "Phone number must be 10 characters",
+        "streetAddressRequired": "Street address is required",
+        "streetAddressMinLength": "Street address must be at least 5 characters",
+        "streetAddressMaxLength": "Street address must not exceed 200 characters",
+        "cityRequired": "City is required",
+        "cityMinLength": "City must be at least 2 characters",
+        "cityMaxLength": "City must not exceed 100 characters",
+        "stateRequired": "State is required",
+        "stateMinLength": "State must be at least 2 characters",
+        "stateMaxLength": "State must not exceed 50 characters",
+        "zipCodeRequired": "Zip code is required",
+        "zipCodeInvalid": "Zip code can only contain numbers",
+        "zipCodeLength": "Zip code must be 5 characters",
+        "countryRequired": "Country is required",
+        "countryMinLength": "Country must be at least 2 characters",
+        "countryMaxLength": "Country must not exceed 100 characters"
+      }
+    },
+    "activateDialog": {
+      "title": "Activate Store",
+      "description": "Are you sure you want to activate this store?",
+      "adminNote": "Activating this store will not automatically restore user access. You will need to manually activate all associated users.",
+      "cancelButton": "Cancel",
+      "submitButton": "Activate Store"
+    },
+    "deactivateDialog": {
+      "title": "Deactivate Store",
+      "description": "Are you sure you want to deactivate this store?",
+      "adminNote": "Deactivating this store will deactivate all its users and cascade the deactivation to all associated child entities and their respective users.",
+      "cancelButton": "Cancel",
+      "submitButton": "Deactivate Store",
+      "incompleteOrdersError": {
+        "title": "Error",
+        "description": "This Store cannot be deactivated because it is associated with campaigns with incomplete orders:",
+        "ordersListLabel": "Incomplete orders",
+        "orderItem": "#{orderNumber} — {status}"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Store created successfully",
+        "updated": "Store updated successfully",
+        "activated": "Store activated successfully",
+        "deactivated": "Store deactivated successfully"
+      },
+      "error": {
+        "createFailed": "Failed to create store",
+        "updateFailed": "Failed to update store",
+        "activateFailed": "Failed to activate store",
+        "deactivateFailed": "Failed to deactivate store"
+      }
+    },
+    "emptyState": {
+      "title": "No Stores Found",
+      "description": "You haven't added any stores yet. Create one to get started.",
+      "createButton": "Create Store"
+    },
+    "errors": {
+      "storeListing": {
+        "title": "Failed to Load Stores",
+        "description": "We couldn't load the store list. Please try again."
+      }
+    },
+    "details": {
+      "title": "Store Details",
+      "backLink": "Back to Stores",
+      "storeInfo": "Store Information",
+      "storeAdmins": "Store Administrators",
+      "storePersonnel": "Store Personnel",
+      "storeAdminsSection": "Store Admins",
+      "storeOperatorsSection": "Store Operators",
+      "regionalManagersSection": "Regional Managers",
+      "storeAdminsListLabel": "Store administrators",
+      "storeOperatorsListLabel": "Store operators",
+      "regionalManagersListLabel": "Regional managers",
+      "noUsers": "No users found",
+      "fields": {
+        "storeName": "Store Name",
+        "storeNumber": "Store Number",
+        "phoneNumber": "Phone Number",
+        "country": "Country",
+        "state": "State",
+        "city": "City",
+        "address": "Street Address",
+        "zipCode": "ZIP Code"
+      },
+      "noAdmins": "No administrators found",
+      "adminsListLabel": "Store administrators",
+      "loadingLabel": "Loading Store details, please wait.",
+      "error": {
+        "title": "Unable to load Store details",
+        "description": "An error occurred while fetching the Store details. Please try again later or contact support if the issue persists."
+      }
+    }
+  },
+  "userManagement": {
+    "page": {
+      "title": "User Management",
+      "description": "Create and manage users across the platform with role-based access control"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "statusPlaceholder": "Select status",
+      "rolePlaceholder": "Select role",
+      "pspPlaceholder": "Select PSP",
+      "allPsps": "All PSPs",
+      "allRoles": "All Roles",
+      "brandPlaceholder": "Select brand",
+      "allBrands": "All Brands",
+      "storePlaceholder": "Select store",
+      "allStores": "All Stores"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending"
+    },
+    "table": {
+      "caption": "User management table showing name, email, role, status, and actions",
+      "emptyState": "No users found.",
+      "loadingState": "Loading users, please wait.",
+      "paginationLabel": "Users",
+      "columns": {
+        "user": "User",
+        "email": "Email",
+        "userRole": "User Role",
+        "status": "Status",
+        "created": "Created",
+        "actions": "Actions"
+      },
+      "statusBadge": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "pending": "Pending"
+      }
+    },
+    "actions": {
+      "editUser": "Edit User",
+      "deactivateUser": "Deactivate User",
+      "activateUser": "Activate User",
+      "impersonateUser": "Impersonate User",
+      "resendInvitation": "Resend Invitation",
+      "createUser": "Create User"
+    },
+    "activateDialog": {
+      "title": "Activate User",
+      "description": "Are you sure you want to activate this user? They will regain full access to the platform.",
+      "cancelButton": "Cancel",
+      "submitButton": "Activate User",
+      "entityNamesError": {
+        "description": "This user cannot be activated because it is associated with inactive entities:",
+        "entityNamesListLabel": "Inactive entities"
+      }
+    },
+    "deactivateDialog": {
+      "title": "Deactivate User",
+      "description": "Are you sure you want to deactivate this user? They will lose access to the platform.",
+      "cancelButton": "Cancel",
+      "submitButton": "Deactivate User",
+      "campaignNamesError": {
+        "description": "This user cannot be deactivated because they are associated with active campaigns:",
+        "campaignsListLabel": "Active campaigns"
+      }
+    },
+    "deleteDialog": {
+      "title": "Delete User",
+      "description": "Deleting a user is permanent and cannot be undone. Consider deactivating instead.",
+      "recommendedTitle": "Recommended: Deactivate Instead",
+      "recommendedDescription": "Deactivating preserves all data and can be reversed. The user will lose access but their information remains intact.",
+      "permanentDeleteWarning": "If you're absolutely certain you want to permanently delete this user:",
+      "cancelButton": "Cancel",
+      "deactivateButton": "Deactivate User",
+      "deleteButton": "Permanently Delete User"
+    },
+    "impersonateDialog": {
+      "title": "Impersonate User",
+      "description": "Switch to this user's account",
+      "fullNameLabel": "Full Name",
+      "emailLabel": "Email Address",
+      "roleLabel": "User Role",
+      "cancelButton": "Cancel",
+      "submitButton": "Impersonate User"
+    },
+    "resendInvitationDialog": {
+      "title": "Resend Invitation",
+      "description": "Send an email invitation to this user to set up their account.",
+      "invitationEmailTitle": "Invitation Email",
+      "invitationEmailDescription": "A verification code will be sent to {email} to complete the login process.",
+      "cancelButton": "Cancel",
+      "submitButton": "Send Invitation",
+      "successMessage": "Invitation sent to {email}"
+    },
+    "userDialog": {
+      "create": {
+        "title": "Create User",
+        "description": "Add a new user and assign them to the appropriate entity",
+        "submitButton": "Create User & Send Invitation"
+      },
+      "edit": {
+        "title": "Edit User",
+        "selfEditTitle": "Edit Your Profile",
+        "description": "Update user information and entity assignments",
+        "selfEditDescription": "Update your information",
+        "submitButton": "Save Changes"
+      },
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter email"
+        },
+        "userRole": {
+          "label": "User Role",
+          "placeholder": "Select role",
+          "emptyText": "No user roles available"
+        },
+        "assignedPsp": {
+          "label": "Assigned PSP",
+          "placeholder": "Select PSP",
+          "loadingPlaceholder": "Loading PSPs...",
+          "emptyText": "No PSPs available"
+        },
+        "assignedBrand": {
+          "label": "Assigned Brand",
+          "placeholder": "Select brand",
+          "loadingPlaceholder": "Loading brands...",
+          "emptyText": "No brands available"
+        },
+        "assignedStore": {
+          "label": "Assigned Store",
+          "placeholder": "Select store",
+          "loadingPlaceholder": "Loading stores...",
+          "emptyText": "No stores available"
+        },
+        "assignedStores": {
+          "label": "Assigned Stores",
+          "placeholder": "Select stores",
+          "loadingPlaceholder": "Loading stores...",
+          "emptyText": "No stores available"
+        }
+      },
+      "cancelButton": "Cancel",
+      "submitting": "Submitting...",
+      "campaignNamesError": {
+        "description": "This user cannot be updated. They are associated with active campaigns:",
+        "campaignsListLabel": "Active campaigns"
+      }
+    },
+    "validation": {
+      "fullNameRequired": "Full name is required",
+      "fullNameMinLength": "Full name must be at least 2 characters",
+      "fullNameMaxLength": "Full name must not exceed 100 characters",
+      "fullNameInvalid": "Full name can only contain letters, spaces, hyphens, and apostrophes",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "emailMaxLength": "Email must not exceed 255 characters",
+      "roleRequired": "Please select a valid user role",
+      "pspRequired": "PSP assignment is required for PSP Admin role",
+      "brandRequired": "Brand assignment is required for Brand Admin role",
+      "storeRequired": "Store assignment is required for this role"
+    },
+    "messages": {
+      "success": {
+        "userActivated": "User activated successfully",
+        "userDeactivated": "User deactivated successfully",
+        "userDeleted": "User deleted successfully",
+        "userCreated": "User created successfully",
+        "invitationSent": "Invitation sent to {email}",
+        "userUpdated": "User updated successfully",
+        "changesSaved": "Changes saved for {email}"
+      },
+      "error": {
+        "activateFailed": "Failed to activate user",
+        "deactivateFailed": "Failed to deactivate user",
+        "deleteFailed": "Failed to delete user",
+        "createFailed": "Failed to create user",
+        "updateFailed": "Failed to update user",
+        "unexpectedError": "An unexpected error occurred",
+        "pspRequired": "PSP assignment is required",
+        "pleaseSelectPsp": "Please select a PSP for PSP Admin role"
+      }
+    }
+  },
+  "brandManagement": {
+    "page": {
+      "title": "Brand Management",
+      "description": "Create and manage brands for your PSP"
+    },
+    "stats": {
+      "totalBrands": "Total Brands",
+      "activeBrands": "Active Brands",
+      "inactiveBrands": "Inactive Brands"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search brands",
+      "statusAriaLabel": "Status Filter",
+      "statusPlaceholder": "Select status",
+      "createButton": "Create Brand"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "caption": "Brand management table showing brand name, brand admins, status, created date, and actions",
+      "emptyState": "No brands found.",
+      "loadingState": "Loading brands...",
+      "paginationLabel": "Brands",
+      "websiteLinkAriaLabel": "Visit {website} (opens in new tab)",
+      "columns": {
+        "brandName": "Name",
+        "brandAdmins": "Brand Admins",
+        "users": "Users",
+        "admin": "Admin",
+        "adminsLabel": "Admins",
+        "status": "Status",
+        "createdDate": "Created",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "editBrand": "Edit Brand",
+      "deactivateBrand": "Deactivate Brand",
+      "activateBrand": "Activate Brand"
+    },
+    "activateDialog": {
+      "title": "Activate Brand",
+      "description": "Are you sure you want to activate this brand?",
+      "adminNote": "Activating this brand will not automatically restore user access. You will need to manually activate all associated users.",
+      "brandInfoAriaLabel": "Brand being activated",
+      "cancelButton": "Cancel",
+      "submitButton": "Activate Brand"
+    },
+    "deactivateDialog": {
+      "title": "Deactivate Brand",
+      "description": "Are you sure you want to deactivate this brand?",
+      "adminNote": "Deactivating this brand will deactivate all its users and cascade the deactivation to all associated child entities and their respective users.",
+      "brandInfoAriaLabel": "Brand being deactivated",
+      "confirmAriaLabel": "Confirm deactivation of this brand",
+      "cancelButton": "Cancel",
+      "submitButton": "Deactivate Brand",
+      "incompleteCampaignsError": {
+        "title": "Error",
+        "description": "This Brand cannot be deactivated because it is associated with active campaigns:",
+        "campaignsListLabel": "Campaigns with active orders"
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Brand created successfully",
+        "updated": "Brand updated successfully",
+        "activated": "Brand activated successfully",
+        "deactivated": "Brand deactivated successfully"
+      },
+      "error": {
+        "createFailed": "Failed to create brand",
+        "updateFailed": "Failed to update brand",
+        "activateFailed": "Failed to activate brand",
+        "deactivateFailed": "Failed to deactivate brand"
+      }
+    },
+    "dialog": {
+      "create": {
+        "title": "Create Brand",
+        "description": "Fill in the details to create a new brand",
+        "submitButton": "Create Brand"
+      },
+      "createSuccess": {
+        "title": "Brand Created Successfully",
+        "description": "Your brand has been created successfully.",
+        "subtitle": "You can now create a Brand Admin user to manage this brand.",
+        "createUserButton": "Create Brand Admin User"
+      },
+      "edit": {
+        "title": "Edit Brand",
+        "description": "Update the brand details below",
+        "submitButton": "Save Changes"
+      },
+      "fields": {
+        "name": {
+          "label": "Brand Name",
+          "placeholder": "Enter brand name"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Search...",
+          "emptyText": "No countries found"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "Search...",
+          "emptyText": "No states found"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Enter city"
+        },
+        "streetAddress": {
+          "label": "Street Address",
+          "placeholder": "Enter street address"
+        },
+        "zipCode": {
+          "label": "Zip Code",
+          "placeholder": "Enter zip code"
+        },
+        "website": {
+          "label": "Website",
+          "placeholder": "Enter website"
+        }
+      },
+      "cancelButton": "Cancel",
+      "validation": {
+        "brandNameRequired": "Brand name is required",
+        "brandNameMinLength": "Brand name must be at least 2 characters",
+        "brandNameMaxLength": "Brand name must not exceed 200 characters",
+        "countryRequired": "Country is required",
+        "countryMinLength": "Country must be at least 2 characters",
+        "countryMaxLength": "Country must not exceed 100 characters",
+        "stateRequired": "State is required",
+        "stateMinLength": "State must be at least 2 characters",
+        "stateMaxLength": "State must not exceed 50 characters",
+        "cityRequired": "City is required",
+        "cityMinLength": "City must be at least 2 characters",
+        "cityMaxLength": "City must not exceed 100 characters",
+        "streetAddressRequired": "Street address is required",
+        "streetAddressMinLength": "Street address must be at least 5 characters",
+        "streetAddressMaxLength": "Street address must not exceed 200 characters",
+        "zipCodeRequired": "Zip code is required",
+        "zipCodeInvalid": "Zip code can only contain numbers",
+        "zipCodeLength": "Zip code must be 5 characters",
+        "websiteInvalid": "Please enter a valid URL",
+        "websiteMaxLength": "Website must not exceed 255 characters"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to Load Brand Stats",
+        "description": "We couldn't load the brand statistics. Please try again."
+      },
+      "brandTable": {
+        "title": "Failed to Load Brands",
+        "description": "We couldn't load the brand list. Please try again."
+      }
+    },
+    "details": {
+      "title": "Brand Details",
+      "backLink": "Back to Brands",
+      "brandInfo": "Brand Information",
+      "brandAdmins": "Brand Administrators",
+      "brandPersonnel": "Brand Personnel",
+      "brandAdminsSection": "Brand Admins",
+      "campaignManagersSection": "Campaign Managers",
+      "brandAdminsListLabel": "Brand administrators",
+      "campaignManagersListLabel": "Campaign managers",
+      "noUsers": "No users found",
+      "fields": {
+        "brandName": "Brand Name",
+        "country": "Country",
+        "state": "State",
+        "city": "City",
+        "address": "Street Address",
+        "zipCode": "ZIP Code",
+        "website": "Website"
+      },
+      "noAdmins": "No administrators found",
+      "adminsListLabel": "Brand administrators",
+      "loadingLabel": "Loading Brand details, please wait.",
+      "error": {
+        "title": "Unable to load Brand details",
+        "description": "An error occurred while fetching the Brand details. Please try again later or contact support if the issue persists."
+      }
+    }
+  },
+  "inventoryManagement": {
+    "page": {
+      "title": "Inventory Management",
+      "description": "View and manage inventory items for your PSP"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search inventory items",
+      "statusAriaLabel": "Status Filter",
+      "brandAriaLabel": "Brand Filter",
+      "createButton": "Add Inventory Item"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "brandOptions": {
+      "all": "All Brands"
+    },
+    "table": {
+      "caption": "Inventory management table showing item name, brand, available quantity, and actions",
+      "emptyState": "No inventory items found.",
+      "loadingState": "Loading inventory...",
+      "paginationLabel": "Items",
+      "columns": {
+        "itemName": "Item Name",
+        "brand": "Brand",
+        "availableQuantity": "Available Qty",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "viewItem": "View Item",
+      "editItem": "Edit Item",
+      "deleteItem": "Delete Item",
+      "inventoryReadOnly": "Inventory properties cannot be updated",
+      "activeCampaignReadOnly": "This inventory is assigned to active campaigns and cannot be updated"
+    },
+    "errors": {
+      "inventoryTable": {
+        "title": "Failed to Load Inventory",
+        "description": "We couldn't load the inventory list. Please try again."
+      }
+    },
+    "inventoryDialog": {
+      "create": {
+        "title": "Add Inventory Item",
+        "description": "Fill in the details to create a new inventory item",
+        "submitButton": "Add Item"
+      },
+      "edit": {
+        "title": "Edit Inventory Item",
+        "description": "Update the details of the inventory item",
+        "submitButton": "Save Changes"
+      },
+      "cancelButton": "Cancel",
+      "fields": {
+        "name": {
+          "label": "Item Name",
+          "placeholder": "Enter item name"
+        },
+        "width": {
+          "label": "Width",
+          "placeholder": "Enter width",
+          "dimensionHint": "(in inches)"
+        },
+        "height": {
+          "label": "Height",
+          "placeholder": "Enter height",
+          "dimensionHint": "(in inches)"
+        },
+        "availableQuantity": {
+          "label": "Available Qty",
+          "placeholder": "Enter quantity"
+        },
+        "brand": {
+          "label": "Brand",
+          "placeholder": "Select brand",
+          "emptyText": "No brands found"
+        },
+        "material": {
+          "label": "Material",
+          "placeholder": "Enter material"
+        },
+        "specifications": {
+          "label": "Finishing Specification",
+          "placeholder": "Enter finishing specification"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter description"
+        },
+        "photoUpload": {
+          "label": "Photo Upload",
+          "dropHint": "Select a file",
+          "typeHint": "JPG, JPEG, PNG, or WEBP file size should be less than 10MB",
+          "selectButton": "Select File",
+          "removeFile": "Remove file"
+        }
+      },
+      "validation": {
+        "nameRequired": "Item name is required",
+        "nameMinLength": "Item name must be at least 2 characters",
+        "nameMaxLength": "Item name must not exceed 100 characters",
+        "widthRequired": "Width is required",
+        "widthPositive": "Width must be greater than 0",
+        "widthMaxDigits": "Width cannot exceed 16 digits",
+        "widthMaxDecimals": "Width can have at most 2 decimal places",
+        "heightRequired": "Height is required",
+        "heightPositive": "Height must be greater than 0",
+        "heightMaxDigits": "Height cannot exceed 16 digits",
+        "heightMaxDecimals": "Height can have at most 2 decimal places",
+        "brandRequired": "Brand is required",
+        "availableQuantityInvalid": "Available quantity must be a number",
+        "availableQuantityWholeNumber": "Available quantity must be a whole number",
+        "availableQuantityNonNegative": "Available quantity cannot be negative",
+        "availableQuantityMaxDigits": "Available quantity cannot exceed 16 digits",
+        "materialMaxLength": "Material must not exceed 100 characters",
+        "specificationsMaxLength": "Finishing specification must not exceed 200 characters",
+        "descriptionMaxLength": "Description must not exceed 200 characters",
+        "fileTypeInvalid": "Only JPG, JPEG, PNG, or WEBP files are allowed",
+        "fileSizeExceeded": "File size must not exceed 10MB",
+        "imageRequired": "Please upload an image for this item",
+        "imageUploadFailed": "Failed to upload image. Please try again."
+      },
+      "messages": {
+        "created": "Inventory item created successfully",
+        "updated": "Inventory item updated successfully"
+      }
+    },
+    "viewInventoryDialog": {
+      "dialogTitle": "Inventory Item Details",
+      "title": "Basic Information",
+      "createdOn": "Created on {date}",
+      "fields": {
+        "itemName": "Item Name",
+        "width": "Width (in inches)",
+        "height": "Height (in inches)",
+        "material": "Material",
+        "availableQuantity": "Available Qty",
+        "brand": "Assigned Brand",
+        "photos": "Photos",
+        "photosViewLabel": "View",
+        "finishingSpec": "Finishing Specification",
+        "description": "Description"
+      },
+      "closeButton": "Close"
+    },
+    "deleteDialog": {
+      "title": "Delete Inventory Item",
+      "confirmTitle": "Are you sure you want to delete this item?",
+      "confirmDescription": "This action cannot be undone and will permanently remove the item from the platform.",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete Item",
+      "successMessage": "{name} has been deleted successfully",
+      "errorMessage": "Failed to delete item. Please try again."
+    }
+  },
+  "shipments": {
+    "page": {
+      "title": "Shipments",
+      "description": "View and track shipments for your PSP"
+    },
+    "stats": {
+      "totalShipments": "Total Shipments",
+      "shipped": "Shipped",
+      "received": "Received",
+      "receivedWithException": "Received with Exception"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search shipments",
+      "campaignAriaLabel": "Campaign Filter",
+      "storeAriaLabel": "Store Filter",
+      "statusAriaLabel": "Status Filter"
+    },
+    "filterOptions": {
+      "allCampaigns": "All Campaigns",
+      "allStores": "All Stores",
+      "allStatuses": "All Status",
+      "statusPending": "Pending",
+      "statusShipped": "Shipped",
+      "statusDelivered": "Delivered",
+      "statusReceived": "Received",
+      "statusReceivedWithException": "Received with Exception"
+    },
+    "table": {
+      "caption": "Shipments table showing order number, campaign, store, shipment ETA, tracking number, status, and items",
+      "emptyState": "No shipments found.",
+      "loadingState": "Loading shipments...",
+      "paginationLabel": "Shipments",
+      "columns": {
+        "shipmentNo": "Shipment No",
+        "campaignName": "Campaign",
+        "orderNumber": "Order Number",
+        "store": "Store",
+        "shipmentEta": "ETA",
+        "trackingNumber": "Tracking Number",
+        "status": "Status"
+      },
+      "units": "units",
+      "statusLabels": {
+        "SHIPPED": "Shipped",
+        "RECEIVED": "Received",
+        "RECEIVED_WITH_EXCEPTION": "Received with Exception"
+      },
+      "statusAriaLabel": "Shipment status: {status}"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to Load Shipment Stats",
+        "description": "We couldn't load the shipment statistics. Please try again."
+      },
+      "shipmentsTable": {
+        "title": "Failed to Load Shipments",
+        "description": "We couldn't load the shipment list. Please try again."
+      }
+    }
+  },
+  "shipmentDetails": {
+    "page": {
+      "title": "Shipment Details",
+      "description": "View detailed information about a shipment"
+    },
+    "header": {
+      "backLink": "Back to Shipments",
+      "title": "Shipment Details",
+      "backLinkAriaLabel": "Go back to shipments list",
+      "orderNumber": "Order Number:"
+    },
+    "info": {
+      "campaign": "Campaign",
+      "store": "Store",
+      "shipmentDate": "Shipment Date",
+      "estimatedDelivery": "Estimated Delivery",
+      "trackingNumber": "Tracking Number",
+      "carrierName": "Carrier Name",
+      "status": "Status",
+      "notes": "Notes",
+      "statusLabels": {
+        "SHIPPED": "Shipped",
+        "RECEIVED": "Received",
+        "RECEIVED_WITH_EXCEPTION": "Received with Exception"
+      },
+      "statusAriaLabel": "Shipment status: {status}"
+    },
+    "promotions": {
+      "title": "Promotions In Shipment",
+      "badge": "{count} Promotions",
+      "columns": {
+        "promotionName": "Promotion Name",
+        "sortByPromotionName": "Sort by promotion name",
+        "quantity": "Qty"
+      },
+      "totalItems": "Total Items"
+    },
+    "receiveTable": {
+      "title": "Promotions In Shipment",
+      "receiveAll": "Receive All",
+      "clearAll": "Clear All",
+      "cancel": "Cancel",
+      "raiseException": "Raise Exception Request",
+      "submitting": "Submitting...",
+      "noItems": "No promotions found.",
+      "receiveAllSuccess": "Shipment received successfully.",
+      "raiseExceptionSuccess": "Exception request raised successfully.",
+      "receiveFailed": "Failed to process shipment. Please try again.",
+      "exceptionTypeRequired": "Please select an exception type for all rows with discrepancies.",
+      "allRowsRequired": "Please fill in valid received and discrepancy quantities for all rows.",
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search promotions by name",
+      "clearSearchAriaLabel": "Clear search",
+      "entityLabel": "Promotions",
+      "columns": {
+        "promotionName": "Promotion Name",
+        "shippedQuantity": "Shipped Qty",
+        "validReceivedQty": "Valid Received Qty",
+        "exceptionType": "Exception Type",
+        "discrepancyQty": "Discrepancy Qty",
+        "validReceivedQtyAriaLabel": "Valid received quantity for {promotionName}",
+        "exceptionTypeAriaLabel": "Exception type for {promotionName}",
+        "discrepancyQtyAriaLabel": "Discrepancy quantity for {promotionName}",
+        "exceptionMissing": "Missing",
+        "exceptionIncorrect": "Incorrect",
+        "exceptionDamaged": "Damaged",
+        "exceptionTypePlaceholder": "Select type",
+        "exceptionTypeRequired": "Please select an exception type for all rows with discrepancies."
+      }
+    },
+    "errors": {
+      "header": {
+        "title": "Failed to Load Header",
+        "description": "Could not load shipment header."
+      },
+      "info": {
+        "title": "Failed to Load Shipment Info",
+        "description": "Could not load shipment details."
+      },
+      "promotions": {
+        "title": "Failed to Load Promotions",
+        "description": "Could not load promotions."
+      }
+    },
+    "loading": {
+      "header": "Loading shipment header",
+      "info": "Loading shipment information"
+    },
+    "exceptionDialog": {
+      "title": "Exception Request",
+      "description": "Report missing, damaged, or incorrect items from this shipment.",
+      "cancelButton": "Cancel",
+      "submitButton": "Submit",
+      "fields": {
+        "reason": {
+          "label": "Reason",
+          "placeholder": "Enter reason"
+        },
+        "photoUpload": {
+          "label": "Photo Upload",
+          "dropHint": "Select a file here",
+          "typeHint": "JPG, JPEG, PNG, or WEBP file size should be less than 10MB",
+          "selectButton": "Select File",
+          "removeFile": "Remove {fileName}",
+          "dropZoneAriaLabel": "Drop zone for photo upload. Click to select files."
+        }
+      },
+      "validation": {
+        "reasonRequired": "Reason is required",
+        "reasonMax": "Reason must not exceed 500 characters",
+        "imagesRequired": "At least one photo is required",
+        "fileTypeInvalid": "Only JPG, JPEG, PNG, or WEBP files are allowed.",
+        "fileSizeExceeded": "File size must be less than 10MB.",
+        "uploadFailed": "Failed to upload images. Please try again."
+      }
+    }
+  },
+  "campaignManagement": {
+    "dialog": {
+      "create": {
+        "title": "Create Campaign",
+        "description": "Fill in the details to create a new campaign",
+        "submitButton": "Create Campaign",
+        "triggerButton": "Create Campaign"
+      },
+      "edit": {
+        "title": "Edit Campaign",
+        "description": "Update the details of the campaign",
+        "submitButton": "Save Changes"
+      },
+      "cancelButton": "Cancel",
+      "fields": {
+        "campaignName": {
+          "label": "Campaign Name",
+          "placeholder": "Enter campaign name"
+        },
+        "campaignObjective": {
+          "label": "Campaign Objective",
+          "placeholder": "Enter objective"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter description"
+        },
+        "isPermanent": {
+          "label": "Is Permanent Campaign?",
+          "description": "Toggle on for permanent campaigns, off for one-time campaigns"
+        },
+        "startDate": {
+          "label": "Start Date",
+          "placeholder": "Select date"
+        },
+        "endDate": {
+          "label": "End Date",
+          "placeholder": "Select date"
+        },
+        "shipByDate": {
+          "label": "Expected Ship By Date",
+          "placeholder": "Select date"
+        },
+        "campaignManager": {
+          "label": "Campaign Manager",
+          "placeholder": "Select Campaign Manager",
+          "emptyText": "No campaign managers found",
+          "addButton": "Add Campaign Manager"
+        }
+      },
+      "validation": {
+        "campaignNameRequired": "Campaign name is required",
+        "campaignNameMinLength": "Campaign name must be at least 3 characters",
+        "campaignNameMaxLength": "Campaign name must not exceed 100 characters",
+        "campaignObjectiveRequired": "Campaign objective is required",
+        "campaignObjectiveMinLength": "Campaign objective must be at least 3 characters",
+        "campaignObjectiveMaxLength": "Campaign objective must not exceed 200 characters",
+        "descriptionRequired": "Description is required",
+        "descriptionMinLength": "Description must be at least 3 characters",
+        "descriptionMaxLength": "Description must not exceed 500 characters",
+        "startDateRequired": "Start date is required",
+        "startDateFuture": "Start date must be in the future",
+        "endDateRequired": "End date is required",
+        "shipByDateRequired": "Expected Ship By Date is required",
+        "shipByDateFuture": "Expected Ship By Date must be in the future",
+        "endDateAfterStartDate": "End date must be after start date",
+        "shipByDateBeforeStartDate": "Expected Ship By Date must be before the start date"
+      }
+    },
+    "page": {
+      "title": "Campaign Management",
+      "description": "Create and manage your marketing campaigns",
+      "pspAdmin": {
+        "title": "Campaigns",
+        "description": "Review and manage campaigns from all brands"
+      }
+    },
+    "loading": {
+      "title": "Campaign Management",
+      "description": "Create and manage your marketing campaigns",
+      "pspAdmin": {
+        "title": "Campaigns",
+        "description": "Review and manage campaigns from all brands"
+      }
+    },
+    "stats": {
+      "totalCampaigns": "Total Campaigns",
+      "newCampaigns": "New",
+      "inReview": "In Review",
+      "inProduction": "In Production"
+    },
+    "table": {
+      "status": {
+        "DRAFT": "Draft",
+        "NEW": "New",
+        "ACCEPTED": "Accepted",
+        "IN_REVIEW": "In Review",
+        "ON_HOLD": "On Hold",
+        "IN_PRODUCTION": "In Production",
+        "PARTIALLY_SHIPPED": "Partially Shipped",
+        "SHIPPED": "Shipped",
+        "PARTIALLY_RECEIVED": "Partially Received",
+        "RECEIVED": "Received",
+        "COMPLETED": "Completed"
+      },
+      "type": {
+        "ONE_OFF": "One-Off",
+        "PERMANENT": "Permanent"
+      },
+      "columns": {
+        "campaignName": "Campaign Name",
+        "brand": "Brand",
+        "type": "Type",
+        "status": "Status",
+        "quantity": "Qty",
+        "stores": "Stores",
+        "promotions": "Promotions",
+        "createdDate": "Created",
+        "expectedShipDate": "Expected Ship By Date",
+        "actions": "Actions"
+      },
+      "loadingMessage": "Loading campaigns, please wait.",
+      "caption": "Campaign management table showing name, type, status, stores, dates, and actions",
+      "noCampaigns": "No campaigns found.",
+      "entityLabel": "campaigns"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search campaigns",
+      "typeAriaLabel": "Campaign Type Filter",
+      "statusAriaLabel": "Status Filter",
+      "archivedAriaLabel": "Archive Filter",
+      "brandAriaLabel": "Filter by brand",
+      "storeAriaLabel": "Filter by store",
+      "typeOptions": {
+        "all": "All Types",
+        "ONE_OFF": "One-Off",
+        "PERMANENT": "Permanent"
+      },
+      "statusOptions": {
+        "all": "All Status",
+        "DRAFT": "Draft",
+        "NEW": "New",
+        "ACCEPTED": "Accepted",
+        "IN_REVIEW": "In Review",
+        "ON_HOLD": "On Hold",
+        "IN_PRODUCTION": "In Production",
+        "PARTIALLY_SHIPPED": "Partially Shipped",
+        "SHIPPED": "Shipped",
+        "PARTIALLY_RECEIVED": "Partially Received",
+        "RECEIVED": "Received",
+        "COMPLETED": "Completed"
+      },
+      "archivedOptions": {
+        "archived": "Archived",
+        "unarchived": "Unarchived"
+      },
+      "brandOptions": {
+        "all": "All Brands"
+      },
+      "storeOptions": {
+        "all": "All Stores"
+      }
+    },
+    "actions": {
+      "editCampaign": "Edit Campaign",
+      "deleteCampaign": "Delete Campaign",
+      "archiveCampaign": "Archive Campaign",
+      "unarchiveCampaign": "Unarchive Campaign",
+      "updateStatus": "Update Status",
+      "assignToSelf": "Assign to me"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to Load Campaign Stats",
+        "description": "We couldn't load the campaign statistics. Please try again."
+      },
+      "campaignListing": {
+        "title": "Failed to Load Campaigns",
+        "description": "We couldn't load the campaign list. Please try again."
+      }
+    },
+    "messages": {
+      "success": {
+        "created": "Campaign created successfully",
+        "updated": "Campaign updated successfully",
+        "archived": "Campaign archived successfully",
+        "unarchived": "Campaign unarchived successfully",
+        "deleted": "Campaign deleted successfully",
+        "assigned": "Campaign assigned to you successfully"
+      },
+      "error": {
+        "createFailed": "Failed to create campaign",
+        "updateFailed": "Failed to update campaign",
+        "archiveFailed": "Failed to archive campaign",
+        "deleteFailed": "Failed to delete campaign"
+      }
+    },
+    "promotionDialog": {
+      "create": {
+        "title": "Add Promotion",
+        "description": "Fill in the details to create new promotion",
+        "submitButton": "Add Promotion"
+      },
+      "edit": {
+        "title": "Edit Promotion",
+        "description": "Update the details of the promotion",
+        "submitButton": "Save Changes"
+      },
+      "cancelButton": "Cancel",
+      "fields": {
+        "name": {
+          "label": "Promotion Name",
+          "placeholder": "Enter promotion name"
+        },
+        "width": {
+          "label": "Width",
+          "placeholder": "Enter width",
+          "dimensionHint": "(in inches)"
+        },
+        "height": {
+          "label": "Height",
+          "placeholder": "Enter height",
+          "dimensionHint": "(in inches)"
+        },
+        "material": {
+          "label": "Material",
+          "placeholder": "Enter material"
+        },
+        "specifications": {
+          "label": "Finishing Specification",
+          "placeholder": "Enter finishing specification"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter description"
+        },
+        "needDesign": {
+          "label": "Need Design"
+        },
+        "isReusable": {
+          "label": "Is Reusable Item?",
+          "description": "Mark if this item can be reused"
+        },
+        "photoUpload": {
+          "label": "Photo Upload",
+          "dropHint": "Select a file",
+          "typeHint": "JPG, JPEG, PNG, or WEBP file size should be less than 10MB",
+          "selectButton": "Select File",
+          "removeFile": "Remove file"
+        }
+      },
+      "validation": {
+        "nameRequired": "Promotion name is required",
+        "nameMinLength": "Promotion name must be at least 2 characters",
+        "nameMaxLength": "Promotion name must not exceed 100 characters",
+        "widthRequired": "Width is required",
+        "widthPositive": "Width must be greater than 0",
+        "widthMaxDigits": "Width cannot exceed 16 digits",
+        "widthMaxDecimals": "Width can have at most 2 decimal places",
+        "heightRequired": "Height is required",
+        "heightPositive": "Height must be greater than 0",
+        "heightMaxDigits": "Height cannot exceed 16 digits",
+        "heightMaxDecimals": "Height can have at most 2 decimal places",
+        "materialMaxLength": "Material must not exceed 100 characters",
+        "specificationsMaxLength": "Finishing specification must not exceed 200 characters",
+        "descriptionMaxLength": "Description must not exceed 200 characters",
+        "fileTypeInvalid": "Only JPG, JPEG, PNG, or WEBP files are allowed",
+        "fileSizeExceeded": "File size must not exceed 10MB",
+        "imageRequired": "Please upload an image for this promotion",
+        "imageUploadFailed": "Failed to upload image. Please try again."
+      },
+      "messages": {
+        "created": "Promotion created successfully",
+        "updated": "Promotion updated successfully"
+      }
+    },
+    "details": {
+      "pageTitle": "Campaign Details",
+      "pageDescription": "View and manage campaign details, promotions, and order information",
+      "backToCampaigns": "Back to Campaigns",
+      "updateStatus": "Update Status",
+      "editButton": "Edit",
+      "deleteButton": "Delete",
+      "permanentCampaign": "Permanent Campaign",
+      "oneOffCampaign": "One-off Campaign",
+      "tabs": {
+        "details": "Details",
+        "order": "Order",
+        "reorder": "Reorders",
+        "installationProof": "Installation Proof"
+      },
+      "campaignDetailsSection": "Campaign Details",
+      "infoCards": {
+        "brandName": "Brand Name",
+        "campaignManager": "Campaign Manager",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "expectedShipBy": "Expected Ship By Date"
+      },
+      "overview": {
+        "objective": "Objective",
+        "description": "Description"
+      },
+      "ordersTab": {
+        "title": "Store Orders",
+        "description": "View promotions and quantities assigned to each store",
+        "promotions": "Total Promotions",
+        "totalQty": "Total Qty",
+        "shipped": "Ship Qty",
+        "remaining": "Remaining Qty",
+        "status": "Status",
+        "ship": "Ship",
+        "shipAriaLabel": "Ship {storeName}",
+        "discrepancyQuantity": "Discrepancy Qty",
+        "promotionShipped": "Shipped Qty",
+        "unshippedQuantity": "Unshipped Qty",
+        "specifications": "Specifications",
+        "dimensions": "Dimensions (W x H) in inches",
+        "sizeFormat": "Size: {width}x{height} inches",
+        "location": "Location",
+        "promotionsFor": "Promotions for {storeName}",
+        "size": "Size: {width}x{height} inches",
+        "viewPromotion": "View Promotion",
+        "viewDetailsAriaLabel": "View details for {name}",
+        "uploadProofAriaLabel": "Upload installation proof for {name}",
+        "imageUploaded": "Image Uploaded: {count}",
+        "viewInstallationProof": "View Installation Proof",
+        "submitInstallationProof": "Submit Installation Proof",
+        "installationProofMissingImages": "Please upload at least one photo for every promotion before submitting.",
+        "installationProofSuccess": "Installation proof submitted successfully.",
+        "installationProofUploadFailed": "Failed to submit installation proof. Please try again.",
+        "uploadProofDialog": {
+          "title": "Upload Installation Proofs",
+          "description": "Add promotional proofs for {promotionName}",
+          "cancelButton": "Cancel",
+          "saveButton": "Save",
+          "fields": {
+            "photoUpload": {
+              "label": "Photo Upload",
+              "dropHint": "Select a file here",
+              "typeHint": "JPG, JPEG, PNG, or WEBP file size should be less than 10MB",
+              "selectButton": "Select File",
+              "removeFile": "Remove {fileName}"
+            },
+            "notes": {
+              "label": "Notes",
+              "placeholder": "Add any notes about the installation...",
+              "ariaLabel": "Notes for {name}"
+            }
+          },
+          "validation": {
+            "notesMaxLength": "Notes must not exceed 500 characters",
+            "imagesRequired": "Please upload at least one photo.",
+            "fileTypeInvalid": "Only JPG, JPEG, PNG, or WEBP files are allowed.",
+            "fileSizeExceeded": "File size must be less than 10MB."
+          }
+        },
+        "noOrders": "No store orders found.",
+        "noReorders": "No store reorders found.",
+        "search": {
+          "placeholder": "Search by store name or order number...",
+          "clearAriaLabel": "Clear search"
+        },
+        "list": {
+          "loadingState": "Loading store orders",
+          "paginationAriaLabel": "Store orders pagination",
+          "paginationLabel": "stores"
+        },
+        "orderNumber": "Order No",
+        "parentOrderNumber": "Parent Order No",
+        "parentOrderNumberLink": "Go to parent order {orderNumber}",
+        "loading": "Loading store orders",
+        "errorTitle": "Failed to Load Orders",
+        "errorDescription": "We couldn't load the store orders for this campaign. Please try again.",
+        "rejectionReasonLabel": "Reason",
+        "rejectionReasonClose": "Close",
+        "viewRejectionReasonAriaLabel": "View rejection reason for {name}"
+      },
+      "reordersTab": {
+        "title": "Store Reorders",
+        "description": "View reordered promotions and quantities assigned to each store",
+        "errorTitle": "Failed to Load Reorders",
+        "errorDescription": "We couldn't load the store reorders for this campaign. Please try again."
+      },
+      "installationProofTab": {
+        "title": "Installation Proof",
+        "description": "Review the installation proof provided by the store user.",
+        "orderNumber": "Order No",
+        "promotions": "Total Promotions",
+        "totalQty": "Total Qty",
+        "status": "Status",
+        "promotionTotalQty": "Total Qty",
+        "promotionShipped": "Shipped Qty",
+        "promotionRemaining": "Remaining Qty",
+        "specifications": "Specifications",
+        "size": "Size: {width}x{height} inches",
+        "promotionsFor": "Promotions for {storeName}",
+        "viewInstallationProof": "Installation Proof Images",
+        "noRecords": "No installation proofs found.",
+        "loading": "Loading installation proofs",
+        "search": {
+          "placeholder": "Search by store name or order number...",
+          "clearAriaLabel": "Clear search"
+        },
+        "list": {
+          "loadingState": "Loading installation proofs",
+          "paginationAriaLabel": "Installation proof pagination",
+          "paginationLabel": "stores"
+        },
+        "errorTitle": "Failed to Load Installation Proofs",
+        "errorDescription": "We couldn't load the installation proofs for this campaign. Please try again.",
+        "verify": "Verify",
+        "verifyAriaLabel": "Verify installation proof for {storeName}",
+        "rejectionReasonLabel": "Reason",
+        "rejectionReasonClose": "Close",
+        "viewRejectionReasonAriaLabel": "View rejection reason for {name}"
+      },
+      "verifyInstallationProof": {
+        "backLink": "Back to {campaignName}",
+        "pageTitle": "Verify Installation Proof",
+        "searchPlaceholder": "Search promotions...",
+        "acceptSelected": "Accept Selected",
+        "rejectSelected": "Reject Selected",
+        "submitButton": "Submit",
+        "submitAriaLabel": "Submit all installation proof decisions",
+        "successMessage": "Installation proof decisions submitted successfully.",
+        "errorMessage": "Failed to submit installation proof decisions. Please try again.",
+        "validationMessage": "Please address all pending and rejected items before submitting.",
+        "noRecords": "No installation proofs found for this store.",
+        "entityLabel": "Promotions",
+        "columns": {
+          "selectAll": "Select all",
+          "selectRow": "Select {name}",
+          "promotionName": "Promotion Name",
+          "totalQuantity": "Total Qty",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "actions": {
+          "viewProof": "View Installation Proof",
+          "viewProofAriaLabel": "View installation proof images for {name}",
+          "accept": "Accept",
+          "acceptAriaLabel": "Accept installation proof for {name}",
+          "reject": "Reject",
+          "rejectAriaLabel": "Reject installation proof for {name}"
+        },
+        "localStatus": {
+          "accepted": "Accepted",
+          "rejected": "Rejected"
+        },
+        "rejectDialog": {
+          "title": "Reason for Rejection",
+          "description": "Add a brief explanation for rejecting this promotion.",
+          "promotionListLabel": "List of Rejected Promotions",
+          "reasonLabel": "Reason",
+          "reasonPlaceholder": "Add notes",
+          "cancelButton": "Cancel",
+          "saveButton": "Save",
+          "validation": {
+            "reasonRequired": "Rejection reason is required",
+            "reasonMaxLength": "Rejection reason must not exceed 500 characters"
+          }
+        }
+      },
+      "promotionsTable": {
+        "title": "Promotions",
+        "searchPlaceholder": "Search...",
+        "importButton": "Import from Campaign",
+        "addButton": "Add Promotion",
+        "noPromotions": "No promotions found.",
+        "loadingMessage": "Loading promotions, please wait.",
+        "caption": "Promotions table showing name, stores, reusable status, and actions",
+        "entityLabel": "promotions",
+        "columns": {
+          "name": "Promotion Name",
+          "stores": "Stores",
+          "distributedQty": "Distributed Qty",
+          "reusable": "Reusable",
+          "actions": "Actions"
+        },
+        "reusableValues": {
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      "errors": {
+        "promotionListing": {
+          "title": "Failed to Load Promotions",
+          "description": "We couldn't load the promotions for this campaign. Please try again."
+        }
+      },
+      "deletePromotion": {
+        "title": "Delete Promotion",
+        "confirmTitle": "Are you sure you want to delete this promotion?",
+        "confirmDescription": "This action cannot be undone. The promotion {name} and all its associated data will be permanently removed from the campaign.",
+        "cancelButton": "Cancel",
+        "deleteButton": "Delete Promotion",
+        "successMessage": "Promotion deleted successfully"
+      },
+      "viewPromotion": {
+        "dialogTitle": "Promotion Details",
+        "title": "Basic Information",
+        "createdOn": "Created on {date}",
+        "fields": {
+          "promotionName": "Promotion Name",
+          "width": "Width (in inches)",
+          "height": "Height (in inches)",
+          "material": "Material",
+          "needDesign": "Need Design",
+          "needDesignYes": "Yes",
+          "needDesignNo": "No",
+          "isReusable": "Is Reusable",
+          "isReusableYes": "Yes",
+          "isReusableNo": "No",
+          "photos": "Photos",
+          "photosViewLabel": "View",
+          "finishingSpec": "Finishing Specification",
+          "description": "Description"
+        },
+        "participatingStores": {
+          "title": "Participating Stores",
+          "storesBadge": "{count} Stores",
+          "columns": {
+            "storeName": "Store Name",
+            "quantity": "Qty"
+          },
+          "totalDistributed": "Total Distributed",
+          "noStores": "No stores assigned yet."
+        },
+        "closeButton": "Close"
+      },
+      "submitToPsp": "Submit to PSP",
+      "submitting": "Submitting...",
+      "submitSuccess": "Campaign submitted to PSP successfully",
+      "submitFailed": "Failed to submit campaign to PSP",
+      "markOnHold": "Mark On Hold",
+      "markingOnHold": "Marking On Hold...",
+      "markOnHoldSuccess": "Campaign marked as On Hold successfully",
+      "markOnHoldFailed": "Failed to mark campaign as On Hold",
+      "markComplete": "Mark as Complete",
+      "markingComplete": "Marking Complete...",
+      "markCompleteSuccess": "Campaign marked as Complete successfully",
+      "markCompleteFailed": "Failed to mark campaign as Complete",
+      "deletedSuccess": "Campaign deleted successfully",
+      "deleteFailed": "Failed to delete campaign"
+    },
+    "archiveDialog": {
+      "title": "Archive Campaign",
+      "confirmMessage": "Are you sure you want to archive <strong>{name}</strong>?",
+      "description": "Archived campaigns will be moved to the archived section and can be viewed later. This action can be reversed if needed.",
+      "cancelButton": "Cancel",
+      "archiveButton": "Archive Campaign"
+    },
+    "unarchiveDialog": {
+      "title": "Unarchive Campaign",
+      "confirmMessage": "Are you sure you want to unarchive <strong>{name}</strong>?",
+      "description": "Unarchived campaigns will be restored to the active section and can be managed again.",
+      "cancelButton": "Cancel",
+      "unarchiveButton": "Unarchive Campaign"
+    },
+    "deleteDialog": {
+      "title": "Delete Campaign",
+      "confirmTitle": "Are you sure you want to delete this campaign?",
+      "confirmDescription": "This action cannot be undone and will permanently remove all campaign data including promotions and store distributions.",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete Campaign"
+    },
+    "updateStatusDialog": {
+      "title": "Update Campaign Status",
+      "subtitle": "Change the status of this campaign to track its progress through production",
+      "closeButton": "Close dialog",
+      "infoLabels": {
+        "campaign": "Campaign",
+        "currentStatus": "Current Status",
+        "brand": "Brand"
+      },
+      "fields": {
+        "newStatus": {
+          "label": "New Status",
+          "placeholder": "Select status",
+          "required": "required"
+        }
+      },
+      "notification": {
+        "ariaLabel": "Status update notification",
+        "title": "Status Update Notification",
+        "description": "Updating the status will send email notifications to the brand admin and all assigned stores informing them of the progress.",
+        "boldText": "Once status is updated to \"In Production\", you can only move forward to the next status. Returning to a previous status is not allowed."
+      },
+      "cancelButton": "Cancel",
+      "submitButton": "Update Status",
+      "submitting": "Updating...",
+      "successMessage": "Campaign status updated successfully",
+      "errorMessage": "Failed to update campaign status"
+    },
+    "promotionActions": {
+      "view": "View Promotion",
+      "edit": "Edit Promotion",
+      "duplicate": "Duplicate Promotion",
+      "storeDistribution": "Store Distribution",
+      "delete": "Delete Promotion",
+      "inventoryReadOnly": "This promotion was created from inventory and its properties cannot be updated"
+    },
+    "storeDistribution": {
+      "backLink": "Back to Campaign Detail",
+      "title": "Store Distribution",
+      "entityLabel": "Stores",
+      "instruction": "Specify the required quantity for each store. Leave blank or set to 0 if the store doesn't need this promotion.",
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search stores",
+      "clearSearchAriaLabel": "Clear search",
+      "savingMessage": "Saving distribution, please wait.",
+      "tableCaption": "Store distribution table showing store names and editable quantities",
+      "noStores": "No stores found.",
+      "totalQuantity": "Total Qty",
+      "cancelButton": "Cancel",
+      "clearAll": "Clear All",
+      "saveButton": "Save Distribution",
+      "savingButton": "Saving...",
+      "noChanges": "No changes to save",
+      "saveSuccess": "Store distribution saved successfully",
+      "saveFailed": "Failed to save distribution",
+      "columns": {
+        "storeName": "Store Name",
+        "quantity": "Qty",
+        "quantityAriaLabel": "Qty for {storeName}"
+      }
+    },
+    "promotionsReuse": {
+      "backLink": "Back to Campaign Details",
+      "title": "Reusable Promotions",
+      "entityLabel": "Promotions",
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search promotions by name",
+      "clearSearchAriaLabel": "Clear search",
+      "creatingMessage": "Creating promotions…",
+      "noPromotions": "No promotions found.",
+      "clearButton": "Clear Selection",
+      "addButton": "Add to Campaign",
+      "addingButton": "Adding…",
+      "addSuccess": "Promotions added to campaign successfully",
+      "addFailed": "Failed to add promotions",
+      "columns": {
+        "selectAll": "Select all rows",
+        "selectRow": "Select {name}",
+        "promotionName": "Promotion Name",
+        "height": "Height",
+        "width": "Width",
+        "material": "Material",
+        "needDesign": "Need Design",
+        "photo": "Photo",
+        "viewPhoto": "View",
+        "viewPhotoAriaLabel": "View photo",
+        "actions": "Actions",
+        "viewDetailsAriaLabel": "View details for {name}"
+      }
+    },
+    "reuseButton": "Reuse Promotion",
+    "createShipment": {
+      "pageTitle": "Create Shipment",
+      "backLink": "Back to {campaignName}",
+      "pageDescription": "Create a new shipment for store orders",
+      "shipmentDetails": {
+        "title": "Shipment Details",
+        "trackingNumber": "Tracking Number",
+        "trackingNumberRequired": "Tracking Number",
+        "trackingNumberPlaceholder": "Enter tracking number",
+        "carrierNameRequired": "Carrier name",
+        "carrierNamePlaceholder": "Enter carrier name",
+        "carrierNumberError": "Carrier name is required",
+        "carrierNameMaxError": "Carrier name must not exceed 50 characters",
+        "trackingNumberError": "Tracking number is required",
+        "trackingNumberMaxError": "Tracking number must not exceed 50 characters",
+        "notesMaxError": "Notes must not exceed 500 characters",
+        "estimatedDeliveryDate": "Estimated Delivery Date",
+        "estimatedDeliveryDateRequiredError": "Estimated delivery date is required",
+        "estimatedDeliveryDateError": "Estimated delivery date must be after today",
+        "pickDate": "Select date",
+        "shipmentNotes": "Shipment Notes (Optional)",
+        "shipmentNotesPlaceholder": "Enter shipment notes"
+      },
+      "pendingShipment": {
+        "title": "Promotions Pending Shipment",
+        "clearAll": "Clear All",
+        "clearAllAriaLabel": "Clear all ship quantities",
+        "shipAll": "Ship All",
+        "shipAllAriaLabel": "Ship all remaining quantities and submit",
+        "tableCaption": "Promotions pending shipment table for {storeName}",
+        "sortAscAriaLabel": "Sort promotion name ascending",
+        "sortDescAriaLabel": "Sort promotion name descending",
+        "columns": {
+          "promotionName": "Promotion Name",
+          "totalQuantity": "Total Qty",
+          "shippedQuantity": "Shipped Qty",
+          "remainingQuantity": "Remaining Qty",
+          "shipQuantity": "Ship Qty",
+          "shipQuantityAriaLabel": "Ship quantity for {promotionName}"
+        },
+        "noPromotions": "No promotions pending shipment.",
+        "searchPlaceholder": "Search...",
+        "searchAriaLabel": "Search promotions by name",
+        "clearSearchAriaLabel": "Clear search",
+        "entityLabel": "Promotions"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Shipment",
+      "creatingButton": "Creating...",
+      "successMessage": "Shipment #{shipmentNumber} has been created successfully. You can view its details on the Shipments page.",
+      "errorMessage": "Failed to create shipment. Please try again.",
+      "loadErrorTitle": "Failed to Load",
+      "loadErrorDescription": "We couldn't load the shipment details. Please try again."
+    },
+    "importPromotions": {
+      "backLink": "Back to Campaigns",
+      "title": "Import Promotions",
+      "destinationCampaignLabel": "Destination Campaign",
+      "importActionLabel": "Import Action",
+      "importActionCopyTitle": "Copy",
+      "importActionCopyDescription": "Duplicate promotions to the selected destination campaign. Existing promotions in the destination campaign will remain unchanged, and the duplicated promotions will be added alongside them.",
+      "importActionReplaceTitle": "Replace",
+      "importActionReplaceDescription": "Transfer promotions to the selected destination campaign. Please note that all existing promotions in the destination campaign will be permanently deleted and cannot be recovered.",
+      "sourceCampaignLabel": "Source Campaign",
+      "sourceCampaignPlaceholder": "Select campaign",
+      "sourceCampaignAriaLabel": "Select source campaign",
+      "noCampaignFound": "No Campaign Found",
+      "promotionsListTitle": "Promotions List",
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search promotions by name",
+      "clearSearchAriaLabel": "Clear search",
+      "noCampaignSelectedTitle": "Campaign",
+      "noCampaignSelectedMessage": "Campaign: Please select source campaign to see the promotions list.",
+      "noPromotions": "No promotions found.",
+      "entityLabel": "Promotions",
+      "loadingMessage": "Loading promotions…",
+      "clearButton": "Clear Selection",
+      "addButton": "Add to Campaign",
+      "addingButton": "Adding…",
+      "addSuccess": "Promotions imported successfully",
+      "addFailed": "Failed to import promotions",
+      "replaceConfirmDialog": {
+        "title": "Replace Promotions",
+        "confirmTitle": "Are you sure you want to replace all promotions?",
+        "confirmDescription": "All existing promotions in the destination campaign will be permanently deleted and replaced with the selected promotions. This action cannot be undone.",
+        "cancelButton": "Cancel",
+        "confirmButton": "Replace Promotions"
+      },
+      "columns": {
+        "selectAll": "Select all rows",
+        "selectRow": "Select {name}",
+        "promotionName": "Promotion Name",
+        "height": "Height",
+        "width": "Width",
+        "material": "Material",
+        "needDesign": "Need Design",
+        "needDesignYes": "Yes",
+        "needDesignNo": "No",
+        "photo": "Photo",
+        "viewPhoto": "View",
+        "reusable": "Reusable",
+        "reusableYes": "Yes",
+        "reusableNo": "No",
+        "actions": "Actions",
+        "viewDetailsAriaLabel": "View details for {name}"
+      }
+    }
+  },
+  "orderManagement": {
+    "table": {
+      "status": {
+        "DRAFT": "Draft",
+        "NEW": "New",
+        "ACCEPTED": "Accepted",
+        "IN_REVIEW": "In Review",
+        "ON_HOLD": "On Hold",
+        "IN_PRODUCTION": "In Production",
+        "PARTIALLY_SHIPPED": "Partially Shipped",
+        "SHIPPED": "Shipped",
+        "PARTIALLY_RECEIVED": "Partially Received",
+        "RECEIVED": "Received",
+        "RECEIVED_WITH_EXCEPTION": "Received with Exception",
+        "PENDING_INSTALLATION_APPROVAL": "Pending Installation Approval",
+        "INSTALLATION_REJECTED": "Installation Rejected",
+        "TRIAGED": "Triaged",
+        "COMPLETED": "Completed"
+      }
+    }
+  },
+  "surveyManagement": {
+    "page": {
+      "title": "Survey Management",
+      "description": "Create and manage surveys for your organization",
+      "createButton": "Create Survey",
+      "createTemplateButton": "Create Template",
+      "tabs": {
+        "templates": "Templates",
+        "surveys": "Surveys"
+      }
+    },
+    "createSurveyDialog": {
+      "title": "Choose template to create survey",
+      "nameLabel": "Survey Name",
+      "namePlaceholder": "e.g. Q2 Customer Satisfaction Survey",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter a brief description of this survey (optional)",
+      "templateLabel": "Templates",
+      "templatePlaceholder": "Select a template",
+      "templateNoOptions": "No templates found",
+      "cancelButton": "Cancel",
+      "createButton": "Create Survey",
+      "submitting": "Creating...",
+      "successToast": "Survey created successfully",
+      "validation": {
+        "nameRequired": "Survey name is required",
+        "nameMinLength": "Survey name must be at least 2 characters",
+        "nameMaxLength": "Survey name must not exceed 100 characters",
+        "templateRequired": "Please select a template",
+        "descriptionRequired": "Description is required",
+        "descriptionMaxLength": "Description must not exceed 500 characters"
+      }
+    },
+    "stats": {
+      "totalSurveys": "Total Surveys",
+      "activeSurveys": "Active Surveys",
+      "closedSurveys": "Closed Surveys"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search",
+      "statusAriaLabel": "Status Filter",
+      "statusPlaceholder": "Select Status",
+      "brandPlaceholder": "Select Brand",
+      "brandAriaLabel": "Brand Filter",
+      "allBrands": "All Brands"
+    },
+    "statusOptions": {
+      "all": "All",
+      "draft": "Draft",
+      "active": "Active",
+      "closed": "Closed"
+    },
+    "table": {
+      "caption": "Survey management table showing survey name, response count, brand assignment, status, and actions",
+      "emptyState": "No surveys found.",
+      "loadingState": "Loading surveys...",
+      "paginationLabel": "surveys",
+      "columns": {
+        "surveyName": "Survey Name",
+        "responseCount": "Response Count",
+        "brandAssigned": "Brand Assigned",
+        "storeAssigned": "Store Assigned",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "statusLabels": {
+        "DRAFT": "Draft",
+        "ACTIVE": "Active",
+        "CLOSED": "Closed",
+        "SUBMITTED": "Submitted",
+        "NOT_SUBMITTED": "Not Submitted"
+      }
+    },
+    "actions": {
+      "deleteSurvey": "Delete Survey",
+      "editSurvey": "Edit Survey",
+      "viewSurvey": "Preview Survey",
+      "markAsClosed": "Mark as Closed",
+      "markAsClosedSuccess": "Survey closed successfully",
+      "assignToBrand": "Assign to Brand",
+      "assignToStore": "Assign to Stores",
+      "viewResponse": "View Responses",
+      "addResponse": "Add Response"
+    },
+    "viewResponseDialog": {
+      "title": "Survey Details",
+      "surveyResponses": "Survey Responses",
+      "followUp": "Follow-up",
+      "noResponsesMessage": "No responses have been submitted for this survey yet.",
+      "submittedAt": "Submitted on",
+      "noAnswer": "No answer provided",
+      "closeButton": "Close"
+    },
+    "assignStore": {
+      "pageTitle": "Assign to Stores",
+      "backLink": "Back to Survey Management"
+    },
+    "addResponse": {
+      "pageTitle": "Add Response",
+      "backLink": "Back to Survey Management",
+      "submitResponse": "Submit Response",
+      "submitting": "Submitting...",
+      "requiredField": "This field is required",
+      "submitSuccess": "Survey response submitted successfully",
+      "surveyClosed": "This survey has been closed and is no longer accepting responses."
+    },
+    "deleteDialog": {
+      "title": "Delete Survey",
+      "confirmTitle": "Are you sure you want to delete this survey?",
+      "confirmDescription": "\"{name}\" will be permanently removed and cannot be recovered.",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete Survey"
+    },
+    "closeDialog": {
+      "title": "Close Survey",
+      "confirmTitle": "Are you sure you want to close this survey?",
+      "confirmDescription": "\"{name}\" will be marked as closed and will no longer accept responses.",
+      "cancelButton": "Cancel",
+      "closeButton": "Close Survey",
+      "closingButton": "Closing..."
+    },
+    "template": {
+      "table": {
+        "caption": "Template list showing template name, survey count, and actions",
+        "emptyState": "No templates found.",
+        "loadingState": "Loading templates...",
+        "searchPlaceholder": "Search...",
+        "searchAriaLabel": "Search templates",
+        "paginationLabel": "templates",
+        "columns": {
+          "templateName": "Template Name",
+          "surveyCount": "Survey Count",
+          "createdDate": "Created Date",
+          "actions": "Actions"
+        }
+      },
+      "actions": {
+        "view": "Preview Template",
+        "edit": "Edit Template",
+        "delete": "Delete Template"
+      },
+      "deleteDialog": {
+        "title": "Delete Template",
+        "confirmTitle": "Are you sure you want to delete this template?",
+        "confirmDescription": "\"{name}\" will be permanently removed and cannot be recovered.",
+        "cancelButton": "Cancel",
+        "deleteButton": "Delete Template"
+      },
+      "common-template": {
+        "backLink": "Back to Template Management",
+        "saveButton": "Save Template",
+        "savingButton": "Saving...",
+        "details": {
+          "sectionTitle": "Template Details",
+          "nameLabelRequired": "Template Name",
+          "namePlaceholder": "Add Name",
+          "nameRequiredError": "Template name is required",
+          "nameMaxLengthError": "Template name must not exceed 100 characters"
+        },
+        "questions": {
+          "sectionTitle": "Questions",
+          "dragShuffle": "Use the dots in the top-left corner of the card to drag and reorder",
+          "addQuestion": "Add Question",
+          "untitledQuestion": "Untitled question...",
+          "untitledSubQuestion": "Untitled sub-question...",
+          "required": "Required",
+          "selectDate": "Select date",
+          "typeHere": "Type here",
+          "selectOption": "Select an option",
+          "dragToReorder": "Drag to reorder",
+          "deleteQuestion": "Delete question",
+          "deleteSubQuestion": "Delete sub-question",
+          "questionPrefix": "Q",
+          "ifPrefix": "IF",
+          "yes": "Yes",
+          "no": "No",
+          "questionTypeLabel": "Question Type",
+          "questionTypes": {
+            "text_input": "Text Input",
+            "text_area": "Text Area",
+            "multiple_choice": "Multiple Choice",
+            "checkbox": "Checkbox",
+            "dropdown": "Dropdown",
+            "date": "Date",
+            "conditional_multiple_choice": "Conditional Multiple Choice"
+          },
+          "questionTypeDescriptions": {
+            "text_input": "Single-line text answer",
+            "text_area": "Multi-line text answer",
+            "multiple_choice": "Respondent selects one answer",
+            "checkbox": "Check all that apply",
+            "dropdown": "Dropdown with one selection",
+            "date": "Date picker input",
+            "conditional_multiple_choice": "Yes/No with conditional follow-up questions"
+          },
+          "errors": {
+            "labelRequired": "Question label is required",
+            "optionsRequired": "At least 2 options are required"
+          }
+        },
+        "settings": {
+          "sectionTitle": "Question Settings",
+          "noSelection": {
+            "title": "No Question Selected",
+            "description": "Click a question card to configure its settings here"
+          },
+          "subQuestionBadge": "SUB-QUESTION",
+          "questionLabel": "Question Label",
+          "optionsLabel": "Options",
+          "placeholderLabel": "Placeholder Text",
+          "placeholderInput": "Type here",
+          "addOption": "Add Option",
+          "removeOption": "Remove option {index}",
+          "required": "Required",
+          "toggleRequired": "Toggle required",
+          "conditionalFollowUp": "Conditional Follow-up Questions",
+          "conditionalDescription": "Add follow-up questions that appear based on the respondent's answer.",
+          "whenYes": "When: YES",
+          "whenNo": "When: NO",
+          "noYesFollowUp": "No follow-up questions for \"Yes\" yet.",
+          "noNoFollowUp": "No follow-up questions for \"No\" yet."
+        }
+      },
+      "create": {
+        "pageTitle": "Create Template",
+        "success": "Template created successfully"
+      },
+      "edit": {
+        "backLink": "Back to Template Management",
+        "pageTitle": "Edit Template",
+        "saveButton": "Update Template",
+        "savingButton": "Saving...",
+        "success": "Template updated successfully"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to load survey stats",
+        "description": "An error occurred while loading the survey statistics."
+      },
+      "surveyTable": {
+        "title": "Failed to load surveys",
+        "description": "An error occurred while loading the surveys table."
+      }
+    },
+    "details": {
+      "backLink": "Back to Survey Management",
+      "storesAssignedByBrands": "Stores assigned by Brands",
+      "storesOf": "Stores of {brandName}",
+      "loadingLabel": "Loading survey details",
+      "editButton": "Edit Survey",
+      "infoCard": {
+        "title": "Survey Information",
+        "fields": {
+          "surveyName": "Survey Name",
+          "purpose": "Purpose",
+          "endDate": "End Date"
+        }
+      },
+      "responses": {
+        "title": "Store Responses",
+        "submittedCount": "{completed} of {total} submitted",
+        "empty": "No store responses yet.",
+        "columns": {
+          "storeName": "Store Name",
+          "submittedDate": "Submitted Date",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "statusOptions": {
+          "completed": "Completed",
+          "notSubmitted": "Not Submitted"
+        },
+        "viewResponse": "View Response",
+        "paginationLabel": "stores"
+      },
+      "responseDialog": {
+        "title": "Survey Response",
+        "followUp": "Follow-up",
+        "noResponses": "No responses recorded.",
+        "closeButton": "Close"
+      }
+    },
+    "edit": {
+      "backLink": "Back to Survey Management",
+      "pageTitle": "Edit Survey",
+      "selectTemplateButton": "Select Template",
+      "templatePlaceholder": "Select template...",
+      "templateNoOptions": "No templates found",
+      "saveButton": "Save Survey",
+      "savingButton": "Saving...",
+      "success": "Survey updated successfully",
+      "details": {
+        "sectionTitle": "Survey Details",
+        "nameLabelRequired": "Survey Name",
+        "namePlaceholder": "Add Name",
+        "nameRequiredError": "Survey name is required",
+        "nameMaxLengthError": "Survey name must not exceed 100 characters",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Enter a brief description of this survey",
+        "descriptionRequiredError": "Description is required",
+        "descriptionMaxLengthError": "Description must not exceed 500 characters"
+      }
+    },
+    "preview": {
+      "pageTitle": "Template Preview",
+      "backToManagement": "Back to Template Management",
+      "backToEditor": "Back to Editor",
+      "title": "Template Preview"
+    }
+  },
+  "assignStore": {
+    "backLink": "Back to Survey Management",
+    "pageTitle": "Assign Survey to Stores",
+    "searchPlaceholder": "Search stores...",
+    "searchAriaLabel": "Search stores by name",
+    "tableCaption": "List of active stores to assign to this survey",
+    "tableAriaLabel": "Store selection table",
+    "loadingStores": "Loading stores...",
+    "emptyMessage": "No active stores found.",
+    "paginationLabel": "stores",
+    "cancelButton": "Cancel",
+    "saveButton": "Assign",
+    "savingButton": "Assigning...",
+    "successMessage": "Stores assigned successfully",
+    "columns": {
+      "storeName": "Store Name",
+      "storeNumber": "Store Number",
+      "selectAll": "Select All",
+      "selectRow": "Select {name}"
+    }
+  },
+  "assignBrand": {
+    "backLink": "Back to Survey Management",
+    "pageTitle": "Assign Survey to Brands",
+    "searchPlaceholder": "Search...",
+    "searchAriaLabel": "Search brands by name",
+    "tableCaption": "List of active brands to assign to this survey",
+    "tableAriaLabel": "Brand selection table",
+    "loadingBrands": "Loading brands...",
+    "emptyMessage": "No active brands found.",
+    "paginationLabel": "brands",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "savingButton": "Saving...",
+    "successMessage": "Brands assigned successfully",
+    "columns": {
+      "brandName": "Brand Name",
+      "selectAll": "Select All",
+      "selectRow": "Select {name}"
+    }
+  },
+  "roles": {
+    "PLATFORM_ADMIN": "Platform Admin",
+    "PSP_ADMIN": "PSP Admin",
+    "BRAND_ADMIN": "Brand Admin",
+    "STORE_ADMIN": "Store Admin",
+    "REGIONAL_MANAGER": "Regional Manager",
+    "CAMPAIGN_MANAGER": "Campaign Manager",
+    "PRODUCTION_OPERATOR": "Production Operator",
+    "STORE_OPERATOR": "Store Operator"
+  },
+  "installationManagement": {
+    "table": {
+      "statusLabels": {
+        "PENDING": "Pending",
+        "INSTALLED": "Installed",
+        "PENDING_APPROVAL": "Pending Approval",
+        "REJECTED": "Rejected",
+        "COMPLETED": "Completed"
+      }
+    }
+  },
+  "exceptionRequest": {
+    "page": {
+      "title": "Exception Requests",
+      "description": "View and manage exception requests",
+      "view-all": "View All"
+    },
+    "stats": {
+      "totalRequests": "Total Exception Requests",
+      "pendingApproval": "Pending Approval",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "filter": {
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search exception requests",
+      "campaignAriaLabel": "Campaign Filter",
+      "storeAriaLabel": "Store Filter",
+      "statusAriaLabel": "Status Filter"
+    },
+    "filterOptions": {
+      "allCampaigns": "All Campaigns",
+      "allStores": "All Stores",
+      "allStatuses": "All Status",
+      "pendingApproval": "Pending Approval",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "table": {
+      "caption": "Exception requests table showing order number, campaign, store, total quantity, and status",
+      "emptyState": "No exception requests found.",
+      "loadingState": "Loading exception requests...",
+      "paginationLabel": "Exception Requests",
+      "columns": {
+        "shipmentNo": "Shipment No",
+        "orderNumber": "Order Number",
+        "issueNumber": "Issue Number",
+        "campaignName": "Campaign",
+        "storeName": "Store",
+        "status": "Status"
+      },
+      "units": "units",
+      "statusLabels": {
+        "PENDING_APPROVAL": "Pending Approval",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "CANCELLED": "Cancelled"
+      }
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to Load Exception Request Stats",
+        "description": "We couldn't load the exception request statistics. Please try again."
+      },
+      "table": {
+        "title": "Failed to Load Exception Requests",
+        "description": "We couldn't load the exception request list. Please try again."
+      }
+    }
+  },
+  "reorderDetails": {
+    "page": {
+      "title": "Reorder Details",
+      "description": "View details of an exception request"
+    },
+    "header": {
+      "backLink": "Back to Exception Requests",
+      "backLinkAriaLabel": "Go back to exception requests list",
+      "title": "Exception Request Details",
+      "shipmentNumber": "Shipment Number:",
+      "reUploadPhotos": "Re-upload Photos",
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel Request"
+    },
+    "info": {
+      "campaign": "Campaign",
+      "store": "Store",
+      "status": "Status",
+      "reasonForException": "Reason for Exception Request",
+      "reasonForRejection": "Reason for Rejection",
+      "reasonForCancellation": "Reason for Cancellation"
+    },
+    "table": {
+      "title": "Promotions In Shipment",
+      "searchPlaceholder": "Search...",
+      "searchAriaLabel": "Search promotions by name",
+      "clearSearchAriaLabel": "Clear search",
+      "badge": "{count} Promotions",
+      "viewPhotos": "View Photos",
+      "viewPhotosTitle": "Exception Request Photos",
+      "noItems": "No promotions found.",
+      "entityLabel": "Promotions",
+      "totalItems": "Total Discrepancy Quantity",
+      "columns": {
+        "promotionName": "Promotion Name",
+        "shippedQty": "Shipped Qty",
+        "validReceivedQty": "Valid Received Qty",
+        "exceptionType": "Exception Type",
+        "discrepancyQty": "Discrepancy Qty",
+        "exceptionMissing": "Missing",
+        "exceptionIncorrect": "Incorrect",
+        "exceptionDamaged": "Damaged"
+      }
+    },
+    "actionDialog": {
+      "reject": {
+        "title": "Reject Request",
+        "description": "Please provide a reason for rejecting this request. This will be shared with the respective store user.",
+        "reasonLabel": "Reason for Rejection",
+        "submitButton": "Reject Request"
+      },
+      "cancel": {
+        "title": "Cancel Request",
+        "description": "Please provide a reason for canceling this request. This will be shared with the respective store user.",
+        "reasonLabel": "Reason for Cancelation",
+        "submitButton": "Cancel Request"
+      },
+      "cancelButton": "Cancel",
+      "reasonPlaceholder": "Type here",
+      "validation": {
+        "reasonRequired": "Reason is required",
+        "reasonMax": "Reason must not exceed 500 characters"
+      }
+    },
+    "toasts": {
+      "approveSuccess": "Request approved successfully.",
+      "approveFailed": "Failed to approve request. Please try again.",
+      "rejectSuccess": "Request rejected successfully.",
+      "rejectFailed": "Failed to reject request. Please try again.",
+      "cancelSuccess": "Request cancelled successfully.",
+      "cancelFailed": "Failed to cancel request. Please try again.",
+      "reUploadSuccess": "Photos re-uploaded successfully.",
+      "reUploadFailed": "Failed to re-upload photos. Please try again."
+    },
+    "errors": {
+      "header": {
+        "title": "Failed to Load Header",
+        "description": "Could not load reorder header."
+      },
+      "info": {
+        "title": "Failed to Load Reorder Info",
+        "description": "Could not load reorder details."
+      },
+      "promotions": {
+        "title": "Failed to Load Promotions",
+        "description": "Could not load promotions."
+      }
+    }
+  },
+  "reports": {
+    "page": {
+      "title": "Reports",
+      "description": "Select report to see the specific details"
+    },
+    "selector": {
+      "label": "Select Report",
+      "placeholder": "Select a report"
+    },
+    "export": {
+      "toExcel": "Export to Excel",
+      "toPdf": "Export to PDF",
+      "exporting": "Exporting..."
+    },
+    "reportLabels": {
+      "storeOrders": "Store Orders Report",
+      "shipmentsTracking": "Shipments & Tracking Report",
+      "issuesReorders": "Issues & Reorders Report",
+      "opsDashboardMetrics": "Ops Dashboard Metrics Report",
+      "campaignSummary": "Campaign Summary Report",
+      "executionProof": "Execution & Proof Report",
+      "exceptionQueue": "Exception Queue Report",
+      "proofReview": "Proof Review Report",
+      "surveyResponse": "Survey Response Report"
+    },
+    "table": {
+      "emptyState": "No data available for this report.",
+      "loadingState": "Loading report data...",
+      "paginationLabel": "records",
+      "caption": "Report data table",
+      "noReportSelected": "Select a report from the dropdown above to view data.",
+      "noEntitySelected": "Please select a {entity} from the top navigation to view this report."
+    },
+    "errors": {
+      "loadFailed": {
+        "title": "Failed to load report",
+        "description": "An error occurred while loading the report data. Please try again."
+      }
+    }
+  },
+  "errors": {
+    "retryButton": "Try Again",
+    "pageError": {
+      "title": "Something went wrong",
+      "description": "We couldn't load this page properly. Please try again.",
+      "refreshButton": "Refresh Page"
+    }
+  },
+  "common": {
+    "resetFilters": "Reset",
+    "resetFiltersAriaLabel": "Reset filters",
+    "impersonation": {
+      "bannerMessage": "You are impersonating as <b>{role}</b> for <b>{entity}</b>.",
+      "endButton": "End Impersonation",
+      "startSuccess": "Impersonation started successfully.",
+      "stopSuccess": "Impersonation stopped successfully."
+    },
+    "viewImagesDialog": {
+      "closeButton": "Close",
+      "closeDialogAriaLabel": "Close dialog",
+      "noImages": "No images available",
+      "previousSlideAriaLabel": "Previous image",
+      "nextSlideAriaLabel": "Next image",
+      "imageCounter": "Image {current} of {total}",
+      "thumbnailAriaLabel": "View image {index}",
+      "thumbnailCarouselAriaLabel": "Image thumbnails"
+    }
+  },
+  "apiMessages": {
+    "fallback": {
+      "genericError": "Something went wrong. Please try again.",
+      "serverError": "An unexpected server error occurred. Please try again later.",
+      "xssDetected": "Potentially dangerous input detected. Please remove HTML or script content."
+    },
+    "errors": {
+      "AUTH_FAILED_LOGIN": "Login failed. Please check your credentials.",
+      "AUTH_FAILED_REFRESH_TOKEN": "Session refresh failed. Please log in again.",
+      "AUTH_INSUFFICIENT_PERMISSIONS": "You do not have the required role to perform this action.",
+      "AUTH_MISSING_ACCESS_TOKEN": "Your session has expired. Please log in again.",
+      "BRAND_ADMIN_NOT_FOUND": "The specified brand admin user does not exist.",
+      "BRAND_ALREADY_ACTIVE": "This brand is already active.",
+      "BRAND_ALREADY_DELETED": "This brand has already been deleted.",
+      "BRAND_ALREADY_INACTIVE": "This brand is already inactive.",
+      "BRAND_DELETED": "This brand has been deleted.",
+      "BRAND_DUPLICATE_NAME": "A brand with this name already exists within the PSP.",
+      "BRAND_FAILED_ACTIVATE": "Failed to activate brand. Please try again.",
+      "BRAND_FAILED_CREATE": "Failed to create brand. Please try again.",
+      "BRAND_FAILED_DEACTIVATE": "Failed to deactivate brand. Please try again.",
+      "BRAND_FAILED_DELETE": "Failed to delete brand. Please try again.",
+      "BRAND_FAILED_FETCH": "Failed to fetch brand data. Please try again.",
+      "BRAND_FAILED_UPDATE": "Failed to update brand. Please try again.",
+      "BRAND_HAS_INCOMPLETE_CAMPAIGNS": "This brand cannot be deactivated because it has campaigns that are not yet completed.",
+      "BRAND_INACTIVE": "This brand is currently inactive.",
+      "BRAND_IN_USE": "This brand cannot be deleted because it has dependent records.",
+      "BRAND_NOT_ASSOCIATED_WITH_USER": "The requested brand is not associated with your account.",
+      "BRAND_NOT_FOUND": "Brand not found.",
+      "BRAND_OVERVIEW_RETRIEVAL_FAILED": "Failed to retrieve brand overview statistics.",
+      "BRAND_OVERVIEW_UNAUTHORIZED": "You are not authorized to access this brand's overview statistics.",
+      "BRAND_RETRIEVED_FAILED": "Failed to retrieve brands for the specified PSP.",
+      "BRAND_USER_NOT_ASSIGNED": "You are not assigned to the requested brand.",
+      "BRAND_USER_NOT_ASSIGNED_TO_PSP": "You are not assigned to the PSP that owns this brand.",
+      "CAMPAIGN_ALREADY_ARCHIVED": "This campaign is already archived.",
+      "CAMPAIGN_ALREADY_ASSIGNED": "This campaign already has a campaign manager assigned.",
+      "CAMPAIGN_ARCHIVED": "Cannot perform this action because the campaign is archived.",
+      "CAMPAIGN_BRAND_INACTIVE": "The specified brand is inactive or deleted.",
+      "CAMPAIGN_BRAND_NOT_ASSOCIATED": "The specified brand is not associated with your account.",
+      "CAMPAIGN_BRAND_REQUIRED": "Brand is required",
+      "CAMPAIGN_CANNOT_UPDATE_STATUS": "Campaign cannot be updated in its current status.",
+      "CAMPAIGN_COMPLETED_CANNOT_ASSIGN": "Cannot assign a campaign manager to a completed campaign.",
+      "CAMPAIGN_DESCRIPTION_REQUIRED": "Campaign description is required",
+      "CAMPAIGN_DUPLICATE_NAME": "A campaign with this name already exists.",
+      "CAMPAIGN_END_DATE_BEFORE_START": "End date must be equal to or greater than the start date.",
+      "CAMPAIGN_END_DATE_REQUIRED": "End date is required",
+      "CAMPAIGN_FAILED_ARCHIVE": "Failed to archive/unarchive the campaign. Please try again.",
+      "CAMPAIGN_FAILED_ASSIGN_MANAGER": "Failed to assign campaign manager. Please try again.",
+      "CAMPAIGN_FAILED_CREATE": "Failed to create campaign. Please try again.",
+      "CAMPAIGN_FAILED_DELETE": "Failed to delete campaign. Please try again.",
+      "CAMPAIGN_FAILED_GET": "Failed to fetch campaign details. Please try again.",
+      "CAMPAIGN_FAILED_LIST": "Failed to list campaigns. Please try again.",
+      "CAMPAIGN_FAILED_STATUS_CHANGE": "Unexpected error while changing campaign status",
+      "CAMPAIGN_FAILED_SUBMIT": "Failed to submit campaign. Please try again.",
+      "CAMPAIGN_FAILED_UPDATE": "Failed to update campaign. Please try again.",
+      "CAMPAIGN_FORBIDDEN": "You are not authorized to view this campaign.",
+      "CAMPAIGN_HAS_NON_REUSABLE_PROMOTIONS": "Cannot mark campaign as permanent: it has non-reusable promotions.",
+      "CAMPAIGN_ID_REQUIRED": "Campaign ID is required for this operation.",
+      "CAMPAIGN_MANAGER_BRAND_MISMATCH": "The specified campaign manager is not associated with the campaign's brand.",
+      "CAMPAIGN_MANAGER_INVALID": "The specified campaign manager is not a Campaign Manager for this brand.",
+      "CAMPAIGN_MANAGER_NOT_ASSIGNED": "You are not the assigned campaign manager for this campaign.",
+      "CAMPAIGN_MANAGER_NOT_FOR_BRAND": "You are not an active Campaign Manager for this campaign's brand.",
+      "CAMPAIGN_MANAGER_NOT_FOUND": "The specified campaign manager user does not exist.",
+      "CAMPAIGN_MISSING_FILTER_ID": "Either brand ID or PSP ID must be provided.",
+      "CAMPAIGN_NAME_REQUIRED": "Campaign name is required",
+      "CAMPAIGN_NOT_ARCHIVED": "This campaign is not archived.",
+      "CAMPAIGN_NOT_COMPLETED": "Campaign must be in Completed status to be archived.",
+      "CAMPAIGN_NOT_DRAFT": "Campaign can only be deleted when it is in Draft status.",
+      "CAMPAIGN_NOT_FOUND": "Campaign not found.",
+      "CAMPAIGN_NOT_IN_DRAFT_OR_ON_HOLD": "Campaign can only be deleted when it is in DRAFT or ON_HOLD status",
+      "SUBMITTED_CAMPAIGN_NOT_IN_DRAFT_OR_ON_HOLD": "Only campaigns in DRAFT or ON_HOLD status can be submitted to PSP.",
+      "CAMPAIGN_NOT_IN_PRODUCTION": "Action cannot be performed because the campaign is not in production.",
+      "CAMPAIGN_NO_ORDERS": "Campaign must have at least one store distribution before it can be submitted.",
+      "CAMPAIGN_OBJECTIVE_REQUIRED": "Campaign objective is required",
+      "CAMPAIGN_ON_HOLD_PSP_RESTRICTED": "Campaign is on hold by brand; PSP cannot change status",
+      "CAMPAIGN_ORDERS_FAILED_FETCH": "Failed to fetch campaign store orders. Please try again.",
+      "CAMPAIGN_STORE_ORDER_NOT_FOUND": "Store order not found for the given order number.",
+      "WEBHOOK_ALREADY_ACTIVE": "This webhook credential is already active.",
+      "WEBHOOK_ALREADY_INACTIVE": "This webhook credential is already inactive.",
+      "WEBHOOK_ALREADY_REVOKED": "This webhook credential has already been revoked.",
+      "WEBHOOK_CREDENTIAL_ID_REQUIRED": "Webhook credential ID is required for this operation.",
+      "WEBHOOK_FAILED_CREATE": "Failed to create webhook credential. Please try again.",
+      "WEBHOOK_FAILED_REVOKE": "Failed to revoke webhook credential. Please try again.",
+      "WEBHOOK_FAILED_ROTATE": "Failed to rotate webhook credential secret. Please try again.",
+      "WEBHOOK_FAILED_UPDATE": "Failed to update webhook credential. Please try again.",
+      "WEBHOOK_FETCH_FAILED": "Failed to fetch webhook credentials. Please try again.",
+      "WEBHOOK_INVALID_TOKEN_EXPIRY": "Token expiration hours must be greater than 0.",
+      "WEBHOOK_IP_UNAUTHORIZED": "Request from this IP address is not allowed.",
+      "WEBHOOK_LABEL_REQUIRED": "Webhook credential label is required",
+      "WEBHOOK_LABEL_TOO_LONG": "Webhook credential label must not exceed 255 characters",
+      "WEBHOOK_NO_CHANGES": "No changes provided for webhook credential update.",
+      "WEBHOOK_NOT_FOUND": "Webhook credential not found.",
+      "WEBHOOK_OPERATION_BLOCKED": "This operation is not permitted via webhook authentication.",
+      "WEBHOOK_UNAUTHORIZED": "You are not authorized to manage webhook credentials for this PSP.",
+      "CAMPAIGN_PSP_MISMATCH": "The provided PSP is not associated with the specified brand.",
+      "CAMPAIGN_PSP_REQUIRED": "PSP is required",
+      "CAMPAIGN_REQUIRED": "Campaign is required",
+      "CAMPAIGN_SHIP_BY_DATE_REQUIRED": "Expected Ship By Date is required",
+      "CAMPAIGN_SHIP_DATE_AFTER_END": "Expected Ship By Date must be less than the end date",
+      "CAMPAIGN_SHIP_DATE_AFTER_START": "Expected Ship By Date must be less than the start date",
+      "CAMPAIGN_SHIP_DATE_BEFORE_START": "Expected Ship By Date must be less than the start date",
+      "CAMPAIGN_SHIP_DATE_INVALID": "Expected Ship By Date is invalid",
+      "CAMPAIGN_START_DATE_IN_PAST": "Start date must be greater than today's date",
+      "CAMPAIGN_START_DATE_REQUIRED": "Start date is required",
+      "CAMPAIGN_STATUS_ALREADY_SET": "Campaign is already in the requested status",
+      "CAMPAIGN_STATUS_CHANGE_NOT_ALLOWED": "Not allowed to change status for this campaign",
+      "CAMPAIGN_STATUS_INVALID_TRANSITION": "Invalid status transition for the given role",
+      "CAMPAIGN_STATUS_IRREVERSIBLE": "Campaign has reached an irreversible status and cannot be reverted",
+      "COGNITO_DISABLE_FAILED": "Failed to deactivate the user in the authentication system",
+      "COGNITO_DISABLE_UNEXPECTED_ERROR": "An unexpected error occurred while disabling the authentication account",
+      "COGNITO_EMAIL_ALREADY_EXISTS": "A user with this email already exists in the authentication system",
+      "COGNITO_ENABLE_FAILED": "Failed to activate the user in the authentication system",
+      "COGNITO_ENABLE_UNEXPECTED_ERROR": "An unexpected error occurred while enabling the authentication account",
+      "COGNITO_UPDATE_EMAIL_FAILED": "Failed to update user email in the authentication system",
+      "COGNITO_UPDATE_EMAIL_UNEXPECTED_ERROR": "An unexpected error occurred while updating the email in the authentication system",
+      "COGNITO_USER_NOT_FOUND": "User not found in the authentication system",
+      "DISTRIBUTE_DUPLICATE_STORE": "Duplicate store IDs found in the distribution list",
+      "DISTRIBUTE_FAILED": "Failed to distribute promotions to stores. Please try again",
+      "DISTRIBUTE_FAILED_CONCURRENT_MODIFICATION": "Failed to update distribution due to concurrent modification. Please refresh and try again",
+      "DISTRIBUTE_FAILED_GET": "Failed to fetch store distribution. Please try again",
+      "DISTRIBUTE_NO_STORES": "At least one store distribution is required",
+      "DISTRIBUTE_PROMOTION_NOT_IN_CAMPAIGN": "The specified promotion does not belong to this campaign.",
+      "DISTRIBUTE_QTY_EXCEEDED": "Total distribution quantity exceeds the promotion's available quantity.",
+      "DISTRIBUTE_QTY_INVALID": "Each store's quantity must be greater than 0.",
+      "DISTRIBUTE_STORE_NOT_IN_BRAND": "One or more stores do not belong to the specified brand.",
+      "FORBIDDEN": "You do not have permission to perform this action.",
+      "IMAGE_NOT_FOUND": "Image not found.",
+      "IMAGE_URL_GENERATION_FAILED": "Failed to generate image upload URL. Please try again.",
+      "IMPERSONATION_ALREADY_ACTIVE": "An impersonation session is already active.",
+      "IMPERSONATION_CHAIN_NOT_ALLOWED": "Chaining impersonation sessions is not allowed.",
+      "IMPERSONATION_DISABLED": "Impersonation is currently disabled.",
+      "IMPERSONATION_ENTITY_SCOPE_MISMATCH": "The target user's entity scope does not match the required scope.",
+      "IMPERSONATION_FAILED_START": "Failed to start impersonation session. Please try again.",
+      "IMPERSONATION_FAILED_STOP": "Failed to stop impersonation session. Please try again.",
+      "IMPERSONATION_INVALID_TARGET": "The specified impersonation target is invalid.",
+      "IMPERSONATION_NOT_ACTIVE": "No impersonation session is currently active.",
+      "IMPERSONATION_NOT_ALLOWED": "You are not allowed to impersonate this user.",
+      "IMPERSONATION_TARGET_INACTIVE": "Cannot impersonate an inactive user.",
+      "IMPERSONATION_TARGET_NOT_FOUND": "The impersonation target user was not found.",
+      "IMPERSONATION_TOKEN_MISSING": "Impersonation token is missing.",
+      "INVALID_TARGET_USER_ID": "Invalid target user ID format.",
+      "TARGET_USER_ID_REQUIRED": "Target user ID is required",
+      "IMPORT_PROMOTION_BRAND_MISMATCH": "Source and target campaigns must belong to the same brand.",
+      "IMPORT_PROMOTION_FAILED": "Failed to import promotions. Please try again.",
+      "IMPORT_PROMOTION_IDS_NOT_IN_SOURCE": "One or more specified promotion IDs do not belong to the source campaign.",
+      "IMPORT_PROMOTION_NO_PROMOTIONS": "No promotions found in the source campaign to import.",
+      "IMPORT_PROMOTION_SAME_CAMPAIGN": "Source and target campaigns must be different.",
+      "IMPORT_PROMOTION_SOURCE_NOT_FOUND": "Source campaign not found.",
+      "INSTALLATION_PROOF_DUPLICATE_ORDER_ITEM": "Duplicate order item IDs are not allowed in a single installation proof submission.",
+      "INSTALLATION_PROOF_IMAGES_REQUIRED": "At least one image is required",
+      "INSTALLATION_PROOF_INVALID_ORDER_STATUS": "Order is not in the correct status for this operation.",
+      "INSTALLATION_PROOF_INVALID_STATUS_FOR_REVIEW": "Item must be Pending Approval to review.",
+      "INSTALLATION_PROOF_INVALID_STATUS_FOR_SUBMIT": "Item must be Pending or Rejected to submit proof.",
+      "INSTALLATION_PROOF_ITEMS_REQUIRED": "At least one order item proof is required",
+      "INSTALLATION_PROOF_ITEM_NOT_RECEIVED": "Shipment item must be received before submitting installation proof.",
+      "INSTALLATION_PROOF_ORDER_NOT_RECEIVED": "Order must be in Received or Received with Exception status before submitting installation proof.",
+      "INSTALLATION_PROOF_NOTES_REQUIRED": "Notes are required",
+      "INSTALLATION_PROOF_NO_ITEMS_PENDING": "No order items are pending installation approval review.",
+      "INSTALLATION_PROOF_ORDER_ITEM_NOT_FOUND": "Order item not found.",
+      "INSTALLATION_PROOF_ORDER_NOT_FOUND": "Order not found.",
+      "INSTALLATION_PROOF_REVIEW_FAILED": "Failed to review installation proof. Please try again.",
+      "INSTALLATION_PROOF_REVIEW_MODE_REQUIRED": "Must provide either a bulk approval decision or per-item decisions.",
+      "INSTALLATION_PROOF_SUBMIT_FAILED": "Failed to submit installation proof. Please try again.",
+      "INSTALLATION_PROOF_UNAUTHORIZED": "You do not have permission to manage this installation proof.",
+      "INSTALLATION_PROOF_UPLOAD_URL_FAILED": "Failed to generate upload URL. Please try again.",
+      "INVENTORY_BRAND_PSP_MISMATCH": "The specified brand does not belong to the specified PSP.",
+      "INVENTORY_FAILED_CREATE": "Failed to create inventory item. Please try again.",
+      "INVENTORY_FAILED_DELETE": "Failed to delete inventory item. Please try again.",
+      "INVENTORY_FAILED_LIST": "Failed to list inventory items. Please try again.",
+      "INVENTORY_FAILED_UPDATE": "Failed to update inventory item. Please try again.",
+      "INVENTORY_FILENAME_INVALID_EXTENSION": "Invalid file extension for inventory image.",
+      "INVENTORY_HEIGHT_INVALID": "Height must be greater than zero.",
+      "INVENTORY_IDS_REQUIRED": "At least one inventory ID is required",
+      "INVENTORY_IMAGES_REQUIRED": "At least one image is required for inventory.",
+      "INVENTORY_BRAND_REQUIRED": "Brand ID is required for PSP Admins when updating inventory.",
+      "INVENTORY_IN_ACTIVE_CAMPAIGNS": "Inventory cannot be updated or deleted because it is linked to one or more active campaigns.",
+      "INVENTORY_IN_USE": "This inventory item cannot be deleted because it is linked to one or more promotions.",
+      "INVENTORY_QUANTITY_ONLY_FOR_OPERATOR": "Production Operators may only update inventory quantity.",
+      "INVENTORY_NOT_FOUND": "Inventory item not found.",
+      "INVENTORY_PSP_NOT_ASSIGNED": "You are not assigned to the specified PSP.",
+      "INVENTORY_QUANTITY_INVALID": "Quantity must be zero or greater.",
+      "INVENTORY_UPLOAD_URL_FAILED": "Failed to generate inventory image upload URL. Please try again.",
+      "INVENTORY_WIDTH_INVALID": "Width must be greater than zero.",
+      "INV_RESEND_ALREADY_ACTIVE": "Cannot resend invitation to an active or verified user.",
+      "INV_RESEND_EMAIL_FAILED": "Invitation token regenerated but the email could not be sent.",
+      "INV_TOKEN": "Invalid invitation token format.",
+      "INV_TOKEN_EXPIRED": "This invitation link has expired.",
+      "INV_TOKEN_INVALID": "This invitation link is invalid or has already been used.",
+      "INV_USER_DELETED": "This user account has been deleted.",
+      "INV_USER_INACTIVE": "This user account has been deactivated.",
+      "NOTIFICATION_BRAND_NOT_ASSIGNED": "You are not assigned to the specified brand.",
+      "NOTIFICATION_FAILED_FETCH": "Failed to fetch notifications. Please try again.",
+      "NOTIFICATION_PSP_NOT_ASSIGNED": "You are not assigned to the specified PSP.",
+      "NOTIFICATION_STORE_NOT_ASSIGNED": "You are not assigned to the specified store.",
+      "PROMOTION_CAMPAIGN_INVALID_STATUS": "Promotions cannot be added to a campaign in its current status.",
+      "PROMOTION_CAMPAIGN_NOT_FOUND": "The specified campaign does not exist.",
+      "PROMOTION_CANNOT_DELETE_LAST": "Cannot delete the last promotion of a campaign.",
+      "PROMOTION_DETAIL_FAILED_GET": "Failed to fetch promotion details. Please try again.",
+      "PROMOTION_FAILED_CREATE": "Failed to create promotion. Please try again.",
+      "PROMOTION_FAILED_CREATE_FROM_INVENTORY": "Failed to create promotions from inventory. Please try again.",
+      "PROMOTION_FAILED_DELETE": "Failed to delete promotion. Please try again.",
+      "PROMOTION_FAILED_DELETE_IMAGE": "Failed to delete promotion image. Please try again.",
+      "PROMOTION_FAILED_GET": "Failed to fetch promotions. Please try again.",
+      "PROMOTION_FAILED_UPDATE": "Failed to update promotion. Please try again.",
+      "PROMOTION_FILENAME_INVALID_EXTENSION": "Filename must have a valid image extension (jpg, jpeg, png, gif, webp).",
+      "PROMOTION_FILENAME_REQUIRED": "Filename is required",
+      "PROMOTION_FORBIDDEN": "You are not authorized to manage promotions for this campaign.",
+      "PROMOTION_FROM_INVENTORY_NO_UPDATE": "Promotions created from inventory cannot be updated.",
+      "PROMOTION_HEIGHT_INVALID": "Height must be greater than zero.",
+      "PROMOTION_ID_REQUIRED": "Promotion ID is required",
+      "PROMOTION_IMAGES_REQUIRED": "At least one image is required when need_design is false.",
+      "PROMOTION_IMAGE_NOT_FOUND": "Promotion image not found or does not belong to this promotion.",
+      "PROMOTION_INVENTORY_NOT_FOUND": "Inventory item not found or does not belong to this brand.",
+      "PROMOTION_NAME_DUPLICATE": "A promotion with this name already exists in the campaign.",
+      "PROMOTION_NAME_REQUIRED": "Promotion name is required",
+      "PROMOTION_NEED_DESIGN_NO_IMAGES": "Cannot add images to a promotion that requires design.",
+      "PROMOTION_NOT_FOUND": "Promotion not found.",
+      "PROMOTION_PERMANENT_MUST_BE_REUSABLE": "Permanent promotions must be reusable.",
+      "PROMOTION_QUANTITY_INVALID": "Quantity must be greater than zero.",
+      "PROMOTION_REQUIRED": "Promotion is required",
+      "PROMOTION_UPLOAD_URL_FAILED": "Failed to generate the promotion image upload URL. Please try again.",
+      "PROMOTION_WIDTH_INVALID": "Width must be greater than zero.",
+      "PSP_ADMIN_NOT_FOUND": "The specified PSP admin user does not exist.",
+      "PSP_DUPLICATE_NAME": "A PSP with this name already exists.",
+      "PSP_FAILED_ACTIVATE": "Failed to activate PSP. Please try again.",
+      "PSP_FAILED_CREATE": "Failed to create PSP. Please try again.",
+      "PSP_FAILED_DEACTIVATE": "Failed to deactivate PSP. Please try again.",
+      "PSP_FAILED_DELETE": "Failed to delete PSP. Please try again.",
+      "PSP_FAILED_FETCH": "Failed to fetch PSP data. Please try again.",
+      "PSP_FAILED_UPDATE": "Failed to update PSP. Please try again.",
+      "PSP_HAS_INCOMPLETE_ORDERS": "This PSP cannot be deactivated because it has campaigns with incomplete orders.",
+      "PSP_INACTIVE": "This PSP is currently inactive.",
+      "PSP_IN_USE": "This PSP cannot be modified because it is currently in use.",
+      "PSP_NOT_FOUND": "PSP not found.",
+      "PSP_OVERVIEW_RETRIEVAL_FAILED": "Failed to retrieve PSP overview statistics.",
+      "PSP_OVERVIEW_UNAUTHORIZED": "You are not authorized to access this PSP's overview statistics.",
+      "PSP_USER_NOT_ASSIGNED": "You are not assigned to the requested PSP.",
+      "REGIONAL_MANAGER_NOT_FOUND": "The specified regional manager user does not exist.",
+      "REORDER_ACTION_REASON_REQUIRED": "Reason is required for this action.",
+      "REORDER_ALREADY_ACTIONED": "This exception request has already been actioned.",
+      "REORDER_CANNOT_APPROVE": "Cannot approve this exception request.",
+      "REORDER_CANNOT_CANCEL": "Cannot cancel this exception request.",
+      "REORDER_CANNOT_REJECT": "Cannot reject this exception request.",
+      "REORDER_CANNOT_UPDATE": "Cannot update this exception request.",
+      "REORDER_DETAIL_FAILED": "Failed to get exception request details.",
+      "REORDER_IMAGES_REQUIRED": "At least one evidence image is required",
+      "REORDER_LIST_FAILED": "Failed to list exception requests.",
+      "REORDER_NOT_CREATOR": "Only the original creator can update this request.",
+      "REORDER_NOT_FOUND": "Exception request not found.",
+      "REORDER_NOT_REJECTED": "Exception request is not in rejected status.",
+      "REORDER_ORDER_CREATION_FAILED": "Failed to create reorder order.",
+      "REORDER_UNAUTHORIZED": "You do not have permission to manage this exception request.",
+      "REPORT_BRAND_ID_REQUIRED": "Brand ID is required to run this report.",
+      "REPORT_EXPORT_FAILED": "Failed to export the report. Please try again.",
+      "REPORT_FETCH_FAILED": "Failed to fetch report data. Please try again.",
+      "REPORT_NO_STORES_ASSIGNED": "No stores are assigned for this report.",
+      "REPORT_PSP_ID_REQUIRED": "PSP ID is required to run this report.",
+      "REPORT_UNAUTHORIZED": "You are not authorized to access this report.",
+      "SHIPMENT_ALREADY_RECEIVED": "This shipment has already been received.",
+      "SHIPMENT_DISCREPANCY_QTY_EXCEEDS_SHIPPED": "Discrepancy quantity exceeds the shipped quantity for one or more items.",
+      "SHIPMENT_DUPLICATE_ORDER_ITEM": "Duplicate order item IDs are not allowed in a single shipment.",
+      "SHIPMENT_ETA_IN_PAST": "Estimated delivery date must be in the future.",
+      "SHIPMENT_ETA_REQUIRED": "Estimated delivery date is required",
+      "SHIPMENT_FAILED_CREATE": "Failed to create shipment. Please try again.",
+      "SHIPMENT_FAILED_GET": "Unexpected error while fetching shipment details",
+      "SHIPMENT_FAILED_LIST": "Failed to fetch shipments from the database",
+      "SHIPMENT_ITEM_DUPLICATE": "Duplicate shipment item IDs are not allowed.",
+      "SHIPMENT_ITEM_NOT_FOUND": "One or more shipment items were not found.",
+      "SHIPMENT_ITEM_QTY_EXCEEDS_REMAINING": "Shipment quantity exceeds the remaining quantity for one or more order items.",
+      "SHIPMENT_LIST_INVALID_PARAMS": "Invalid parameters provided for listing shipments",
+      "SHIPMENT_NOT_FOUND": "Shipment record does not exist",
+      "SHIPMENT_NO_VALID_ITEMS": "No valid items to ship.",
+      "SHIPMENT_ORDER_COMPLETED": "Cannot create a shipment for an order that has already been completed.",
+      "SHIPMENT_ORDER_INVALID_STATUS": "Shipments can only be created for orders in In Production or Partially Shipped status.",
+      "SHIPMENT_ORDER_ITEM_NOT_FOUND": "One or more order items were not found or do not belong to this order.",
+      "SHIPMENT_ORDER_NOT_FOUND": "The specified order does not exist.",
+      "SHIPMENT_ORDER_NO_REMAINING_QTY": "Cannot create shipment for a received-with-exception order with no remaining quantity.",
+      "SHIPMENT_PSP_ID_REQUIRED": "PSP ID is required to list shipments",
+      "SHIPMENT_PSP_UNAUTHORIZED": "You are not authorized to create shipments for this order.",
+      "SHIPMENT_RECEIVE_FAILED": "Failed to receive shipment. Please try again.",
+      "SHIPMENT_RECEIVE_INVALID_EXCEPTION": "Exception type is required for items with discrepancies.",
+      "SHIPMENT_RECEIVE_ITEMS_PENDING": "Cannot receive shipment because one or more items are still pending receipt.",
+      "SHIPMENT_RECEIVE_NO_ITEMS": "No items provided for receiving.",
+      "SHIPMENT_RECEIVE_QTY_EXCEEDS_SHIPPED": "Received quantity exceeds the shipped quantity for one or more items.",
+      "SHIPMENT_RECEIVE_QTY_NEGATIVE": "Received quantity and discrepancy quantity must be non-negative.",
+      "SHIPMENT_RECEIVE_STORE_UNAUTHORIZED": "You are not authorized to receive shipments for this store.",
+      "SHIPMENT_REORDER_IMAGE_INVALID": "Invalid image metadata for shipment reorder.",
+      "SHIPMENT_REORDER_REASON_REQUIRED": "Reason is required when discrepancies exist.",
+      "SHIPMENT_REORDER_UPLOAD_URL_FAILED": "Failed to generate the shipment reorder image upload URL. Please try again.",
+      "SHIPMENT_TRACKING_NUMBER_DUPLICATE": "A shipment with this tracking number already exists.",
+      "SHIPMENT_CARRIER_NAME_REQUIRED": "Carrier name is required",
+      "SHIPMENT_TRACKING_NUMBER_REQUIRED": "Tracking number is required",
+      "SOMETHING_WENT_WRONG": "Something went wrong. Please try again.",
+      "STORE_ADMIN_NOT_FOUND": "The specified store admin user does not exist.",
+      "STORE_ADMIN_OVERVIEW_RETRIEVAL_FAILED": "Failed to retrieve store admin overview statistics.",
+      "STORE_DELETED": "This store has been deleted.",
+      "STORE_DUPLICATE_NAME": "A store with this name already exists within the brand.",
+      "STORE_DUPLICATE_NUMBER": "A store with this number already exists.",
+      "STORE_FAILED_ACTIVATE": "Failed to activate store. Please try again.",
+      "STORE_FAILED_CREATE": "Failed to create store. Please try again.",
+      "STORE_FAILED_DEACTIVATE": "Failed to deactivate store. Please try again.",
+      "STORE_FAILED_DELETE": "Failed to delete store. Please try again.",
+      "STORE_FAILED_FETCH": "Failed to fetch store data. Please try again.",
+      "STORE_FAILED_UPDATE": "Failed to update store. Please try again.",
+      "STORE_HAS_INCOMPLETE_ORDERS": "This store cannot be deactivated because it has incomplete orders.",
+      "STORE_INACTIVE": "This store is currently inactive.",
+      "STORE_IN_USE": "This store cannot be deleted because it has dependent records.",
+      "STORE_NOT_ASSOCIATED_WITH_CAMPAIGN_BRAND": "This store is not associated with the specified brand.",
+      "STORE_NOT_FOUND": "Store not found.",
+      "STORE_NOT_FOUND_FOR_CAMPAIGN": "Store not found or not associated with this campaign's brand.",
+      "STORE_OVERVIEW_RETRIEVAL_FAILED": "Failed to retrieve store overview statistics.",
+      "STORE_USER_NOT_ASSIGNED": "You are not assigned to the requested store.",
+      "SURVEY_ALREADY_CLOSED": "This survey is already closed.",
+      "SURVEY_BRAND_IDS_REQUIRED": "At least one brand ID is required for this operation.",
+      "SURVEY_BRAND_ID_REQUIRED": "Brand ID is required for this operation.",
+      "SURVEY_BRAND_NOT_FOUND": "Brand record does not exist, is inactive, or has been deleted.",
+      "SURVEY_BRAND_PSP_MISMATCH": "Brand does not belong to the provided PSP.",
+      "SURVEY_BRAND_REQUIRED_FOR_NON_DRAFT": "Brand is required when creating or updating a survey that is not in Draft status.",
+      "SURVEY_BRAND_UNAUTHORIZED": "You are not authorized to manage surveys for this brand.",
+      "SURVEY_DESCRIPTION_REQUIRED": "Survey description is required",
+      "SURVEY_DUPLICATE_NAME": "A survey with this name already exists.",
+      "SURVEY_FAILED_ASSIGN_BRANDS": "Failed to assign brands to the survey. Please try again.",
+      "SURVEY_FAILED_ASSIGN_STORES": "Failed to assign stores to the survey. Please try again.",
+      "SURVEY_FAILED_CLOSE": "Failed to close the survey. Please try again.",
+      "SURVEY_FAILED_CREATE": "Failed to create survey. Please try again.",
+      "SURVEY_FAILED_DELETE": "Failed to delete survey. Please try again.",
+      "SURVEY_FAILED_DETAIL": "Failed to fetch survey details. Please try again.",
+      "SURVEY_FAILED_GET_RESPONSE": "Failed to fetch survey response. Please try again.",
+      "SURVEY_FAILED_LIST": "Failed to list surveys. Please try again.",
+      "SURVEY_FAILED_LIST_UNASSIGNED_BRANDS": "Failed to list unassigned brands for this survey. Please try again.",
+      "SURVEY_FAILED_LIST_UNASSIGNED_STORES": "Failed to list unassigned stores for this survey. Please try again.",
+      "SURVEY_FAILED_UPDATE": "Failed to update survey. Please try again.",
+      "SURVEY_ID_REQUIRED": "Survey ID is required for this operation.",
+      "SURVEY_INVALID_STATUS": "Invalid survey status. Must be either active or inactive.",
+      "SURVEY_NAME_REQUIRED": "Survey name is required",
+      "SURVEY_NOT_ACTIVE": "Survey must be in Active status to be assigned to stores.",
+      "SURVEY_NOT_ASSIGNED_TO_BRAND": "This survey is not assigned to this brand.",
+      "SURVEY_NOT_DRAFT": "This survey cannot be modified because its status is not Draft.",
+      "SURVEY_NOT_FOUND": "Survey not found.",
+      "SURVEY_NO_BRANDS_ASSIGNED": "This survey has no brands assigned. Please assign brands before proceeding.",
+      "SURVEY_PSP_ID_REQUIRED": "PSP ID is required for this operation.",
+      "SURVEY_PSP_UNAUTHORIZED": "You are not authorized to manage surveys for this PSP.",
+      "SURVEY_RESPONSE_ALREADY_SUBMITTED": "A survey response has already been submitted for this store.",
+      "SURVEY_RESPONSE_FAILED_SAVE": "Failed to save the survey response. Please try again.",
+      "SURVEY_RESPONSE_JSON_REQUIRED": "Response JSON is required for submitting a survey response.",
+      "SURVEY_RESPONSE_NOT_FOUND": "Survey response not found.",
+      "SURVEY_SCHEMA_REQUIRED": "Survey schema is required",
+      "SURVEY_STORE_BRAND_MISMATCH": "Store does not belong to the provided brand.",
+      "SURVEY_STORE_IDS_REQUIRED": "At least one store ID is required for this operation.",
+      "SURVEY_STORE_ID_REQUIRED": "Store ID is required for submitting a survey response.",
+      "SURVEY_STORE_NOT_ASSIGNED_TO_SURVEY": "This survey is not assigned to this store.",
+      "SURVEY_STORE_NOT_FOUND": "Store record does not exist, is inactive, or has been deleted.",
+      "SURVEY_STORE_UNAUTHORIZED": "You are not authorized to submit a response for this store.",
+      "SURVEY_TEMPLATE_ALREADY_ACTIVE": "This survey template is already active.",
+      "SURVEY_TEMPLATE_ALREADY_INACTIVE": "This survey template is already inactive.",
+      "SURVEY_TEMPLATE_DUPLICATE_NAME": "A survey template with this name already exists.",
+      "SURVEY_TEMPLATE_FAILED_ACTIVATE": "Failed to activate the survey template. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_CREATE": "Failed to create survey template. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_DEACTIVATE": "Failed to deactivate the survey template. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_DELETE": "Failed to delete survey template. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_FETCH": "Failed to fetch survey template data. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_LIST": "Failed to list survey templates. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_SET_STATUS": "Failed to set survey template status. Please try again.",
+      "SURVEY_TEMPLATE_FAILED_UPDATE": "Failed to update survey template. Please try again.",
+      "SURVEY_TEMPLATE_ID_REQUIRED": "Survey template ID is required for this operation.",
+      "SURVEY_TEMPLATE_INACTIVE": "The selected survey template is inactive.",
+      "SURVEY_TEMPLATE_IS_ACTIVE_REQUIRED": "Survey template active status is required for this operation.",
+      "SURVEY_TEMPLATE_NAME_REQUIRED": "Survey template name is required",
+      "SURVEY_TEMPLATE_NOT_FOUND": "Survey template not found.",
+      "SURVEY_TEMPLATE_PSP_ID_REQUIRED": "PSP ID is required for this operation.",
+      "SURVEY_TEMPLATE_PSP_MISMATCH": "Survey template does not belong to the provided PSP.",
+      "SURVEY_TEMPLATE_PSP_UNAUTHORIZED": "You are not authorized to manage survey templates for this PSP.",
+      "SURVEY_TEMPLATE_SCHEMA_REQUIRED": "Survey template schema is required",
+      "SURVEY_UNAUTHORIZED": "You are not authorized to view surveys for this entity.",
+      "UNAUTHENTICATED": "Your session has expired. Please log in again.",
+      "UNEXPECTED_ERROR": "An unexpected error occurred. Please try again later.",
+      "USER_ACTIVATE_BRAND_INACTIVE": "This user cannot be activated because their associated Brand is inactive.",
+      "USER_ACTIVATE_PSP_INACTIVE": "This user cannot be activated because their associated PSP is inactive.",
+      "USER_ACTIVATE_STORE_INACTIVE": "This user cannot be activated because their associated Store is inactive.",
+      "USER_ALREADY_ACTIVE": "This user is already active.",
+      "USER_ALREADY_INACTIVE": "This user is already inactive.",
+      "USER_BRAND_VALIDATION_FAILED": "Brand validation failed.",
+      "USER_CAMPAIGN_MANAGER_HAS_ACTIVE_CAMPAIGNS": "Cannot deactivate this user: they have one or more active or in-progress campaigns. Please complete or reassign those campaigns first.",
+      "USER_CAMPAIGN_MANAGER_ROLE_CHANGE_HAS_ACTIVE_CAMPAIGNS": "Cannot change role: this user is the Campaign Manager for active campaigns. Please complete or reassign those campaigns first.",
+      "USER_CANNOT_DEACTIVATE_SUPER_ADMIN": "Cannot deactivate the Super Admin. Please assign the Super Admin role to another user first.",
+      "USER_CANNOT_TOGGLE_OWN_STATUS": "You cannot change your own active status.",
+      "USER_CANNOT_UPDATE_INACTIVE": "Cannot update an inactive user.",
+      "USER_CANNOT_UPDATE_SELF": "You cannot update yourself.",
+      "USER_DEACTIVATE_PLATFORM_ADMIN_FORBIDDEN": "Only the Super Admin can deactivate a Platform Admin user.",
+      "USER_DELETED": "This user account has been deleted.",
+      "USER_EMAIL_ALREADY_EXISTS": "A user with this email address already exists.",
+      "USER_FAILED_CREATE": "Failed to create user. Please try again.",
+      "USER_FAILED_DELETE": "Failed to delete user. Please try again.",
+      "USER_FAILED_TOGGLE_STATUS": "Failed to change user status. Please try again.",
+      "USER_FAILED_UPDATE": "Failed to update user. Please try again.",
+      "USER_INACTIVE": "This user account is inactive.",
+      "USER_NOT_ASSIGNED_TO_BRAND": "You are not assigned to the specified brand.",
+      "USER_NOT_ASSIGNED_TO_PSP": "You are not assigned to the specified PSP.",
+      "USER_NOT_ASSIGNED_TO_STORE": "You are not assigned to the specified store.",
+      "USER_NOT_FOUND": "User not found.",
+      "USER_NOT_VERIFIED": "Your account has not been verified.",
+      "USER_ONLY_BRAND_ADMIN": "Cannot deactivate this user: This is the only Brand Admin for the assigned Brand. Please assign another Brand Admin first.",
+      "USER_ONLY_PSP_ADMIN": "Cannot deactivate this user: This is the only PSP Admin for the assigned PSP. Please assign another PSP Admin first.",
+      "USER_ONLY_STORE_ADMIN": "Cannot deactivate this user: This is the only Store Admin for the assigned store. Please assign another Store Admin first.",
+      "USER_PSP_VALIDATION_FAILED": "PSP validation failed.",
+      "USER_PSP_VALIDATION_FAILED_FOR_BRAND": "PSP validation failed for the specified brand.",
+      "USER_ROLE_NOT_ASSIGNED": "The specified role is not assigned to this user.",
+      "USER_STORE_ADMIN_HAS_PENDING_REQUESTS": "Cannot deactivate this user: they have one or more pending requests assigned to them. Please reassign those requests first.",
+      "USER_TOGGLE_STATUS_DELETED": "Cannot change the active status of a deleted user.",
+      "VALIDATION_EMAIL_INVALID": "Please enter a valid email address.",
+      "VALIDATION_EMAIL_EMPTY": "Email address cannot be empty.",
+      "VALIDATION_EMAIL_REQUIRED": "Email address is required.",
+      "VALIDATION_FAILED": "Validation failed. Please check your input.",
+      "VALIDATION_FIELD_REQUIRED": "This field is required",
+      "VALIDATION_FULL_NAME_EMPTY": "Full name cannot be empty.",
+      "VALIDATION_FULL_NAME_REQUIRED": "Full name is required.",
+      "VALIDATION_FULL_NAME_TOO_SHORT": "Full name must be at least 2 characters.",
+      "VALIDATION_ROLE_IDS_EMPTY": "At least one role must be provided if updating roles.",
+      "VALIDATION_ROLE_IDS_REQUIRED": "At least one user role must be selected.",
+      "EXCEPTION_REQUEST_ACTION_REASON_REQUIRED": "Reason is required for this action.",
+      "EXCEPTION_REQUEST_ALREADY_ACTIONED": "This exception request has already been actioned.",
+      "EXCEPTION_REQUEST_CANNOT_APPROVE": "Cannot approve this exception request.",
+      "EXCEPTION_REQUEST_CANNOT_CANCEL": "Cannot cancel this exception request.",
+      "EXCEPTION_REQUEST_CANNOT_REJECT": "Cannot reject this exception request.",
+      "EXCEPTION_REQUEST_CANNOT_UPDATE": "Cannot update this exception request.",
+      "EXCEPTION_REQUEST_DETAIL_FAILED": "Failed to get exception request details.",
+      "EXCEPTION_REQUEST_IMAGES_REQUIRED": "At least one evidence image is required.",
+      "EXCEPTION_REQUEST_LIST_FAILED": "Failed to list exception requests.",
+      "EXCEPTION_REQUEST_NOT_CREATOR": "Only the original creator can update this request.",
+      "EXCEPTION_REQUEST_NOT_FOUND": "Exception request not found.",
+      "EXCEPTION_REQUEST_NOT_REJECTED": "Exception request is not in rejected status.",
+      "EXCEPTION_REQUEST_UNAUTHORIZED": "You do not have permission to manage this exception request.",
+      "REORDER_CREATION_FAILED": "Failed to create reorder."
+    },
+    "success": {
+      "AUTH_LOGIN_SUCCESS": "Logged in successfully.",
+      "AUTH_LOGOUT_SUCCESS": "Logged out successfully.",
+      "AUTH_TOKEN_REFRESHED": "Session refreshed successfully.",
+      "BRAND_ACTIVATED": "Brand activated successfully.",
+      "BRAND_CREATED": "Brand created successfully.",
+      "BRAND_DEACTIVATED": "Brand deactivated successfully.",
+      "BRAND_DELETED": "Brand deleted successfully.",
+      "BRAND_RETRIEVED": "Brand details retrieved successfully.",
+      "BRAND_UPDATED": "Brand updated successfully.",
+      "CAMPAIGN_ARCHIVED": "Campaign archived successfully.",
+      "CAMPAIGN_CREATED": "Campaign created successfully.",
+      "CAMPAIGN_DELETED": "Campaign deleted successfully.",
+      "CAMPAIGN_LIST_SUCCESS": "Campaigns listed successfully.",
+      "CAMPAIGN_MANAGER_ASSIGNED": "Campaign manager assigned successfully.",
+      "CAMPAIGN_ORDERS_FETCH_SUCCESS": "Campaign store orders fetched successfully.",
+      "CAMPAIGN_STORE_ORDER_FETCH_SUCCESS": "Campaign store order fetched successfully.",
+      "CAMPAIGN_SHIP_DATE_APPROACHING": "Campaign ship-by date is approaching.",
+      "CAMPAIGN_SHIP_DATE_CHECK_COMPLETED": "Campaign ship-by date check completed.",
+      "CAMPAIGN_SHIP_DATE_OVERDUE": "Campaign ship-by date is overdue.",
+      "CAMPAIGN_STATUS_CHANGED": "Campaign status changed successfully",
+      "CAMPAIGN_SUBMITTED": "Campaign submitted successfully.",
+      "CAMPAIGN_UNARCHIVED": "Campaign unarchived successfully.",
+      "CAMPAIGN_UPDATED": "Campaign updated successfully.",
+      "DISTRIBUTION_FETCHED": "Store distribution fetched successfully.",
+      "INSTALLATION_PROOF_APPROVED": "Installation proof approved.",
+      "INSTALLATION_PROOF_REJECTED": "Installation proof rejected.",
+      "INSTALLATION_PROOF_SUBMITTED": "Installation proof submitted for approval.",
+      "INSTALLATION_PROOF_UPLOAD_URL_GENERATED": "Installation proof upload URL generated successfully.",
+      "INVENTORY_CREATED": "Inventory item created successfully.",
+      "INVENTORY_DELETED": "Inventory item deleted successfully.",
+      "INVENTORY_LIST_SUCCESS": "Inventory items listed successfully.",
+      "INVENTORY_UPDATED": "Inventory item updated successfully.",
+      "INVENTORY_UPLOAD_URL_GENERATED": "Inventory image upload URL generated successfully.",
+      "INVITATION_ACCEPTED": "Invitation accepted successfully.",
+      "INVITATION_RESENT": "Invitation resent successfully.",
+      "INVITATION_SENT": "Invitation sent successfully.",
+      "NOTIFICATIONS_FETCHED": "Notifications fetched successfully.",
+      "PROMOTIONS_CREATED_FROM_INVENTORY": "Promotions created from inventory successfully.",
+      "PROMOTIONS_DISTRIBUTED": "Promotions distributed to stores successfully.",
+      "PROMOTIONS_IMPORTED": "Promotions imported successfully.",
+      "PROMOTION_CREATED": "Promotion created successfully.",
+      "PROMOTION_DELETED": "Promotion deleted successfully.",
+      "PROMOTION_DETAIL_FETCHED": "Promotion detail fetched successfully.",
+      "PROMOTION_IMAGE_DELETED": "Promotion image deleted successfully.",
+      "PROMOTION_UPDATED": "Promotion updated successfully.",
+      "PROMOTION_UPLOAD_URL_GENERATED": "Promotion image upload URL generated successfully.",
+      "PSP_ACTIVATED": "PSP activated successfully.",
+      "PSP_CREATED": "PSP created successfully.",
+      "PSP_DEACTIVATED": "PSP deactivated successfully.",
+      "PSP_DELETED": "PSP deleted successfully.",
+      "PSP_RETRIEVED": "PSP details retrieved successfully.",
+      "PSP_UPDATED": "PSP updated successfully.",
+      "EXCEPTION_REQUEST_APPROVED": "Exception request approved successfully.",
+      "EXCEPTION_REQUEST_CANCELLED": "Exception request cancelled successfully.",
+      "EXCEPTION_REQUEST_REJECTED": "Exception request rejected successfully.",
+      "EXCEPTION_REQUEST_UPDATED": "Exception request updated successfully.",
+      "REORDER_APPROVED": "Reorder Approved",
+      "REORDER_CANCELLED": "Reorder Cancelled",
+      "REORDER_DETAIL_SUCCESS": "Reorder Detail Success",
+      "REORDER_LIST_SUCCESS": "Reorder List Success",
+      "REORDER_REJECTED": "Reorder Rejected",
+      "REORDER_UPDATED": "Reorder Updated",
+      "SHIPMENT_CREATED": "Shipment created successfully.",
+      "SHIPMENT_GET_SUCCESS": "Shipment details fetched successfully",
+      "SHIPMENT_LIST_SUCCESS": "Shipments listed successfully",
+      "SHIPMENT_RECEIVED": "Shipment received successfully.",
+      "SHIPMENT_RECEIVED_WITH_REORDER": "Shipment received with reorder created successfully.",
+      "SHIPMENT_REORDER_UPLOAD_URL_GENERATED": "Shipment reorder image upload URL generated successfully.",
+      "STORES_BY_BRAND_RETRIEVED": "Active stores under brand retrieved successfully.",
+      "STORE_ACTIVATED": "Store activated successfully.",
+      "STORE_CREATED": "Store created successfully.",
+      "STORE_DEACTIVATED": "Store deactivated successfully.",
+      "STORE_DELETED": "Store deleted successfully.",
+      "STORE_RETRIEVED": "Store details retrieved successfully.",
+      "STORE_UPDATED": "Store updated successfully.",
+      "SURVEY_BRANDS_ASSIGNED": "Survey brands assigned successfully.",
+      "SURVEY_CREATED": "Survey created successfully.",
+      "SURVEY_DELETED": "Survey deleted successfully.",
+      "SURVEY_DETAIL_SUCCESS": "Survey details fetched successfully.",
+      "SURVEY_LIST_SUCCESS": "Surveys listed successfully.",
+      "SURVEY_RESPONSE_FETCH_SUCCESS": "Survey response fetched successfully.",
+      "SURVEY_RESPONSE_SUBMITTED": "Survey response submitted successfully.",
+      "SURVEY_STORES_ASSIGNED": "Survey stores assigned successfully.",
+      "SURVEY_TEMPLATE_ACTIVATED": "Survey template activated successfully.",
+      "SURVEY_TEMPLATE_CREATED": "Survey template created successfully.",
+      "SURVEY_TEMPLATE_DEACTIVATED": "Survey template deactivated successfully.",
+      "SURVEY_TEMPLATE_DELETED": "Survey template deleted successfully.",
+      "SURVEY_TEMPLATE_FETCHED": "Survey template details fetched successfully.",
+      "SURVEY_TEMPLATE_LIST_SUCCESS": "Survey templates listed successfully.",
+      "SURVEY_TEMPLATE_UPDATED": "Survey template updated successfully.",
+      "SURVEY_UNASSIGNED_BRANDS_LIST_SUCCESS": "Unassigned brands for survey listed successfully.",
+      "SURVEY_UNASSIGNED_STORES_LIST_SUCCESS": "Unassigned stores for survey listed successfully.",
+      "SURVEY_UPDATED": "Survey updated successfully.",
+      "SURVEY_CLOSED": "Survey closed successfully.",
+      "IMPERSONATION_STARTED": "Impersonation session started successfully.",
+      "IMPERSONATION_STOPPED": "Impersonation session stopped successfully.",
+      "REPORT_FETCH_SUCCESS": "Report data fetched successfully.",
+      "REPORT_EXPORT_SUCCESS": "Report exported successfully.",
+      "USER_ACTIVATED": "User activated successfully.",
+      "USER_CREATED": "User created successfully.",
+      "USER_DEACTIVATED": "User deactivated successfully.",
+      "USER_DELETED": "User deleted successfully.",
+      "USER_UPDATED": "User updated successfully.",
+      "WEBHOOK_CREDENTIAL_ACTIVATED": "Webhook credential activated successfully.",
+      "WEBHOOK_CREDENTIAL_CREATED": "Webhook credential created successfully.",
+      "WEBHOOK_CREDENTIAL_RETRIEVED": "Webhook credential detail retrieved successfully.",
+      "WEBHOOK_CREDENTIAL_REVOKED": "Webhook credential revoked successfully.",
+      "WEBHOOK_CREDENTIAL_UPDATED": "Webhook credential updated successfully.",
+      "WEBHOOK_CREDENTIALS_RETRIEVED": "Webhook credentials retrieved successfully.",
+      "WEBHOOK_SECRET_ROTATED": "Webhook credential secret rotated successfully.",
+      "EXCEPTION_REQUEST_DETAIL_SUCCESS": "Exception request details retrieved successfully.",
+      "EXCEPTION_REQUEST_LIST_SUCCESS": "Exception requests listed successfully."
+    }
+  },
+  "alerts": {
+    "page": {
+      "title": "Alerts",
+      "description": "Stay updated with important alerts and system notifications"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "clearAriaLabel": "Clear search"
+    },
+    "list": {
+      "empty": "No alerts found.",
+      "viewButton": "View",
+      "caption": "Alerts list",
+      "loadingState": "Loading alerts...",
+      "paginationAriaLabel": "Alerts pagination",
+      "paginationLabel": "alerts"
+    },
+    "errors": {
+      "listing": {
+        "title": "Failed to load alerts",
+        "description": "There was an error loading the alerts. Please try again."
+      }
+    },
+    "types": {
+      "error": "Error",
+      "warning": "Warning",
+      "success": "Success",
+      "info": "Info"
+    },
+    "notificationTypes": {
+      "CAMPAIGN_MANAGER_SELF_ASSIGNED": "Campaign Manager Self-Assigned",
+      "CAMPAIGN_MANAGER_UPDATED": "Campaign Manager Updated",
+      "CAMPAIGN_SHIP_DATE_APPROACHING": "Campaign Ship By Date Approaching",
+      "CAMPAIGN_SHIP_DATE_OVERDUE": "Campaign Ship By Date Overdue",
+      "CAMPAIGN_STATUS_UPDATED": "Campaign Status Updated",
+      "NEW_CAMPAIGN_SUBMITTED": "New Campaign Submitted",
+      "INSTALLATION_PROOF_APPROVED": "Installation Proof Approved",
+      "INSTALLATION_PROOF_REJECTED": "Installation Proof Rejected",
+      "INSTALLATION_PROOF_SUBMITTED": "Installation Proof Submitted",
+      "ORDER_STATUS_UPDATED": "Order Status Updated",
+      "REORDER_APPROVED": "Reorder Approved",
+      "REORDER_CANCELLED": "Reorder Cancelled",
+      "REORDER_CREATED": "Reorder Created",
+      "REORDER_ORDER_CREATED": "Reorder Order Created",
+      "REORDER_REJECTED": "Reorder Rejected",
+      "REORDER_UPDATED": "Reorder Updated",
+      "EXCEPTION_REQUEST_SUBMITTED": "Exception Request Submitted",
+      "EXCEPTION_REQUEST_APPROVED": "Exception Request Approved",
+      "EXCEPTION_REQUEST_REJECTED": "Exception Request Rejected",
+      "EXCEPTION_REQUEST_CANCELLED": "Exception Request Cancelled",
+      "EXCEPTION_REQUEST_UPDATED": "Exception Request Updated",
+      "SHIPMENT_CREATED": "Shipment Created",
+      "SHIPMENT_RECEIVED": "Shipment Received",
+      "SHIPMENT_REORDER_CREATED": "Shipment Reorder Created",
+      "SURVEY_ASSIGNED": "Survey Assigned",
+      "SURVEY_CLOSED": "Survey Closed",
+      "SURVEY_RESPONSE_SUBMITTED": "Survey Response Submitted",
+      "CAMPAIGN_CREATED": "Campaign Created",
+      "EXCEPTION_REQUEST_RESUBMITTED": "Exception Request Resubmitted",
+      "INVITATION_ACCEPTED": "Invitation Accepted",
+      "USER_ACTIVATED": "User Activated",
+      "USER_DEACTIVATED": "User Deactivated",
+      "WEBHOOK_CREDENTIAL_REVOKED_BY_PLATFORM": "Webhook Credential Revoked by Platform"
+    }
+  },
+  "webhooks": {
+    "page": {
+      "title": "Webhooks",
+      "description": "View and Manage third-party integrations"
+    },
+    "stats": {
+      "total": "Total",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "filter": {
+      "searchPlaceholder": "Search..",
+      "searchAriaLabel": "Search webhooks",
+      "statusAriaLabel": "Status Filter",
+      "pspAriaLabel": "PSP Filter"
+    },
+    "filterOptions": {
+      "allStatuses": "All",
+      "allPsps": "All PSPs",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "title": "Webhooks Configuration",
+      "caption": "Webhooks configuration table showing name, status, created at, token expiration, allowed IPs, and actions",
+      "emptyState": "No webhook credentials found.",
+      "loadingState": "Loading webhook credentials...",
+      "paginationLabel": "webhooks",
+      "columns": {
+        "name": "Name",
+        "psp": "PSP",
+        "status": "Status",
+        "createdAt": "Created At",
+        "tokenExpiration": "Token Expiration",
+        "allowedIps": "Allowed IP's",
+        "actions": "Actions"
+      },
+      "andMore": "and More",
+      "statusLabels": {
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "actions": {
+      "deactivateCredential": "Deactivate",
+      "activateCredential": "Activate",
+      "editCredential": "Edit"
+    },
+    "dialog": {
+      "create": {
+        "title": "Create Credentials",
+        "description": "Add a new webhook credential for your PSP"
+      },
+      "edit": {
+        "title": "Edit Webhook",
+        "description": "Update your webhook credential details"
+      },
+      "fields": {
+        "name": {
+          "label": "Webhook Name",
+          "placeholder": "Webhook Name"
+        },
+        "tokenExpiration": {
+          "label": "Token Expiration",
+          "placeholder": "e.g. 6",
+          "suffix": "Hours"
+        },
+        "allowedIps": {
+          "label": "Allowed IP's",
+          "placeholder": "Allowed IP's",
+          "addButton": "Add IP address",
+          "removeButton": "Remove IP address"
+        }
+      },
+      "credentials": {
+        "title": "Client Credentials",
+        "warning": "You won't be able to view this key again after leaving this page. Please copy and store it securely.",
+        "copyButton": "Copy to clipboard",
+        "copied": "Copied to clipboard successfully"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Credentials",
+        "save": "Save Changes",
+        "creating": "Creating...",
+        "saving": "Saving..."
+      },
+      "validation": {
+        "nameRequired": "Webhook name is required",
+        "nameMaxLength": "Webhook name must not exceed 100 characters",
+        "tokenRequired": "Token expiration is required",
+        "tokenMin": "Token expiration must be at least 1 hour",
+        "tokenInteger": "Token expiration must be a whole number",
+        "ipInvalid": "Please enter a valid IP address (IPv4, IPv6, or CIDR notation)"
+      },
+      "success": {
+        "created": "Webhook credential created successfully. Please copy the client secret shown on the modal and store it securely.",
+        "updated": "Webhook credential updated successfully",
+        "activated": "Webhook credential activated successfully",
+        "deactivated": "Webhook credential deactivated successfully"
+      },
+      "errors": {
+        "createFailed": "Failed to create webhook credential. Please try again.",
+        "updateFailed": "Failed to update webhook credential. Please try again."
+      }
+    },
+    "activateDialog": {
+      "title": "Activate Webhook",
+      "description": "Are you sure you want to activate this webhook credential?",
+      "adminNote": "Activating this webhook will allow it to receive and process requests.",
+      "cancelButton": "Cancel",
+      "submitButton": "Activate Webhook"
+    },
+    "deactivateDialog": {
+      "title": "Deactivate Webhook",
+      "description": "Are you sure you want to deactivate this webhook credential?",
+      "adminNote": "Deactivating this webhook will immediately stop it from receiving and processing any requests.",
+      "cancelButton": "Cancel",
+      "submitButton": "Deactivate Webhook"
+    },
+    "errors": {
+      "statCards": {
+        "title": "Failed to Load Webhook Stats",
+        "description": "We couldn't load the webhook statistics. Please try again."
+      },
+      "webhooksTable": {
+        "title": "Failed to Load Webhooks",
+        "description": "We couldn't load the webhooks list. Please try again."
+      }
+    },
+    "details": {
+      "title": "Webhook Details",
+      "backLink": "Back to Webhooks",
+      "loadingLabel": "Loading webhook details",
+      "webhookInfo": "Webhook Information",
+      "allowedIps": "Allowed IP's",
+      "allIpsAllowed": "All IP addresses are allowed. No IP restrictions configured.",
+      "copySuccess": "Copied to clipboard",
+      "copyButton": "Copy to clipboard",
+      "fields": {
+        "name": "Webhook Name",
+        "clientId": "Client ID",
+        "tokenExpiration": "Token Expiration",
+        "createdAt": "Created At",
+        "lastUsedAt": "Last Used At",
+        "revokedAt": "Revoked At",
+        "clientSecret": "Client Secret",
+        "hour": "Hour",
+        "hours": "Hours"
+      },
+      "actions": {
+        "editCredential": "Edit Credentials"
+      },
+      "error": {
+        "title": "Error Loading Webhook",
+        "description": "We couldn't load the webhook details. Please try again."
+      },
+      "rotateDialog": {
+        "title": "Rotate Client Secret",
+        "description": "Are you sure you want to rotate this credential's secret?",
+        "warning": "Rotating the secret will immediately invalidate the current token. Any integrations using the existing secret will stop working. This action cannot be undone.",
+        "cancelButton": "Cancel",
+        "confirmButton": "Rotate Secret",
+        "rotateButton": "Rotate client secret",
+        "rotating": "Rotating...",
+        "success": "Secret rotated successfully",
+        "error": "Failed to rotate secret. Please try again."
+      }
+    }
+  }
+}

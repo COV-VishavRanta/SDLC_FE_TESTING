@@ -1,0 +1,35 @@
+name: QA Deployment
+
+on:
+  push:
+    branches:
+      - 'qa'
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    uses: ./.github/workflows/build.yml
+    with:
+      checkout-branch : ${{ github.ref }}
+      environment: qa
+    secrets: inherit
+
+  deploy-qa:
+    name: Deploy frontend QA
+    needs: build
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      id-token: write
+    with:
+      task-definition-path: ecs/qa/frontend.json
+      service: pop-qa-frontend-service
+      version: ${{ needs.build.outputs.image-tag }}
+      checkout-branch : ${{ github.ref }}
+      img_replacement_string: '#latest#'
+      environment: qa
+    secrets: inherit

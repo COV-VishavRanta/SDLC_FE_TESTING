@@ -1,0 +1,61 @@
+name: Deploy to ECS
+
+on:
+  workflow_call:
+    inputs:
+      task-definition-path:
+        required: true
+        type: string
+      service:
+        required: true
+        type: string
+      version:
+        required: true
+        type: string
+      checkout-branch:
+        required: true
+        type: string
+      img_replacement_string:
+        required: false
+        type: string
+        default: "#latest#"
+      environment:
+        required: true
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+
+    steps:
+      - name : Checkout code
+        uses: actions/checkout@v6.0.2
+        with:
+          ref: ${{ inputs.checkout-branch }}
+      
+      - name: Update image version in ECS task definition
+        id: update-task-def
+        run: |
+            echo "Updating app task definition with image tag: $VERSION"
+            sed -i "s/$IMG_REPLACEMENT_STRING/$VERSION/g" $TASK_DEFINITION
+        env:
+          VERSION: ${{ inputs.version }}
+          TASK_DEFINITION: ${{ inputs.task-definition-path }}
+          IMG_REPLACEMENT_STRING: ${{ inputs.img_replacement_string }}
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v6.0.0
+        with:
+          aws-region: ${{ vars.AWS_REGION }}
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+
+      - name: Deploy app to ECS
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v2
+        with:
+          task-definition: ${{ inputs.task-definition-path }}
+          service: ${{ inputs.service }}
+          cluster: ${{ vars.ECS_CLUSTER }}
+          force-new-deployment: true
+          wait-for-service-stability: true
+          wait-for-minutes: 10

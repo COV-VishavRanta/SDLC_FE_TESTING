@@ -1,0 +1,59 @@
+import { IconProps } from '@/types';
+
+export function DashboardIcon({ className }: IconProps) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='20'
+      height='20'
+      viewBox='0 0 20 20'
+      fill='none'
+      className={className}
+    >
+      <rect
+        x='2.5'
+        y='2.5'
+        width='5.83'
+        height='5.83'
+        rx='1'
+        stroke='currentColor'
+        strokeWidth='1.67'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <rect
+        x='11.67'
+        y='2.5'
+        width='5.83'
+        height='5.83'
+        rx='1'
+        stroke='currentColor'
+        strokeWidth='1.67'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <rect
+        x='2.5'
+        y='11.67'
+        width='5.83'
+        height='5.83'
+        rx='1'
+        stroke='currentColor'
+        strokeWidth='1.67'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <rect
+        x='11.67'
+        y='11.67'
+        width='5.83'
+        height='5.83'
+        rx='1'
+        stroke='currentColor'
+        strokeWidth='1.67'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+    </svg>
+  );
+}

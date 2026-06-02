@@ -1,0 +1,70 @@
+{
+    "family": "pop-stage-frontend",
+    "containerDefinitions": [
+        {
+            "name": "nextjs-stage",
+            "image": "ghcr.io/visualgraphxllc/pop-frontend:#latest#",
+            "repositoryCredentials": {
+                "credentialsParameter": "ghcr-creds"
+            },
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp",
+                    "name": "nextjs-3000-tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "secrets": [
+                {
+                    "name": "FASTAPI_URL",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:FASTAPI_URL::"
+                },
+                {
+                    "name": "NEXT_PUBLIC_COGNITO_CLIENT_ID",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:NEXT_PUBLIC_COGNITO_CLIENT_ID::"
+                },
+                {
+                    "name": "NEXT_PUBLIC_COGNITO_USER_POOL_ID",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:NEXT_PUBLIC_COGNITO_USER_POOL_ID::"
+                },
+                {
+                    "name": "NEXT_PUBLIC_GRAPHQL_API_URL",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:NEXT_PUBLIC_GRAPHQL_API_URL::"
+                },
+                {
+                    "name": "NEXT_PUBLIC_LOCALE_COOKIE_NAME",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:NEXT_PUBLIC_LOCALE_COOKIE_NAME::"
+                },
+                {
+                    "name": "NEXT_PUBLIC_IDLE_TIMEOUT_MINUTES",
+                    "valueFrom": "arn:aws:secretsmanager:us-west-2:690816807846:secret:pop/stage/frontend-s9YWt7:NEXT_PUBLIC_IDLE_TIMEOUT_MINUTES::"
+                }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/pop-stage-frontend",
+                    "awslogs-create-group": "true",
+                    "awslogs-region": "us-west-2",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::690816807846:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::690816807846:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512",
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    }
+}
