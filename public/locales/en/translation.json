@@ -172,8 +172,7 @@
     },
     "actorTypeLabels": {
       "SELF": "Self",
-      "IMPERSONATED": "Impersonated",
-      "WEBHOOK": "Webhook"
+      "IMPERSONATED": "Impersonated"
     },
     "changeDetails": {
       "title": "Change Details",
@@ -239,11 +238,6 @@
       "SHIPMENT_REORDER_CREATED": "Shipment Reorder Created",
       "IMPERSONATION_STARTED": "Impersonation Started",
       "IMPERSONATION_STOPPED": "Impersonation Stopped",
-      "WEBHOOK_CREDENTIAL_ACTIVATED": "Webhook Credential Activated",
-      "WEBHOOK_CREDENTIAL_CREATED": "Webhook Credential Created",
-      "WEBHOOK_CREDENTIAL_REVOKED": "Webhook Credential Revoked",
-      "WEBHOOK_CREDENTIAL_UPDATED": "Webhook Credential Updated",
-      "WEBHOOK_SECRET_ROTATED": "Webhook Secret Rotated",
       "STORE_ACTIVATED": "Store Activated",
       "STORE_COGNITO_SYNC_FAILED": "Store Cognito Sync Failed",
       "STORE_CREATED": "Store Created",
@@ -286,8 +280,7 @@
       "STORE": "Store",
       "SURVEY": "Survey",
       "SURVEY_TEMPLATE": "Survey Template",
-      "USER": "User",
-      "WEBHOOK_CREDENTIAL": "Webhook Credential"
+      "USER": "User"
     },
     "errors": {
       "logListing": {
@@ -3073,23 +3066,6 @@
       "CAMPAIGN_ON_HOLD_PSP_RESTRICTED": "Campaign is on hold by brand; PSP cannot change status",
       "CAMPAIGN_ORDERS_FAILED_FETCH": "Failed to fetch campaign store orders. Please try again.",
       "CAMPAIGN_STORE_ORDER_NOT_FOUND": "Store order not found for the given order number.",
-      "WEBHOOK_ALREADY_ACTIVE": "This webhook credential is already active.",
-      "WEBHOOK_ALREADY_INACTIVE": "This webhook credential is already inactive.",
-      "WEBHOOK_ALREADY_REVOKED": "This webhook credential has already been revoked.",
-      "WEBHOOK_CREDENTIAL_ID_REQUIRED": "Webhook credential ID is required for this operation.",
-      "WEBHOOK_FAILED_CREATE": "Failed to create webhook credential. Please try again.",
-      "WEBHOOK_FAILED_REVOKE": "Failed to revoke webhook credential. Please try again.",
-      "WEBHOOK_FAILED_ROTATE": "Failed to rotate webhook credential secret. Please try again.",
-      "WEBHOOK_FAILED_UPDATE": "Failed to update webhook credential. Please try again.",
-      "WEBHOOK_FETCH_FAILED": "Failed to fetch webhook credentials. Please try again.",
-      "WEBHOOK_INVALID_TOKEN_EXPIRY": "Token expiration hours must be greater than 0.",
-      "WEBHOOK_IP_UNAUTHORIZED": "Request from this IP address is not allowed.",
-      "WEBHOOK_LABEL_REQUIRED": "Webhook credential label is required",
-      "WEBHOOK_LABEL_TOO_LONG": "Webhook credential label must not exceed 255 characters",
-      "WEBHOOK_NO_CHANGES": "No changes provided for webhook credential update.",
-      "WEBHOOK_NOT_FOUND": "Webhook credential not found.",
-      "WEBHOOK_OPERATION_BLOCKED": "This operation is not permitted via webhook authentication.",
-      "WEBHOOK_UNAUTHORIZED": "You are not authorized to manage webhook credentials for this PSP.",
       "CAMPAIGN_PSP_MISMATCH": "The provided PSP is not associated with the specified brand.",
       "CAMPAIGN_PSP_REQUIRED": "PSP is required",
       "CAMPAIGN_REQUIRED": "Campaign is required",
@@ -3534,14 +3510,6 @@
       "USER_DEACTIVATED": "User deactivated successfully.",
       "USER_DELETED": "User deleted successfully.",
       "USER_UPDATED": "User updated successfully.",
-      "WEBHOOK_CREDENTIAL_ACTIVATED": "Webhook credential activated successfully.",
-      "WEBHOOK_CREDENTIAL_CREATED": "Webhook credential created successfully.",
-      "WEBHOOK_CREDENTIAL_RETRIEVED": "Webhook credential detail retrieved successfully.",
-      "WEBHOOK_CREDENTIAL_REVOKED": "Webhook credential revoked successfully.",
-      "WEBHOOK_CREDENTIAL_UPDATED": "Webhook credential updated successfully.",
-      "WEBHOOK_CREDENTIALS_RETRIEVED": "Webhook credentials retrieved successfully.",
-      "WEBHOOK_SECRET_ROTATED": "Webhook credential secret rotated successfully.",
-      "EXCEPTION_REQUEST_DETAIL_SUCCESS": "Exception request details retrieved successfully.",
       "EXCEPTION_REQUEST_LIST_SUCCESS": "Exception requests listed successfully."
     }
   },
@@ -3606,178 +3574,7 @@
       "EXCEPTION_REQUEST_RESUBMITTED": "Exception Request Resubmitted",
       "INVITATION_ACCEPTED": "Invitation Accepted",
       "USER_ACTIVATED": "User Activated",
-      "USER_DEACTIVATED": "User Deactivated",
-      "WEBHOOK_CREDENTIAL_REVOKED_BY_PLATFORM": "Webhook Credential Revoked by Platform"
-    }
-  },
-  "webhooks": {
-    "page": {
-      "title": "Webhooks",
-      "description": "View and Manage third-party integrations"
-    },
-    "stats": {
-      "total": "Total",
-      "active": "Active",
-      "inactive": "Inactive"
-    },
-    "filter": {
-      "searchPlaceholder": "Search..",
-      "searchAriaLabel": "Search webhooks",
-      "statusAriaLabel": "Status Filter",
-      "pspAriaLabel": "PSP Filter"
-    },
-    "filterOptions": {
-      "allStatuses": "All",
-      "allPsps": "All PSPs",
-      "active": "Active",
-      "inactive": "Inactive"
-    },
-    "table": {
-      "title": "Webhooks Configuration",
-      "caption": "Webhooks configuration table showing name, status, created at, token expiration, allowed IPs, and actions",
-      "emptyState": "No webhook credentials found.",
-      "loadingState": "Loading webhook credentials...",
-      "paginationLabel": "webhooks",
-      "columns": {
-        "name": "Name",
-        "psp": "PSP",
-        "status": "Status",
-        "createdAt": "Created At",
-        "tokenExpiration": "Token Expiration",
-        "allowedIps": "Allowed IP's",
-        "actions": "Actions"
-      },
-      "andMore": "and More",
-      "statusLabels": {
-        "active": "Active",
-        "inactive": "Inactive"
-      }
-    },
-    "actions": {
-      "deactivateCredential": "Deactivate",
-      "activateCredential": "Activate",
-      "editCredential": "Edit"
-    },
-    "dialog": {
-      "create": {
-        "title": "Create Credentials",
-        "description": "Add a new webhook credential for your PSP"
-      },
-      "edit": {
-        "title": "Edit Webhook",
-        "description": "Update your webhook credential details"
-      },
-      "fields": {
-        "name": {
-          "label": "Webhook Name",
-          "placeholder": "Webhook Name"
-        },
-        "tokenExpiration": {
-          "label": "Token Expiration",
-          "placeholder": "e.g. 6",
-          "suffix": "Hours"
-        },
-        "allowedIps": {
-          "label": "Allowed IP's",
-          "placeholder": "Allowed IP's",
-          "addButton": "Add IP address",
-          "removeButton": "Remove IP address"
-        }
-      },
-      "credentials": {
-        "title": "Client Credentials",
-        "warning": "You won't be able to view this key again after leaving this page. Please copy and store it securely.",
-        "copyButton": "Copy to clipboard",
-        "copied": "Copied to clipboard successfully"
-      },
-      "buttons": {
-        "cancel": "Cancel",
-        "create": "Create Credentials",
-        "save": "Save Changes",
-        "creating": "Creating...",
-        "saving": "Saving..."
-      },
-      "validation": {
-        "nameRequired": "Webhook name is required",
-        "nameMaxLength": "Webhook name must not exceed 100 characters",
-        "tokenRequired": "Token expiration is required",
-        "tokenMin": "Token expiration must be at least 1 hour",
-        "tokenInteger": "Token expiration must be a whole number",
-        "ipInvalid": "Please enter a valid IP address (IPv4, IPv6, or CIDR notation)"
-      },
-      "success": {
-        "created": "Webhook credential created successfully. Please copy the client secret shown on the modal and store it securely.",
-        "updated": "Webhook credential updated successfully",
-        "activated": "Webhook credential activated successfully",
-        "deactivated": "Webhook credential deactivated successfully"
-      },
-      "errors": {
-        "createFailed": "Failed to create webhook credential. Please try again.",
-        "updateFailed": "Failed to update webhook credential. Please try again."
-      }
-    },
-    "activateDialog": {
-      "title": "Activate Webhook",
-      "description": "Are you sure you want to activate this webhook credential?",
-      "adminNote": "Activating this webhook will allow it to receive and process requests.",
-      "cancelButton": "Cancel",
-      "submitButton": "Activate Webhook"
-    },
-    "deactivateDialog": {
-      "title": "Deactivate Webhook",
-      "description": "Are you sure you want to deactivate this webhook credential?",
-      "adminNote": "Deactivating this webhook will immediately stop it from receiving and processing any requests.",
-      "cancelButton": "Cancel",
-      "submitButton": "Deactivate Webhook"
-    },
-    "errors": {
-      "statCards": {
-        "title": "Failed to Load Webhook Stats",
-        "description": "We couldn't load the webhook statistics. Please try again."
-      },
-      "webhooksTable": {
-        "title": "Failed to Load Webhooks",
-        "description": "We couldn't load the webhooks list. Please try again."
-      }
-    },
-    "details": {
-      "title": "Webhook Details",
-      "backLink": "Back to Webhooks",
-      "loadingLabel": "Loading webhook details",
-      "webhookInfo": "Webhook Information",
-      "allowedIps": "Allowed IP's",
-      "allIpsAllowed": "All IP addresses are allowed. No IP restrictions configured.",
-      "copySuccess": "Copied to clipboard",
-      "copyButton": "Copy to clipboard",
-      "fields": {
-        "name": "Webhook Name",
-        "clientId": "Client ID",
-        "tokenExpiration": "Token Expiration",
-        "createdAt": "Created At",
-        "lastUsedAt": "Last Used At",
-        "revokedAt": "Revoked At",
-        "clientSecret": "Client Secret",
-        "hour": "Hour",
-        "hours": "Hours"
-      },
-      "actions": {
-        "editCredential": "Edit Credentials"
-      },
-      "error": {
-        "title": "Error Loading Webhook",
-        "description": "We couldn't load the webhook details. Please try again."
-      },
-      "rotateDialog": {
-        "title": "Rotate Client Secret",
-        "description": "Are you sure you want to rotate this credential's secret?",
-        "warning": "Rotating the secret will immediately invalidate the current token. Any integrations using the existing secret will stop working. This action cannot be undone.",
-        "cancelButton": "Cancel",
-        "confirmButton": "Rotate Secret",
-        "rotateButton": "Rotate client secret",
-        "rotating": "Rotating...",
-        "success": "Secret rotated successfully",
-        "error": "Failed to rotate secret. Please try again."
-      }
+      "USER_DEACTIVATED": "User Deactivated"
     }
   }
 }

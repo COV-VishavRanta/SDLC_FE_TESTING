@@ -42,7 +42,6 @@ const COLUMN_COUNT = 8;
 const ACTOR_TYPE_LABEL_KEYS: Record<AuditActorTypeEnum, string> = {
   [AuditActorTypeEnum.SELF]: 'SELF',
   [AuditActorTypeEnum.IMPERSONATED]: 'IMPERSONATED',
-  [AuditActorTypeEnum.WEBHOOK]: 'WEBHOOK',
 };
 
 /* ─── Mobile Audit Log Card ─── */

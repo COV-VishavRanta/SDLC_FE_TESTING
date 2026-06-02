@@ -21,7 +21,6 @@ function getPrimaryRole(roles?: RoleType[]): RoleType | null {
 /* ─── Actor Type Badge ─── */
 const ACTOR_TYPE_BADGE_STYLES: Record<string, string> = {
   SELF: 'border border-[#528c00] bg-[#f5fae6] text-[#528c00]',
-  WEBHOOK: 'border border-[#8c1500] bg-[#fae6e6] text-[#8c1500]',
   IMPERSONATED: 'border border-[#312e81] bg-[#eef2ff] text-[#312e81]',
 };
 
@@ -41,7 +40,6 @@ export function TypeBadge({ label }: { label: string }) {
 const ACTOR_TYPE_LABEL_KEYS: Record<AuditActorTypeEnum, string> = {
   [AuditActorTypeEnum.SELF]: 'SELF',
   [AuditActorTypeEnum.IMPERSONATED]: 'IMPERSONATED',
-  [AuditActorTypeEnum.WEBHOOK]: 'WEBHOOK',
 };
 
 export function useAuditLogTableColumns(): ColumnDef<AuditLogType>[] {

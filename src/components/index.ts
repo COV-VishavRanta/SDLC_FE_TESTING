@@ -53,7 +53,6 @@ export { default as StoreDialog } from './dialog/store-dialog/store-dialog';
 export { default as UpdateCampaignStatusDialog } from './dialog/update-campaign-status-dialog/update-campaign-status-dialog';
 export { UpdateCampaignStatusDialogSkeleton } from './dialog/update-campaign-status-dialog/update-campaign-status-dialog.loading';
 export { default as ViewImagesDialog } from './dialog/view-images-dialog/view-images-dialog';
-export { default as WebhookDialog } from './dialog/webhook-dialog/webhook-dialog';
 
 // Icons
 export { ActivityIcon } from './icons/ActivityIcon';

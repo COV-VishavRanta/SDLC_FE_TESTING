@@ -178,7 +178,6 @@ export function getAuditActorType(
   log: Pick<AuditLogType, 'isImpersonated' | 'isThirdParty'>,
 ): AuditActorTypeEnum {
   if (log.isImpersonated) return AuditActorTypeEnum.IMPERSONATED;
-  if (log.isThirdParty) return AuditActorTypeEnum.WEBHOOK;
   return AuditActorTypeEnum.SELF;
 }
 

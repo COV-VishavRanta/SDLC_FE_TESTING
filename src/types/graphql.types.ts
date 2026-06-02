@@ -637,22 +637,3 @@ export interface ExceptionRequestDetailType {
   items: ExceptionRequestItemType[];
   images: ExceptionRequestImageType[];
 }
-
-// ─────────────────────────────────────────────────────────────────────────────
-// WEBHOOK TYPES
-// ─────────────────────────────────────────────────────────────────────────────
-
-export interface WebhookCredentialType {
-  id: string;
-  pspId: string;
-  clientId: string;
-  secretPrefix: string;
-  label: string;
-  isActive: boolean;
-  pspName: string;
-  ipAllowlist?: string[];
-  createdAt: string;
-  lastUsedAt?: string;
-  revokedAt?: string;
-  tokenExpirationHours?: number;
-}

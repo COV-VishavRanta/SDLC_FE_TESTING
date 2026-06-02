@@ -11,7 +11,6 @@ import { SurveyIcon } from '@/components/icons/SurveyIcon';
 import { UserManagementIcon } from '@/components/icons/UserManagementIcon';
 
 import { ReportsIcon } from '@/components';
-import { WebhookIcon } from '@/components/icons/WebhookIcon';
 import { Permission } from './enums/permissions.enum';
 import { AuthRoute, ProtectedRoute, PublicRoute } from './enums/route.enum';
 import { UserRole } from './enums/user.enums';
@@ -101,12 +100,6 @@ export const PROTECTED_ROUTES = [
     href: ProtectedRoute.REPORTS,
     icon: ReportsIcon,
     permission: Permission.VIEW_REPORTS,
-  },
-  {
-    name: 'Web Hooks',
-    href: ProtectedRoute.WEB_HOOKS,
-    icon: WebhookIcon,
-    permission: Permission.VIEW_WEB_HOOKS,
   },
 ] as const satisfies RouteProps[];
 

@@ -15,5 +15,4 @@ export enum Permission {
   VIEW_SURVEY_MANAGEMENT = 'view_survey_management',
   VIEW_EXCEPTION_REQUEST = 'view_exception_request',
   VIEW_REPORTS = 'view_reports',
-  VIEW_WEB_HOOKS = 'view_web_hooks',
 }

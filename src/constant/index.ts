@@ -12,7 +12,6 @@ export * from './enums/shipment.enums';
 export * from './enums/store.enums';
 export * from './enums/survey.enum';
 export * from './enums/user.enums';
-export * from './enums/webhook.enum';
 export * from './route';
 export * from './table.constants';
 export * from './validation.constants';

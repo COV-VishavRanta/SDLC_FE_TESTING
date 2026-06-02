@@ -29,8 +29,6 @@ export * from './mutations/survey/survey.mutations';
 export * from './mutations/survey/survey.types';
 export * from './mutations/user/user.mutation';
 export * from './mutations/user/user.types';
-export * from './mutations/webhook/webhook.mutations';
-export * from './mutations/webhook/webhook.types';
 
 export * from './queries/audit-logs/audit-logs.queries';
 export * from './queries/audit-logs/audit-logs.types';
@@ -64,5 +62,3 @@ export * from './queries/survey/survey.queries';
 export * from './queries/survey/survey.types';
 export * from './queries/user/user.queries';
 export * from './queries/user/user.types';
-export * from './queries/webhook/webhook.queries';
-export * from './queries/webhook/webhook.types';

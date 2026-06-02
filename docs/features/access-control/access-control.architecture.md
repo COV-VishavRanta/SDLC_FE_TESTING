@@ -300,7 +300,7 @@ flowchart TD
 | **Exception Req** | `exception-request.capabilities.ts` | `showStoreColumn`, `canReUploadPhotos`, `canApproveRequest`, `canRejectRequest`, `canCancelRequest`, `canViewPhotos`                                                                                                                                                           |
 | **Shipment**      | `shipment.capabilities.ts`          | `canReceive`, `showStoreFilter`, `showStoreColumn`                                                                                                                                                                                                                             |
 | **Inventory**     | `inventory.capabilities.ts`         | `canCreateInventory`, `canEditInventory`, `canEditQuantityOnly`, `canDeleteInventory`, `canViewInventory`                                                                                                                                                                      |
-| **Webhook**       | `webhook.capabilities.ts`           | `canCreate`, `canEdit`, `canRotateSecret`, `showPspColumn`, `showPspFilter`                                                                                                                                                                                                    |
+|                   |
 
 ---
 
@@ -416,7 +416,6 @@ Both paths resolve translated display names via `getTranslations` (next-intl ser
 | `src/lib/permissions/capabilities/exception-request.capabilities.ts` | Exception request capabilities per role                                     |
 | `src/lib/permissions/capabilities/shipment.capabilities.ts`          | Shipment capabilities per role                                              |
 | `src/lib/permissions/capabilities/inventory.capabilities.ts`         | Inventory capabilities per role                                             |
-| `src/lib/permissions/capabilities/webhook.capabilities.ts`           | Webhook capabilities per role                                               |
 | `src/proxy.ts`                                                       | Layer 1 — page-level enforcement in Edge Middleware                         |
 | `src/contexts/GlobalProtectedContext.tsx`                            | Writes cookies after GQL resolves; provides auth context to client tree     |
 | `src/hooks/usePermissions.ts`                                        | Client hook deriving `has / hasAll / hasAny` from context                   |

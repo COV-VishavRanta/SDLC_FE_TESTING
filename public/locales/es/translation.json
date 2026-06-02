@@ -175,8 +175,7 @@
     },
     "actorTypeLabels": {
       "SELF": "Propio",
-      "IMPERSONATED": "Suplantado",
-      "WEBHOOK": "Webhook"
+      "IMPERSONATED": "Suplantado"
     },
     "changeDetails": {
       "title": "Detalles del Cambio",
@@ -265,11 +264,7 @@
       "USER_DEACTIVATED": "Usuario Desactivado",
       "USER_DELETED": "Usuario Eliminado",
       "USER_UPDATED": "Usuario Actualizado",
-      "WEBHOOK_CREDENTIAL_ACTIVATED": "Credencial de Webhook Activada",
-      "WEBHOOK_CREDENTIAL_CREATED": "Credencial de Webhook Creada",
-      "WEBHOOK_CREDENTIAL_REVOKED": "Credencial de Webhook Revocada",
-      "WEBHOOK_CREDENTIAL_UPDATED": "Credencial de Webhook Actualizada",
-      "WEBHOOK_SECRET_ROTATED": "Secreto de Webhook Rotado",
+
       "EXCEPTION_REQUEST_RESUBMITTED": "Solicitud de Excepción Reenviada"
     },
     "entityTypeLabels": {
@@ -289,8 +284,7 @@
       "STORE": "Tienda",
       "SURVEY": "Encuesta",
       "SURVEY_TEMPLATE": "Plantilla de Encuesta",
-      "USER": "Usuario",
-      "WEBHOOK_CREDENTIAL": "Credencial de Webhook"
+      "USER": "Usuario"
     },
     "errors": {
       "logListing": {
@@ -3395,23 +3389,7 @@
       "INVENTORY_BRAND_REQUIRED": "El ID de marca es obligatorio para los administradores de PSP al actualizar el inventario.",
       "INVENTORY_QUANTITY_ONLY_FOR_OPERATOR": "Los Operadores de Producción solo pueden actualizar la cantidad del inventario.",
       "SHIPMENT_CARRIER_NAME_REQUIRED": "El nombre del transportista es obligatorio.",
-      "WEBHOOK_ALREADY_ACTIVE": "Esta credencial de webhook ya está activa.",
-      "WEBHOOK_ALREADY_INACTIVE": "Esta credencial de webhook ya está inactiva.",
-      "WEBHOOK_ALREADY_REVOKED": "Esta credencial de webhook ya ha sido revocada.",
-      "WEBHOOK_CREDENTIAL_ID_REQUIRED": "Se requiere el ID de credencial de webhook para esta operación.",
-      "WEBHOOK_FAILED_CREATE": "Error al crear la credencial de webhook. Por favor, inténtelo de nuevo.",
-      "WEBHOOK_FAILED_REVOKE": "Error al revocar la credencial de webhook. Por favor, inténtelo de nuevo.",
-      "WEBHOOK_FAILED_ROTATE": "Error al rotar el secreto de la credencial de webhook. Por favor, inténtelo de nuevo.",
-      "WEBHOOK_FAILED_UPDATE": "Error al actualizar la credencial de webhook. Por favor, inténtelo de nuevo.",
-      "WEBHOOK_FETCH_FAILED": "Error al obtener las credenciales de webhook. Por favor, inténtelo de nuevo.",
-      "WEBHOOK_INVALID_TOKEN_EXPIRY": "Las horas de expiración del token deben ser mayores que 0.",
-      "WEBHOOK_IP_UNAUTHORIZED": "Las solicitudes desde esta dirección IP no están permitidas.",
-      "WEBHOOK_LABEL_REQUIRED": "La etiqueta de la credencial de webhook es obligatoria.",
-      "WEBHOOK_LABEL_TOO_LONG": "La etiqueta de la credencial de webhook no debe superar los 255 caracteres",
-      "WEBHOOK_NO_CHANGES": "No se proporcionaron cambios para la actualización de la credencial de webhook.",
-      "WEBHOOK_NOT_FOUND": "Credencial de webhook no encontrada.",
-      "WEBHOOK_OPERATION_BLOCKED": "Esta operación no está permitida a través de la autenticación de webhook.",
-      "WEBHOOK_UNAUTHORIZED": "No está autorizado para gestionar las credenciales de webhook de este PSP.",
+
       "EXCEPTION_REQUEST_ACTION_REASON_REQUIRED": "Se requiere un motivo para esta acción.",
       "EXCEPTION_REQUEST_ALREADY_ACTIONED": "Esta solicitud de excepción ya ha sido procesada.",
       "EXCEPTION_REQUEST_CANNOT_APPROVE": "No se puede aprobar esta solicitud de excepción.",
@@ -3531,13 +3509,6 @@
       "USER_DEACTIVATED": "Usuario desactivado correctamente.",
       "USER_DELETED": "Usuario eliminado correctamente.",
       "USER_UPDATED": "Usuario actualizado correctamente.",
-      "WEBHOOK_CREDENTIAL_ACTIVATED": "Credencial de webhook activada correctamente.",
-      "WEBHOOK_CREDENTIAL_CREATED": "Credencial de webhook creada correctamente.",
-      "WEBHOOK_CREDENTIAL_RETRIEVED": "Detalle de la credencial de webhook obtenido correctamente.",
-      "WEBHOOK_CREDENTIAL_REVOKED": "Credencial de webhook revocada correctamente.",
-      "WEBHOOK_CREDENTIAL_UPDATED": "Credencial de webhook actualizada correctamente.",
-      "WEBHOOK_CREDENTIALS_RETRIEVED": "Credenciales de webhook obtenidas correctamente.",
-      "WEBHOOK_SECRET_ROTATED": "Secreto de la credencial de webhook rotado correctamente.",
       "EXCEPTION_REQUEST_DETAIL_SUCCESS": "Detalles de la solicitud de excepción recuperados exitosamente.",
       "EXCEPTION_REQUEST_LIST_SUCCESS": "Solicitudes de excepción listadas exitosamente."
     }
@@ -3603,178 +3574,7 @@
       "EXCEPTION_REQUEST_RESUBMITTED": "Solicitud de Excepción Reenviada",
       "INVITATION_ACCEPTED": "Invitación Aceptada",
       "USER_ACTIVATED": "Usuario Activado",
-      "USER_DEACTIVATED": "Usuario Desactivado",
-      "WEBHOOK_CREDENTIAL_REVOKED_BY_PLATFORM": "Credencial de Webhook Revocada por la Plataforma"
-    }
-  },
-  "webhooks": {
-    "page": {
-      "title": "Webhooks",
-      "description": "Ver y gestionar integraciones de terceros"
-    },
-    "stats": {
-      "total": "Total",
-      "active": "Activo",
-      "inactive": "Inactivo"
-    },
-    "filter": {
-      "searchPlaceholder": "Buscar..",
-      "searchAriaLabel": "Buscar webhooks",
-      "statusAriaLabel": "Filtro de estado",
-      "pspAriaLabel": "Filtro de PSP"
-    },
-    "filterOptions": {
-      "allStatuses": "Estado",
-      "allPsps": "Todos los PSPs",
-      "active": "Activo",
-      "inactive": "Inactivo"
-    },
-    "table": {
-      "title": "Configuración de Webhooks",
-      "caption": "Tabla de configuración de webhooks que muestra nombre, estado, fecha de creación, expiración del token, IPs permitidas y acciones",
-      "emptyState": "No se encontraron credenciales de webhook.",
-      "loadingState": "Cargando credenciales de webhook...",
-      "paginationLabel": "credenciales de webhook",
-      "columns": {
-        "name": "Nombre",
-        "psp": "PSP",
-        "status": "Estado",
-        "createdAt": "Creado el",
-        "tokenExpiration": "Expiración del Token",
-        "allowedIps": "IPs Permitidas",
-        "actions": "Acciones"
-      },
-      "andMore": "y más",
-      "statusLabels": {
-        "active": "Activo",
-        "inactive": "Inactivo"
-      }
-    },
-    "actions": {
-      "deactivateCredential": "Desactivar",
-      "activateCredential": "Activar",
-      "editCredential": "Editar"
-    },
-    "dialog": {
-      "create": {
-        "title": "Crear Credenciales",
-        "description": "Agregar una nueva credencial de webhook para tu PSP"
-      },
-      "edit": {
-        "title": "Editar Webhook",
-        "description": "Actualizar los detalles de tu credencial de webhook"
-      },
-      "fields": {
-        "name": {
-          "label": "Nombre del Webhook",
-          "placeholder": "Nombre del Webhook"
-        },
-        "tokenExpiration": {
-          "label": "Expiración del Token",
-          "placeholder": "ej. 6",
-          "suffix": "Horas"
-        },
-        "allowedIps": {
-          "label": "IP's Permitidas",
-          "placeholder": "IP's Permitidas",
-          "addButton": "Agregar dirección IP",
-          "removeButton": "Eliminar dirección IP"
-        }
-      },
-      "credentials": {
-        "title": "Credenciales del Cliente",
-        "warning": "No podrás ver esta clave nuevamente después de salir de esta página. Por favor cópiala y guárdala de forma segura.",
-        "copyButton": "Copiar al portapapeles",
-        "copied": "¡Copiado al portapapeles con éxito"
-      },
-      "buttons": {
-        "cancel": "Cancelar",
-        "create": "Crear Credenciales",
-        "save": "Guardar Cambios",
-        "creating": "Creando...",
-        "saving": "Guardando..."
-      },
-      "validation": {
-        "nameRequired": "El nombre del webhook es obligatorio",
-        "nameMaxLength": "El nombre del webhook no debe superar 100 caracteres",
-        "tokenRequired": "La expiración del token es obligatoria",
-        "tokenMin": "La expiración del token debe ser al menos 1 hora",
-        "tokenInteger": "La expiración del token debe ser un número entero",
-        "ipInvalid": "Por favor ingresa una dirección IP válida (IPv4, IPv6 o notación CIDR)"
-      },
-      "success": {
-        "created": "Credencial de webhook creada exitosamente. Por favor, copia el secreto del cliente mostrado en el modal y guárdalo de forma segura.",
-        "updated": "Credencial de webhook actualizada exitosamente",
-        "activated": "Credencial de webhook activada exitosamente",
-        "deactivated": "Credencial de webhook desactivada exitosamente"
-      },
-      "errors": {
-        "createFailed": "Error al crear la credencial de webhook. Inténtalo de nuevo.",
-        "updateFailed": "Error al actualizar la credencial de webhook. Inténtalo de nuevo."
-      }
-    },
-    "activateDialog": {
-      "title": "Activar Webhook",
-      "description": "¿Estás seguro de que quieres activar esta credencial de webhook?",
-      "adminNote": "Activar este webhook le permitirá recibir y procesar solicitudes entrantes.",
-      "cancelButton": "Cancelar",
-      "submitButton": "Activar Webhook"
-    },
-    "deactivateDialog": {
-      "title": "Desactivar Webhook",
-      "description": "¿Estás seguro de que quieres desactivar esta credencial de webhook?",
-      "adminNote": "Desactivar este webhook impedirá de inmediato que reciba y procese cualquier solicitud entrante.",
-      "cancelButton": "Cancelar",
-      "submitButton": "Desactivar Webhook"
-    },
-    "errors": {
-      "statCards": {
-        "title": "Error al cargar estadísticas de Webhooks",
-        "description": "No pudimos cargar las estadísticas de webhooks. Inténtalo de nuevo."
-      },
-      "webhooksTable": {
-        "title": "Error al cargar Webhooks",
-        "description": "No pudimos cargar la lista de webhooks. Inténtalo de nuevo."
-      }
-    },
-    "details": {
-      "title": "Detalles del Webhook",
-      "backLink": "Volver a Webhooks",
-      "loadingLabel": "Cargando detalles del webhook",
-      "webhookInfo": "Información del Webhook",
-      "allowedIps": "IP's Permitidas",
-      "allIpsAllowed": "Todas las direcciones IP están permitidas. Sin restricciones de IP configuradas.",
-      "copySuccess": "Copiado al portapapeles",
-      "copyButton": "Copiar al portapapeles",
-      "fields": {
-        "name": "Nombre del Webhook",
-        "clientId": "ID de Cliente",
-        "tokenExpiration": "Expiración del Token",
-        "createdAt": "Creado El",
-        "lastUsedAt": "Usado Por Última Vez",
-        "revokedAt": "Revocado El",
-        "clientSecret": "Secreto de Cliente",
-        "hour": "Hora",
-        "hours": "Horas"
-      },
-      "actions": {
-        "editCredential": "Editar Credenciales"
-      },
-      "error": {
-        "title": "Error al Cargar Webhook",
-        "description": "No pudimos cargar los detalles del webhook. Inténtalo de nuevo."
-      },
-      "rotateDialog": {
-        "title": "Rotar Secreto de Cliente",
-        "description": "¿Estás seguro de que quieres rotar el secreto de esta credencial?",
-        "warning": "Rotar el secreto invalidará inmediatamente el token actual. Cualquier integración que use el secreto existente dejará de funcionar. Esta acción no se puede deshacer.",
-        "cancelButton": "Cancelar",
-        "confirmButton": "Rotar Secreto",
-        "rotateButton": "Rotar secreto de cliente",
-        "rotating": "Rotando...",
-        "success": "Secreto rotado exitosamente",
-        "error": "Error al rotar el secreto. Inténtalo de nuevo."
-      }
+      "USER_DEACTIVATED": "Usuario Desactivado"
     }
   }
 }

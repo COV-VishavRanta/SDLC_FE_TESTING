@@ -14,7 +14,6 @@ export enum ProtectedRoute {
   AUDIT_LOGS = '/audit-logs',
   ALERTS = '/alerts',
   REPORTS = '/reports',
-  WEB_HOOKS = '/webhooks',
 }
 
 export enum AuthRoute {
