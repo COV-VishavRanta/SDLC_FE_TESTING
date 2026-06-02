@@ -24,6 +24,7 @@ export const ROLE_PERMISSIONS: Record<UserRole, Permission[]> = {
     Permission.VIEW_USER_MANAGEMENT,
     Permission.VIEW_AUDIT_LOGS,
     Permission.VIEW_PSP_MANAGEMENT,
+    Permission.VIEW_WEB_HOOKS,
     Permission.VIEW_ALERTS,
   ],
 
@@ -36,6 +37,7 @@ export const ROLE_PERMISSIONS: Record<UserRole, Permission[]> = {
     Permission.VIEW_SHIPMENTS,
     Permission.VIEW_INVENTORY_MANAGEMENT,
     Permission.VIEW_SURVEY_MANAGEMENT,
+    Permission.VIEW_WEB_HOOKS,
     Permission.VIEW_REPORTS,
   ],
   [UserRole.PRODUCTION_OPERATOR]: [

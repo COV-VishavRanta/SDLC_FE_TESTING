@@ -37,6 +37,7 @@ const ROUTE_TRANSLATION_KEYS: Record<string, string> = {
   [ProtectedRoute.INVENTORY_MANAGEMENT]: 'inventoryManagement',
   [ProtectedRoute.SURVEY_MANAGEMENT]: 'surveyManagement',
   [ProtectedRoute.EXCEPTION_REQUEST]: 'exceptionRequests',
+  [ProtectedRoute.WEBHOOKS]: 'webhooks',
   [ProtectedRoute.REPORTS]: 'reports',
 };
 

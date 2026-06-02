@@ -5,6 +5,7 @@
 export enum Permission {
   VIEW_USER_MANAGEMENT = 'view_user_management',
   VIEW_PSP_MANAGEMENT = 'view_psp_management',
+  VIEW_WEB_HOOKS = 'view_web_hooks',
   VIEW_BRAND_MANAGEMENT = 'view_brand_management',
   VIEW_CAMPAIGN_MANAGEMENT = 'view_campaign_management',
   VIEW_AUDIT_LOGS = 'view_audit_logs',

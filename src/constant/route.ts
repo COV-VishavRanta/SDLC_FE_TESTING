@@ -9,6 +9,7 @@ import { ShipmentsIcon } from '@/components/icons/ShipmentsIcon';
 import { StoreIcon } from '@/components/icons/StoreIcon';
 import { SurveyIcon } from '@/components/icons/SurveyIcon';
 import { UserManagementIcon } from '@/components/icons/UserManagementIcon';
+import { WebhookIcon } from '@/components/icons/WebhookIcon';
 
 import { ReportsIcon } from '@/components';
 import { Permission } from './enums/permissions.enum';
@@ -84,6 +85,12 @@ export const PROTECTED_ROUTES = [
     permission: Permission.VIEW_AUDIT_LOGS,
   },
   {
+    name: 'Webhooks',
+    href: ProtectedRoute.WEBHOOKS,
+    icon: WebhookIcon,
+    permission: Permission.VIEW_WEB_HOOKS,
+  },
+  {
     name: 'Alerts',
     href: ProtectedRoute.ALERTS,
     icon: NotificationIcon,
@@ -150,7 +157,7 @@ export const ROLE_SIDEBAR_CONFIG: Partial<Record<UserRole, SidebarItemConfig[]>>
     { href: ProtectedRoute.USER_MANAGEMENT },
     { href: ProtectedRoute.PSP_MANAGEMENT },
     { href: ProtectedRoute.AUDIT_LOGS },
-    { href: ProtectedRoute.WEB_HOOKS },
+    { href: ProtectedRoute.WEBHOOKS },
     { href: ProtectedRoute.ALERTS },
   ],
 
@@ -163,7 +170,7 @@ export const ROLE_SIDEBAR_CONFIG: Partial<Record<UserRole, SidebarItemConfig[]>>
     { href: ProtectedRoute.INVENTORY_MANAGEMENT },
     { href: ProtectedRoute.SURVEY_MANAGEMENT },
     { href: ProtectedRoute.AUDIT_LOGS },
-    { href: ProtectedRoute.WEB_HOOKS },
+    { href: ProtectedRoute.WEBHOOKS },
     { href: ProtectedRoute.REPORTS },
     { href: ProtectedRoute.ALERTS },
   ],
