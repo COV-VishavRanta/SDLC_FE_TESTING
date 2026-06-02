@@ -94,6 +94,19 @@ export interface PSPType {
   totalUsers?: number; // helper field for total count of admins + production operators
 }
 
+export interface WebhookCredentialType {
+  id: string;
+  pspId: string;
+  label: string;
+  clientId: string;
+  secretPrefix: string;
+  tokenExpirationHours: number;
+  ipAllowlist?: string[];
+  isActive: boolean;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
 export interface IncompleteCampaignType {
   id: string;
   name: string;
